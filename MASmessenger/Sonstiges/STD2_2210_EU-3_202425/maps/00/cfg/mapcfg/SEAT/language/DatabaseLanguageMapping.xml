@@ -1,0 +1,271 @@
+<DatabaseLanguageMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/DatabaseLanguageMapping.xsd" version="1">
+   <!-- HMI Sprache zu DB Sprache Mapping, jeder HMI Sprache kann eine oder mehrere DB Sprachen zugeordnet werden -->
+   <!-- Dabei kann zu jeder DB Sprache auch ein Fallback definiert werden -->
+   <!-- Jeder HMI Sprache kann hier auch ein  Thesaurus Mapping Sprache zugeordnet werden, diese Thesaurussprache dient zur vervollstaendigung des Thesaurus Pfades -->
+   <!-- Es duerfen NUR Sprachen definiert werden, zu denen auch eine POI-Sprach-Konfiguration (LangPoiConfig.xml) existiert!!!! -->
+   <HmiLanguageMappingDefinitions>
+      <!-- Default language definition must be presented! -->
+      <LanguageDefinition id="default">
+         <!-- Hmi language Id -->
+         <HmiLanguageId>en_GB</HmiLanguageId>
+         <!-- mapping to a db language/-s -->
+         <DbLanguageIds>
+            <DbLanguageId>en_GB</DbLanguageId>
+         </DbLanguageIds>
+         <!-- the thesaurus sub-folder -->
+         <ThesaurusLanguageId>en_GB</ThesaurusLanguageId>
+         <!-- a db lang code and its fall back. ATTENTION the fallback must exist !!-->
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="bs">
+         <HmiLanguageId>bs_BA</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>bs_BA</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>bs_BA</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="cs">
+         <HmiLanguageId>cs_CZ</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>cs_CZ</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>cs_CZ</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="de">
+         <HmiLanguageId>de_DE</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>de_DE</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>de_DE</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="dk">
+         <HmiLanguageId>da_DK</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>da_DK</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>da_DK</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="es">
+         <HmiLanguageId>es_ES</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>es_ES</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>es_ES</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="fr">
+         <HmiLanguageId>fr_FR</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>fr_FR</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>fr_FR</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="fi">
+         <HmiLanguageId>fi_FI</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>fi_FI</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>fi_FI</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="gr">
+         <HmiLanguageId>el_GR</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>el_GR</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>el_GR</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="hr">
+         <HmiLanguageId>hr_HR</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>hr_HR</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>hr_HR</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="hu">
+         <HmiLanguageId>hu_HU</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>hu_HU</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>hu_HU</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="it">
+         <HmiLanguageId>it_IT</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>it_IT</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>it_IT</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="nb">
+         <HmiLanguageId>nb_NO</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>nb_NO</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>nb_NO</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="nl">
+         <HmiLanguageId>nl_NL</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>nl_NL</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>nl_NL</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="no">
+         <HmiLanguageId>no_NO</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>no_NO</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>no_NO</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="pl">
+         <HmiLanguageId>pl_PL</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>pl_PL</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>pl_PL</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="br">
+         <HmiLanguageId>pt_BR</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>pt_BR</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>pt_BR</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="pt">
+         <HmiLanguageId>pt_PT</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>pt_PT</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>pt_PT</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="ro">
+         <HmiLanguageId>ro_RO</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>ro_RO</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>ro_RO</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="ru">
+         <HmiLanguageId>ru_RU</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>ru_RU</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>ru_RU</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="sk">
+         <HmiLanguageId>sk_SK</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>sk_SK</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>sk_SK</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="sl">
+         <HmiLanguageId>sl_SI</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>sl_SI</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>sl_SI</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="sr">
+         <HmiLanguageId>sr_RS</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>sr_Cyrl_RS</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>sr_RS</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="sv">
+         <HmiLanguageId>sv_SE</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>sv_SE</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>sv_SE</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="tr">
+         <HmiLanguageId>tr_TR</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>tr_TR</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>tr_TR</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="gb">
+         <HmiLanguageId>en_GB</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>en_GB</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>en_GB</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="us">
+         <HmiLanguageId>en_US</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>en_US</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>en_US</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="bg">
+      
+         <HmiLanguageId>bg_BG</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>bg_Cyrl_BG</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>bg_BG</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="lv">
+         <HmiLanguageId>lv_LV</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>lv_Latn_LV</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>lv_LV</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="et">
+         <HmiLanguageId>et_EE</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>et_Latn_EE</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>et_EE</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="lt">
+         <HmiLanguageId>lt_LT</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>lt_Latn_LT</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>lt_LT</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      <LanguageDefinition id="uk">
+         <HmiLanguageId>uk_UA</HmiLanguageId>
+         <DbLanguageIds>
+            <DbLanguageId>uk_Cyrl_UA</DbLanguageId>
+         </DbLanguageIds>
+         <ThesaurusLanguageId>uk_UA</ThesaurusLanguageId>
+         <FallbackLanguageId>en_GB</FallbackLanguageId>
+      </LanguageDefinition>
+      
+   </HmiLanguageMappingDefinitions>
+</DatabaseLanguageMapping>

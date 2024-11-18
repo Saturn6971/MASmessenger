@@ -1,0 +1,1075 @@
+﻿<LanguagePoiConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/locale/LanguagePoiConfiguration.xsd" version="1">
+  <!--Alphabetically sorted setup category definitions for each fuel type, will be reloaded after language change-->
+  <SetupCategoryDefinition>
+    <PoiCategoryMapping fueltype="default">
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="gasoline">
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="diesel">
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="cng">
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="lpg">
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="bev">
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="phev">
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+    </PoiCategoryMapping>
+  </SetupCategoryDefinition>
+
+  <!-- ### Poi category groups defined by vw, the type defines the "local" or "personal Poi" or other types -->
+  <PoiCategoryGroupDefinition>
+    <PoiCategoryGroup id="10" type="dynamic">
+      <Priority>1</Priority>
+      <PoiCategoryMapping>
+        <!-- MUSS LEER BLEIBEN Ueber XSD checken !! -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+    <PoiCategoryGroup id="11" type="local">
+      <Priority>2</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <PoiCategoryRef>25</PoiCategoryRef>
+        <PoiCategoryRef>45</PoiCategoryRef>
+        <PoiCategoryRef>5</PoiCategoryRef>
+        <PoiCategoryRef>3</PoiCategoryRef>
+        <PoiCategoryRef>4</PoiCategoryRef>
+        <PoiCategoryRef>54</PoiCategoryRef>
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <PoiCategoryRef>29</PoiCategoryRef>
+        <PoiCategoryRef>47</PoiCategoryRef>
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <PoiCategoryRef>26</PoiCategoryRef>
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <PoiCategoryRef>48</PoiCategoryRef>
+        <PoiCategoryRef>53</PoiCategoryRef>
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <PoiCategoryRef>55</PoiCategoryRef>
+        <PoiCategoryRef>27</PoiCategoryRef>
+        <PoiCategoryRef>21</PoiCategoryRef>
+        <PoiCategoryRef>31</PoiCategoryRef>
+        <PoiCategoryRef>28</PoiCategoryRef>
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <PoiCategoryRef>20</PoiCategoryRef>
+        <PoiCategoryRef>46</PoiCategoryRef>
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <PoiCategoryRef>24</PoiCategoryRef>
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <PoiCategoryRef>11</PoiCategoryRef>
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <PoiCategoryRef>50</PoiCategoryRef>
+        <PoiCategoryRef>30</PoiCategoryRef>
+        <PoiCategoryRef>49</PoiCategoryRef>
+        <PoiCategoryRef>42</PoiCategoryRef>
+        <PoiCategoryRef>52</PoiCategoryRef>
+        <PoiCategoryRef>44</PoiCategoryRef>
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <PoiCategoryRef>36</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="12" type="local">
+      <Priority>3</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <PoiCategoryRef>5</PoiCategoryRef>
+        <PoiCategoryRef>3</PoiCategoryRef>
+        <PoiCategoryRef>4</PoiCategoryRef>
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <PoiCategoryRef>55</PoiCategoryRef>
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <PoiCategoryRef>11</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="13" type="local">
+      <Priority>4</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>45</PoiCategoryRef>
+        <PoiCategoryRef>54</PoiCategoryRef>
+        <PoiCategoryRef>47</PoiCategoryRef>
+        <PoiCategoryRef>48</PoiCategoryRef>
+        <PoiCategoryRef>53</PoiCategoryRef>
+        <PoiCategoryRef>46</PoiCategoryRef>
+        <PoiCategoryRef>50</PoiCategoryRef>
+        <PoiCategoryRef>49</PoiCategoryRef>
+        <PoiCategoryRef>52</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="14" type="local">
+      <Priority>5</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>25</PoiCategoryRef>
+        <PoiCategoryRef>29</PoiCategoryRef>
+        <PoiCategoryRef>26</PoiCategoryRef>
+        <PoiCategoryRef>27</PoiCategoryRef>
+        <PoiCategoryRef>31</PoiCategoryRef>
+        <PoiCategoryRef>28</PoiCategoryRef>
+        <PoiCategoryRef>24</PoiCategoryRef>
+        <PoiCategoryRef>30</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="15" type="local">
+      <Priority>6</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <PoiCategoryRef>21</PoiCategoryRef>
+        <PoiCategoryRef>20</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="16" type="local">
+      <Priority>7</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <PoiCategoryRef>42</PoiCategoryRef>
+        <PoiCategoryRef>44</PoiCategoryRef>
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <PoiCategoryRef>36</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+  </PoiCategoryGroupDefinition>
+
+  <PoiCategoryGroupNameDefinition>
+    <Name category_group_ref="10">Moje zvláštne ciele (osobné POI)</Name><!--1 zu 10-->
+    <Name category_group_ref="11">Kategórie (abecedne)</Name><!--2 zu 1-->
+    <Name category_group_ref="12">Auto a cestovanie</Name><!--3 zu 2-->
+    <Name category_group_ref="13">Firmy a verejné zariadenia</Name><!--4 zu 3-->
+    <Name category_group_ref="14">Jedlo a nakupovanie</Name><!--5 zu 4-->
+    <Name category_group_ref="15">Núdz. prípady</Name><!--6 zu 5-->
+    <Name category_group_ref="16">Pamätihodnosti a voľný čas</Name><!--7 zu 6-->
+  </PoiCategoryGroupNameDefinition>
+
+  <PoiCategoryThesaurusDefinition>
+    <Thesaurus category_ref="1" >
+      <Value>Autostadt</Value>
+      <Value>Vyzdvihnutie</Value>
+      <Value>Mesto zážitkov</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="2" >
+      <Value>AIRPORT</Value>
+      <Value>Odlet</Value>
+      <Value>Prílet</Value>
+      <Value>Terminál</Value>
+      <Value>Cestovanie</Value>
+      <Value>Lietanie</Value>
+      <Value>Lietadlo</Value>
+      <Value>Letiská</Value>
+      <Value>Letisko</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="3" >
+      <Value>LPG</Value>
+      <Value>Plyn</Value>
+      <Value>Čerpanie pohonných hmôt</Value>
+      <Value>Čerpacia stanica</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="4" >
+      <Value>Zemný plyn</Value>
+      <Value>Plyn</Value>
+      <Value>CNG</Value>
+      <Value>Čerpanie pohonných hmôt</Value>
+      <Value>Čerpacie stanice na zemný plyn</Value>
+      <Value>Čerpacia stanica</Value>
+      <Value>Čerpacia stanica na zemný plyn</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="5" >
+      <Value>Benzín</Value>
+      <Value>Nafta</Value>
+      <Value>Čerpanie pohonných hmôt</Value>
+      <Value>Čerpacie stanice  </Value>
+      <Value>Čerpacia stanica</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="6" >
+      <Value>Parkovisko</Value>
+      <Value>Parkovacia garáž</Value>
+      <Value>Parkovanie</Value>
+      <Value>Zastavenie</Value>
+      <Value>Zastavenie</Value>
+      <Value>Prestávka</Value>
+      <Value>Parkoviská</Value>
+      <Value>Stop</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="7" >
+      <Value>Predajňa vozidiel</Value>
+      <Value>Motorest</Value>
+      <Value>Oddychovať</Value>
+      <Value>Prestávka</Value>
+      <Value>Záchod</Value>
+      <Value>Toaleta</Value>
+      <Value>Hlad</Value>
+      <Value>Motoresty</Value>
+      <Value>WC</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="8" >
+      <Value>Hotel</Value>
+      <Value>Motel</Value>
+      <Value>Spať</Value>
+      <Value>Penzión</Value>
+      <Value>Reštaurácia</Value>
+      <Value>Penzión</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="9" >
+      <Value>Prístav</Value>
+      <Value>Nakladač</Value>
+      <Value>Loď</Value>
+      <Value>Trajekt</Value>
+      <Value>Trajekty</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="10">
+      <Value>Hranica</Value>
+      <Value>Hraničné prechody</Value>
+      <Value>Prechod</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="11">
+      <Value>Príslušenstvo</Value>
+      <Value>Predajcovia</Value>
+      <Value>Volkswagen</Value>
+      <Value>Passat</Value>
+      <Value>Touareg</Value>
+      <Value>Polo</Value>
+      <Value>Tiguan</Value>
+      <Value>Golf</Value>
+      <Value>Phaeton</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="12">
+      <Value>Volkswagen</Value>
+      <Value>Porucha</Value>
+      <Value>Dielňa</Value>
+      <Value>Servis</Value>
+      <Value>Oprava</Value>
+      <Value>Prehliadka</Value>
+      <Value>Údržba</Value>
+      <Value>Pomoc</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="14">
+      <Value>Výjazd</Value>
+      <Value>Križovatka diaľnic</Value>
+      <Value>Diaľničná križovatka 3 smermi</Value>
+      <Value>Križovatka  </Value>
+      <Value>Pripojenie</Value>
+      <Value>Diaľnica</Value>
+      <Value>Diaľničné výjazdy/príjazdy</Value>
+      <Value>Príjazd</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="15">
+      <Value>Prenajaté vozidlo</Value>
+      <Value>Vozidlo z požičovne</Value>
+      <Value>Vozidlo  </Value>
+      <Value>Prenajímanie</Value>
+      <Value>Požičovne automobilov</Value>
+      <Value>Požičovňa automobilov</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="16">
+      <Value>Vlak</Value>
+      <Value>Cestovanie</Value>
+      <Value>Železnica</Value>
+      <Value>Trať</Value>
+      <Value>Zastávka</Value>
+      <Value>ICE</Value>
+      <Value>Stanice</Value>
+      <Value>Stanica</Value>
+    </Thesaurus>
+    <!--<Thesaurus category_ref="17">
+      <Value>#NV</Value>
+      <Value>#NV</Value>
+      <Value>#NV</Value>
+      <Value>Trať</Value>
+      <Value>#NV</Value>
+    </Thesaurus>-->
+    <Thesaurus category_ref="18">
+      <Value>Autobus</Value>
+      <Value>Čakať</Value>
+      <Value>Zastavenie</Value>
+      <Value>Autobusové stanice</Value>
+      <Value>SAD</Value>
+      <Value>Omnibus</Value>
+      <Value>Stop</Value>
+      <Value>Autobusová zastávka</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="19">
+      <Value>Informácia</Value>
+      <Value>Turista</Value>
+      <Value>Turistické informácie</Value>
+      <Value>Turistická informácia</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="20">
+      <Value>Pomoc</Value>
+      <Value>Prepad</Value>
+      <Value>Lúpež</Value>
+      <Value>Polícia</Value>
+      <Value>Ohlásenie</Value>
+      <Value>158</Value>
+      <Value>112</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="21">
+      <Value>Nemocnica</Value>
+      <Value>Klinika</Value>
+      <Value>Klinika</Value>
+      <Value>Rýchla zdravotná pomoc</Value>
+      <Value>Lekár</Value>
+      <Value>Nehoda</Value>
+      <Value>Pomoc</Value>
+      <Value>Centrálny príjem</Value>
+      <Value>Nemocnice</Value>
+      <Value>Nemocnica</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="22">
+      <Value>Ordinácia</Value>
+      <Value>Lekár</Value>
+      <Value>Zdravotné stredisko</Value>
+      <Value>Zdravie</Value>
+      <Value>Ošetrovanie</Value>
+      <Value>Zdravotné stredisko</Value>
+      <Value>Zdravotná služba</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="23">
+      <Value>Lieky</Value>
+      <Value>Lieky</Value>
+      <Value>Recept</Value>
+      <Value>Lekáreň</Value>
+      <Value>Aspirín</Value>
+      <Value>Bolesť</Value>
+      <Value>Pilulka</Value>
+      <Value>Lekárne</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="24">
+      <Value>Jedlo</Value>
+      <Value>Pitie</Value>
+      <Value>Smäd</Value>
+      <Value>Hlad</Value>
+      <Value>Hostinec</Value>
+      <Value>Pohostinstvo</Value>
+      <Value>Reštaurácia</Value>
+      <Value>Reštaurácie</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="25">
+      <Value>Peniaze</Value>
+      <Value>Hotovosť</Value>
+      <Value>ATM</Value>
+      <Value>Euro</Value>
+      <Value>Visa</Value>
+      <Value>Mastercard</Value>
+      <Value>Bankomaty</Value>
+      <Value>Bankomat </Value>
+      <Value>EC</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="26">
+      <Value>Káva</Value>
+      <Value>Kaviarne</Value>
+      <Value>Koláč</Value>
+      <Value>Latte</Value>
+      <Value>Cappuccino</Value>
+      <Value>Espresso</Value>
+      <Value>Muffin</Value>
+      <Value>Kaviareň</Value>
+      <Value>Espressá</Value>
+      <Value>Kaviareň</Value>
+      <Value>Kaviarne</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="27">
+      <Value>Nákup</Value>
+      <Value>Nakupovanie</Value>
+      <Value>Nakupovanie</Value>
+      <Value>Kúpiť</Value>
+      <Value>Obchodný dom</Value>
+      <Value>Nákupné centrá</Value>
+      <Value>Nákupné centrum</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="28">
+      <Value>Odevy</Value>
+      <Value>Oblečenie</Value>
+      <Value>Šaty</Value>
+      <Value>Obuv</Value>
+      <Value>Nohavice</Value>
+      <Value>Oblek</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="29">
+      <Value>Laptop</Value>
+      <Value>Hardware</Value>
+      <Value>Elektronika</Value>
+      <Value>Počítač</Value>
+      <Value>Televízor</Value>
+      <Value>Rádioprijímač</Value>
+      <Value>HiFi</Value>
+      <Value>DVD</Value>
+      <Value>Telefón</Value>
+      <Value>Mobil</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="30">
+      <Value>Vinohradník</Value>
+      <Value>Vináreň</Value>
+      <Value>Vínna pivnica</Value>
+      <Value>Víno</Value>
+      <Value>Liehoviny</Value>
+      <Value>Vína</Value>
+      <Value>Alkohol</Value>
+      <Value>Alkohol</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="31">
+      <Value>Hudba</Value>
+      <Value>Party</Value>
+      <Value>Bar</Value>
+      <Value>Lounges</Value>
+      <Value>Nočný život</Value>
+      <Value>Tancovanie</Value>
+      <Value>Koktail</Value>
+      <Value>Krčma</Value>
+      <Value>Pub</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="32">
+      <Value>Prechádzať sa</Value>
+      <Value>Behať</Value>
+      <Value>Relax</Value>
+      <Value>Piknik</Value>
+      <Value>Parky</Value>
+      <Value>Venčenie</Value>
+      <Value>Pes</Value>
+      <Value>Parky</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="33">
+      <Value>Turista</Value>
+      <Value>Atrakcia</Value>
+      <Value>Pozoruhodnosť</Value>
+      <Value>Pozoruhodnosti</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="34">
+      <Value>Film</Value>
+      <Value>Umenie</Value>
+      <Value>Popkorn</Value>
+      <Value>Kino</Value>
+      <Value>Kiná</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="35">
+      <Value>Hrať</Value>
+      <Value>Stávka</Value>
+      <Value>Automat</Value>
+      <Value>Ruleta</Value>
+      <Value>Kasíno</Value>
+      <Value>Blackjack</Value>
+      <Value>Poker</Value>
+      <Value>Žetón</Value>
+      <Value>Stávková herňa</Value>
+      <Value>Kasína</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="36">
+      <Value>Divadlo</Value>
+      <Value>Opera</Value>
+      <Value>Koncert</Value>
+      <Value>Javisko</Value>
+      <Value>Divadelná hra</Value>
+      <Value>Muzikál</Value>
+      <Value>Umenie</Value>
+      <Value>Kultúra</Value>
+      <Value>Živé umenie</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="37">
+      <Value>Kultúra</Value>
+      <Value>Výstava</Value>
+      <Value>Umenie</Value>
+      <Value>Galéria</Value>
+      <Value>Múzeá</Value>
+      <Value>Múzeum</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="38">
+      <Value>Osoby</Value>
+      <Value>Kameň</Value>
+      <Value>Socha</Value>
+      <Value>Pamätníky</Value>
+      <Value>Pomník</Value>
+      <Value>Pamätník </Value>
+      <Value>Pamiatka</Value>
+      <Value>Pamätník</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="39">
+      <Value>Šport</Value>
+      <Value>Štádium</Value>
+      <Value>Štadión</Value>
+      <Value>Aréna</Value>
+      <Value>Športové centrá</Value>
+      <Value>Športové centrum</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="41">
+      <Value>Šport</Value>
+      <Value>Golf</Value>
+      <Value>Lúka</Value>
+      <Value>Zeleň</Value>
+      <Value>Tráva</Value>
+      <Value>Golf</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="42">
+      <Value>Čln</Value>
+      <Value>Jachta</Value>
+      <Value>More</Value>
+      <Value>Plaviť sa</Value>
+      <Value>Nakladač</Value>
+      <Value>Prístav</Value>
+      <Value>Vodné športy</Value>
+      <Value>Námorníctvo</Value>
+      <Value>Loď</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="43">
+      <Value>Zima</Value>
+      <Value>Lyže</Value>
+      <Value>Zjazdová trať</Value>
+      <Value>Vlek</Value>
+      <Value>Sneh</Value>
+      <Value>Zimný šport</Value>
+      <Value>Beh na lyžiach</Value>
+      <Value>Sánkovať sa</Value>
+      <Value>Boby</Value>
+      <Value>Šport</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="44">
+      <Value>Voľný čas</Value>
+      <Value>Zábavný park</Value>
+      <Value>Horská dráha</Value>
+      <Value>Kolotoč</Value>
+      <Value>Zábavné parky</Value>
+      <Value>Zábavný park</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="45">
+      <Value>Peniaze</Value>
+      <Value>Prevod</Value>
+      <Value>Konto</Value>
+      <Value>Výpis z konta</Value>
+      <Value>Banky</Value>
+      <Value>Prachy</Value>
+      <Value>Hotovosť</Value>
+      <Value>Úver</Value>
+      <Value>Banka</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="46">
+      <Value>List</Value>
+      <Value>Balík</Value>
+      <Value>Peniaze</Value>
+      <Value>Pošta</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="47">
+      <Value>Podnik</Value>
+      <Value>Závod</Value>
+      <Value>Brána</Value>
+      <Value>Firmy</Value>
+      <Value>Firma</Value>
+      <Value>Fabrika</Value>
+      <Value>Priemysel</Value>
+      <Value>Remeslo</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="48">
+      <Value>Kongres</Value>
+      <Value>Veľtrh</Value>
+      <Value>Výstava</Value>
+      <Value>Kongres</Value>
+      <Value>Kongresové centrá</Value>
+      <Value>Kongresové centrum</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="49">
+      <Value>Úrad</Value>
+      <Value>Radnica</Value>
+      <Value>Správny orgán</Value>
+      <Value>Mesto</Value>
+      <Value>Kraj</Value>
+      <Value>Vláda</Value>
+      <Value>Štátna správa</Value>
+      <Value>Registrácia vozidiel</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="50">
+      <Value>Konzulát</Value>
+      <Value>Vízum</Value>
+      <Value>Vycestovať</Value>
+      <Value>Imigrácia</Value>
+      <Value>Veľvyslanectvo</Value>
+      <Value>Veľvyslanectvá</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="52">
+      <Value>Škola</Value>
+      <Value>Univerzita</Value>
+      <Value>Vysoká škola</Value>
+      <Value>Odbor</Value>
+      <Value>Pokračovanie vo vzdelávaní</Value>
+      <Value>Seminár</Value>
+      <Value>Školenie</Value>
+      <Value>Vzdelávacie zariadenia</Value>
+      <Value>UNI </Value>
+      <Value>Vysoká odborná škola</Value>
+      <Value>Vzdelávacie zariadenie</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="53">
+      <Value>Mešita</Value>
+      <Value>Dóm</Value>
+      <Value>Synagóga</Value>
+      <Value>Kaplnka</Value>
+      <Value>Katedrála</Value>
+      <Value>Kláštor</Value>
+      <Value>Kostol</Value>
+      <Value>Kostol</Value>
+      <Value>Kostoly</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="54">
+      <Value>Mŕtvy</Value>
+      <Value>Zármutok</Value>
+      <Value>Hrob</Value>
+      <Value>Pohreb</Value>
+      <Value>Cintorín</Value>
+      <Value>Cintoríny</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="55">
+      <Value>Stanica na nabíjanie</Value>
+      <Value>nabiť</Value>
+      <Value>nabíjať</Value>
+      <Value>Zásuvka</Value>
+      <Value>Zásuvky</Value>
+      <Value>Zástrčka</Value>
+      <Value>Prúd</Value>
+      <Value>Elektrina</Value>
+      <Value>Napájacia sieť</Value>
+      <Value>AC</Value>
+      <Value>DC</Value>
+    </Thesaurus>
+  </PoiCategoryThesaurusDefinition>
+
+  <PoiCategoryNameDefinition>
+    <Name category_ref="1">Mesto automobilov</Name>
+    <Name category_ref="2">Letiská</Name>
+    <Name category_ref="3">Čerpacie stan. LPG</Name>
+    <Name category_ref="4">Čerpacie stan. na zem. Plyn</Name>
+    <Name category_ref="5">Čerpacie stan</Name>
+    <Name category_ref="6">Parkoviská</Name>
+    <Name category_ref="7">Motoresty</Name>
+    <Name category_ref="8">Hotely a motely</Name>
+    <Name category_ref="9">Trajekty a autovlaky</Name>
+    <Name category_ref="10">Hraničné prechody</Name>
+    <Name category_ref="11">SEAT servis</Name>
+    <Name category_ref="12">SEAT predajcovia</Name>
+    <Name category_ref="14">Diaľničné výjazdy/príjazdy</Name>
+    <Name category_ref="15">Požičovne automobilov</Name>
+    <Name category_ref="16">Stanice</Name>
+    <Name category_ref="18">Autobusová stanica</Name>
+    <Name category_ref="19">Turistické informácie</Name>
+    <Name category_ref="20">Polícia</Name>
+    <Name category_ref="21">Nemocnice</Name>
+    <Name category_ref="22">Lekárske služby</Name>
+    <Name category_ref="23">Lekárne</Name>
+    <Name category_ref="24">Reštaurácie</Name>
+    <Name category_ref="25">Bankomaty</Name>
+    <Name category_ref="26">Kaviarne</Name>
+    <Name category_ref="27">Nákupné centrá</Name>
+    <Name category_ref="28">Odevy</Name>
+    <Name category_ref="29">Elektronika</Name>
+    <Name category_ref="30">Vína a liehoviny</Name>
+    <Name category_ref="31">Nočný život</Name>
+    <Name category_ref="32">Parky</Name>
+    <Name category_ref="33">Turistické zaujímavosti</Name>
+    <Name category_ref="34">Kiná</Name>
+    <Name category_ref="35">Kasína</Name>
+    <Name category_ref="36">Živé umenia</Name>
+    <Name category_ref="37">Múzeá</Name>
+    <Name category_ref="38">Pamätníky</Name>
+    <Name category_ref="39">Športové centrá</Name>
+    <Name category_ref="41">Golf</Name>
+    <Name category_ref="42">Vodné športy</Name>
+    <Name category_ref="43">Zimný šport</Name>
+    <Name category_ref="44">Zábavný park</Name>
+    <Name category_ref="45">Banky</Name>
+    <Name category_ref="46">Pošta</Name>
+    <Name category_ref="47">Firmy  </Name>
+    <Name category_ref="48">Kongresové centrá</Name>
+    <Name category_ref="49">Vláda a štátna správa</Name>
+    <Name category_ref="50">Veľvyslanectvá</Name>
+    <Name category_ref="52">Vzdelávacie zariadenia</Name>
+    <Name category_ref="53">Kostoly</Name>
+    <Name category_ref="54">Cintoríny</Name>
+    <Name category_ref="55">Nabíjacie stanice</Name>
+  </PoiCategoryNameDefinition>
+
+</LanguagePoiConfiguration>

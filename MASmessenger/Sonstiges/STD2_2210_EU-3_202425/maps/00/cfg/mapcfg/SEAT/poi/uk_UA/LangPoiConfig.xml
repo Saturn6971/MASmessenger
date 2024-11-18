@@ -1,0 +1,1390 @@
+<LanguagePoiConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/locale/LanguagePoiConfiguration.xsd" version="1">
+<!--Alphabetically sorted setup category definitions for each fuel type, will be reloaded after language change-->
+	<SetupCategoryDefinition>
+		<PoiCategoryMapping fueltype="default">
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->		
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT Дилери -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT Сервісні центри -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Автобусні станції -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Автозаправні станції -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- Автозаправні станції зрідженого газу -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Автозаправні станції природного газу -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Аеропорти -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Аптеки -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Банки -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Банкомати -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Вино та лікеро-горілчані вироби -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Готелі та мотелі -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Електротовари -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- З'їзди з автомагістралі / в’їзди на автомагістраль -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Заклади мистецтв -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Заклади освіти -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Залізничні станції -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Зони відпочинку -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Казино -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Кафе -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Кладовища -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Компанії -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Конференц-зали -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Кінотеатри -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Лижний спорт -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Лікарні -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Майданчики для гольфу -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Медичні послуги -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Музеї -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Міліція -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Місця для паркування -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Нічні заклади -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Одяг -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Пам'ятники -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Парки -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Парки розваг -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Плавання на човнах -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Пороми та автопоїзди -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Посольства -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Пошта -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Прокат автомобілів -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Пункти переходу через кордон -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Ресторани -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Спортивні центри -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Станції для зарядження -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Торгові центри -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Туристична інформація -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Уряд і адміністрація -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Храми -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Цікаві об'єкти -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="gasoline">
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->			
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT Дилери -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT Сервісні центри -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Автобусні станції -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Автозаправні станції -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- Автозаправні станції зрідженого газу -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Автозаправні станції природного газу -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Аеропорти -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Аптеки -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Банки -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Банкомати -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Вино та лікеро-горілчані вироби -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Готелі та мотелі -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Електротовари -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- З'їзди з автомагістралі / в’їзди на автомагістраль -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Заклади мистецтв -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Заклади освіти -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Залізничні станції -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Зони відпочинку -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Казино -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Кафе -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Кладовища -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Компанії -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Конференц-зали -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Кінотеатри -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Лижний спорт -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Лікарні -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Майданчики для гольфу -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Медичні послуги -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Музеї -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Міліція -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Місця для паркування -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Нічні заклади -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Одяг -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Пам'ятники -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Парки -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Парки розваг -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Плавання на човнах -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Пороми та автопоїзди -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Посольства -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Пошта -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Прокат автомобілів -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Пункти переходу через кордон -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Ресторани -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Спортивні центри -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Станції для зарядження -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Торгові центри -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Туристична інформація -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Уряд і адміністрація -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Храми -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Цікаві об'єкти -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="diesel">
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->		
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT Дилери -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT Сервісні центри -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Автобусні станції -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Автозаправні станції -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- Автозаправні станції зрідженого газу -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Автозаправні станції природного газу -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Аеропорти -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Аптеки -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Банки -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Банкомати -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Вино та лікеро-горілчані вироби -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Готелі та мотелі -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Електротовари -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- З'їзди з автомагістралі / в’їзди на автомагістраль -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Заклади мистецтв -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Заклади освіти -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Залізничні станції -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Зони відпочинку -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Казино -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Кафе -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Кладовища -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Компанії -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Конференц-зали -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Кінотеатри -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Лижний спорт -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Лікарні -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Майданчики для гольфу -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Медичні послуги -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Музеї -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Міліція -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Місця для паркування -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Нічні заклади -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Одяг -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Пам'ятники -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Парки -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Парки розваг -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Плавання на човнах -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Пороми та автопоїзди -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Посольства -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Пошта -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Прокат автомобілів -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Пункти переходу через кордон -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Ресторани -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Спортивні центри -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Станції для зарядження -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Торгові центри -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Туристична інформація -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Уряд і адміністрація -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Храми -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Цікаві об'єкти -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="cng">
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->		
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT Дилери -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT Сервісні центри -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Автобусні станції -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Автозаправні станції -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- Автозаправні станції зрідженого газу -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Автозаправні станції природного газу -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Аеропорти -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Аптеки -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Банки -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Банкомати -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Вино та лікеро-горілчані вироби -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Готелі та мотелі -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Електротовари -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- З'їзди з автомагістралі / в’їзди на автомагістраль -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Заклади мистецтв -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Заклади освіти -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Залізничні станції -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Зони відпочинку -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Казино -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Кафе -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Кладовища -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Компанії -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Конференц-зали -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Кінотеатри -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Лижний спорт -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Лікарні -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Майданчики для гольфу -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Медичні послуги -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Музеї -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Міліція -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Місця для паркування -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Нічні заклади -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Одяг -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Пам'ятники -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Парки -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Парки розваг -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Плавання на човнах -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Пороми та автопоїзди -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Посольства -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Пошта -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Прокат автомобілів -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Пункти переходу через кордон -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Ресторани -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Спортивні центри -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Станції для зарядження -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Торгові центри -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Туристична інформація -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Уряд і адміністрація -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Храми -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Цікаві об'єкти -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="lpg">
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->		
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT Дилери -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT Сервісні центри -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Автобусні станції -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Автозаправні станції -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- Автозаправні станції зрідженого газу -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Автозаправні станції природного газу -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Аеропорти -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Аптеки -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Банки -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Банкомати -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Вино та лікеро-горілчані вироби -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Готелі та мотелі -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Електротовари -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- З'їзди з автомагістралі / в’їзди на автомагістраль -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Заклади мистецтв -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Заклади освіти -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Залізничні станції -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Зони відпочинку -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Казино -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Кафе -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Кладовища -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Компанії -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Конференц-зали -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Кінотеатри -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Лижний спорт -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Лікарні -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Майданчики для гольфу -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Медичні послуги -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Музеї -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Міліція -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Місця для паркування -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Нічні заклади -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Одяг -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Пам'ятники -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Парки -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Парки розваг -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Плавання на човнах -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Пороми та автопоїзди -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Посольства -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Пошта -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Прокат автомобілів -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Пункти переходу через кордон -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Ресторани -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Спортивні центри -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Станції для зарядження -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Торгові центри -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Туристична інформація -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Уряд і адміністрація -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Храми -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Цікаві об'єкти -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="bev">
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->		
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT Дилери -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT Сервісні центри -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Автобусні станції -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Автозаправні станції -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- Автозаправні станції зрідженого газу -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Автозаправні станції природного газу -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Аеропорти -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Аптеки -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Банки -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Банкомати -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Вино та лікеро-горілчані вироби -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Готелі та мотелі -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Електротовари -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- З'їзди з автомагістралі / в’їзди на автомагістраль -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Заклади мистецтв -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Заклади освіти -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Залізничні станції -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Зони відпочинку -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Казино -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Кафе -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Кладовища -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Компанії -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Конференц-зали -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Кінотеатри -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Лижний спорт -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Лікарні -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Майданчики для гольфу -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Медичні послуги -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Музеї -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Міліція -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Місця для паркування -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Нічні заклади -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Одяг -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Пам'ятники -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Парки -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Парки розваг -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Плавання на човнах -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Пороми та автопоїзди -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Посольства -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Пошта -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Прокат автомобілів -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Пункти переходу через кордон -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Ресторани -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Спортивні центри -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Станції для зарядження -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Торгові центри -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Туристична інформація -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Уряд і адміністрація -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Храми -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Цікаві об'єкти -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="phev">
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->		
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT Дилери -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT Сервісні центри -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Автобусні станції -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Автозаправні станції -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- Автозаправні станції зрідженого газу -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Автозаправні станції природного газу -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Аеропорти -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Аптеки -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Банки -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Банкомати -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Вино та лікеро-горілчані вироби -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Готелі та мотелі -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Електротовари -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- З'їзди з автомагістралі / в’їзди на автомагістраль -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Заклади мистецтв -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Заклади освіти -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Залізничні станції -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Зони відпочинку -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Казино -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Кафе -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Кладовища -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Компанії -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Конференц-зали -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Кінотеатри -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Лижний спорт -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Лікарні -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Майданчики для гольфу -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Медичні послуги -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Музеї -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Міліція -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Місця для паркування -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Нічні заклади -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Одяг -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Пам'ятники -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Парки -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Парки розваг -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Плавання на човнах -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Пороми та автопоїзди -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Посольства -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Пошта -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Прокат автомобілів -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Пункти переходу через кордон -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Ресторани -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Спортивні центри -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Станції для зарядження -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Торгові центри -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Туристична інформація -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Уряд і адміністрація -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Храми -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Цікаві об'єкти -->
+		</PoiCategoryMapping>
+	</SetupCategoryDefinition>
+  <PoiCategoryGroupDefinition>
+    <PoiCategoryGroup id="10" type="dynamic">
+      <Priority>1</Priority>
+      <PoiCategoryMapping>
+        <!-- MUSS LEER BLEIBEN Ueber XSD checken !! -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+    <PoiCategoryGroup id="11" type="local">
+      <Priority>2</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <!-- Airports -->
+        <PoiCategoryRef>44</PoiCategoryRef>
+        <!-- Amusement parks -->
+        <PoiCategoryRef>25</PoiCategoryRef>
+        <!-- ATMs -->
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <!-- Autostadt -->		
+        <PoiCategoryRef>45</PoiCategoryRef>
+        <!-- Banks -->
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <!-- Border crossings -->
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <!-- Bus stops -->
+        <PoiCategoryRef>26</PoiCategoryRef>
+        <!-- Cafes -->
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <!-- Casinos -->
+        <PoiCategoryRef>54</PoiCategoryRef>
+        <!-- Cemeteries -->
+        
+        <!-- Charging stations -->
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <!-- Cinemas -->
+        <PoiCategoryRef>28</PoiCategoryRef>
+        <!-- Clothes -->
+        <PoiCategoryRef>47</PoiCategoryRef>
+        <!-- Companies -->
+        <PoiCategoryRef>48</PoiCategoryRef>
+        <!-- Conference centres -->
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <!-- Drugstores -->
+        <PoiCategoryRef>52</PoiCategoryRef>
+        <!-- Educational institutions -->
+        <PoiCategoryRef>29</PoiCategoryRef>
+        <!-- Electronics -->
+        <PoiCategoryRef>50</PoiCategoryRef>
+        <!-- Embassies -->
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <!-- Ferries -->
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <!-- Freeway exits/on-ramps -->
+        <PoiCategoryRef>5</PoiCategoryRef>
+        <!-- Gas stations -->
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <!-- Golfing -->
+        <PoiCategoryRef>49</PoiCategoryRef>
+        <!-- Government and office -->
+        <PoiCategoryRef>21</PoiCategoryRef>
+        <!-- Hospitals -->
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <!-- Hotels and motels -->
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <!-- Local transport -->
+        
+        <!-- LPG gas stations -->
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <!-- Medical services -->
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <!-- Memorials -->
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <!-- Museums -->
+        <PoiCategoryRef>31</PoiCategoryRef>
+        <!-- Nightlife -->
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <!-- Parking lots -->
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <!-- Parks -->
+        <PoiCategoryRef>36</PoiCategoryRef>
+        <!-- Performing arts -->
+        
+        <!-- Petroleum gas stations -->
+        <PoiCategoryRef>53</PoiCategoryRef>
+        <!-- Places of worship -->
+        <PoiCategoryRef>20</PoiCategoryRef>
+        <!-- Police -->
+        <PoiCategoryRef>46</PoiCategoryRef>
+        <!-- Post -->
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <!-- Rest stops -->
+        <PoiCategoryRef>24</PoiCategoryRef>
+        <!-- Restaurants -->
+        <PoiCategoryRef>27</PoiCategoryRef>
+        <!-- Shopping malls -->
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <!-- Skiing -->
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <!-- Sports centres -->
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <!-- Tourist attractions -->
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <!-- Tourist information -->
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <!-- Train stations -->
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <!-- SEAT dealers -->
+        <PoiCategoryRef>11</PoiCategoryRef>
+        <!-- SEAT service -->
+        <PoiCategoryRef>42</PoiCategoryRef>
+        <!-- Watersport -->
+        <PoiCategoryRef>30</PoiCategoryRef>
+        <!-- Wine and spirits -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="12" type="local">
+      <Priority>3</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>44</PoiCategoryRef>
+        <!-- Amusement parks -->
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <!-- Autostadt -->		
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <!-- Casinos -->
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <!-- Cinemas -->
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <!-- Golfing -->
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <!-- Memorials -->
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <!-- Museums -->
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <!-- Parks -->
+        <PoiCategoryRef>36</PoiCategoryRef>
+        <!-- Performing arts -->
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <!-- Skiing -->
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <!-- Sports centres -->
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <!-- Tourist attractions -->
+        <PoiCategoryRef>42</PoiCategoryRef>
+        <!-- Watersport -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="13" type="local">
+      <Priority>4</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <!-- Airports -->
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <!-- Border crossings -->
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <!-- Bus stops -->
+        
+        <!-- Charging stations -->
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <!-- Ferries -->
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <!-- Freeway exits/on-ramps -->
+        <PoiCategoryRef>5</PoiCategoryRef>
+        <!-- Gas stations -->
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <!-- Hotels and motels -->
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <!-- Local transport -->
+        
+        <!-- LPG gas stations -->
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <!-- Parking lots -->
+        
+        <!-- Petroleum gas stations -->
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <!-- Rest stops -->
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <!-- Tourist information -->
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <!-- Train stations -->
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <!-- SEAT dealers -->
+        <PoiCategoryRef>11</PoiCategoryRef>
+        <!-- SEAT service -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="14" type="local">
+      <Priority>5</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>45</PoiCategoryRef>
+        <!-- Banks -->
+        <PoiCategoryRef>54</PoiCategoryRef>
+        <!-- Cemeteries -->
+        <PoiCategoryRef>47</PoiCategoryRef>
+        <!-- Companies -->
+        <PoiCategoryRef>48</PoiCategoryRef>
+        <!-- Conference centres -->
+        <PoiCategoryRef>52</PoiCategoryRef>
+        <!-- Educational institutions -->
+        <PoiCategoryRef>50</PoiCategoryRef>
+        <!-- Embassies -->
+        <PoiCategoryRef>49</PoiCategoryRef>
+        <!-- Government and office -->
+        <PoiCategoryRef>53</PoiCategoryRef>
+        <!-- Places of worship -->
+        <PoiCategoryRef>46</PoiCategoryRef>
+        <!-- Post -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="15" type="local">
+      <Priority>6</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>25</PoiCategoryRef>
+        <!-- ATMs -->
+        <PoiCategoryRef>26</PoiCategoryRef>
+        <!-- Cafes -->
+        <PoiCategoryRef>28</PoiCategoryRef>
+        <!-- Clothes -->
+        <PoiCategoryRef>29</PoiCategoryRef>
+        <!-- Electronics -->
+        <PoiCategoryRef>31</PoiCategoryRef>
+        <!-- Nightlife -->
+        <PoiCategoryRef>24</PoiCategoryRef>
+        <!-- Restaurants -->
+        <PoiCategoryRef>27</PoiCategoryRef>
+        <!-- Shopping malls -->
+        <PoiCategoryRef>30</PoiCategoryRef>
+        <!-- Wine and spirits -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="16" type="local">
+      <Priority>7</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <!-- Drugstores -->
+        <PoiCategoryRef>21</PoiCategoryRef>
+        <!-- Hospitals -->
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <!-- Medical services -->
+        <PoiCategoryRef>20</PoiCategoryRef>
+        <!-- Police -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+  </PoiCategoryGroupDefinition>
+
+  <PoiCategoryGroupNameDefinition>
+    <Name category_group_ref="10">My points of interest (Personal POI)</Name>
+    <Name category_group_ref="11">Categories (alphabetical)</Name>
+    <Name category_group_ref="12">Attractions and leisure</Name>
+    <Name category_group_ref="13">Car and travel</Name>
+    <Name category_group_ref="14">Companies and public services</Name>
+    <Name category_group_ref="15">Dining and shopping</Name>
+    <Name category_group_ref="16">Emergencies</Name>
+  </PoiCategoryGroupNameDefinition>
+
+	<PoiCategoryThesaurusDefinition>
+		<Thesaurus category_ref="1" >
+			<Value>Autostadt</Value>
+		</Thesaurus>	
+		<Thesaurus category_ref="2">
+			<Value>Аеропорти</Value>
+			<Value>Аеропорт</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="3">
+			<Value>Автозаправні станції зрідженого газу</Value>
+			<Value>Зріджений газ</Value>
+			<Value>Газ</Value>
+			<Value>Заправлення паливом</Value>
+			<Value>Автозаправна станція</Value>
+			<Value>Автозаправні станції</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="4">
+			<Value>Автозаправні станції природного газу</Value>
+			<Value>Автозаправна станція природного газу</Value>
+			<Value>Природний газ</Value>
+			<Value>Газ</Value>
+			<Value>Заправлення паливом</Value>
+			<Value>Автозаправна станція</Value>
+			<Value>Автозаправні станції</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="5">
+			<Value>Автозаправні станції</Value>
+			<Value>Автозаправна станція</Value>
+			<Value>Заправлення паливом</Value>
+			<Value>Бензин</Value>
+			<Value>Дизельне паливо</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="6">
+			<Value>Місця для паркування</Value>
+			<Value>Місце для паркування</Value>
+			<Value>Паркування</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="7">
+			<Value>Зони відпочинку</Value>
+			<Value>Зона відпочинку</Value>
+			<Value>Автостоянка</Value>
+			<Value>Туалет</Value>
+			<Value>WC</Value>
+			<Value>Туалет</Value>
+			<Value>Туалети</Value>
+			<Value>Відпочинок</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="8">
+			<Value>Готелі та мотелі</Value>
+			<Value>Готель</Value>
+			<Value>Готелі</Value>
+			<Value>Мотель</Value>
+			<Value>Мотелі</Value>
+			<Value>Хостел</Value>
+			<Value>Хостели</Value>
+			<Value>Ночівля</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="9">
+			<Value>Пороми та автопоїзди</Value>
+			<Value>Автопоїзд</Value>
+			<Value>Автопоїзди</Value>
+			<Value>Пором</Value>
+			<Value>Пороми</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="10">
+			<Value>Пункти переходу через кордон</Value>
+			<Value>Пункт переходу через кордон</Value>
+			<Value>Кордон</Value>
+			<Value>Кордони</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="12">
+			<Value>SEAT</Value>
+			<Value>Дилери</Value>
+			<Value>Дилер</Value>
+			<Value>SEAT</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="11">
+			<Value>SEAT Сервісні центри</Value>
+			<Value>SEAT</Value>
+			<Value>СТО</Value>
+			<Value>СТО</Value>
+			<Value>Сервісний центр</Value>
+			<Value>Сервісні центри</Value>
+			<Value>Перевірка</Value>
+			<Value>Перевірки</Value>
+			<Value>Технічне обслуговування</Value>
+			<Value>Технічне обслуговування</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="14">
+			<Value>З'їзди з автомагістралі / в’їзди на автомагістраль</Value>
+			<Value>Виїзд</Value>
+			<Value>Виїзди</Value>
+			<Value>В’їзд</Value>
+			<Value>В’їзди</Value>
+			<Value>З'їзд</Value>
+			<Value>З'їзди</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="15">
+			<Value>Прокат автомобілів</Value>
+			<Value>Прокат автомобілів</Value>
+			<Value>Прокат</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="16">
+			<Value>Залізничні станції</Value>
+			<Value>Залізнична станція</Value>
+			<Value>Потяг</Value>
+			<Value>Потяги</Value>
+			<Value>Залізниця</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="18">
+			<Value>Автобусні станції</Value>
+			<Value>Автобусна станція</Value>
+			<Value>Автобус</Value>
+			<Value>Автобуси</Value>
+			<Value>Автобусна зупинка</Value>
+			<Value>Автобусні зупинки</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="19">
+			<Value>Туристична інформація</Value>
+			<Value>Туристична інформація</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="20">
+			<Value>Міліція</Value>
+			<Value>Міліція</Value>
+			<Value>102</Value>
+			<Value>112</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="21">
+			<Value>Лікарні</Value>
+			<Value>Лікарня</Value>
+			<Value>Госпіталь</Value>
+			<Value>Госпіталі</Value>
+			<Value>Клініка</Value>
+			<Value>Клініки</Value>
+			<Value>Швидка допомога</Value>
+			<Value>Швидка допомога</Value>
+			<Value>Лікар</Value>
+			<Value>Лікарі</Value>
+			<Value>103</Value>
+			<Value>112</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="22">
+			<Value>Медичні послуги</Value>
+			<Value>Медичні послуги</Value>
+			<Value>Практика</Value>
+			<Value>Практика</Value>
+			<Value>Лікар</Value>
+			<Value>Лікарі</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="23">
+			<Value>Аптеки</Value>
+			<Value>Аптека</Value>
+			<Value>Ліки</Value>
+			<Value>Ліки</Value>
+			<Value>Медицина</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="24">
+			<Value>Ресторани</Value>
+			<Value>Ресторан</Value>
+			<Value>Їжа</Value>
+			<Value>Напої</Value>
+			<Value>Столова</Value>
+			<Value>Столові</Value>
+			<Value>Їсти</Value>
+			<Value>Пити</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="25">
+			<Value>Банкомати</Value>
+			<Value>Банкомат</Value>
+			<Value>Гроші</Value>
+			<Value>Фінанси</Value>
+			<Value>ATM</Value>
+			<Value>EC</Value>
+			<Value>Автомат</Value>
+			<Value>Автомати</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="26">
+			<Value>Кафе</Value>
+			<Value>Кафе</Value>
+			<Value>Кава</Value>
+			<Value>Кава</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="27">
+			<Value>Торгові центри</Value>
+			<Value>Торговий центр</Value>
+			<Value>Піти у магазин</Value>
+			<Value>Купити</Value>
+			<Value>Купувати</Value>
+			<Value>Покупка</Value>
+			<Value>Універмаг</Value>
+			<Value>Універмаги</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="28">
+			<Value>Одяг</Value>
+			<Value>Одяг</Value>
+			<Value>Взуття</Value>
+			<Value>Взуття</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="29">
+			<Value>Електротовари</Value>
+			<Value>Техніка</Value>
+			<Value>Комп'ютери</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="30">
+			<Value>Вино та лікеро-горілчані вироби</Value>
+			<Value>Винні магазини</Value>
+			<Value>Вино</Value>
+			<Value>Вино</Value>
+			<Value>Горілка</Value>
+			<Value>Лікеро-горілчані вироби</Value>
+			<Value>Алкоголь</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="31">
+			<Value>Нічні заклади</Value>
+			<Value>Бар</Value>
+			<Value>Шинок</Value>
+			<Value>Шинки</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="32">
+			<Value>Парки</Value>
+			<Value>Парк</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="33">
+			<Value>Цікаві об'єкти</Value>
+			<Value>Цікавий об'єкт</Value>
+			<Value>Розваги</Value>
+			<Value>Розваги</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="34">
+			<Value>Кінотеатри</Value>
+			<Value>Кінотеатр</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="35">
+			<Value>Казино</Value>
+			<Value>Казино</Value>
+			<Value>Ігрові автомати</Value>
+			<Value>Ігрові автомати</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="36">
+			<Value>Заклади мистецтв</Value>
+			<Value>Опера</Value>
+			<Value>Театр</Value>
+			<Value>Концерт</Value>
+			<Value>Мюзикл</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="37">
+			<Value>Музеї</Value>
+			<Value>Музей</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="38">
+			<Value>Пам'ятники</Value>
+			<Value>Пам'ятник</Value>
+			<Value>Монумент</Value>
+			<Value>Монументи</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="39">
+			<Value>Спортивні центри</Value>
+			<Value>Спортивний центр</Value>
+			<Value>Стадіон</Value>
+			<Value>Стадіони</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="41">
+			<Value>Майданчики для гольфу</Value>
+			<Value>Гольф</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="42">
+			<Value>Плавання на човнах</Value>
+			<Value>Човен</Value>
+			<Value>Човни</Value>
+			<Value>Вітрильний спорт</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="43">
+			<Value>Лижний спорт</Value>
+			<Value>Лижі</Value>
+			<Value>Спорт</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="44">
+			<Value>Парки розваг</Value>
+			<Value>Парк розваг</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="45">
+			<Value>Банки</Value>
+			<Value>Банк</Value>
+			<Value>Гроші</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="46">
+			<Value>Пошта</Value>
+			<Value>Лист</Value>
+			<Value>Листи</Value>
+			<Value>Посилка</Value>
+			<Value>Посилки</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="47">
+			<Value>Компанії</Value>
+			<Value>Бізнес</Value>
+			<Value>Підприємства</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="48">
+			<Value>Конференц-зали</Value>
+			<Value>Конференц-зал</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="49">
+			<Value>Уряд і адміністрація</Value>
+			<Value>Мерія</Value>
+			<Value>Уряд</Value>
+			<Value>Адміністрація</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="50">
+			<Value>Посольства</Value>
+			<Value>Посольство</Value>
+			<Value>Консульство</Value>
+			<Value>Консульства</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="52">
+			<Value>Заклади освіти</Value>
+			<Value>Школа</Value>
+			<Value>Школи</Value>
+			<Value>Університет</Value>
+			<Value>Університети</Value>
+			<Value>Заклад освіти</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="53">
+			<Value>Храми</Value>
+			<Value>Храм</Value>
+			<Value>Мечеть</Value>
+			<Value>Мечеті</Value>
+			<Value>Церква</Value>
+			<Value>Церкви</Value>
+			<Value>Синагога</Value>
+			<Value>Синагоги</Value>
+			<Value>Монастир</Value>
+			<Value>Монастирі</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="54">
+			<Value>Кладовища</Value>
+			<Value>Кладовище</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="55">
+			<Value>Станції для зарядження</Value>
+			<Value>Станція для зарядження</Value>
+			<Value>Зарядження</Value>
+			<Value>Зарядити</Value>
+		</Thesaurus>
+	</PoiCategoryThesaurusDefinition>
+
+	<PoiCategoryNameDefinition>
+		<Name category_ref="1">Autostadt</Name>	
+		<Name category_ref="2">Аеропорти</Name>
+		<Name category_ref="3">Автозаправні станції зрідженого газу</Name>
+		<Name category_ref="4">Автозаправні станції природного газу</Name>
+		<Name category_ref="5">Автозаправні станції</Name>
+		<Name category_ref="6">Місця для паркування</Name>
+		<Name category_ref="7">Зони відпочинку</Name>
+		<Name category_ref="8">Готелі та мотелі</Name>
+		<Name category_ref="9">Пороми та автопоїзди</Name>
+		<Name category_ref="10">Пункти переходу через кордон</Name>
+		<Name category_ref="12">SEAT Дилери</Name>
+		<Name category_ref="11">SEAT Сервісні центри</Name>
+		<Name category_ref="14">З'їзди з автомагістралі / в’їзди на автомагістраль</Name>
+		<Name category_ref="15">Прокат автомобілів</Name>
+		<Name category_ref="16">Залізничні станції</Name>
+		<Name category_ref="18">Автобусні станції</Name>
+		<Name category_ref="19">Туристична інформація</Name>
+		<Name category_ref="20">Міліція</Name>
+		<Name category_ref="21">Лікарні</Name>
+		<Name category_ref="22">Медичні послуги</Name>
+		<Name category_ref="23">Аптеки</Name>
+		<Name category_ref="24">Ресторани</Name>
+		<Name category_ref="25">Банкомати</Name>
+		<Name category_ref="26">Кафе</Name>
+		<Name category_ref="27">Торгові центри</Name>
+		<Name category_ref="28">Одяг</Name>
+		<Name category_ref="29">Електротовари</Name>
+		<Name category_ref="30">Вино та лікеро-горілчані вироби</Name>
+		<Name category_ref="31">Нічні заклади</Name>
+		<Name category_ref="32">Парки</Name>
+		<Name category_ref="33">Цікаві об'єкти</Name>
+		<Name category_ref="34">Кінотеатри</Name>
+		<Name category_ref="35">Казино</Name>
+		<Name category_ref="36">Заклади мистецтв</Name>
+		<Name category_ref="37">Музеї</Name>
+		<Name category_ref="38">Пам'ятники</Name>
+		<Name category_ref="39">Спортивні центри</Name>
+		<Name category_ref="41">Майданчики для гольфу</Name>
+		<Name category_ref="42">Плавання на човнах</Name>
+		<Name category_ref="43">Лижний спорт</Name>
+		<Name category_ref="44">Парки розваг</Name>
+		<Name category_ref="45">Банки</Name>
+		<Name category_ref="46">Пошта</Name>
+		<Name category_ref="47">Компанії</Name>
+		<Name category_ref="48">Конференц-зали</Name>
+		<Name category_ref="49">Уряд і адміністрація</Name>
+		<Name category_ref="50">Посольства</Name>
+		<Name category_ref="52">Заклади освіти</Name>
+		<Name category_ref="53">Храми</Name>
+		<Name category_ref="54">Кладовища</Name>
+		<Name category_ref="55">Станції для зарядження</Name>
+	</PoiCategoryNameDefinition>
+</LanguagePoiConfiguration>

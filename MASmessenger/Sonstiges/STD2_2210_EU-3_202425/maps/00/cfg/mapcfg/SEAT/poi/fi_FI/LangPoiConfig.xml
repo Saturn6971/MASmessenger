@@ -1,0 +1,1069 @@
+﻿<LanguagePoiConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/locale/LanguagePoiConfiguration.xsd" version="1">
+  <!--Alphabetically sorted setup category definitions for each fuel type, will be reloaded after language change-->
+  <SetupCategoryDefinition>
+    <PoiCategoryMapping fueltype="default">
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="gasoline">
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="diesel">
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="cng">
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="lpg">
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="bev">
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="phev">
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+    </PoiCategoryMapping>
+  </SetupCategoryDefinition>
+
+  <!-- ### Poi category groups defined by vw, the type defines the "local" or "personal Poi" or other types -->
+  <PoiCategoryGroupDefinition>
+    <PoiCategoryGroup id="10" type="dynamic">
+      <Priority>1</Priority>
+      <PoiCategoryMapping>
+        <!-- MUSS LEER BLEIBEN Ueber XSD checken !! -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+    <PoiCategoryGroup id="11" type="local">
+      <Priority>2</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <PoiCategoryRef>29</PoiCategoryRef>
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <PoiCategoryRef>36</PoiCategoryRef>
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <PoiCategoryRef>49</PoiCategoryRef>
+        <PoiCategoryRef>54</PoiCategoryRef>
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <PoiCategoryRef>44</PoiCategoryRef>
+        <PoiCategoryRef>26</PoiCategoryRef>
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <PoiCategoryRef>48</PoiCategoryRef>
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <PoiCategoryRef>50</PoiCategoryRef>
+        <PoiCategoryRef>55</PoiCategoryRef>
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <PoiCategoryRef>3</PoiCategoryRef>
+        <PoiCategoryRef>4</PoiCategoryRef>
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <PoiCategoryRef>52</PoiCategoryRef>
+        <PoiCategoryRef>27</PoiCategoryRef>
+        <PoiCategoryRef>45</PoiCategoryRef>
+        <PoiCategoryRef>25</PoiCategoryRef>
+        <PoiCategoryRef>20</PoiCategoryRef>
+        <PoiCategoryRef>46</PoiCategoryRef>
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <PoiCategoryRef>24</PoiCategoryRef>
+        <PoiCategoryRef>21</PoiCategoryRef>
+        <PoiCategoryRef>11</PoiCategoryRef>
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <PoiCategoryRef>5</PoiCategoryRef>
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <PoiCategoryRef>53</PoiCategoryRef>
+        <PoiCategoryRef>28</PoiCategoryRef>
+        <PoiCategoryRef>42</PoiCategoryRef>
+        <PoiCategoryRef>30</PoiCategoryRef>
+        <PoiCategoryRef>31</PoiCategoryRef>
+        <PoiCategoryRef>47</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="12" type="local">
+      <Priority>3</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <PoiCategoryRef>55</PoiCategoryRef>
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <PoiCategoryRef>3</PoiCategoryRef>
+        <PoiCategoryRef>4</PoiCategoryRef>
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <PoiCategoryRef>11</PoiCategoryRef>
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <PoiCategoryRef>5</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="13" type="local">
+      <Priority>4</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <PoiCategoryRef>20</PoiCategoryRef>
+        <PoiCategoryRef>21</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="14" type="local">
+      <Priority>5</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <PoiCategoryRef>36</PoiCategoryRef>
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <PoiCategoryRef>44</PoiCategoryRef>
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <PoiCategoryRef>42</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="15" type="local">
+      <Priority>6</Priority>
+      <PoiCategoryMapping>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="16" type="local">
+      <Priority>7</Priority>
+      <PoiCategoryMapping>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+  </PoiCategoryGroupDefinition>
+
+  <PoiCategoryGroupNameDefinition>
+    <Name category_group_ref="10">Omat erikoiskohteet (Personal POI)</Name><!--1 zu 10-->
+    <Name category_group_ref="11">Luokat (aakkosjärjestyksessä)</Name><!--2 zu 1-->
+    <Name category_group_ref="12">Auto ja matkailu</Name><!--3 zu 2-->
+    <Name category_group_ref="13">Hätätilanteet</Name><!--4 zu 3-->
+    <Name category_group_ref="14">Nähtävyydet ja vapaa-aika</Name><!--5 zu 4-->
+    <Name category_group_ref="15">Ruoka ja ostokset</Name><!--6 zu 5-->
+    <Name category_group_ref="16">Yritykset ja julkiset laitokset</Name><!--7 zu 6-->
+  </PoiCategoryGroupNameDefinition>
+
+  <PoiCategoryThesaurusDefinition>
+    <Thesaurus category_ref="1" >
+      <Value>Autostadt</Value>
+      <Value>Auton nouto</Value>
+      <Value>Elämyskaupunki</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="2" >
+      <Value>AIRPORT</Value>
+      <Value>Lähtevät lennot</Value>
+      <Value>Saapuvat lennot</Value>
+      <Value>Terminaali</Value>
+      <Value>Matkustus</Value>
+      <Value>Lentäminen</Value>
+      <Value>Lentokone</Value>
+      <Value>Lentoasemat</Value>
+      <Value>Lentokenttä</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="3" >
+      <Value>LPG</Value>
+      <Value>Kaasu</Value>
+      <Value>Tankkaus</Value>
+      <Value>Huoltoasema</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="4" >
+      <Value>Maakaasu</Value>
+      <Value>Kaasu</Value>
+      <Value>CNG</Value>
+      <Value>Tankkaus</Value>
+      <Value>Maakaasuasemat</Value>
+      <Value>Huoltoasema</Value>
+      <Value>Maakaasuasema</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="5" >
+      <Value>Bensiini</Value>
+      <Value>Diesel</Value>
+      <Value>Tankkaus</Value>
+      <Value>Huoltoasemat</Value>
+      <Value>Huoltoasema</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="6" >
+      <Value>Pysäköintipaikka</Value>
+      <Value>Pysäköintitalo</Value>
+      <Value>Pysäköinti</Value>
+      <Value>Seis</Value>
+      <Value>Stop</Value>
+      <Value>Tauko</Value>
+      <Value>Pysäköintipaikat</Value>
+      <Value>Pysähdy</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="7" >
+      <Value>Liikenneasema</Value>
+      <Value>Levähdyspaikka</Value>
+      <Value>Levähtäminen</Value>
+      <Value>Tauko</Value>
+      <Value>Vessa</Value>
+      <Value>Käymälä</Value>
+      <Value>Nälkä</Value>
+      <Value>Levähdyspaikat</Value>
+      <Value>WC</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="8" >
+      <Value>Hotelli</Value>
+      <Value>Motelli</Value>
+      <Value>Yöpyminen</Value>
+      <Value>Pensionaatti</Value>
+      <Value>Gasthaus</Value>
+      <Value>B&amp;B</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="9" >
+      <Value>Satama</Value>
+      <Value>Laituri</Value>
+      <Value>Laiva</Value>
+      <Value>Lautta</Value>
+      <Value>Lautat</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="10">
+      <Value>Raja</Value>
+      <Value>Rajanylitys</Value>
+      <Value>Ylityspaikka</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="11">
+      <Value>Lisävarusteet</Value>
+      <Value>Jälleenmyyjä</Value>
+      <Value>SEAT</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="12">
+      <Value>SEAT</Value>
+      <Value>Vika</Value>
+      <Value>Korjaamo</Value>
+      <Value>Service</Value>
+      <Value>Korjaus</Value>
+      <Value>Huolto</Value>
+      <Value>Huolto</Value>
+      <Value>Apua</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="14">
+      <Value>Liittymä</Value>
+      <Value>Moottoritieristeys</Value>
+      <Value>Risteysalue</Value>
+      <Value>Risteys</Value>
+      <Value>Liittymä</Value>
+      <Value>Moottoritie</Value>
+      <Value>Moottoritieliittymät</Value>
+      <Value>Tuloliittymä</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="15">
+      <Value>Vuokra-auto</Value>
+      <Value>Laina-auto</Value>
+      <Value>Auto</Value>
+      <Value>Vuokraus</Value>
+      <Value>Autovuokraamot</Value>
+      <Value>Autovuokraus</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="16">
+      <Value>Juna</Value>
+      <Value>Matkustus</Value>
+      <Value>Rautatie</Value>
+      <Value>Raideliikenne</Value>
+      <Value>Pysäkki</Value>
+      <Value>ICE</Value>
+      <Value>Asemat</Value>
+      <Value>Asema</Value>
+    </Thesaurus>
+    <!--<Thesaurus category_ref="17">
+      <Value>#NV</Value>
+      <Value>#NV</Value>
+      <Value>#NV</Value>
+      <Value>Raideliikenne</Value>
+      <Value>#NV</Value>
+    </Thesaurus>-->
+    <Thesaurus category_ref="18">
+      <Value>Bussi</Value>
+      <Value>Odotus</Value>
+      <Value>Seis</Value>
+      <Value>Linja-autoasema</Value>
+      <Value>Päälinja-autoasema</Value>
+      <Value>Omnibus</Value>
+      <Value>Pysähdy</Value>
+      <Value>Bussipysäkki</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="19">
+      <Value>Informaatio</Value>
+      <Value>Turisti</Value>
+      <Value>Matkailuneuvonta</Value>
+      <Value>Turisti-informaatio</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="20">
+      <Value>Apua</Value>
+      <Value>Varkaus</Value>
+      <Value>Ryöstö</Value>
+      <Value>Poliisi</Value>
+      <Value>Rikosilmoitus</Value>
+      <Value>110</Value>
+      <Value>112</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="21">
+      <Value>Sairaala</Value>
+      <Value>Klinikka</Value>
+      <Value>Klinikat</Value>
+      <Value>Hätätila</Value>
+      <Value>Lääkäri</Value>
+      <Value>Onnettomuus</Value>
+      <Value>Apua</Value>
+      <Value>Ensiapu</Value>
+      <Value>Sairaalat</Value>
+      <Value>Sairaala</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="22">
+      <Value>Vastaanotto</Value>
+      <Value>Lääkäri</Value>
+      <Value>Terveyskeskus</Value>
+      <Value>Terveys</Value>
+      <Value>Hoito</Value>
+      <Value>Lääkärikeskus</Value>
+      <Value>Lääkäripalvelut</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="23">
+      <Value>Lääkkeet</Value>
+      <Value>Lääke</Value>
+      <Value>Resepti</Value>
+      <Value>Apteekki</Value>
+      <Value>Aspiriini</Value>
+      <Value>Kipu</Value>
+      <Value>Pilleri</Value>
+      <Value>Apteekit</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="24">
+      <Value>Syöminen</Value>
+      <Value>Juominen</Value>
+      <Value>Jano</Value>
+      <Value>Nälkä</Value>
+      <Value>Ruokapaikka</Value>
+      <Value>Ravintola</Value>
+      <Value>Ravintola</Value>
+      <Value>Ravintolat</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="25">
+      <Value>Raha</Value>
+      <Value>Käteinen</Value>
+      <Value>ATM</Value>
+      <Value>Euro</Value>
+      <Value>Visa</Value>
+      <Value>Mastercard</Value>
+      <Value>Pankkiautomaatti</Value>
+      <Value>Rahannosto</Value>
+      <Value>EC</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="26">
+      <Value>Kahvi</Value>
+      <Value>Kahvila</Value>
+      <Value>Leivonnaiset</Value>
+      <Value>Latte</Value>
+      <Value>Cappuccino</Value>
+      <Value>Espresso</Value>
+      <Value>Pulla</Value>
+      <Value>Café</Value>
+      <Value>Espressi</Value>
+      <Value>Kahvila</Value>
+      <Value>Kahvilat</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="27">
+      <Value>Shopping</Value>
+      <Value>Shoppailu</Value>
+      <Value>Ostaminen</Value>
+      <Value>Ostaminen</Value>
+      <Value>Tavaratalo</Value>
+      <Value>Ostoskeskukset</Value>
+      <Value>Ostoskeskus</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="28">
+      <Value>Vaatteet</Value>
+      <Value>Kuteet</Value>
+      <Value>Vaate</Value>
+      <Value>Kengät</Value>
+      <Value>Housut</Value>
+      <Value>Puku</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="29">
+      <Value>Kannettava tietokone</Value>
+      <Value>Hardware</Value>
+      <Value>Elektroniikka</Value>
+      <Value>Tietokone</Value>
+      <Value>Televisio</Value>
+      <Value>Radio</Value>
+      <Value>HiFi</Value>
+      <Value>DVD</Value>
+      <Value>Puhelin</Value>
+      <Value>Matkapuhelin</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="30">
+      <Value>Viinitila</Value>
+      <Value>Viinitupa</Value>
+      <Value>Viinikellari</Value>
+      <Value>Viini</Value>
+      <Value>Väkijuomat</Value>
+      <Value>Viinit</Value>
+      <Value>Alko</Value>
+      <Value>Alkoholi</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="31">
+      <Value>Musiikki</Value>
+      <Value>Party</Value>
+      <Value>Baari</Value>
+      <Value>Lounge</Value>
+      <Value>Yöelämä</Value>
+      <Value>Tanssi</Value>
+      <Value>Cocktail</Value>
+      <Value>Kapakka</Value>
+      <Value>Pub</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="32">
+      <Value>Kävely</Value>
+      <Value>Lenkkeily</Value>
+      <Value>Rentoutus</Value>
+      <Value>Retki</Value>
+      <Value>Puisto</Value>
+      <Value>Koiran ulkoilutus</Value>
+      <Value>Koira</Value>
+      <Value>Puisto</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="33">
+      <Value>Turisti</Value>
+      <Value>Kiinnostava kohde</Value>
+      <Value>Nähtävyys</Value>
+      <Value>Nähtävyydet</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="34">
+      <Value>Filmi</Value>
+      <Value>Taide</Value>
+      <Value>Popcorn</Value>
+      <Value>Elokuvat</Value>
+      <Value>Elokuvateatteri</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="35">
+      <Value>Pelaaminen</Value>
+      <Value>Peliraha</Value>
+      <Value>Automaatti</Value>
+      <Value>Ruletti</Value>
+      <Value>Kasino</Value>
+      <Value>Blackjack</Value>
+      <Value>Pokeri</Value>
+      <Value>Jeton</Value>
+      <Value>Pelipankki</Value>
+      <Value>Kasinot</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="36">
+      <Value>Teatteri</Value>
+      <Value>Ooppera</Value>
+      <Value>Konsertti</Value>
+      <Value>Näyttämö</Value>
+      <Value>Näytelmä</Value>
+      <Value>Musikaali</Value>
+      <Value>Taide</Value>
+      <Value>Kulttuuri</Value>
+      <Value>Esittävät taiteet</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="37">
+      <Value>Kulttuuri</Value>
+      <Value>Näyttely</Value>
+      <Value>Taide</Value>
+      <Value>Galleria</Value>
+      <Value>Museot</Value>
+      <Value>Museo</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="38">
+      <Value>Henkilöt</Value>
+      <Value>Kivi</Value>
+      <Value>Patsas</Value>
+      <Value>Muistomerkit</Value>
+      <Value>Monumentti</Value>
+      <Value>Muistomerkki</Value>
+      <Value>Muistelu</Value>
+      <Value>Muistomerkki</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="39">
+      <Value>Urheilu</Value>
+      <Value>Stadion</Value>
+      <Value>Stadion</Value>
+      <Value>Areena</Value>
+      <Value>Urheilukeskukset</Value>
+      <Value>Urheilukeskus</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="41">
+      <Value>Urheilu</Value>
+      <Value>Golf</Value>
+      <Value>Range</Value>
+      <Value>Green</Value>
+      <Value>Nurmi</Value>
+      <Value>Golf</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="42">
+      <Value>Vene</Value>
+      <Value>Jahti</Value>
+      <Value>Meri</Value>
+      <Value>Purjehdus</Value>
+      <Value>Laituri</Value>
+      <Value>Satama</Value>
+      <Value>Veneurheilu</Value>
+      <Value>Laivasto</Value>
+      <Value>Laiva</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="43">
+      <Value>Talvi</Value>
+      <Value>Hiihto</Value>
+      <Value>Rinne</Value>
+      <Value>Hissi</Value>
+      <Value>Lumi</Value>
+      <Value>Laskettelu</Value>
+      <Value>Murtomaahiihto</Value>
+      <Value>Kelkkailu</Value>
+      <Value>Bob</Value>
+      <Value>Urheilu</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="44">
+      <Value>Vapaa-aika</Value>
+      <Value>Elämyspuisto</Value>
+      <Value>Vuoristorata</Value>
+      <Value>Karuselli</Value>
+      <Value>Huvipuistot</Value>
+      <Value>Huvipuisto</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="45">
+      <Value>Raha</Value>
+      <Value>Tilisiirto</Value>
+      <Value>Tili</Value>
+      <Value>Tiliote</Value>
+      <Value>Pankit</Value>
+      <Value>Fyrkka</Value>
+      <Value>Hynä</Value>
+      <Value>Luotto</Value>
+      <Value>Pankkiautomaatti</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="46">
+      <Value>Kirje</Value>
+      <Value>Paketti</Value>
+      <Value>Raha</Value>
+      <Value>Posti</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="47">
+      <Value>Yritys</Value>
+      <Value>Tehdas</Value>
+      <Value>Portti</Value>
+      <Value>Yritykset</Value>
+      <Value>Firma</Value>
+      <Value>Tehdaslaitos</Value>
+      <Value>Teollisuus</Value>
+      <Value>Elinkeino</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="48">
+      <Value>Kongressi</Value>
+      <Value>Messut</Value>
+      <Value>Näyttely</Value>
+      <Value>Kongressi</Value>
+      <Value>Kongressikeskukset</Value>
+      <Value>Kongressikeskus</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="49">
+      <Value>Virasto</Value>
+      <Value>Kaupungintalo</Value>
+      <Value>Viranomaiset</Value>
+      <Value>Kaupunki</Value>
+      <Value>Piiri</Value>
+      <Value>Hallitus</Value>
+      <Value>Hallinto</Value>
+      <Value>Lupa</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="50">
+      <Value>Konsulaatti</Value>
+      <Value>Viisumi</Value>
+      <Value>Maastamuutto</Value>
+      <Value>Maahanmuutto</Value>
+      <Value>Lähetystö</Value>
+      <Value>Lähetystöt</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="52">
+      <Value>Koulu</Value>
+      <Value>Yliopisto</Value>
+      <Value>Korkeakoulu</Value>
+      <Value>Oppiaine</Value>
+      <Value>Jatkokoulutus</Value>
+      <Value>Seminaari</Value>
+      <Value>Koulutus</Value>
+      <Value>Oppilaitokset</Value>
+      <Value>UNI</Value>
+      <Value>Ammattikorkeakoulu</Value>
+      <Value>Oppilaitos</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="53">
+      <Value>Moskeija</Value>
+      <Value>Tuomiokirkko</Value>
+      <Value>Synagoga</Value>
+      <Value>Kappeli</Value>
+      <Value>Katedraali</Value>
+      <Value>Luostari</Value>
+      <Value>Kirkko</Value>
+      <Value>Kirkko</Value>
+      <Value>Kirkot</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="54">
+      <Value>Kuolema</Value>
+      <Value>Suru</Value>
+      <Value>Hauta</Value>
+      <Value>Hautaaminen</Value>
+      <Value>Hautausmaa</Value>
+      <Value>Hautausmaat</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="55">
+      <Value>Latausasema</Value>
+      <Value>Lataus</Value>
+      <Value>Lataaminen</Value>
+      <Value>Pistorasia</Value>
+      <Value>Pistorasiat</Value>
+      <Value>Pistoke</Value>
+      <Value>Virta</Value>
+      <Value>Sähkö</Value>
+      <Value>Latausverkosto</Value>
+      <Value>AC</Value>
+      <Value>DC</Value>
+    </Thesaurus>
+  </PoiCategoryThesaurusDefinition>
+
+  <PoiCategoryNameDefinition>
+    <Name category_ref="1">Autostadt</Name>
+    <Name category_ref="2">Lentokentät</Name>
+    <Name category_ref="3" >LPG-tankkauspaikat</Name>
+    <Name category_ref="4" >Maakaasun tankkauspaikat</Name>
+    <Name category_ref="5" >Tankkauspaikat</Name>
+    <Name category_ref="6" >Pysäköintipaikat</Name>
+    <Name category_ref="7">Huoltoasemat</Name>
+    <Name category_ref="8">Hotellit ja motellit</Name>
+    <Name category_ref="9">Lautat ja autojunat</Name>
+    <Name category_ref="10">Rajanylityspaikat</Name>
+    <Name category_ref="11">SEAT-huolto</Name>
+    <Name category_ref="12">SEAT-jälleenmyyjä</Name>
+    <Name category_ref="14">Moottoritieliittymät</Name>
+    <Name category_ref="15">Autonvuokraus</Name>
+    <Name category_ref="16">Rautatieasemat</Name>
+    <Name category_ref="18">Linja-autoasemat</Name>
+    <Name category_ref="19">Matkailuneuvonta</Name>
+    <Name category_ref="20">Poliisi</Name>
+    <Name category_ref="21">Sairaalat</Name>
+    <Name category_ref="22">Lääkäripalvelut</Name>
+    <Name category_ref="23">Apteekit</Name>
+    <Name category_ref="24">Ravintolat</Name>
+    <Name category_ref="25">Pankkiautomaatit</Name>
+    <Name category_ref="26">Kahvilat</Name>
+    <Name category_ref="27">Ostoskeskukset</Name>
+    <Name category_ref="28">Vaatteet</Name>
+    <Name category_ref="29">Elektroniikka</Name>
+    <Name category_ref="30">Viini ja alkoholi</Name>
+    <Name category_ref="31">Yöelämä</Name>
+    <Name category_ref="32">Puistot</Name>
+    <Name category_ref="33">Matkailunähtävyydet</Name>
+    <Name category_ref="34">Elokuvateatterit</Name>
+    <Name category_ref="35">Kasinot</Name>
+    <Name category_ref="36">Esittävät taiteet</Name>
+    <Name category_ref="37">Museot</Name>
+    <Name category_ref="38">Muistomerkit</Name>
+    <Name category_ref="39">Urheilukeskukset</Name>
+    <Name category_ref="41">Golf</Name>
+    <Name category_ref="42">Veneily</Name>
+    <Name category_ref="43">Hiihto</Name>
+    <Name category_ref="44">Huvipuistot</Name>
+    <Name category_ref="45">Pankit</Name>
+    <Name category_ref="46">Posti</Name>
+    <Name category_ref="47">Yritykset</Name>
+    <Name category_ref="48">Kongressikeskukset</Name>
+    <Name category_ref="49">Hallinto</Name>
+    <Name category_ref="50">Lähetystöt</Name>
+    <Name category_ref="52">Oppilaitokset</Name>
+    <Name category_ref="53">Uskonnolliset rakennukset</Name>
+    <Name category_ref="54">Hautausmaat</Name>
+    <Name category_ref="55">Latausasemat</Name>
+  </PoiCategoryNameDefinition>
+
+</LanguagePoiConfiguration>

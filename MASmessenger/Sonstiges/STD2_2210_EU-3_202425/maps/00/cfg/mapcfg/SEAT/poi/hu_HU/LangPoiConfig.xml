@@ -1,0 +1,1069 @@
+﻿<LanguagePoiConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/locale/LanguagePoiConfiguration.xsd" version="1">
+  <!--Alphabetically sorted setup category definitions for each fuel type, will be reloaded after language change-->
+  <SetupCategoryDefinition>
+    <PoiCategoryMapping fueltype="default">
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>104</PoiCategoryRef>
+      <PoiCategoryRef>135</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="gasoline">
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="diesel">
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="cng">
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="lpg">
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="bev">
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="phev">
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <PoiCategoryRef>12</PoiCategoryRef>
+    </PoiCategoryMapping>
+  </SetupCategoryDefinition>
+
+  <!-- ### Poi category groups defined by vw, the type defines the "local" or "personal Poi" or other types -->
+  <PoiCategoryGroupDefinition>
+    <PoiCategoryGroup id="10" type="dynamic">
+      <Priority>1</Priority>
+      <PoiCategoryMapping>
+        <!-- MUSS LEER BLEIBEN Ueber XSD checken !! -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+    <PoiCategoryGroup id="11" type="local">
+      <Priority>2</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <PoiCategoryRef>45</PoiCategoryRef>
+        <PoiCategoryRef>27</PoiCategoryRef>
+        <PoiCategoryRef>30</PoiCategoryRef>
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <PoiCategoryRef>47</PoiCategoryRef>
+        <PoiCategoryRef>31</PoiCategoryRef>
+        <PoiCategoryRef>29</PoiCategoryRef>
+        <PoiCategoryRef>36</PoiCategoryRef>
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <PoiCategoryRef>24</PoiCategoryRef>
+        <PoiCategoryRef>4</PoiCategoryRef>
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <PoiCategoryRef>42</PoiCategoryRef>
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <PoiCategoryRef>26</PoiCategoryRef>
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <PoiCategoryRef>48</PoiCategoryRef>
+        <PoiCategoryRef>21</PoiCategoryRef>
+        <PoiCategoryRef>49</PoiCategoryRef>
+        <PoiCategoryRef>50</PoiCategoryRef>
+        <PoiCategoryRef>3</PoiCategoryRef>
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <PoiCategoryRef>52</PoiCategoryRef>
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <PoiCategoryRef>25</PoiCategoryRef>
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <PoiCategoryRef>46</PoiCategoryRef>
+        <PoiCategoryRef>20</PoiCategoryRef>
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <PoiCategoryRef>28</PoiCategoryRef>
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <PoiCategoryRef>11</PoiCategoryRef>
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <PoiCategoryRef>54</PoiCategoryRef>
+        <PoiCategoryRef>53</PoiCategoryRef>
+        <PoiCategoryRef>55</PoiCategoryRef>
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <PoiCategoryRef>5</PoiCategoryRef>
+        <PoiCategoryRef>44</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="12" type="local">
+      <Priority>3</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <PoiCategoryRef>4</PoiCategoryRef>
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <PoiCategoryRef>3</PoiCategoryRef>
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <PoiCategoryRef>11</PoiCategoryRef>
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <PoiCategoryRef>55</PoiCategoryRef>
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <PoiCategoryRef>5</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="13" type="local">
+      <Priority>4</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>45</PoiCategoryRef>
+        <PoiCategoryRef>47</PoiCategoryRef>
+        <PoiCategoryRef>48</PoiCategoryRef>
+        <PoiCategoryRef>49</PoiCategoryRef>
+        <PoiCategoryRef>50</PoiCategoryRef>
+        <PoiCategoryRef>52</PoiCategoryRef>
+        <PoiCategoryRef>46</PoiCategoryRef>
+        <PoiCategoryRef>54</PoiCategoryRef>
+        <PoiCategoryRef>53</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="14" type="local">
+      <Priority>5</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>27</PoiCategoryRef>
+        <PoiCategoryRef>30</PoiCategoryRef>
+        <PoiCategoryRef>31</PoiCategoryRef>
+        <PoiCategoryRef>29</PoiCategoryRef>
+        <PoiCategoryRef>24</PoiCategoryRef>
+        <PoiCategoryRef>26</PoiCategoryRef>
+        <PoiCategoryRef>25</PoiCategoryRef>
+        <PoiCategoryRef>28</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="15" type="local">
+      <Priority>6</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <PoiCategoryRef>36</PoiCategoryRef>
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <PoiCategoryRef>42</PoiCategoryRef>
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <PoiCategoryRef>44</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="16" type="local">
+      <Priority>7</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <PoiCategoryRef>21</PoiCategoryRef>
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <PoiCategoryRef>20</PoiCategoryRef>
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+  </PoiCategoryGroupDefinition>
+
+  <PoiCategoryGroupNameDefinition>
+    <Name category_group_ref="10">Különleges úti céljaim (személyes POI)</Name><!--1 zu 10-->
+    <Name category_group_ref="11">Kategóriák (abc sorrendben)</Name><!--2 zu 1-->
+    <Name category_group_ref="12">Autó és utazások</Name><!--3 zu 2-->
+    <Name category_group_ref="13">Cégek és közintézmények</Name><!--4 zu 3-->
+    <Name category_group_ref="14">Étkezés és bevásárlás</Name><!--5 zu 4-->
+    <Name category_group_ref="15">Nevezetességek és szabadidő</Name><!--6 zu 5-->
+    <Name category_group_ref="16">Vészhelyzetek</Name><!--7 zu 6-->
+  </PoiCategoryGroupNameDefinition>
+
+  <PoiCategoryThesaurusDefinition>
+   <Thesaurus category_ref="1" >
+      <Value>Autostadt</Value>
+      <Value>Személyes átvétel</Value>
+      <Value>Élményváros</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="2" >
+      <Value>AIRPORT</Value>
+      <Value>Repülőgép-indulás</Value>
+      <Value>Érkezés</Value>
+      <Value>Terminál</Value>
+      <Value>Utazások</Value>
+      <Value>Repülés</Value>
+      <Value>Repülőgép</Value>
+      <Value>Repülőterek</Value>
+      <Value>Repülőtér</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="3" >
+      <Value>LPG</Value>
+      <Value>Gáz</Value>
+      <Value>Tankolás</Value>
+      <Value>Üzemanyagtöltő állomás</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="4" >
+      <Value>Földgáz</Value>
+      <Value>Gáz</Value>
+      <Value>CNG</Value>
+      <Value>Tankolás</Value>
+      <Value>Földgáztöltő állomások</Value>
+      <Value>Üzemanyagtöltő állomás</Value>
+      <Value>Földgáztöltő állomás</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="5" >
+      <Value>Benzin</Value>
+      <Value>Dízel</Value>
+      <Value>Tankolás</Value>
+      <Value>Üzemanyagtöltő állomások</Value>
+      <Value>Üzemanyagtöltő állomás</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="6" >
+      <Value>Parkolóhely</Value>
+      <Value>Parkolóház</Value>
+      <Value>Parkolás</Value>
+      <Value>Megálló</Value>
+      <Value>Stop</Value>
+      <Value>Szünet</Value>
+      <Value>Parkolóhelyek</Value>
+      <Value>Megállás</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="7" >
+      <Value>Autópályán kívüli pihenőhely</Value>
+      <Value>Pihenőhely</Value>
+      <Value>Pihenőt tart</Value>
+      <Value>Szünet</Value>
+      <Value>Vécé</Value>
+      <Value>Illemhely</Value>
+      <Value>Éhség</Value>
+      <Value>Pihenőhelyek</Value>
+      <Value>WC</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="8" >
+      <Value>Hotel</Value>
+      <Value>Motel</Value>
+      <Value>Alvás</Value>
+      <Value>Panzió</Value>
+      <Value>Vendéglő</Value>
+      <Value>B&amp;B</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="9" >
+      <Value>Kikötő</Value>
+      <Value>Kikötőhely</Value>
+      <Value>Hajó</Value>
+      <Value>Komp</Value>
+      <Value>Kompok</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="10">
+      <Value>Határ</Value>
+      <Value>Határátkelőhelyek</Value>
+      <Value>Átkelőhely</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="11">
+      <Value>Tartozék</Value>
+      <Value>Kereskedő</Value>
+      <Value>SEAT</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="12">
+      <Value>SEAT</Value>
+      <Value>Defekt</Value>
+      <Value>Szerviz</Value>
+      <Value>Service</Value>
+      <Value>Javítás</Value>
+      <Value>Ellenőrző szerviz</Value>
+      <Value>Karbantartás</Value>
+      <Value>Segítség</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="14">
+      <Value>Lehajtó</Value>
+      <Value>Autópálya-csomópont</Value>
+      <Value>Elágazás</Value>
+      <Value>Kereszteződés</Value>
+      <Value>Csatlakozás</Value>
+      <Value>Autópálya</Value>
+      <Value>Autópálya-lehajtók/-felhajtók</Value>
+      <Value>Felhajtó</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="15">
+      <Value>Bérautó</Value>
+      <Value>Bérkocsi</Value>
+      <Value>Autó</Value>
+      <Value>Bérlés</Value>
+      <Value>Autókölcsönzők</Value>
+      <Value>Autókölcsönző</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="16">
+      <Value>Vonat</Value>
+      <Value>Utazások</Value>
+      <Value>Vasút</Value>
+      <Value>Pálya</Value>
+      <Value>Megálló</Value>
+      <Value>ICE</Value>
+      <Value>Pályaudvarok</Value>
+      <Value>Pályaudvar</Value>
+    </Thesaurus>
+    <!--<Thesaurus category_ref="17">
+      <Value>#NV</Value>
+      <Value>#NV</Value>
+      <Value>#NV</Value>
+      <Value>Pálya</Value>
+      <Value>#NV</Value>
+    </Thesaurus>-->
+    <Thesaurus category_ref="18">
+      <Value>Busz</Value>
+      <Value>Várakozás</Value>
+      <Value>Megálló</Value>
+      <Value>Buszpályaudvarok</Value>
+      <Value>Központi buszpályaudvar</Value>
+      <Value>Autóbusz</Value>
+      <Value>Megállás</Value>
+      <Value>Buszmegálló</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="19">
+      <Value>Információ</Value>
+      <Value>Turista</Value>
+      <Value>Turisztikai információk</Value>
+      <Value>Turisztikai információ</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="20">
+      <Value>Segítség</Value>
+      <Value>Támadás</Value>
+      <Value>Rablás</Value>
+      <Value>Rendőrség</Value>
+      <Value>Feljelentés</Value>
+      <Value>110</Value>
+      <Value>112</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="21">
+      <Value>Gyógyintézet</Value>
+      <Value>Klinika</Value>
+      <Value>Klinikák</Value>
+      <Value>Vészhelyzet</Value>
+      <Value>Orvos</Value>
+      <Value>Baleset</Value>
+      <Value>Segítség</Value>
+      <Value>Sürgősségi betegfelvétel</Value>
+      <Value>Kórházak</Value>
+      <Value>Kórház</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="22">
+      <Value>Orvosi rendelő</Value>
+      <Value>Orvos</Value>
+      <Value>SZTK</Value>
+      <Value>Egészség</Value>
+      <Value>Ápolás</Value>
+      <Value>Orvosi rendelőintézet</Value>
+      <Value>Orvosi szolgáltatások</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="23">
+      <Value>Gyógyszerek</Value>
+      <Value>Orvosság</Value>
+      <Value>Recept</Value>
+      <Value>Gyógyszertár</Value>
+      <Value>Aspirin</Value>
+      <Value>Fájdalom</Value>
+      <Value>Tabletta</Value>
+      <Value>Gyógyszertárak</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="24">
+      <Value>Étkezés</Value>
+      <Value>Ital</Value>
+      <Value>Szomjúság</Value>
+      <Value>Éhség</Value>
+      <Value>Kocsma</Value>
+      <Value>Vendéglátóhely</Value>
+      <Value>Étterem</Value>
+      <Value>Éttermek</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="25">
+      <Value>Pénz</Value>
+      <Value>Készpénz</Value>
+      <Value>ATM</Value>
+      <Value>Euro</Value>
+      <Value>Visa</Value>
+      <Value>Mastercard</Value>
+      <Value>Pénzautomaták</Value>
+      <Value>Pénzautomata</Value>
+      <Value>EC</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="26">
+      <Value>Kávé</Value>
+      <Value>Kávéházak</Value>
+      <Value>Sütemény</Value>
+      <Value>Latte</Value>
+      <Value>Cappuccino</Value>
+      <Value>Espresso</Value>
+      <Value>Muffin</Value>
+      <Value>Kávéház</Value>
+      <Value>Presszókávék</Value>
+      <Value>Kávéház</Value>
+      <Value>Kávéházak</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="27">
+      <Value>Shoppingolás</Value>
+      <Value>Shoppingolni</Value>
+      <Value>Bevásárolni</Value>
+      <Value>Vásárolni</Value>
+      <Value>Áruház</Value>
+      <Value>Bevásárlóközpontok</Value>
+      <Value>Bevásárlóközpont</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="28">
+      <Value>Ruházat</Value>
+      <Value>Ruhák</Value>
+      <Value>Ruha</Value>
+      <Value>Cipő</Value>
+      <Value>Nadrág</Value>
+      <Value>Öltöny</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="29">
+      <Value>Laptop</Value>
+      <Value>Hardver</Value>
+      <Value>Elektronika</Value>
+      <Value>Számítógép</Value>
+      <Value>Televízió</Value>
+      <Value>Rádió</Value>
+      <Value>HiFi</Value>
+      <Value>DVD</Value>
+      <Value>Telefon</Value>
+      <Value>Mobiltelefon</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="30">
+      <Value>Borosgazda</Value>
+      <Value>Borozó</Value>
+      <Value>Borospince</Value>
+      <Value>Bor</Value>
+      <Value>Szeszes italok</Value>
+      <Value>Borok</Value>
+      <Value>Alk</Value>
+      <Value>Alkohol</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="31">
+      <Value>Zene</Value>
+      <Value>Party</Value>
+      <Value>Bár</Value>
+      <Value>Terasz</Value>
+      <Value>Éjszakai élet</Value>
+      <Value>Táncolni</Value>
+      <Value>Koktél</Value>
+      <Value>Kocsma</Value>
+      <Value>Pub</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="32">
+      <Value>Séta</Value>
+      <Value>Futás</Value>
+      <Value>Kikapcsolódás</Value>
+      <Value>Picknick</Value>
+      <Value>Parkok</Value>
+      <Value>Kutyasétáltatás</Value>
+      <Value>Kutya</Value>
+      <Value>Park</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="33">
+      <Value>Turista</Value>
+      <Value>Látványosság</Value>
+      <Value>Nevezetesség</Value>
+      <Value>Nevezetességek</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="34">
+      <Value>Film</Value>
+      <Value>Művészet</Value>
+      <Value>Popkorn</Value>
+      <Value>Mozi</Value>
+      <Value>Mozik</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="35">
+      <Value>Játék</Value>
+      <Value>Játékpénz</Value>
+      <Value>Automata</Value>
+      <Value>Rulett</Value>
+      <Value>Kaszinó</Value>
+      <Value>Blackjack</Value>
+      <Value>Póker</Value>
+      <Value>Zseton</Value>
+      <Value>Játékkaszinó</Value>
+      <Value>Kaszinók</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="36">
+      <Value>Színház</Value>
+      <Value>Opera</Value>
+      <Value>Koncert</Value>
+      <Value>Színpad</Value>
+      <Value>Színjáték</Value>
+      <Value>Musical</Value>
+      <Value>Művészet</Value>
+      <Value>Kultúra</Value>
+      <Value>Előadóművészetek</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="37">
+      <Value>Kultúra</Value>
+      <Value>Kiállítás</Value>
+      <Value>Művészet</Value>
+      <Value>Galéria</Value>
+      <Value>Múzeumok</Value>
+      <Value>Múzeum</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="38">
+      <Value>Személyek</Value>
+      <Value>Kő</Value>
+      <Value>Szobor</Value>
+      <Value>Emlékművek</Value>
+      <Value>Műemlék</Value>
+      <Value>Szoborcsoport</Value>
+      <Value>Szobrok</Value>
+      <Value>Emlékmű</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="39">
+      <Value>Sport</Value>
+      <Value>Stadionok</Value>
+      <Value>Stadion</Value>
+      <Value>Aréna</Value>
+      <Value>Sportközpontok</Value>
+      <Value>Sportközpont</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="41">
+      <Value>Sport</Value>
+      <Value>Golf</Value>
+      <Value>Golfpálya</Value>
+      <Value>Green</Value>
+      <Value>Gyep</Value>
+      <Value>Golf sport</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="42">
+      <Value>Csónak</Value>
+      <Value>Yacht</Value>
+      <Value>Tenger</Value>
+      <Value>Vitorlázás</Value>
+      <Value>Kikötőhely</Value>
+      <Value>Kikötő</Value>
+      <Value>Hajós sport</Value>
+      <Value>Yachtkikötő</Value>
+      <Value>Hajó</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="43">
+      <Value>Tél</Value>
+      <Value>Sí</Value>
+      <Value>Sípálya</Value>
+      <Value>Lift</Value>
+      <Value>Hó</Value>
+      <Value>Sísport</Value>
+      <Value>Sífutás</Value>
+      <Value>Szánkózás</Value>
+      <Value>Bob</Value>
+      <Value>Sport</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="44">
+      <Value>Szabadidő</Value>
+      <Value>Élménypark</Value>
+      <Value>Hullámvasút</Value>
+      <Value>Karusszel</Value>
+      <Value>Vidámparkok</Value>
+      <Value>Vidámpark</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="45">
+      <Value>Pénz</Value>
+      <Value>Átutalás</Value>
+      <Value>Számla</Value>
+      <Value>Számlakivonat</Value>
+      <Value>Bankok</Value>
+      <Value>Dohány</Value>
+      <Value>Lóvé</Value>
+      <Value>Hitel</Value>
+      <Value>Bank</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="46">
+      <Value>Levél</Value>
+      <Value>Csomag</Value>
+      <Value>Pénz</Value>
+      <Value>Posta</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="47">
+      <Value>Vállalkozás</Value>
+      <Value>Üzem</Value>
+      <Value>Kapu</Value>
+      <Value>Cégek</Value>
+      <Value>Cég</Value>
+      <Value>Gyár</Value>
+      <Value>Ipar</Value>
+      <Value>Mesterség</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="48">
+      <Value>Kongresszus</Value>
+      <Value>Vásár</Value>
+      <Value>Kiállítás</Value>
+      <Value>Kongresszus</Value>
+      <Value>Kongresszusi központok</Value>
+      <Value>Kongresszusi központ</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="49">
+      <Value>Hivatal</Value>
+      <Value>Városháza</Value>
+      <Value>Hatóság</Value>
+      <Value>Város</Value>
+      <Value>Kerület</Value>
+      <Value>Kormány</Value>
+      <Value>Közigazgatás</Value>
+      <Value>Engedély</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="50">
+      <Value>Konzulátus</Value>
+      <Value>Vízum</Value>
+      <Value>Kiutazás</Value>
+      <Value>Bevándorlás</Value>
+      <Value>Követség</Value>
+      <Value>Követségek</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="52">
+      <Value>Iskola</Value>
+      <Value>Egyetem</Value>
+      <Value>Főiskola</Value>
+      <Value>Szak</Value>
+      <Value>Továbbképzés</Value>
+      <Value>Szeminárium</Value>
+      <Value>Oktatás</Value>
+      <Value>Oktatási intézmények</Value>
+      <Value>EGYETEM</Value>
+      <Value>Szakirányú főiskola</Value>
+      <Value>Oktatási intézmény</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="53">
+      <Value>Mecset</Value>
+      <Value>Dóm</Value>
+      <Value>Zsinagóga</Value>
+      <Value>Kápolna</Value>
+      <Value>Katedrális</Value>
+      <Value>Kolostor</Value>
+      <Value>Egyház</Value>
+      <Value>Templom</Value>
+      <Value>Templomok</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="54">
+      <Value>Halott</Value>
+      <Value>Gyász</Value>
+      <Value>Sír</Value>
+      <Value>Temetés</Value>
+      <Value>Temető</Value>
+      <Value>Temetők</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="55">
+      <Value>Töltőállomás</Value>
+      <Value>tölteni</Value>
+      <Value>feltölteni</Value>
+      <Value>Csatlakozóalj</Value>
+      <Value>Csatlakozóaljak</Value>
+      <Value>Csatlakozó</Value>
+      <Value>Áram</Value>
+      <Value>Elektromosság</Value>
+      <Value>Töltőhálózat</Value>
+      <Value>AC</Value>
+      <Value>DC</Value>
+    </Thesaurus>
+  </PoiCategoryThesaurusDefinition>
+
+  <PoiCategoryNameDefinition>
+    <Name category_ref="1">Autóváros</Name>
+    <Name category_ref="2">Repülőterek</Name>
+    <Name category_ref="3">LPG töltőállomások</Name>
+    <Name category_ref="4">Földgáz-töltőállomások</Name>
+    <Name category_ref="5">Üzemanyagtöltő állomások</Name>
+    <Name category_ref="6">Parkolóhelyek</Name>
+    <Name category_ref="7">Pihenőhelyek</Name>
+    <Name category_ref="8">Szállodák és motelek</Name>
+    <Name category_ref="9">Kompok és autószállító vonatok</Name>
+    <Name category_ref="10">Határátkelőhelyek</Name>
+    <Name category_ref="11">SEAT szervizm</Name>
+    <Name category_ref="12">SEAT márkakereskedő</Name>
+    <Name category_ref="14">Autópálya-lehajtók/-felhajtók</Name>
+    <Name category_ref="15">Autókölcsönzők</Name>
+    <Name category_ref="16">Pályaudvarok</Name>
+    <Name category_ref="18">Buszpályaudvarok</Name>
+    <Name category_ref="19">Turisztikai információk</Name>
+    <Name category_ref="20">Rendőrség</Name>
+    <Name category_ref="21">Kórházak</Name>
+    <Name category_ref="22">Orvosi szolgáltatások</Name>
+    <Name category_ref="23">Gyógyszertárak</Name>
+    <Name category_ref="24">Éttermek</Name>
+    <Name category_ref="25">Pénzautomaták</Name>
+    <Name category_ref="26">Kávéházak</Name>
+    <Name category_ref="27">Bevásárlóközpontok</Name>
+    <Name category_ref="28">Ruházat</Name>
+    <Name category_ref="29">Elektronika</Name>
+    <Name category_ref="30">Borok és szeszes italok</Name>
+    <Name category_ref="31">Éjszakai élet</Name>
+    <Name category_ref="32">Parkok</Name>
+    <Name category_ref="33">Turisztikai látványosságok</Name>
+    <Name category_ref="34">Mozik</Name>
+    <Name category_ref="35">Kaszinók</Name>
+    <Name category_ref="36">Előadóművészetek</Name>
+    <Name category_ref="37">Múzeumok</Name>
+    <Name category_ref="38">Emlékművek</Name>
+    <Name category_ref="39">Sportközpontok</Name>
+    <Name category_ref="41">Golf sport</Name>
+    <Name category_ref="42">Hajós sport</Name>
+    <Name category_ref="43">Sísport</Name>
+    <Name category_ref="44">Vidámparkok</Name>
+    <Name category_ref="45">Bankok</Name>
+    <Name category_ref="46">Posta</Name>
+    <Name category_ref="47">Cégek</Name>
+    <Name category_ref="48">Kongresszusi központok</Name>
+    <Name category_ref="49">Kormány és közigazgatás</Name>
+    <Name category_ref="50">Követségek</Name>
+    <Name category_ref="52">Művelődési intézmények</Name>
+    <Name category_ref="53">Templomok</Name>
+    <Name category_ref="54">Temetők</Name>
+    <Name category_ref="55">Töltőállomások</Name>
+  </PoiCategoryNameDefinition>
+
+</LanguagePoiConfiguration>

@@ -1,0 +1,1377 @@
+﻿<LanguagePoiConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/locale/LanguagePoiConfiguration.xsd" version="1">
+   <!--Alphabetically sorted setup category definitions for each fuel type, will be reloaded after language change-->
+   <SetupCategoryDefinition>
+      <PoiCategoryMapping fueltype="default">
+         <PoiCategoryRef>23</PoiCategoryRef>
+         <!-- Apteegid -->
+         <PoiCategoryRef>15</PoiCategoryRef>
+         <!-- Autorendid -->
+		 <PoiCategoryRef>1</PoiCategoryRef>
+         <!-- Autostadt -->		
+         <PoiCategoryRef>18</PoiCategoryRef>
+         <!-- Bussijaamad -->		 
+         <PoiCategoryRef>29</PoiCategoryRef>
+         <!-- Elektroonika -->
+         <PoiCategoryRef>47</PoiCategoryRef>
+         <!-- Firmad -->
+		 <PoiCategoryRef>41</PoiCategoryRef>
+         <!-- Golfisport -->
+		 <PoiCategoryRef>21</PoiCategoryRef>
+         <!-- Haiglad -->
+		 <PoiCategoryRef>52</PoiCategoryRef>
+         <!-- Haridusasutus -->
+		 <PoiCategoryRef>8</PoiCategoryRef>
+         <!-- Hotellid ja motellid -->
+		 <PoiCategoryRef>53</PoiCategoryRef>
+         <!-- Jumalakojad -->
+         <PoiCategoryRef>35</PoiCategoryRef>
+         <!-- Kasiinod -->
+         <PoiCategoryRef>14</PoiCategoryRef>
+         <!-- Kiirtee mahasõidud -->
+		 <PoiCategoryRef>34</PoiCategoryRef>
+         <!-- Kinod -->
+		 <PoiCategoryRef>26</PoiCategoryRef>
+         <!-- Kohvikud -->
+		 <PoiCategoryRef>48</PoiCategoryRef>
+         <!-- Kongressikeskused -->
+		 <PoiCategoryRef>36</PoiCategoryRef>
+         <!-- Kujutav kunst -->
+		 
+		 <!-- Laadimisjaamad -->
+		 <PoiCategoryRef>2</PoiCategoryRef>
+         <!-- Lennujaamad -->
+		 <PoiCategoryRef>44</PoiCategoryRef>
+         <!-- Lõbustuspargid -->
+		 
+		 <!-- LPG tanklad -->
+		 
+         <!-- Maagaasitanklad -->
+         <PoiCategoryRef>38</PoiCategoryRef>
+         <!-- Mälestusmärgid -->
+         <PoiCategoryRef>22</PoiCategoryRef>
+         <!-- Meditsiiniteenused -->
+		 <PoiCategoryRef>37</PoiCategoryRef>
+         <!-- Muuseumid -->
+		 <PoiCategoryRef>27</PoiCategoryRef>
+         <!-- Ostukeskused -->
+		 <PoiCategoryRef>31</PoiCategoryRef>
+		 <!-- Ööelu -->
+         <PoiCategoryRef>42</PoiCategoryRef>
+		 <!-- Paadisport -->
+		 <PoiCategoryRef>25</PoiCategoryRef>
+         <!-- Pangaautomaadid -->
+		 <PoiCategoryRef>45</PoiCategoryRef>
+		 <!-- Pangad -->
+         <PoiCategoryRef>6</PoiCategoryRef>
+         <!-- Parkimisplatsid -->
+		 <PoiCategoryRef>32</PoiCategoryRef>
+         <!-- Pargid -->
+         <PoiCategoryRef>9</PoiCategoryRef>
+         <!-- Parvlaevad ja autoreisirongid -->
+         <PoiCategoryRef>10</PoiCategoryRef>
+         <!-- Piiripunktid -->		 
+         <PoiCategoryRef>20</PoiCategoryRef>
+         <!-- Politseid -->
+         <PoiCategoryRef>46</PoiCategoryRef>
+         <!-- Post -->
+         <PoiCategoryRef>7</PoiCategoryRef>
+         <!-- Puhkekompleksid -->
+         <PoiCategoryRef>16</PoiCategoryRef>
+         <!-- Raudteejaamad -->
+         <PoiCategoryRef>24</PoiCategoryRef>
+         <!-- Restoranid -->
+         <PoiCategoryRef>28</PoiCategoryRef>
+         <!-- Rõivad -->
+         <PoiCategoryRef>50</PoiCategoryRef>
+         <!-- Saatkonnad -->
+         <PoiCategoryRef>39</PoiCategoryRef>
+         <!-- Spordikeskused -->
+         <PoiCategoryRef>54</PoiCategoryRef>
+         <!-- Surniaiad -->
+         <PoiCategoryRef>43</PoiCategoryRef>
+         <!-- Suusasport -->
+         <PoiCategoryRef>5</PoiCategoryRef>
+         <!-- Tanklad -->
+         <PoiCategoryRef>19</PoiCategoryRef>
+         <!-- Turismiteave -->
+		 <PoiCategoryRef>33</PoiCategoryRef>
+         <!-- Vaatamisväärsused -->
+         <PoiCategoryRef>30</PoiCategoryRef>
+         <!-- Veinid ja kanged alkohoolsed joogid -->
+         <PoiCategoryRef>12</PoiCategoryRef>
+         <!-- SEAT müügiesindaja -->
+         <PoiCategoryRef>11</PoiCategoryRef>
+         <!-- SEAT teenindus -->
+        </PoiCategoryMapping>
+      <PoiCategoryMapping fueltype="gasoline">
+         <PoiCategoryRef>23</PoiCategoryRef>
+          <!-- Apteegid -->
+         <PoiCategoryRef>15</PoiCategoryRef>
+         <!-- Autorendid -->
+		 <PoiCategoryRef>1</PoiCategoryRef>
+         <!-- Autostadt -->		
+         <PoiCategoryRef>18</PoiCategoryRef>
+         <!-- Bussijaamad -->		 
+         <PoiCategoryRef>29</PoiCategoryRef>
+         <!-- Elektroonika -->
+         <PoiCategoryRef>47</PoiCategoryRef>
+         <!-- Firmad -->
+		 <PoiCategoryRef>41</PoiCategoryRef>
+         <!-- Golfisport -->
+		 <PoiCategoryRef>21</PoiCategoryRef>
+         <!-- Haiglad -->
+		 <PoiCategoryRef>52</PoiCategoryRef>
+         <!-- Haridusasutus -->
+		 <PoiCategoryRef>8</PoiCategoryRef>
+         <!-- Hotellid ja motellid -->
+		 <PoiCategoryRef>53</PoiCategoryRef>
+         <!-- Jumalakojad -->
+         <PoiCategoryRef>35</PoiCategoryRef>
+         <!-- Kasiinod -->
+         <PoiCategoryRef>14</PoiCategoryRef>
+         <!-- Kiirtee mahasõidud -->
+		 <PoiCategoryRef>34</PoiCategoryRef>
+         <!-- Kinod -->
+		 <PoiCategoryRef>26</PoiCategoryRef>
+         <!-- Kohvikud -->
+		 <PoiCategoryRef>48</PoiCategoryRef>
+         <!-- Kongressikeskused -->
+		 <PoiCategoryRef>36</PoiCategoryRef>
+         <!-- Kujutav kunst -->
+		 <PoiCategoryRef>55</PoiCategoryRef>
+		 <!-- Laadimisjaamad -->
+		 <PoiCategoryRef>2</PoiCategoryRef>
+         <!-- Lennujaamad -->
+		 <PoiCategoryRef>44</PoiCategoryRef>
+         <!-- Lõbustuspargid -->
+		 <PoiCategoryRef>3</PoiCategoryRef>
+		 <!-- LPG tanklad -->
+		 <PoiCategoryRef>4</PoiCategoryRef>
+         <!-- Maagaasitanklad -->
+         <PoiCategoryRef>38</PoiCategoryRef>
+         <!-- Mälestusmärgid -->
+         <PoiCategoryRef>22</PoiCategoryRef>
+         <!-- Meditsiiniteenused -->
+		 <PoiCategoryRef>37</PoiCategoryRef>
+         <!-- Muuseumid -->
+		 <PoiCategoryRef>27</PoiCategoryRef>
+         <!-- Ostukeskused -->
+		 <PoiCategoryRef>31</PoiCategoryRef>
+		 <!-- Ööelu -->
+         <PoiCategoryRef>42</PoiCategoryRef>
+		 <!-- Paadisport -->
+		 <PoiCategoryRef>25</PoiCategoryRef>
+         <!-- Pangaautomaadid -->
+		 <PoiCategoryRef>45</PoiCategoryRef>
+		 <!-- Pangad -->
+         <PoiCategoryRef>6</PoiCategoryRef>
+         <!-- Parkimisplatsid -->
+		 <PoiCategoryRef>32</PoiCategoryRef>
+         <!-- Pargid -->
+         <PoiCategoryRef>9</PoiCategoryRef>
+         <!-- Parvlaevad ja autoreisirongid -->
+         <PoiCategoryRef>10</PoiCategoryRef>
+         <!-- Piiripunktid -->		 
+         <PoiCategoryRef>20</PoiCategoryRef>
+         <!-- Politseid -->
+         <PoiCategoryRef>46</PoiCategoryRef>
+         <!-- Post -->
+         <PoiCategoryRef>7</PoiCategoryRef>
+         <!-- Puhkekompleksid -->
+         <PoiCategoryRef>16</PoiCategoryRef>
+         <!-- Raudteejaamad -->
+         <PoiCategoryRef>24</PoiCategoryRef>
+         <!-- Restoranid -->
+         <PoiCategoryRef>28</PoiCategoryRef>
+         <!-- Rõivad -->
+         <PoiCategoryRef>50</PoiCategoryRef>
+         <!-- Saatkonnad -->
+         <PoiCategoryRef>39</PoiCategoryRef>
+         <!-- Spordikeskused -->
+         <PoiCategoryRef>54</PoiCategoryRef>
+         <!-- Surniaiad -->
+         <PoiCategoryRef>43</PoiCategoryRef>
+         <!-- Suusasport -->
+         <PoiCategoryRef>5</PoiCategoryRef>
+         <!-- Tanklad -->
+         <PoiCategoryRef>19</PoiCategoryRef>
+         <!-- Turismiteave -->
+		 <PoiCategoryRef>33</PoiCategoryRef>
+         <!-- Vaatamisväärsused -->
+         <PoiCategoryRef>30</PoiCategoryRef>
+         <!-- Veinid ja kanged alkohoolsed joogid -->
+         <PoiCategoryRef>12</PoiCategoryRef>
+         <!-- SEAT müügiesindaja -->
+         <PoiCategoryRef>11</PoiCategoryRef>
+         <!-- SEAT teenindus -->
+      </PoiCategoryMapping>
+      <PoiCategoryMapping fueltype="diesel">
+         <PoiCategoryRef>23</PoiCategoryRef>
+          <!-- Apteegid -->
+         <PoiCategoryRef>15</PoiCategoryRef>
+         <!-- Autorendid -->
+		 <PoiCategoryRef>1</PoiCategoryRef>
+         <!-- Autostadt -->		
+         <PoiCategoryRef>18</PoiCategoryRef>
+         <!-- Bussijaamad -->		 
+         <PoiCategoryRef>29</PoiCategoryRef>
+         <!-- Elektroonika -->
+         <PoiCategoryRef>47</PoiCategoryRef>
+         <!-- Firmad -->
+		 <PoiCategoryRef>41</PoiCategoryRef>
+         <!-- Golfisport -->
+		 <PoiCategoryRef>21</PoiCategoryRef>
+         <!-- Haiglad -->
+		 <PoiCategoryRef>52</PoiCategoryRef>
+         <!-- Haridusasutus -->
+		 <PoiCategoryRef>8</PoiCategoryRef>
+         <!-- Hotellid ja motellid -->
+		 <PoiCategoryRef>53</PoiCategoryRef>
+         <!-- Jumalakojad -->
+         <PoiCategoryRef>35</PoiCategoryRef>
+         <!-- Kasiinod -->
+         <PoiCategoryRef>14</PoiCategoryRef>
+         <!-- Kiirtee mahasõidud -->
+		 <PoiCategoryRef>34</PoiCategoryRef>
+         <!-- Kinod -->
+		 <PoiCategoryRef>26</PoiCategoryRef>
+         <!-- Kohvikud -->
+		 <PoiCategoryRef>48</PoiCategoryRef>
+         <!-- Kongressikeskused -->
+		 <PoiCategoryRef>36</PoiCategoryRef>
+         <!-- Kujutav kunst -->
+		 <PoiCategoryRef>55</PoiCategoryRef>
+		 <!-- Laadimisjaamad -->
+		 <PoiCategoryRef>2</PoiCategoryRef>
+         <!-- Lennujaamad -->
+		 <PoiCategoryRef>44</PoiCategoryRef>
+         <!-- Lõbustuspargid -->
+		 <PoiCategoryRef>3</PoiCategoryRef>
+		 <!-- LPG tanklad -->
+		 <PoiCategoryRef>4</PoiCategoryRef>
+         <!-- Maagaasitanklad -->
+         <PoiCategoryRef>38</PoiCategoryRef>
+         <!-- Mälestusmärgid -->
+         <PoiCategoryRef>22</PoiCategoryRef>
+         <!-- Meditsiiniteenused -->
+		 <PoiCategoryRef>37</PoiCategoryRef>
+         <!-- Muuseumid -->
+		 <PoiCategoryRef>27</PoiCategoryRef>
+         <!-- Ostukeskused -->
+		 <PoiCategoryRef>31</PoiCategoryRef>
+		 <!-- Ööelu -->
+         <PoiCategoryRef>42</PoiCategoryRef>
+		 <!-- Paadisport -->
+		 <PoiCategoryRef>25</PoiCategoryRef>
+         <!-- Pangaautomaadid -->
+		 <PoiCategoryRef>45</PoiCategoryRef>
+		 <!-- Pangad -->
+         <PoiCategoryRef>6</PoiCategoryRef>
+         <!-- Parkimisplatsid -->
+		 <PoiCategoryRef>32</PoiCategoryRef>
+         <!-- Pargid -->
+         <PoiCategoryRef>9</PoiCategoryRef>
+         <!-- Parvlaevad ja autoreisirongid -->
+         <PoiCategoryRef>10</PoiCategoryRef>
+         <!-- Piiripunktid -->		 
+         <PoiCategoryRef>20</PoiCategoryRef>
+         <!-- Politseid -->
+         <PoiCategoryRef>46</PoiCategoryRef>
+         <!-- Post -->
+         <PoiCategoryRef>7</PoiCategoryRef>
+         <!-- Puhkekompleksid -->
+         <PoiCategoryRef>16</PoiCategoryRef>
+         <!-- Raudteejaamad -->
+         <PoiCategoryRef>24</PoiCategoryRef>
+         <!-- Restoranid -->
+         <PoiCategoryRef>28</PoiCategoryRef>
+         <!-- Rõivad -->
+         <PoiCategoryRef>50</PoiCategoryRef>
+         <!-- Saatkonnad -->
+         <PoiCategoryRef>39</PoiCategoryRef>
+         <!-- Spordikeskused -->
+         <PoiCategoryRef>54</PoiCategoryRef>
+         <!-- Surniaiad -->
+         <PoiCategoryRef>43</PoiCategoryRef>
+         <!-- Suusasport -->
+         <PoiCategoryRef>5</PoiCategoryRef>
+         <!-- Tanklad -->
+         <PoiCategoryRef>19</PoiCategoryRef>
+         <!-- Turismiteave -->
+		 <PoiCategoryRef>33</PoiCategoryRef>
+         <!-- Vaatamisväärsused -->
+         <PoiCategoryRef>30</PoiCategoryRef>
+         <!-- Veinid ja kanged alkohoolsed joogid -->
+         <PoiCategoryRef>12</PoiCategoryRef>
+         <!-- SEAT müügiesindaja -->
+         <PoiCategoryRef>11</PoiCategoryRef>
+         <!-- SEAT teenindus -->
+      </PoiCategoryMapping>
+      <PoiCategoryMapping fueltype="cng">
+         <PoiCategoryRef>23</PoiCategoryRef>
+          <!-- Apteegid -->
+         <PoiCategoryRef>15</PoiCategoryRef>
+         <!-- Autorendid -->
+		 <PoiCategoryRef>1</PoiCategoryRef>
+         <!-- Autostadt -->		
+         <PoiCategoryRef>18</PoiCategoryRef>
+         <!-- Bussijaamad -->		 
+         <PoiCategoryRef>29</PoiCategoryRef>
+         <!-- Elektroonika -->
+         <PoiCategoryRef>47</PoiCategoryRef>
+         <!-- Firmad -->
+		 <PoiCategoryRef>41</PoiCategoryRef>
+         <!-- Golfisport -->
+		 <PoiCategoryRef>21</PoiCategoryRef>
+         <!-- Haiglad -->
+		 <PoiCategoryRef>52</PoiCategoryRef>
+         <!-- Haridusasutus -->
+		 <PoiCategoryRef>8</PoiCategoryRef>
+         <!-- Hotellid ja motellid -->
+		 <PoiCategoryRef>53</PoiCategoryRef>
+         <!-- Jumalakojad -->
+         <PoiCategoryRef>35</PoiCategoryRef>
+         <!-- Kasiinod -->
+         <PoiCategoryRef>14</PoiCategoryRef>
+         <!-- Kiirtee mahasõidud -->
+		 <PoiCategoryRef>34</PoiCategoryRef>
+         <!-- Kinod -->
+		 <PoiCategoryRef>26</PoiCategoryRef>
+         <!-- Kohvikud -->
+		 <PoiCategoryRef>48</PoiCategoryRef>
+         <!-- Kongressikeskused -->
+		 <PoiCategoryRef>36</PoiCategoryRef>
+         <!-- Kujutav kunst -->
+		 <PoiCategoryRef>55</PoiCategoryRef>
+		 <!-- Laadimisjaamad -->
+		 <PoiCategoryRef>2</PoiCategoryRef>
+         <!-- Lennujaamad -->
+		 <PoiCategoryRef>44</PoiCategoryRef>
+         <!-- Lõbustuspargid -->
+		 <PoiCategoryRef>3</PoiCategoryRef>
+		 <!-- LPG tanklad -->
+		 <PoiCategoryRef>4</PoiCategoryRef>
+         <!-- Maagaasitanklad -->
+         <PoiCategoryRef>38</PoiCategoryRef>
+         <!-- Mälestusmärgid -->
+         <PoiCategoryRef>22</PoiCategoryRef>
+         <!-- Meditsiiniteenused -->
+		 <PoiCategoryRef>37</PoiCategoryRef>
+         <!-- Muuseumid -->
+		 <PoiCategoryRef>27</PoiCategoryRef>
+         <!-- Ostukeskused -->
+		 <PoiCategoryRef>31</PoiCategoryRef>
+		 <!-- Ööelu -->
+         <PoiCategoryRef>42</PoiCategoryRef>
+		 <!-- Paadisport -->
+		 <PoiCategoryRef>25</PoiCategoryRef>
+         <!-- Pangaautomaadid -->
+		 <PoiCategoryRef>45</PoiCategoryRef>
+		 <!-- Pangad -->
+         <PoiCategoryRef>6</PoiCategoryRef>
+         <!-- Parkimisplatsid -->
+		 <PoiCategoryRef>32</PoiCategoryRef>
+         <!-- Pargid -->
+         <PoiCategoryRef>9</PoiCategoryRef>
+         <!-- Parvlaevad ja autoreisirongid -->
+         <PoiCategoryRef>10</PoiCategoryRef>
+         <!-- Piiripunktid -->		 
+         <PoiCategoryRef>20</PoiCategoryRef>
+         <!-- Politseid -->
+         <PoiCategoryRef>46</PoiCategoryRef>
+         <!-- Post -->
+         <PoiCategoryRef>7</PoiCategoryRef>
+         <!-- Puhkekompleksid -->
+         <PoiCategoryRef>16</PoiCategoryRef>
+         <!-- Raudteejaamad -->
+         <PoiCategoryRef>24</PoiCategoryRef>
+         <!-- Restoranid -->
+         <PoiCategoryRef>28</PoiCategoryRef>
+         <!-- Rõivad -->
+         <PoiCategoryRef>50</PoiCategoryRef>
+         <!-- Saatkonnad -->
+         <PoiCategoryRef>39</PoiCategoryRef>
+         <!-- Spordikeskused -->
+         <PoiCategoryRef>54</PoiCategoryRef>
+         <!-- Surniaiad -->
+         <PoiCategoryRef>43</PoiCategoryRef>
+         <!-- Suusasport -->
+         <PoiCategoryRef>5</PoiCategoryRef>
+         <!-- Tanklad -->
+         <PoiCategoryRef>19</PoiCategoryRef>
+         <!-- Turismiteave -->
+		 <PoiCategoryRef>33</PoiCategoryRef>
+         <!-- Vaatamisväärsused -->
+         <PoiCategoryRef>30</PoiCategoryRef>
+         <!-- Veinid ja kanged alkohoolsed joogid -->
+         <PoiCategoryRef>12</PoiCategoryRef>
+         <!-- SEAT müügiesindaja -->
+         <PoiCategoryRef>11</PoiCategoryRef>
+         <!-- SEAT teenindus -->
+      </PoiCategoryMapping>
+      <PoiCategoryMapping fueltype="lpg">
+         <PoiCategoryRef>23</PoiCategoryRef>
+          <!-- Apteegid -->
+         <PoiCategoryRef>15</PoiCategoryRef>
+         <!-- Autorendid -->
+		 <PoiCategoryRef>1</PoiCategoryRef>
+         <!-- Autostadt -->		
+         <PoiCategoryRef>18</PoiCategoryRef>
+         <!-- Bussijaamad -->		 
+         <PoiCategoryRef>29</PoiCategoryRef>
+         <!-- Elektroonika -->
+         <PoiCategoryRef>47</PoiCategoryRef>
+         <!-- Firmad -->
+		 <PoiCategoryRef>41</PoiCategoryRef>
+         <!-- Golfisport -->
+		 <PoiCategoryRef>21</PoiCategoryRef>
+         <!-- Haiglad -->
+		 <PoiCategoryRef>52</PoiCategoryRef>
+         <!-- Haridusasutus -->
+		 <PoiCategoryRef>8</PoiCategoryRef>
+         <!-- Hotellid ja motellid -->
+		 <PoiCategoryRef>53</PoiCategoryRef>
+         <!-- Jumalakojad -->
+         <PoiCategoryRef>35</PoiCategoryRef>
+         <!-- Kasiinod -->
+         <PoiCategoryRef>14</PoiCategoryRef>
+         <!-- Kiirtee mahasõidud -->
+		 <PoiCategoryRef>34</PoiCategoryRef>
+         <!-- Kinod -->
+		 <PoiCategoryRef>26</PoiCategoryRef>
+         <!-- Kohvikud -->
+		 <PoiCategoryRef>48</PoiCategoryRef>
+         <!-- Kongressikeskused -->
+		 <PoiCategoryRef>36</PoiCategoryRef>
+         <!-- Kujutav kunst -->
+		 <PoiCategoryRef>55</PoiCategoryRef>
+		 <!-- Laadimisjaamad -->
+		 <PoiCategoryRef>2</PoiCategoryRef>
+         <!-- Lennujaamad -->
+		 <PoiCategoryRef>44</PoiCategoryRef>
+         <!-- Lõbustuspargid -->
+		 <PoiCategoryRef>3</PoiCategoryRef>
+		 <!-- LPG tanklad -->
+		 <PoiCategoryRef>4</PoiCategoryRef>
+         <!-- Maagaasitanklad -->
+         <PoiCategoryRef>38</PoiCategoryRef>
+         <!-- Mälestusmärgid -->
+         <PoiCategoryRef>22</PoiCategoryRef>
+         <!-- Meditsiiniteenused -->
+		 <PoiCategoryRef>37</PoiCategoryRef>
+         <!-- Muuseumid -->
+		 <PoiCategoryRef>27</PoiCategoryRef>
+         <!-- Ostukeskused -->
+		 <PoiCategoryRef>31</PoiCategoryRef>
+		 <!-- Ööelu -->
+         <PoiCategoryRef>42</PoiCategoryRef>
+		 <!-- Paadisport -->
+		 <PoiCategoryRef>25</PoiCategoryRef>
+         <!-- Pangaautomaadid -->
+		 <PoiCategoryRef>45</PoiCategoryRef>
+		 <!-- Pangad -->
+         <PoiCategoryRef>6</PoiCategoryRef>
+         <!-- Parkimisplatsid -->
+		 <PoiCategoryRef>32</PoiCategoryRef>
+         <!-- Pargid -->
+         <PoiCategoryRef>9</PoiCategoryRef>
+         <!-- Parvlaevad ja autoreisirongid -->
+         <PoiCategoryRef>10</PoiCategoryRef>
+         <!-- Piiripunktid -->		 
+         <PoiCategoryRef>20</PoiCategoryRef>
+         <!-- Politseid -->
+         <PoiCategoryRef>46</PoiCategoryRef>
+         <!-- Post -->
+         <PoiCategoryRef>7</PoiCategoryRef>
+         <!-- Puhkekompleksid -->
+         <PoiCategoryRef>16</PoiCategoryRef>
+         <!-- Raudteejaamad -->
+         <PoiCategoryRef>24</PoiCategoryRef>
+         <!-- Restoranid -->
+         <PoiCategoryRef>28</PoiCategoryRef>
+         <!-- Rõivad -->
+         <PoiCategoryRef>50</PoiCategoryRef>
+         <!-- Saatkonnad -->
+         <PoiCategoryRef>39</PoiCategoryRef>
+         <!-- Spordikeskused -->
+         <PoiCategoryRef>54</PoiCategoryRef>
+         <!-- Surniaiad -->
+         <PoiCategoryRef>43</PoiCategoryRef>
+         <!-- Suusasport -->
+         <PoiCategoryRef>5</PoiCategoryRef>
+         <!-- Tanklad -->
+         <PoiCategoryRef>19</PoiCategoryRef>
+         <!-- Turismiteave -->
+		 <PoiCategoryRef>33</PoiCategoryRef>
+         <!-- Vaatamisväärsused -->
+         <PoiCategoryRef>30</PoiCategoryRef>
+         <!-- Veinid ja kanged alkohoolsed joogid -->
+         <PoiCategoryRef>12</PoiCategoryRef>
+         <!-- SEAT müügiesindaja -->
+         <PoiCategoryRef>11</PoiCategoryRef>
+         <!-- SEAT teenindus -->
+      </PoiCategoryMapping>
+      <PoiCategoryMapping fueltype="bev">
+         <PoiCategoryRef>23</PoiCategoryRef>
+         <!-- Apteegid -->
+         <PoiCategoryRef>15</PoiCategoryRef>
+         <!-- Autorendid -->
+		 <PoiCategoryRef>1</PoiCategoryRef>
+         <!-- Autostadt -->		
+         <PoiCategoryRef>18</PoiCategoryRef>
+         <!-- Bussijaamad -->		 
+         <PoiCategoryRef>29</PoiCategoryRef>
+         <!-- Elektroonika -->
+         <PoiCategoryRef>47</PoiCategoryRef>
+         <!-- Firmad -->
+		 <PoiCategoryRef>41</PoiCategoryRef>
+         <!-- Golfisport -->
+		 <PoiCategoryRef>21</PoiCategoryRef>
+         <!-- Haiglad -->
+		 <PoiCategoryRef>52</PoiCategoryRef>
+         <!-- Haridusasutus -->
+		 <PoiCategoryRef>8</PoiCategoryRef>
+         <!-- Hotellid ja motellid -->
+		 <PoiCategoryRef>53</PoiCategoryRef>
+         <!-- Jumalakojad -->
+         <PoiCategoryRef>35</PoiCategoryRef>
+         <!-- Kasiinod -->
+         <PoiCategoryRef>14</PoiCategoryRef>
+         <!-- Kiirtee mahasõidud -->
+		 <PoiCategoryRef>34</PoiCategoryRef>
+         <!-- Kinod -->
+		 <PoiCategoryRef>26</PoiCategoryRef>
+         <!-- Kohvikud -->
+		 <PoiCategoryRef>48</PoiCategoryRef>
+         <!-- Kongressikeskused -->
+		 <PoiCategoryRef>36</PoiCategoryRef>
+         <!-- Kujutav kunst -->
+		 <PoiCategoryRef>55</PoiCategoryRef>
+		 <!-- Laadimisjaamad -->
+		 <PoiCategoryRef>2</PoiCategoryRef>
+         <!-- Lennujaamad -->
+		 <PoiCategoryRef>44</PoiCategoryRef>
+         <!-- Lõbustuspargid -->
+		 <PoiCategoryRef>3</PoiCategoryRef>
+		 <!-- LPG tanklad -->
+		 <PoiCategoryRef>4</PoiCategoryRef>
+         <!-- Maagaasitanklad -->
+         <PoiCategoryRef>38</PoiCategoryRef>
+         <!-- Mälestusmärgid -->
+         <PoiCategoryRef>22</PoiCategoryRef>
+         <!-- Meditsiiniteenused -->
+		 <PoiCategoryRef>37</PoiCategoryRef>
+         <!-- Muuseumid -->
+		 <PoiCategoryRef>27</PoiCategoryRef>
+         <!-- Ostukeskused -->
+		 <PoiCategoryRef>31</PoiCategoryRef>
+		 <!-- Ööelu -->
+         <PoiCategoryRef>42</PoiCategoryRef>
+		 <!-- Paadisport -->
+		 <PoiCategoryRef>25</PoiCategoryRef>
+         <!-- Pangaautomaadid -->
+		 <PoiCategoryRef>45</PoiCategoryRef>
+		 <!-- Pangad -->
+         <PoiCategoryRef>6</PoiCategoryRef>
+         <!-- Parkimisplatsid -->
+		 <PoiCategoryRef>32</PoiCategoryRef>
+         <!-- Pargid -->
+         <PoiCategoryRef>9</PoiCategoryRef>
+         <!-- Parvlaevad ja autoreisirongid -->
+         <PoiCategoryRef>10</PoiCategoryRef>
+         <!-- Piiripunktid -->		 
+         <PoiCategoryRef>20</PoiCategoryRef>
+         <!-- Politseid -->
+         <PoiCategoryRef>46</PoiCategoryRef>
+         <!-- Post -->
+         <PoiCategoryRef>7</PoiCategoryRef>
+         <!-- Puhkekompleksid -->
+         <PoiCategoryRef>16</PoiCategoryRef>
+         <!-- Raudteejaamad -->
+         <PoiCategoryRef>24</PoiCategoryRef>
+         <!-- Restoranid -->
+         <PoiCategoryRef>28</PoiCategoryRef>
+         <!-- Rõivad -->
+         <PoiCategoryRef>50</PoiCategoryRef>
+         <!-- Saatkonnad -->
+         <PoiCategoryRef>39</PoiCategoryRef>
+         <!-- Spordikeskused -->
+         <PoiCategoryRef>54</PoiCategoryRef>
+         <!-- Surniaiad -->
+         <PoiCategoryRef>43</PoiCategoryRef>
+         <!-- Suusasport -->
+         <PoiCategoryRef>5</PoiCategoryRef>
+         <!-- Tanklad -->
+         <PoiCategoryRef>19</PoiCategoryRef>
+         <!-- Turismiteave -->
+		 <PoiCategoryRef>33</PoiCategoryRef>
+         <!-- Vaatamisväärsused -->
+         <PoiCategoryRef>30</PoiCategoryRef>
+         <!-- Veinid ja kanged alkohoolsed joogid -->
+         <PoiCategoryRef>12</PoiCategoryRef>
+         <!-- SEAT müügiesindaja -->
+         <PoiCategoryRef>11</PoiCategoryRef>
+         <!-- SEAT teenindus -->
+      </PoiCategoryMapping>
+      <PoiCategoryMapping fueltype="phev">
+         <PoiCategoryRef>23</PoiCategoryRef>
+         <!-- Apteegid -->
+         <PoiCategoryRef>15</PoiCategoryRef>
+         <!-- Autorendid -->
+		 <PoiCategoryRef>1</PoiCategoryRef>
+         <!-- Autostadt -->		
+         <PoiCategoryRef>18</PoiCategoryRef>
+         <!-- Bussijaamad -->		 
+         <PoiCategoryRef>29</PoiCategoryRef>
+         <!-- Elektroonika -->
+         <PoiCategoryRef>47</PoiCategoryRef>
+         <!-- Firmad -->
+		 <PoiCategoryRef>41</PoiCategoryRef>
+         <!-- Golfisport -->
+		 <PoiCategoryRef>21</PoiCategoryRef>
+         <!-- Haiglad -->
+		 <PoiCategoryRef>52</PoiCategoryRef>
+         <!-- Haridusasutus -->
+		 <PoiCategoryRef>8</PoiCategoryRef>
+         <!-- Hotellid ja motellid -->
+		 <PoiCategoryRef>53</PoiCategoryRef>
+         <!-- Jumalakojad -->
+         <PoiCategoryRef>35</PoiCategoryRef>
+         <!-- Kasiinod -->
+         <PoiCategoryRef>14</PoiCategoryRef>
+         <!-- Kiirtee mahasõidud -->
+		 <PoiCategoryRef>34</PoiCategoryRef>
+         <!-- Kinod -->
+		 <PoiCategoryRef>26</PoiCategoryRef>
+         <!-- Kohvikud -->
+		 <PoiCategoryRef>48</PoiCategoryRef>
+         <!-- Kongressikeskused -->
+		 <PoiCategoryRef>36</PoiCategoryRef>
+         <!-- Kujutav kunst -->
+		 <PoiCategoryRef>55</PoiCategoryRef>
+		 <!-- Laadimisjaamad -->
+		 <PoiCategoryRef>2</PoiCategoryRef>
+         <!-- Lennujaamad -->
+		 <PoiCategoryRef>44</PoiCategoryRef>
+         <!-- Lõbustuspargid -->
+		 <PoiCategoryRef>3</PoiCategoryRef>
+		 <!-- LPG tanklad -->
+		 <PoiCategoryRef>4</PoiCategoryRef>
+         <!-- Maagaasitanklad -->
+         <PoiCategoryRef>38</PoiCategoryRef>
+         <!-- Mälestusmärgid -->
+         <PoiCategoryRef>22</PoiCategoryRef>
+         <!-- Meditsiiniteenused -->
+		 <PoiCategoryRef>37</PoiCategoryRef>
+         <!-- Muuseumid -->
+		 <PoiCategoryRef>27</PoiCategoryRef>
+         <!-- Ostukeskused -->
+		 <PoiCategoryRef>31</PoiCategoryRef>
+		 <!-- Ööelu -->
+         <PoiCategoryRef>42</PoiCategoryRef>
+		 <!-- Paadisport -->
+		 <PoiCategoryRef>25</PoiCategoryRef>
+         <!-- Pangaautomaadid -->
+		 <PoiCategoryRef>45</PoiCategoryRef>
+		 <!-- Pangad -->
+         <PoiCategoryRef>6</PoiCategoryRef>
+         <!-- Parkimisplatsid -->
+		 <PoiCategoryRef>32</PoiCategoryRef>
+         <!-- Pargid -->
+         <PoiCategoryRef>9</PoiCategoryRef>
+         <!-- Parvlaevad ja autoreisirongid -->
+         <PoiCategoryRef>10</PoiCategoryRef>
+         <!-- Piiripunktid -->		 
+         <PoiCategoryRef>20</PoiCategoryRef>
+         <!-- Politseid -->
+         <PoiCategoryRef>46</PoiCategoryRef>
+         <!-- Post -->
+         <PoiCategoryRef>7</PoiCategoryRef>
+         <!-- Puhkekompleksid -->
+         <PoiCategoryRef>16</PoiCategoryRef>
+         <!-- Raudteejaamad -->
+         <PoiCategoryRef>24</PoiCategoryRef>
+         <!-- Restoranid -->
+         <PoiCategoryRef>28</PoiCategoryRef>
+         <!-- Rõivad -->
+         <PoiCategoryRef>50</PoiCategoryRef>
+         <!-- Saatkonnad -->
+         <PoiCategoryRef>39</PoiCategoryRef>
+         <!-- Spordikeskused -->
+         <PoiCategoryRef>54</PoiCategoryRef>
+         <!-- Surniaiad -->
+         <PoiCategoryRef>43</PoiCategoryRef>
+         <!-- Suusasport -->
+         <PoiCategoryRef>5</PoiCategoryRef>
+         <!-- Tanklad -->
+         <PoiCategoryRef>19</PoiCategoryRef>
+         <!-- Turismiteave -->
+		 <PoiCategoryRef>33</PoiCategoryRef>
+         <!-- Vaatamisväärsused -->
+         <PoiCategoryRef>30</PoiCategoryRef>
+         <!-- Veinid ja kanged alkohoolsed joogid -->
+         <PoiCategoryRef>12</PoiCategoryRef>
+         <!-- SEAT müügiesindaja -->
+         <PoiCategoryRef>11</PoiCategoryRef>
+         <!-- SEAT teenindus -->
+      </PoiCategoryMapping>
+   </SetupCategoryDefinition>
+   <!-- ### Poi category groups defined by vw, the type defines the "local" or "personal Poi" or other types -->
+   <PoiCategoryGroupDefinition>
+      <PoiCategoryGroup id="10" type="dynamic">
+         <Priority>1</Priority>
+         <PoiCategoryMapping>
+            <!-- MUSS LEER BLEIBEN Ueber XSD checken !! -->
+         </PoiCategoryMapping>
+      </PoiCategoryGroup>
+      <PoiCategoryGroup id="12" type="local">
+         <Priority>2</Priority>
+         <PoiCategoryMapping>
+            <!-- mapping for category tree in target -->
+            <PoiCategoryRef>23</PoiCategoryRef>
+               <!-- Apteegid -->
+         <PoiCategoryRef>15</PoiCategoryRef>
+         <!-- Autorendid -->
+		 <PoiCategoryRef>1</PoiCategoryRef>
+         <!-- Autostadt -->		
+         <PoiCategoryRef>18</PoiCategoryRef>
+         <!-- Bussijaamad -->		 
+         <PoiCategoryRef>29</PoiCategoryRef>
+         <!-- Elektroonika -->
+         <PoiCategoryRef>47</PoiCategoryRef>
+         <!-- Firmad -->
+		 <PoiCategoryRef>41</PoiCategoryRef>
+         <!-- Golfisport -->
+		 <PoiCategoryRef>21</PoiCategoryRef>
+         <!-- Haiglad -->
+		 <PoiCategoryRef>52</PoiCategoryRef>
+         <!-- Haridusasutus -->
+		 <PoiCategoryRef>8</PoiCategoryRef>
+         <!-- Hotellid ja motellid -->
+		 <PoiCategoryRef>53</PoiCategoryRef>
+         <!-- Jumalakojad -->
+         <PoiCategoryRef>35</PoiCategoryRef>
+         <!-- Kasiinod -->
+         <PoiCategoryRef>14</PoiCategoryRef>
+         <!-- Kiirtee mahasõidud -->
+		 <PoiCategoryRef>34</PoiCategoryRef>
+         <!-- Kinod -->
+		 <PoiCategoryRef>26</PoiCategoryRef>
+         <!-- Kohvikud -->
+		 <PoiCategoryRef>48</PoiCategoryRef>
+         <!-- Kongressikeskused -->
+		 <PoiCategoryRef>36</PoiCategoryRef>
+         <!-- Kujutav kunst -->
+		 <PoiCategoryRef>55</PoiCategoryRef>
+		 <!-- Laadimisjaamad -->
+		 <PoiCategoryRef>2</PoiCategoryRef>
+         <!-- Lennujaamad -->
+		 <PoiCategoryRef>44</PoiCategoryRef>
+         <!-- Lõbustuspargid -->
+		 <PoiCategoryRef>3</PoiCategoryRef>
+		 <!-- LPG tanklad -->
+		 <PoiCategoryRef>4</PoiCategoryRef>
+         <!-- Maagaasitanklad -->
+         <PoiCategoryRef>38</PoiCategoryRef>
+         <!-- Mälestusmärgid -->
+         <PoiCategoryRef>22</PoiCategoryRef>
+         <!-- Meditsiiniteenused -->
+		 <PoiCategoryRef>37</PoiCategoryRef>
+         <!-- Muuseumid -->
+		 <PoiCategoryRef>27</PoiCategoryRef>
+         <!-- Ostukeskused -->
+		 <PoiCategoryRef>31</PoiCategoryRef>
+		 <!-- Ööelu -->
+         <PoiCategoryRef>42</PoiCategoryRef>
+		 <!-- Paadisport -->
+		 <PoiCategoryRef>25</PoiCategoryRef>
+         <!-- Pangaautomaadid -->
+		 <PoiCategoryRef>45</PoiCategoryRef>
+		 <!-- Pangad -->
+         <PoiCategoryRef>6</PoiCategoryRef>
+         <!-- Parkimisplatsid -->
+		 <PoiCategoryRef>32</PoiCategoryRef>
+         <!-- Pargid -->
+         <PoiCategoryRef>9</PoiCategoryRef>
+         <!-- Parvlaevad ja autoreisirongid -->
+         <PoiCategoryRef>10</PoiCategoryRef>
+         <!-- Piiripunktid -->		 
+         <PoiCategoryRef>20</PoiCategoryRef>
+         <!-- Politseid -->
+         <PoiCategoryRef>46</PoiCategoryRef>
+         <!-- Post -->
+         <PoiCategoryRef>7</PoiCategoryRef>
+         <!-- Puhkekompleksid -->
+         <PoiCategoryRef>16</PoiCategoryRef>
+         <!-- Raudteejaamad -->
+         <PoiCategoryRef>24</PoiCategoryRef>
+         <!-- Restoranid -->
+         <PoiCategoryRef>28</PoiCategoryRef>
+         <!-- Rõivad -->
+         <PoiCategoryRef>50</PoiCategoryRef>
+         <!-- Saatkonnad -->
+         <PoiCategoryRef>39</PoiCategoryRef>
+         <!-- Spordikeskused -->
+         <PoiCategoryRef>54</PoiCategoryRef>
+         <!-- Surniaiad -->
+         <PoiCategoryRef>43</PoiCategoryRef>
+         <!-- Suusasport -->
+         <PoiCategoryRef>5</PoiCategoryRef>
+         <!-- Tanklad -->
+         <PoiCategoryRef>19</PoiCategoryRef>
+         <!-- Turismiteave -->
+		 <PoiCategoryRef>33</PoiCategoryRef>
+         <!-- Vaatamisväärsused -->
+         <PoiCategoryRef>30</PoiCategoryRef>
+         <!-- Veinid ja kanged alkohoolsed joogid -->
+         <PoiCategoryRef>12</PoiCategoryRef>
+         <!-- SEAT müügiesindaja -->
+         <PoiCategoryRef>11</PoiCategoryRef>
+         <!-- SEAT teenindus -->
+         </PoiCategoryMapping>
+      </PoiCategoryGroup>
+      <PoiCategoryGroup id="11" type="local">
+         <Priority>3</Priority>
+         <PoiCategoryMapping>
+            <!-- mapping for category tree in target -->
+            <PoiCategoryRef>15</PoiCategoryRef>
+            <!-- Autorendid -->
+            <PoiCategoryRef>18</PoiCategoryRef>
+            <!-- Bussijaamad -->
+            <PoiCategoryRef>8</PoiCategoryRef>
+            <!-- Hotellid ja motellid -->
+             <PoiCategoryRef>14</PoiCategoryRef>
+            <!-- Kiirtee mahasõidud/pealesõidud -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+            <!-- Laadimisjaamad -->
+            <PoiCategoryRef>2</PoiCategoryRef>
+            <!-- Lennujaamad -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+            <!-- LPG tanklad -->
+            <PoiCategoryRef>4</PoiCategoryRef>
+            <!-- Maagaasitanklad -->           
+		    <PoiCategoryRef>6</PoiCategoryRef>
+            <!-- Parkimisplatsid -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+            <!-- Parvlaevad ja autoreisirongid -->
+            <PoiCategoryRef>10</PoiCategoryRef>
+            <!-- Piiripunktid-->
+			<PoiCategoryRef>7</PoiCategoryRef>
+            <!-- Puhkekompleksid -->
+            <PoiCategoryRef>16</PoiCategoryRef>
+            <!-- Raudteejaamad -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+            <!-- Tanklad -->
+            <PoiCategoryRef>19</PoiCategoryRef>
+            <!-- Turismiteave -->
+            <PoiCategoryRef>12</PoiCategoryRef>
+            <!-- SEAT müügiesindaja -->
+            <PoiCategoryRef>11</PoiCategoryRef>
+            <!-- SEAT teenindus-->
+         </PoiCategoryMapping>
+      </PoiCategoryGroup>
+      <PoiCategoryGroup id="13" type="local">
+         <Priority>4</Priority>
+         <PoiCategoryMapping>
+            <PoiCategoryRef>29</PoiCategoryRef>
+            <!-- Elektroonika -->
+            <PoiCategoryRef>26</PoiCategoryRef>
+            <!-- Kohvikud -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+            <!-- Ostukeskused -->
+            <PoiCategoryRef>31</PoiCategoryRef>
+            <!-- Ööelu -->
+            <PoiCategoryRef>25</PoiCategoryRef>
+            <!-- Pangaautomaadid-->
+			<PoiCategoryRef>24</PoiCategoryRef>
+            <!-- Restoranid-->
+			<PoiCategoryRef>28</PoiCategoryRef>
+            <!-- Rõivad -->
+            <PoiCategoryRef>30</PoiCategoryRef>
+            <!-- Veinid ja kanged alkohoolsed joogid-->
+         </PoiCategoryMapping>
+      </PoiCategoryGroup>
+      <PoiCategoryGroup id="14" type="local">
+         <Priority>5</Priority>
+         <PoiCategoryMapping>
+            <PoiCategoryRef>47</PoiCategoryRef>
+            <!-- Firmad -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+            <!-- Haridusasutus -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+            <!-- Jumalakojad-->
+			<PoiCategoryRef>48</PoiCategoryRef>
+            <!-- Kongressikeskused -->
+            <PoiCategoryRef>45</PoiCategoryRef>
+            <!-- Pangad -->            
+            <PoiCategoryRef>46</PoiCategoryRef>
+            <!-- Post -->
+            <PoiCategoryRef>50</PoiCategoryRef>
+            <!-- Saatkonnad-->
+            <PoiCategoryRef>54</PoiCategoryRef>
+            <!-- Surniaiad -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+            <!-- Valitsus ja haldus -->
+         </PoiCategoryMapping>
+      </PoiCategoryGroup>
+      <PoiCategoryGroup id="15" type="local">
+         <Priority>6</Priority>
+         <PoiCategoryMapping>
+            <PoiCategoryRef>23</PoiCategoryRef>
+            <!-- Apteegid -->
+            <PoiCategoryRef>21</PoiCategoryRef>
+            <!-- Haiglad -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+            <!-- Meditsiiniteenused -->
+            <PoiCategoryRef>20</PoiCategoryRef>
+            <!-- Politseid-->
+         </PoiCategoryMapping>
+      </PoiCategoryGroup>
+      <PoiCategoryGroup id="16" type="local">
+         <Priority>7</Priority>
+         <PoiCategoryMapping>
+            <PoiCategoryRef>1</PoiCategoryRef>
+            <!-- Autostadt -->
+            <PoiCategoryRef>41</PoiCategoryRef>
+            <!-- Golfisport -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+            <!-- Kasiinod -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+            <!-- Kinod -->
+            <PoiCategoryRef>36</PoiCategoryRef>
+            <!-- Kujutav kunst -->
+            <PoiCategoryRef>44</PoiCategoryRef>
+            <!-- Lõbustuspargid -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+            <!-- Mälestusmärgid -->
+            <PoiCategoryRef>37</PoiCategoryRef>
+            <!-- Muuseumid -->
+            <PoiCategoryRef>42</PoiCategoryRef>
+            <!-- Paadisport -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+            <!-- Pargid -->
+            <PoiCategoryRef>39</PoiCategoryRef>
+            <!-- Spordikeskused -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+            <!-- Suusasport -->
+            <PoiCategoryRef>33</PoiCategoryRef>
+            <!-- Vaatamisväärsused-->
+            </PoiCategoryMapping>
+      </PoiCategoryGroup>
+   </PoiCategoryGroupDefinition>
+   <PoiCategoryGroupNameDefinition>
+      <Name category_group_ref="10">!Meine Sonderziele (Personal POI)</Name>
+      <!--1 zu 10-->
+      <Name category_group_ref="12">!Kategorien (Alphabetisch)</Name>
+      <!--2 zu 1-->
+      <Name category_group_ref="11">!Auto und Reisen</Name>
+      <!--3 zu 2-->
+      <Name category_group_ref="13">!Essen und Einkaufen</Name>
+      <!--4 zu 3-->
+      <Name category_group_ref="14">!Firmen und Öffentliche Einrichtungen</Name>
+      <!--5 zu 4-->
+      <Name category_group_ref="15">!Notfälle</Name>
+      <!--6 zu 5-->
+      <Name category_group_ref="16">!Sehenswürdigkeiten und Freizeit</Name>
+      <!--7 zu 6-->
+   </PoiCategoryGroupNameDefinition>
+   <PoiCategoryThesaurusDefinition>
+      <Thesaurus category_ref="1" >
+         <Value>Autostadt</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="2" >
+         <Value>Lennujaamad</Value>
+		 <Value>Lennujaam</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="3" >
+         <Value>LPG tanklad</Value>
+		 <Value>LPG</Value>
+		 <Value>Gaas</Value>
+		 <Value>Tankimine</Value>
+		 <Value>Tankla</Value>
+		 <Value>Tanklad</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="4" >
+         <Value>Maagaasitanklad</Value>
+         <Value>Maagaasitankla</Value>
+         <Value>Maagaas</Value>
+         <Value>Gaas</Value>
+         <Value>CNG</Value>
+         <Value>Tankimine</Value>
+         <Value>Tankla</Value>
+		 <Value>Tanklad</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="5" >
+         <Value>Tanklad</Value>
+         <Value>Tankla</Value>
+         <Value>tankima</Value>
+         <Value>Bensiin</Value>
+         <Value>Diislikütus</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="6" >
+         <Value>Parkimisplatsid</Value>
+         <Value>Parkimisplats</Value>
+         <Value>parkima</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="7" >
+         <Value>Puhkekompleksid</Value>
+		 <Value>Puhkekompleks</Value>
+		 <Value>Teenindusjaam</Value>
+		 <Value>Klosett</Value>
+		 <Value>WC</Value>
+		 <Value>Tualett</Value>
+		 <Value>Tualetid</Value>
+		 <Value>puhkama</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="8" >
+         <Value>Hotellid ja motellid</Value>
+		 <Value>Hotell</Value>
+		 <Value>Hotellid</Value>
+		 <Value>Motell</Value>
+		 <Value>Motellid</Value>
+		 <Value>Külalismaja</Value>
+		 <Value>Külalismajad</Value>
+		 <Value>magama</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="9" >
+         <Value>Parvlaevad ja autoreisirongid</Value>
+         <Value>Autoreisirong</Value>
+         <Value>Autoreisirongid</Value>
+         <Value>Parvlaev</Value>
+         <Value>Parvlaevad</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="10">
+         <Value>Piiripunktid</Value>
+         <Value>Piiripunkt</Value>
+         <Value>Piir</Value>
+		 <Value>Piirid</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="12">
+         <Value>SEAT müügiesindaja</Value>
+         <Value>Müügiesindajad</Value>
+         <Value>Müügiesindaja</Value>
+         <Value>SEAT</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="11">
+         <Value>SEAT teenindus</Value>
+         <Value>Töökoda</Value>
+         <Value>Töökojad</Value>
+         <Value>Teenindus</Value>
+         <Value>Teenindused</Value>
+         <Value>Ülevaatus</Value>
+         <Value>Ülevaatused</Value>
+		 <Value>Hooldus</Value>
+		 <Value>Hooldused</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="14">
+         <Value>Kiirtee mahasõidud/Väljasõit</Value>
+         <Value>pealesõidud</Value>
+         <Value>Väljasõidud</Value>
+         <Value>Pealesõit</Value>
+         <Value>Pealesõidud</Value>
+         <Value>Mahasõit</Value>
+         <Value>Mahasõidud</Value>
+         <Value></Value>
+      </Thesaurus>
+      <Thesaurus category_ref="15">
+         <Value>Autorendid</Value>
+         <Value>Autorent</Value>
+         <Value>rentima</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="16">
+         <Value>Raudteejaamad</Value>
+         <Value>Raudteejaam</Value>
+         <Value>Rong</Value>
+         <Value>Rongid</Value>
+         <Value>Raudtee</Value>
+      </Thesaurus>
+      <!--<Thesaurus category_ref="17"><Value>Verkehrsmittel</Value><Value>S-Bahn</Value><Value>U-Bahn</Value><Value>Bahn</Value><Value>Nahverkehr</Value></Thesaurus>-->
+	  <Thesaurus category_ref="18">
+         <Value>Bussijaamad</Value>
+         <Value>Bussijaam</Value>
+         <Value>Buss</Value>
+         <Value>Bussid</Value>
+         <Value>Bussipeatus</Value>
+         <Value>Bussipeatused</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="19">
+         <Value>Turismiteave</Value>
+         <Value>Turismiteave</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="20">
+         <Value>Politseid</Value>
+         <Value>Politsei</Value>
+         <Value>110</Value>
+         <Value>112</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="21">
+         <Value>Haiglad</Value>
+         <Value>Haigla</Value>
+         <Value>Hospidal</Value>
+         <Value>Hospidalid</Value>
+         <Value>Kliinik</Value>
+         <Value>Kliinikud</Value>
+         <Value>Hädajuhtum</Value>
+         <Value>Hädajuhtumid</Value>
+         <Value>Arst</Value>
+         <Value>Arstid</Value>
+		 <Value>110</Value>
+		 <Value>112</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="22">
+         <Value>Meditsiiniteenused</Value>
+         <Value>Meditsiiniteenus</Value>
+		 <Value>Praksis</Value>
+		 <Value>Praksised</Value>
+		 <Value>Arst</Value>
+		 <Value>Arstid</Value>
+      </Thesaurus>
+      <Thesaurus category_ref="23">
+         <Value>Apteegid</Value>
+		 <Value>Apteek</Value>
+		 <Value>Ravim</Value>
+		 <Value>Ravimid</Value>
+		 <Value>Meditsiin</Value>
+	 </Thesaurus>
+      <Thesaurus category_ref="24">
+         <Value>Restoranid</Value>
+         <Value>Restoran</Value>
+		 <Value>sööma</Value>
+		 <Value>jooma</Value>
+		 <Value>Söökla</Value>
+		 <Value>Sööklad</Value>
+		 <Value>nälg</Value>
+		 <Value>janu</Value>
+	</Thesaurus>
+      <Thesaurus category_ref="25">
+         <Value>Pangaautomaadid</Value>
+		 <Value>Pangaautomaat</Value>
+		 <Value>Raha</Value>
+		 <Value>Sularaha</Value>
+		 <Value>ATM</Value>
+		 <Value>EC</Value>
+		 <Value>Automaat</Value>
+		 <Value>Automaadid</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="26">
+         <Value>Kohvikud</Value>
+		 <Value>Kohvik</Value>
+		 <Value>Kohv</Value>
+		 <Value>Kohvid</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="27">
+         <Value>Ostukeskused</Value>
+		 <Value>Ostukeskus</Value>  
+		 <Value>ostlemine</Value>  
+		 <Value>ostlema</Value>  
+		 <Value>sisse ostma</Value>  
+		 <Value>ostma</Value>  
+		 <Value>Kaubamaja</Value>  
+		 <Value>Kaubamajad</Value>          
+      </Thesaurus>
+      <Thesaurus category_ref="28">
+         <Value>Rõivad</Value>
+         <Value>Riietusesemed</Value> 
+		 <Value>Jalats</Value> 
+		 <Value>Jalatsid</Value> 
+      </Thesaurus>
+      <Thesaurus category_ref="29">
+         <Value>Elektroonika</Value>
+		 <Value>Tehnika</Value>
+		 <Value>Arvutid</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="30">
+         <Value>Veinid ja kanged alkohoolsed joogid</Value>
+		 <Value>Veinikeldrid</Value> 
+		 <Value>Vein</Value> 
+		 <Value>Veinid</Value> 
+		 <Value>Kange alkohoolne jook</Value> 
+		 <Value>Kanged alkohoolsed joogid</Value> 
+		 <Value>Alkohol</Value>
+	  </Thesaurus>
+      <Thesaurus category_ref="31">
+         <Value>Ööelu</Value>
+		 <Value>Baar</Value>
+		 <Value>Kõrts</Value>
+		 <Value>Kõrtsid</Value>         
+	 </Thesaurus>
+      <Thesaurus category_ref="32">
+         <Value>Pargid</Value>
+		 <Value>Park</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="33">
+         <Value>Vaatamisväärsused</Value>
+		 <Value>Vaatamisväärsus</Value> 
+		 <Value>Atraktsioon</Value> 
+		 <Value>Atraktsioonid</Value>          
+      </Thesaurus>
+      <Thesaurus category_ref="34">
+         <Value>Kinod</Value>
+		 <Value>Kino</Value>                   
+      </Thesaurus>
+      <Thesaurus category_ref="35">
+         <Value>Kasiinod</Value>
+		 <Value>Kasiino</Value> 
+		 <Value>Hasartmängukeskus</Value> 
+		 <Value>Hasartmängukeskused</Value>          
+      </Thesaurus>
+      <Thesaurus category_ref="36">
+         <Value>Kujutav kunst</Value>
+		 <Value>Ooper</Value> 
+		 <Value>Teater</Value> 
+		 <Value>Kontsert</Value> 
+		 <Value>Muusikal</Value>          
+      </Thesaurus>
+      <Thesaurus category_ref="37">
+         <Value>Muuseumid</Value>
+		 <Value>Muuseum</Value>          
+      </Thesaurus>
+      <Thesaurus category_ref="38">
+         <Value>Mälestusmärgid</Value>
+         <Value>Mälestusmärk</Value> 
+		 <Value>Monument</Value> 
+		 <Value>Monumendid</Value> 
+      </Thesaurus>
+      <Thesaurus category_ref="39">
+         <Value>Spordikeskused</Value>
+		 <Value>Spordikeskus</Value>
+		 <Value>Staadion</Value>
+		 <Value>Staadionid</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="41">
+         <Value>Golfisport</Value>
+		 <Value>Golf</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="42">
+         <Value>Paadisport</Value>
+		 <Value>Paat</Value> 
+		 <Value>Paadid</Value> 
+		 <Value>purjetama</Value>          
+      </Thesaurus>
+      <Thesaurus category_ref="43">
+         <Value>Suusasport</Value>
+		 <Value>Suusatamine</Value>
+		 <Value>Sport</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="44">
+         <Value>Lõbustuspargid</Value>
+		 <Value>Lõbustuspark</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="45">
+         <Value>Pangad</Value>
+		 <Value>Pank</Value> 
+		 <Value>Raha</Value>          
+      </Thesaurus>
+      <Thesaurus category_ref="46">
+         <Value>Post</Value>
+		 <Value>Kiri</Value>
+		 <Value>Kirjad</Value>
+		 <Value>Pakk</Value>
+		 <Value>Pakid</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="47">
+         <Value>Firmad</Value>
+		 <Value>Firma</Value>
+		 <Value>Ettevõte</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="48">
+         <Value>Kongressikeskused</Value>
+		 <Value>Kongressikeskus</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="49">
+         <Value>Valitsus ja haldus</Value>
+		 <Value>Raekoda</Value>
+		 <Value>Valitsus</Value>
+		 <Value>Haldus</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="50">
+         <Value>Saatkonnad</Value>
+		 <Value>Saatkond</Value> 
+		 <Value>Konsulaat</Value> 
+		 <Value>Konsulaadid</Value>          
+      </Thesaurus>
+      <Thesaurus category_ref="52">
+         <Value>Haridusasutus</Value>
+		 <Value>Kool</Value>
+		 <Value>Koolid</Value>
+		 <Value>Ülikool</Value>
+		 <Value>Ülikoolid</Value>
+		 <Value>Haridusasutus</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="53">
+         <Value>Jumalakojad</Value>
+		 <Value>Jumalakoda</Value> 
+		 <Value>Mošee</Value> 
+		 <Value>Mošeed</Value> 
+		 <Value>Kirik</Value> 
+		 <Value>Kirikud</Value> 
+		 <Value>Sünagoog</Value> 
+		 <Value>Sünagoogid</Value> 
+		 <Value>Klooster</Value> 
+		 <Value>Kloostrid</Value>          
+      </Thesaurus>
+      <Thesaurus category_ref="54">
+         <Value>Surniaiad</Value>
+		 <Value>Surnuaed</Value>         
+      </Thesaurus>
+      <Thesaurus category_ref="55">
+         <Value>Laadimisjaamad</Value>
+		 <Value>Laadimisjaam</Value> 
+		 <Value>laadima</Value> 
+		 <Value>täis laadima</Value>          
+      </Thesaurus>
+   </PoiCategoryThesaurusDefinition>
+   <PoiCategoryNameDefinition>
+      <Name category_ref="1" >Autostadt</Name>
+      <Name category_ref="2" >Lennujaamad</Name>
+      <Name category_ref="3" >LPG tanklad</Name>
+      <Name category_ref="4" >Maagaasitanklad</Name>
+      <Name category_ref="5" >Tanklad</Name>
+      <Name category_ref="6" >Parkimisplatsid</Name>
+      <Name category_ref="7" >Puhkekompleksid</Name>
+      <Name category_ref="8" >Hotellid ja motellid</Name>
+      <Name category_ref="9" >Parvlaevad ja autoreisirongid</Name>
+      <Name category_ref="10" >Piiripunktid</Name>
+      <Name category_ref="12" >SEAT müügiesindaja</Name>
+      <Name category_ref="11" >SEAT teenindus</Name>
+      <Name category_ref="14" >Kiirtee mahasõidud/pealesõidud</Name>
+      <Name category_ref="15" >Autorendid</Name>
+      <Name category_ref="16" >Raudteejaamad</Name>
+	  <Name category_ref="18" >Bussijaamad</Name>
+      <Name category_ref="19" >Turismiteave</Name>
+      <Name category_ref="20" >Politseid</Name>
+      <Name category_ref="21" >Haiglad</Name>
+      <Name category_ref="22" >Meditsiiniteenused</Name>
+      <Name category_ref="23" >Apteegid</Name>
+      <Name category_ref="24" >Restoranid</Name>
+      <Name category_ref="25" >Pangaautomaadid</Name>
+      <Name category_ref="26" >Kohvikud</Name>
+      <Name category_ref="27" >Ostukeskused</Name>
+      <Name category_ref="28" >Rõivad</Name>
+      <Name category_ref="29" >Elektroonika</Name>
+      <Name category_ref="30" >Veinid ja kanged alkohoolsed joogid</Name>
+      <Name category_ref="31" >Ööelu</Name>
+      <Name category_ref="32" >Pargid</Name>
+      <Name category_ref="33" >Vaatamisväärsused</Name>
+      <Name category_ref="34" >Kinod</Name>
+      <Name category_ref="35" >Kasiinod</Name>
+      <Name category_ref="36" >Kujutav kunst</Name>
+      <Name category_ref="37" >Muuseumid</Name>
+      <Name category_ref="38" >Mälestusmärgid</Name>
+      <Name category_ref="39" >Spordikeskused</Name>
+      <Name category_ref="41" >Golfisport</Name>
+      <Name category_ref="42" >Paadisport</Name>
+      <Name category_ref="43" >Suusasport</Name>
+      <Name category_ref="44" >Lõbustuspargid</Name>
+      <Name category_ref="45" >Pangad</Name>
+      <Name category_ref="46" >Post</Name>
+      <Name category_ref="47" >Firmad</Name>
+      <Name category_ref="48" >Kongressikeskused</Name>
+      <Name category_ref="49" >Valitsus ja haldus</Name>
+      <Name category_ref="50" >Saatkonnad</Name>
+      <Name category_ref="52" >Haridusasutus</Name>
+      <Name category_ref="53" >Jumalakojad</Name>
+      <Name category_ref="54" >Surniaiad</Name>
+      <Name category_ref="55" >Laadimisjaamad</Name>
+   </PoiCategoryNameDefinition>
+</LanguagePoiConfiguration>

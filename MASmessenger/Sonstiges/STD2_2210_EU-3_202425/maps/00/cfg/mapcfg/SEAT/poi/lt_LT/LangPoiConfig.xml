@@ -1,0 +1,1391 @@
+<LanguagePoiConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/locale/LanguagePoiConfiguration.xsd" version="1">
+<!--Alphabetically sorted setup category definitions for each fuel type, will be reloaded after language change-->
+	<SetupCategoryDefinition>
+		<PoiCategoryMapping fueltype="default">
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Ambasados -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autobusų stotys -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Automobilių nuoma -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->			
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankai -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomatai -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Degalinės -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Drabužiai -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmos -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Gamtinių dujų degalinės -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Geležinkelio stotys -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfas -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Įkrovimo stotelės -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapinės -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kavinės -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Keltai ir autotraukiniai -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kino teatrai -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresų centrai -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Lankytinos vietos -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Ligoninės -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicinos paslauga -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muziejai -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktinis gyvenimas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Nuvažiavimai ir įvažiavimai nuo / į automagistralės (-ių) -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Oro uostai -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Paminklai -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parkai -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Pasienio punktai -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Paštas -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Poilsio zonos greitkelyje -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policija -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Pramogų parkai -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Prekybos centrai -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restoranai -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT prekybos atstovai -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT techninis aptarnavimas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slidinėjimas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- SND degalinės -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporto centrai -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Stovėjimo aikštelės -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Šventovės -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Švietimo institucijos -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Turizmo informacijos centrai -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Vaistinės -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Vaizduojamieji menai -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Valčių sportas -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viešbučiai ir moteliai -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vynai ir spiritiniai gėrimai -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Vyriausybė ir administracija -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="gasoline">
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Ambasados -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autobusų stotys -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Automobilių nuoma -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->			
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankai -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomatai -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Degalinės -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Drabužiai -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmos -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Gamtinių dujų degalinės -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Geležinkelio stotys -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfas -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Įkrovimo stotelės -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapinės -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kavinės -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Keltai ir autotraukiniai -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kino teatrai -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresų centrai -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Lankytinos vietos -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Ligoninės -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicinos paslauga -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muziejai -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktinis gyvenimas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Nuvažiavimai ir įvažiavimai nuo / į automagistralės (-ių) -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Oro uostai -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Paminklai -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parkai -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Pasienio punktai -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Paštas -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Poilsio zonos greitkelyje -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policija -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Pramogų parkai -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Prekybos centrai -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restoranai -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT prekybos atstovai -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT techninis aptarnavimas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slidinėjimas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- SND degalinės -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporto centrai -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Stovėjimo aikštelės -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Šventovės -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Švietimo institucijos -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Turizmo informacijos centrai -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Vaistinės -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Vaizduojamieji menai -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Valčių sportas -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viešbučiai ir moteliai -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vynai ir spiritiniai gėrimai -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Vyriausybė ir administracija -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="diesel">
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Ambasados -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autobusų stotys -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Automobilių nuoma -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->			
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankai -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomatai -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Degalinės -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Drabužiai -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmos -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Gamtinių dujų degalinės -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Geležinkelio stotys -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfas -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Įkrovimo stotelės -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapinės -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kavinės -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Keltai ir autotraukiniai -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kino teatrai -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresų centrai -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Lankytinos vietos -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Ligoninės -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicinos paslauga -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muziejai -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktinis gyvenimas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Nuvažiavimai ir įvažiavimai nuo / į automagistralės (-ių) -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Oro uostai -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Paminklai -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parkai -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Pasienio punktai -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Paštas -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Poilsio zonos greitkelyje -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policija -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Pramogų parkai -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Prekybos centrai -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restoranai -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT prekybos atstovai -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT techninis aptarnavimas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slidinėjimas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- SND degalinės -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporto centrai -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Stovėjimo aikštelės -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Šventovės -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Švietimo institucijos -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Turizmo informacijos centrai -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Vaistinės -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Vaizduojamieji menai -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Valčių sportas -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viešbučiai ir moteliai -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vynai ir spiritiniai gėrimai -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Vyriausybė ir administracija -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="cng">
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Ambasados -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autobusų stotys -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Automobilių nuoma -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->			
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankai -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomatai -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Degalinės -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Drabužiai -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmos -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Gamtinių dujų degalinės -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Geležinkelio stotys -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfas -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Įkrovimo stotelės -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapinės -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kavinės -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Keltai ir autotraukiniai -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kino teatrai -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresų centrai -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Lankytinos vietos -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Ligoninės -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicinos paslauga -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muziejai -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktinis gyvenimas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Nuvažiavimai ir įvažiavimai nuo / į automagistralės (-ių) -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Oro uostai -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Paminklai -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parkai -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Pasienio punktai -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Paštas -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Poilsio zonos greitkelyje -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policija -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Pramogų parkai -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Prekybos centrai -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restoranai -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT prekybos atstovai -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT techninis aptarnavimas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slidinėjimas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- SND degalinės -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporto centrai -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Stovėjimo aikštelės -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Šventovės -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Švietimo institucijos -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Turizmo informacijos centrai -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Vaistinės -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Vaizduojamieji menai -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Valčių sportas -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viešbučiai ir moteliai -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vynai ir spiritiniai gėrimai -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Vyriausybė ir administracija -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="lpg">
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Ambasados -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autobusų stotys -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Automobilių nuoma -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->			
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankai -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomatai -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Degalinės -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Drabužiai -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmos -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Gamtinių dujų degalinės -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Geležinkelio stotys -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfas -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Įkrovimo stotelės -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapinės -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kavinės -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Keltai ir autotraukiniai -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kino teatrai -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresų centrai -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Lankytinos vietos -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Ligoninės -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicinos paslauga -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muziejai -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktinis gyvenimas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Nuvažiavimai ir įvažiavimai nuo / į automagistralės (-ių) -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Oro uostai -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Paminklai -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parkai -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Pasienio punktai -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Paštas -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Poilsio zonos greitkelyje -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policija -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Pramogų parkai -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Prekybos centrai -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restoranai -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT prekybos atstovai -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT techninis aptarnavimas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slidinėjimas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- SND degalinės -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporto centrai -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Stovėjimo aikštelės -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Šventovės -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Švietimo institucijos -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Turizmo informacijos centrai -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Vaistinės -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Vaizduojamieji menai -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Valčių sportas -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viešbučiai ir moteliai -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vynai ir spiritiniai gėrimai -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Vyriausybė ir administracija -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="bev">
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Ambasados -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autobusų stotys -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Automobilių nuoma -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->			
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankai -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomatai -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Degalinės -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Drabužiai -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmos -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Gamtinių dujų degalinės -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Geležinkelio stotys -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfas -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Įkrovimo stotelės -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapinės -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kavinės -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Keltai ir autotraukiniai -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kino teatrai -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresų centrai -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Lankytinos vietos -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Ligoninės -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicinos paslauga -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muziejai -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktinis gyvenimas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Nuvažiavimai ir įvažiavimai nuo / į automagistralės (-ių) -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Oro uostai -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Paminklai -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parkai -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Pasienio punktai -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Paštas -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Poilsio zonos greitkelyje -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policija -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Pramogų parkai -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Prekybos centrai -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restoranai -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT prekybos atstovai -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT techninis aptarnavimas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slidinėjimas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- SND degalinės -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporto centrai -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Stovėjimo aikštelės -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Šventovės -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Švietimo institucijos -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Turizmo informacijos centrai -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Vaistinės -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Vaizduojamieji menai -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Valčių sportas -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viešbučiai ir moteliai -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vynai ir spiritiniai gėrimai -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Vyriausybė ir administracija -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="phev">
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Ambasados -->
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autobusų stotys -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Automobilių nuoma -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->			
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankai -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomatai -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Degalinės -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Drabužiai -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmos -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Gamtinių dujų degalinės -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Geležinkelio stotys -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfas -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Įkrovimo stotelės -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapinės -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kavinės -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Keltai ir autotraukiniai -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kino teatrai -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresų centrai -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Lankytinos vietos -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Ligoninės -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicinos paslauga -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muziejai -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktinis gyvenimas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Nuvažiavimai ir įvažiavimai nuo / į automagistralės (-ių) -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Oro uostai -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Paminklai -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parkai -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Pasienio punktai -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Paštas -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Poilsio zonos greitkelyje -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policija -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Pramogų parkai -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Prekybos centrai -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restoranai -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT prekybos atstovai -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT techninis aptarnavimas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slidinėjimas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- SND degalinės -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporto centrai -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Stovėjimo aikštelės -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Šventovės -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Švietimo institucijos -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Turizmo informacijos centrai -->
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Vaistinės -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Vaizduojamieji menai -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Valčių sportas -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viešbučiai ir moteliai -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vynai ir spiritiniai gėrimai -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Vyriausybė ir administracija -->
+		</PoiCategoryMapping>
+	</SetupCategoryDefinition>
+  <PoiCategoryGroupDefinition>
+    <PoiCategoryGroup id="10" type="dynamic">
+      <Priority>1</Priority>
+      <PoiCategoryMapping>
+        <!-- MUSS LEER BLEIBEN Ueber XSD checken !! -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+    <PoiCategoryGroup id="11" type="local">
+      <Priority>2</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <!-- Airports -->
+        <PoiCategoryRef>44</PoiCategoryRef>
+        <!-- Amusement parks -->
+        <PoiCategoryRef>25</PoiCategoryRef>
+        <!-- ATMs -->
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <!-- Autostadt -->		
+        <PoiCategoryRef>45</PoiCategoryRef>
+        <!-- Banks -->
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <!-- Border crossings -->
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <!-- Bus stops -->
+        <PoiCategoryRef>26</PoiCategoryRef>
+        <!-- Cafes -->
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <!-- Casinos -->
+        <PoiCategoryRef>54</PoiCategoryRef>
+        <!-- Cemeteries -->
+        
+        <!-- Charging stations -->
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <!-- Cinemas -->
+        <PoiCategoryRef>28</PoiCategoryRef>
+        <!-- Clothes -->
+        <PoiCategoryRef>47</PoiCategoryRef>
+        <!-- Companies -->
+        <PoiCategoryRef>48</PoiCategoryRef>
+        <!-- Conference centres -->
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <!-- Drugstores -->
+        <PoiCategoryRef>52</PoiCategoryRef>
+        <!-- Educational institutions -->
+        <PoiCategoryRef>29</PoiCategoryRef>
+        <!-- Electronics -->
+        <PoiCategoryRef>50</PoiCategoryRef>
+        <!-- Embassies -->
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <!-- Ferries -->
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <!-- Freeway exits/on-ramps -->
+        <PoiCategoryRef>5</PoiCategoryRef>
+        <!-- Gas stations -->
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <!-- Golfing -->
+        <PoiCategoryRef>49</PoiCategoryRef>
+        <!-- Government and office -->
+        <PoiCategoryRef>21</PoiCategoryRef>
+        <!-- Hospitals -->
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <!-- Hotels and motels -->
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <!-- Local transport -->
+        
+        <!-- LPG gas stations -->
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <!-- Medical services -->
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <!-- Memorials -->
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <!-- Museums -->
+        <PoiCategoryRef>31</PoiCategoryRef>
+        <!-- Nightlife -->
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <!-- Parking lots -->
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <!-- Parks -->
+        <PoiCategoryRef>36</PoiCategoryRef>
+        <!-- Performing arts -->
+        
+        <!-- Petroleum gas stations -->
+        <PoiCategoryRef>53</PoiCategoryRef>
+        <!-- Places of worship -->
+        <PoiCategoryRef>20</PoiCategoryRef>
+        <!-- Police -->
+        <PoiCategoryRef>46</PoiCategoryRef>
+        <!-- Post -->
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <!-- Rest stops -->
+        <PoiCategoryRef>24</PoiCategoryRef>
+        <!-- Restaurants -->
+        <PoiCategoryRef>27</PoiCategoryRef>
+        <!-- Shopping malls -->
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <!-- Skiing -->
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <!-- Sports centres -->
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <!-- Tourist attractions -->
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <!-- Tourist information -->
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <!-- Train stations -->
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <!-- VW dealers -->
+        <PoiCategoryRef>11</PoiCategoryRef>
+        <!-- VW service -->
+        <PoiCategoryRef>42</PoiCategoryRef>
+        <!-- Watersport -->
+        <PoiCategoryRef>30</PoiCategoryRef>
+        <!-- Wine and spirits -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="12" type="local">
+      <Priority>3</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>44</PoiCategoryRef>
+        <!-- Amusement parks -->
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <!-- Autostadt -->		
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <!-- Casinos -->
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <!-- Cinemas -->
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <!-- Golfing -->
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <!-- Memorials -->
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <!-- Museums -->
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <!-- Parks -->
+        <PoiCategoryRef>36</PoiCategoryRef>
+        <!-- Performing arts -->
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <!-- Skiing -->
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <!-- Sports centres -->
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <!-- Tourist attractions -->
+        <PoiCategoryRef>42</PoiCategoryRef>
+        <!-- Watersport -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="13" type="local">
+      <Priority>4</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <!-- Airports -->
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <!-- Border crossings -->
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <!-- Bus stops -->
+        
+        <!-- Charging stations -->
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <!-- Ferries -->
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <!-- Freeway exits/on-ramps -->
+        <PoiCategoryRef>5</PoiCategoryRef>
+        <!-- Gas stations -->
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <!-- Hotels and motels -->
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <!-- Local transport -->
+        
+        <!-- LPG gas stations -->
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <!-- Parking lots -->
+        
+        <!-- Petroleum gas stations -->
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <!-- Rest stops -->
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <!-- Tourist information -->
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <!-- Train stations -->
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <!-- SEAT dealers -->
+        <PoiCategoryRef>11</PoiCategoryRef>
+        <!-- SEAT service -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="14" type="local">
+      <Priority>5</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>45</PoiCategoryRef>
+        <!-- Banks -->
+        <PoiCategoryRef>54</PoiCategoryRef>
+        <!-- Cemeteries -->
+        <PoiCategoryRef>47</PoiCategoryRef>
+        <!-- Companies -->
+        <PoiCategoryRef>48</PoiCategoryRef>
+        <!-- Conference centres -->
+        <PoiCategoryRef>52</PoiCategoryRef>
+        <!-- Educational institutions -->
+        <PoiCategoryRef>50</PoiCategoryRef>
+        <!-- Embassies -->
+        <PoiCategoryRef>49</PoiCategoryRef>
+        <!-- Government and office -->
+        <PoiCategoryRef>53</PoiCategoryRef>
+        <!-- Places of worship -->
+        <PoiCategoryRef>46</PoiCategoryRef>
+        <!-- Post -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="15" type="local">
+      <Priority>6</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>25</PoiCategoryRef>
+        <!-- ATMs -->
+        <PoiCategoryRef>26</PoiCategoryRef>
+        <!-- Cafes -->
+        <PoiCategoryRef>28</PoiCategoryRef>
+        <!-- Clothes -->
+        <PoiCategoryRef>29</PoiCategoryRef>
+        <!-- Electronics -->
+        <PoiCategoryRef>31</PoiCategoryRef>
+        <!-- Nightlife -->
+        <PoiCategoryRef>24</PoiCategoryRef>
+        <!-- Restaurants -->
+        <PoiCategoryRef>27</PoiCategoryRef>
+        <!-- Shopping malls -->
+        <PoiCategoryRef>30</PoiCategoryRef>
+        <!-- Wine and spirits -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="16" type="local">
+      <Priority>7</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <!-- Drugstores -->
+        <PoiCategoryRef>21</PoiCategoryRef>
+        <!-- Hospitals -->
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <!-- Medical services -->
+        <PoiCategoryRef>20</PoiCategoryRef>
+        <!-- Police -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+  </PoiCategoryGroupDefinition>
+
+  <PoiCategoryGroupNameDefinition>
+    <Name category_group_ref="10">My points of interest (Personal POI)</Name>
+    <Name category_group_ref="11">Categories (alphabetical)</Name>
+    <Name category_group_ref="12">Attractions and leisure</Name>
+    <Name category_group_ref="13">Car and travel</Name>
+    <Name category_group_ref="14">Companies and public services</Name>
+    <Name category_group_ref="15">Dining and shopping</Name>
+    <Name category_group_ref="16">Emergencies</Name>
+  </PoiCategoryGroupNameDefinition>
+
+	<PoiCategoryThesaurusDefinition>
+		<Thesaurus category_ref="1" >
+			<Value>Autostadt</Value>
+		</Thesaurus>	
+		<Thesaurus category_ref="2">
+			<Value>Oro uostai</Value>
+			<Value>Oro uostas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="3">
+			<Value>SND degalinės</Value>
+			<Value>LPG</Value>
+			<Value>Dujos</Value>
+			<Value>Pilti degalų</Value>
+			<Value>Degalinė</Value>
+			<Value>Degalinės</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="4">
+			<Value>Gamtinių dujų degalinės</Value>
+			<Value>Gamtinių dujų degalinė</Value>
+			<Value>Gamtinės dujos</Value>
+			<Value>Dujos</Value>
+			<Value>SGD</Value>
+			<Value>Pilti degalų</Value>
+			<Value>Degalinė</Value>
+			<Value>Degalinės</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="5">
+			<Value>Degalinės</Value>
+			<Value>Degalinė</Value>
+			<Value>Pilti degalų</Value>
+			<Value>Benzinas</Value>
+			<Value>Dyzelinas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="6">
+			<Value>Stovėjimo aikštelės</Value>
+			<Value>Stovėjimo aikštelė</Value>
+			<Value>Statyti transporto priemonę</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="7">
+			<Value>Poilsio zonos greitkelyje</Value>
+			<Value>Poilsio zona greitkelyje</Value>
+			<Value>Automobilių sustojimo aikštelė su aptarnavimo centrais</Value>
+			<Value>Tualetas</Value>
+			<Value>WC</Value>
+			<Value>Tualetas</Value>
+			<Value>Tualetai</Value>
+			<Value>Ilsėtis</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="8">
+			<Value>Viešbučiai ir moteliai</Value>
+			<Value>Viešbutis</Value>
+			<Value>Viešbučiai</Value>
+			<Value>Motelis</Value>
+			<Value>Moteliai</Value>
+			<Value>Svečių namai</Value>
+			<Value>Svečių namai</Value>
+			<Value>Miegoti</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="9">
+			<Value>Keltai ir autotraukiniai</Value>
+			<Value>Autotraukinys</Value>
+			<Value>Autotraukiniai</Value>
+			<Value>Keltas</Value>
+			<Value>Keltai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="10">
+			<Value>Pasienio punktai</Value>
+			<Value>Pasienio punktas</Value>
+			<Value>Pasienis</Value>
+			<Value>Pasienis</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="12">
+			<Value>SEAT prekybos atstovai</Value>
+			<Value>Prekybos atstovai</Value>
+			<Value>Prekybos atstovas</Value>
+			<Value>SEAT</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="11">
+			<Value>SEAT techninis aptarnavimas</Value>
+			<Value>SEAT</Value>
+			<Value>Dirbtuvės</Value>
+			<Value>Dirbtuvės</Value>
+			<Value>Techninis aptarnavimas</Value>
+			<Value>Techninio aptarnavimo paslaugos</Value>
+			<Value>Patikra</Value>
+			<Value>Patikros</Value>
+			<Value>Techninė priežiūra</Value>
+			<Value>Techninės priežiūros darbai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="14">
+			<Value>Nuvažiavimai ir įvažiavimai nuo / į automagistralės (-ių)</Value>
+			<Value>Išvažiavimas</Value>
+			<Value>Išvažiavimai</Value>
+			<Value>Įvažiavimas</Value>
+			<Value>Įvažiavimai</Value>
+			<Value>Nuvažiavimas</Value>
+			<Value>Nuvažiavimai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="15">
+			<Value>Automobilių nuoma</Value>
+			<Value>Automobilių nuoma</Value>
+			<Value>Nuomotis</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="16">
+			<Value>Geležinkelio stotys</Value>
+			<Value>Geležinkelio stotis</Value>
+			<Value>Traukinys</Value>
+			<Value>Traukiniai</Value>
+			<Value>Geležinkelis</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="18">
+			<Value>Autobusų stotys</Value>
+			<Value>Autobusų stotis</Value>
+			<Value>Autobusas</Value>
+			<Value>Autobusai</Value>
+			<Value>Autobusų stotelė</Value>
+			<Value>Autobusų stotelės</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="19">
+			<Value>Turizmo informacijos centrai</Value>
+			<Value>Turizmo informacijos centras</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="20">
+			<Value>Policija</Value>
+			<Value>Policija</Value>
+			<Value>112</Value>
+			<Value>112</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="21">
+			<Value>Ligoninės</Value>
+			<Value>Ligoninė</Value>
+			<Value>Ligoninė</Value>
+			<Value>Ligoninės</Value>
+			<Value>Klinika</Value>
+			<Value>Klinikos</Value>
+			<Value>Ekstremali situacija</Value>
+			<Value>Ekstremalios situacijos</Value>
+			<Value>Gydytojas</Value>
+			<Value>Gydytojai</Value>
+			<Value>112</Value>
+			<Value>112</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="22">
+			<Value>Medicinos paslauga</Value>
+			<Value>Medicinos paslaugos</Value>
+			<Value>Gydytojo kabinetas</Value>
+			<Value>Gydytojo kabinetai</Value>
+			<Value>Gydytojas</Value>
+			<Value>Gydytojai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="23">
+			<Value>Vaistinės</Value>
+			<Value>Vaistinė</Value>
+			<Value>Medikamentas</Value>
+			<Value>Medikamentai</Value>
+			<Value>Vaistai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="24">
+			<Value>Restoranai</Value>
+			<Value>Restoranas</Value>
+			<Value>Valgyti</Value>
+			<Value>Gerti</Value>
+			<Value>Užeiga</Value>
+			<Value>Užeigos</Value>
+			<Value>Alkis</Value>
+			<Value>Troškulys</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="25">
+			<Value>Bankomatai</Value>
+			<Value>Bankomatas</Value>
+			<Value>Pinigai</Value>
+			<Value>Grynieji pinigai</Value>
+			<Value>Pašto ženklų automatas</Value>
+			<Value>EC</Value>
+			<Value>Automatas</Value>
+			<Value>Automatai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="26">
+			<Value>Kavinės</Value>
+			<Value>Kavinė</Value>
+			<Value>Kavinė</Value>
+			<Value>Kavinės</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="27">
+			<Value>Prekybos centrai</Value>
+			<Value>Prekybos centras</Value>
+			<Value>Apsipirkimas</Value>
+			<Value>Apsipirkti</Value>
+			<Value>Apsipirkti</Value>
+			<Value>Pirkti</Value>
+			<Value>Universalinė parduotuvė</Value>
+			<Value>Universalinės parduotuvės</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="28">
+			<Value>Drabužiai</Value>
+			<Value>Suknelė</Value>
+			<Value>Batas</Value>
+			<Value>Batai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="29">
+			<Value>Elektronika</Value>
+			<Value>Technika</Value>
+			<Value>Kompiuteris</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="30">
+			<Value>Vynai ir spiritiniai gėrimai</Value>
+			<Value>Vyno rūsys</Value>
+			<Value>Vynas</Value>
+			<Value>Vynai</Value>
+			<Value>Alkoholinis gėrimas</Value>
+			<Value>Alkoholiniai gėrimai</Value>
+			<Value>Alkoholis</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="31">
+			<Value>Naktinis gyvenimas</Value>
+			<Value>Baras</Value>
+			<Value>Baras</Value>
+			<Value>Barai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="32">
+			<Value>Parkai</Value>
+			<Value>Parkas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="33">
+			<Value>Lankytinos vietos</Value>
+			<Value>Lankytina vieta</Value>
+			<Value>Atrakcionas</Value>
+			<Value>Atrakcionai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="34">
+			<Value>Kino teatrai</Value>
+			<Value>Kino teatras</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="35">
+			<Value>Kazino</Value>
+			<Value>Kazino</Value>
+			<Value>Žaidimų automatai</Value>
+			<Value>Žaidimų automatai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="36">
+			<Value>Vaizduojamieji menai</Value>
+			<Value>Opera</Value>
+			<Value>Teatras</Value>
+			<Value>Koncertas</Value>
+			<Value>Miuziklas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="37">
+			<Value>Muziejai</Value>
+			<Value>Muziejus</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="38">
+			<Value>Paminklai</Value>
+			<Value>Paminklas</Value>
+			<Value>Monumentas</Value>
+			<Value>Monumentai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="39">
+			<Value>Sporto centrai</Value>
+			<Value>Sporto centras</Value>
+			<Value>Stadionas</Value>
+			<Value>Stadionai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="41">
+			<Value>Golfas</Value>
+			<Value>Golfas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="42">
+			<Value>Valčių sportas</Value>
+			<Value>Valtis</Value>
+			<Value>Valtys</Value>
+			<Value>Buriuoti</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="43">
+			<Value>Slidinėjimas</Value>
+			<Value>Slidės</Value>
+			<Value>Sportas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="44">
+			<Value>Pramogų parkai</Value>
+			<Value>Pramogų parkas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="45">
+			<Value>Bankai</Value>
+			<Value>Bankas</Value>
+			<Value>Pinigai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="46">
+			<Value>Paštas</Value>
+			<Value>Laiškas</Value>
+			<Value>Laiškai</Value>
+			<Value>Paketas</Value>
+			<Value>Paketai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="47">
+			<Value>Firmos</Value>
+			<Value>Firma</Value>
+			<Value>Įmonės</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="48">
+			<Value>Kongresų centrai</Value>
+			<Value>Kongresų centras</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="49">
+			<Value>Vyriausybė ir administracija</Value>
+			<Value>Rotušė</Value>
+			<Value>Vyriausybė</Value>
+			<Value>Administracija</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="50">
+			<Value>Ambasados</Value>
+			<Value>Ambasada</Value>
+			<Value>Konsulatas</Value>
+			<Value>Konsulatai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="52">
+			<Value>Švietimo institucijos</Value>
+			<Value>Mokykla</Value>
+			<Value>Mokyklos</Value>
+			<Value>Universitetas</Value>
+			<Value>Universitetai</Value>
+			<Value>Švietimo institucija</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="53">
+			<Value>Šventovės</Value>
+			<Value>Šventovė</Value>
+			<Value>Mečetės</Value>
+			<Value>Mečetė</Value>
+			<Value>Bažnyčia</Value>
+			<Value>Bažnyčios</Value>
+			<Value>Sinagoga</Value>
+			<Value>Sinagogos</Value>
+			<Value>Vienuolynas</Value>
+			<Value>Vienuolynai</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="54">
+			<Value>Kapinės</Value>
+			<Value>Kapinės</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="55">
+			<Value>Įkrovimo stotelės</Value>
+			<Value>Įkrovimo stotelė</Value>
+			<Value>Krauti</Value>
+			<Value>Įkrauti</Value>
+		</Thesaurus>
+	</PoiCategoryThesaurusDefinition>
+
+	<PoiCategoryNameDefinition>
+		<Name category_ref="1">Autostadt</Name>	
+		<Name category_ref="2">Oro uostai</Name>
+		<Name category_ref="3">SND degalinės</Name>
+		<Name category_ref="4">Gamtinių dujų degalinės</Name>
+		<Name category_ref="5">Degalinės</Name>
+		<Name category_ref="6">Stovėjimo aikštelės</Name>
+		<Name category_ref="7">Poilsio zonos greitkelyje</Name>
+		<Name category_ref="8">Viešbučiai ir moteliai</Name>
+		<Name category_ref="9">Keltai ir autotraukiniai</Name>
+		<Name category_ref="10">Pasienio punktai</Name>
+		<Name category_ref="12">SEAT prekybos atstovai</Name>
+		<Name category_ref="11">SEAT techninis aptarnavimas</Name>
+		<Name category_ref="14">Nuvažiavimai ir įvažiavimai nuo / į automagistralės (-ių)</Name>
+		<Name category_ref="15">Automobilių nuoma</Name>
+		<Name category_ref="16">Geležinkelio stotys</Name>
+		<Name category_ref="18">Autobusų stotys</Name>
+		<Name category_ref="19">Turizmo informacijos centrai</Name>
+		<Name category_ref="20">Policija</Name>
+		<Name category_ref="21">Ligoninės</Name>
+		<Name category_ref="22">Medicinos paslauga</Name>
+		<Name category_ref="23">Vaistinės</Name>
+		<Name category_ref="24">Restoranai</Name>
+		<Name category_ref="25">Bankomatai</Name>
+		<Name category_ref="26">Kavinės</Name>
+		<Name category_ref="27">Prekybos centrai</Name>
+		<Name category_ref="28">Drabužiai</Name>
+		<Name category_ref="29">Elektronika</Name>
+		<Name category_ref="30">Vynai ir spiritiniai gėrimai</Name>
+		<Name category_ref="31">Naktinis gyvenimas</Name>
+		<Name category_ref="32">Parkai</Name>
+		<Name category_ref="33">Lankytinos vietos</Name>
+		<Name category_ref="34">Kino teatrai</Name>
+		<Name category_ref="35">Kazino</Name>
+		<Name category_ref="36">Vaizduojamieji menai</Name>
+		<Name category_ref="37">Muziejai</Name>
+		<Name category_ref="38">Paminklai</Name>
+		<Name category_ref="39">Sporto centrai</Name>
+		<Name category_ref="41">Golfas</Name>
+		<Name category_ref="42">Valčių sportas</Name>
+		<Name category_ref="43">Slidinėjimas</Name>
+		<Name category_ref="44">Pramogų parkai</Name>
+		<Name category_ref="45">Bankai</Name>
+		<Name category_ref="46">Paštas</Name>
+		<Name category_ref="47">Firmos</Name>
+		<Name category_ref="48">Kongresų centrai</Name>
+		<Name category_ref="49">Vyriausybė ir administracija</Name>
+		<Name category_ref="50">Ambasados</Name>
+		<Name category_ref="52">Švietimo institucijos</Name>
+		<Name category_ref="53">Šventovės</Name>
+		<Name category_ref="54">Kapinės</Name>
+		<Name category_ref="55">Įkrovimo stotelės</Name>
+	</PoiCategoryNameDefinition>
+</LanguagePoiConfiguration>

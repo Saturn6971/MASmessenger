@@ -1,0 +1,1390 @@
+<LanguagePoiConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/locale/LanguagePoiConfiguration.xsd" version="1">
+<!--Alphabetically sorted setup category definitions for each fuel type, will be reloaded after language change-->
+	<SetupCategoryDefinition>
+		<PoiCategoryMapping fueltype="default">
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Aptiekas -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Apģērbs -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Atpūtas vietas -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Atrakciju parki -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Auto nomas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Automaģistrāles nobrauktuves/uzbrauktuves -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->			
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autoostas -->
+			<PoiCategoryRef>102</PoiCategoryRef>
+			<!-- Autostāvvietas -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankas -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomāti -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Dabasgāzes uzpildes stacijas -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Dievnami -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Dzelzceļa stacijas -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmas -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfa sports -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Iepirkšanās centri -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Ievērojamas vietas -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Izglītības iestādes -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kafejnīcas -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapsētas -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kinoteātri -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresu centri -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Laivu sports -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Lidostas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- LPG uzpildes stacijas -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicīnas pakalpojumi -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muzeji -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktsdzīve -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parki -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Pasts -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Pieminekļi -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policijas -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Prāmji un autovilcieni -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restorāni -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Robežšķērsošanas vietas -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT dīleris -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT serviss -->			
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Slimnīcas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slēpošana -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporta centri -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Teātra māksla -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Tūrisma informācijas centri -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Uzlādes stacijas -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Uzpildes stacijas -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Valdība un pārvalde -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viesnīcas un moteļi -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Vēstniecības -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vīni un alkoholiskie dzērieni -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="gasoline">
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Aptiekas -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Apģērbs -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Atpūtas vietas -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Atrakciju parki -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Auto nomas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Automaģistrāles nobrauktuves/uzbrauktuves -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->				
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autoostas -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Autostāvvietas -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankas -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomāti -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Dabasgāzes uzpildes stacijas -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Dievnami -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Dzelzceļa stacijas -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmas -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfa sports -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Iepirkšanās centri -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Ievērojamas vietas -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Izglītības iestādes -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kafejnīcas -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapsētas -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kinoteātri -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresu centri -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Laivu sports -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Lidostas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- LPG uzpildes stacijas -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicīnas pakalpojumi -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muzeji -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktsdzīve -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parki -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Pasts -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Pieminekļi -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policijas -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Prāmji un autovilcieni -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restorāni -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Robežšķērsošanas vietas -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT dīleris -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT serviss -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Slimnīcas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slēpošana -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporta centri -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Teātra māksla -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Tūrisma informācijas centri -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Uzlādes stacijas -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Uzpildes stacijas -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Valdība un pārvalde -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viesnīcas un moteļi -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Vēstniecības -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vīni un alkoholiskie dzērieni -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="diesel">
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Aptiekas -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Apģērbs -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Atpūtas vietas -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Atrakciju parki -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Auto nomas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Automaģistrāles nobrauktuves/uzbrauktuves -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->				
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autoostas -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Autostāvvietas -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankas -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomāti -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Dabasgāzes uzpildes stacijas -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Dievnami -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Dzelzceļa stacijas -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmas -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfa sports -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Iepirkšanās centri -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Ievērojamas vietas -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Izglītības iestādes -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kafejnīcas -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapsētas -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kinoteātri -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresu centri -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Laivu sports -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Lidostas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- LPG uzpildes stacijas -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicīnas pakalpojumi -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muzeji -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktsdzīve -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parki -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Pasts -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Pieminekļi -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policijas -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Prāmji un autovilcieni -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restorāni -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Robežšķērsošanas vietas -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT dīleris -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT serviss -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Slimnīcas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slēpošana -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporta centri -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Teātra māksla -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Tūrisma informācijas centri -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Uzlādes stacijas -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Uzpildes stacijas -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Valdība un pārvalde -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viesnīcas un moteļi -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Vēstniecības -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vīni un alkoholiskie dzērieni -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="cng">
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Aptiekas -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Apģērbs -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Atpūtas vietas -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Atrakciju parki -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Auto nomas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Automaģistrāles nobrauktuves/uzbrauktuves -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->				
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autoostas -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Autostāvvietas -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankas -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomāti -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Dabasgāzes uzpildes stacijas -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Dievnami -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Dzelzceļa stacijas -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmas -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfa sports -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Iepirkšanās centri -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Ievērojamas vietas -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Izglītības iestādes -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kafejnīcas -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapsētas -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kinoteātri -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresu centri -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Laivu sports -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Lidostas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- LPG uzpildes stacijas -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicīnas pakalpojumi -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muzeji -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktsdzīve -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parki -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Pasts -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Pieminekļi -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policijas -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Prāmji un autovilcieni -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restorāni -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Robežšķērsošanas vietas -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT dīleris -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT serviss -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Slimnīcas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slēpošana -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporta centri -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Teātra māksla -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Tūrisma informācijas centri -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Uzlādes stacijas -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Uzpildes stacijas -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Valdība un pārvalde -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viesnīcas un moteļi -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Vēstniecības -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vīni un alkoholiskie dzērieni -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="lpg">
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Aptiekas -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Apģērbs -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Atpūtas vietas -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Atrakciju parki -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Auto nomas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Automaģistrāles nobrauktuves/uzbrauktuves -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->				
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autoostas -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Autostāvvietas -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankas -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomāti -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Dabasgāzes uzpildes stacijas -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Dievnami -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Dzelzceļa stacijas -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmas -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfa sports -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Iepirkšanās centri -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Ievērojamas vietas -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Izglītības iestādes -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kafejnīcas -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapsētas -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kinoteātri -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresu centri -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Laivu sports -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Lidostas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- LPG uzpildes stacijas -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicīnas pakalpojumi -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muzeji -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktsdzīve -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parki -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Pasts -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Pieminekļi -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policijas -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Prāmji un autovilcieni -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restorāni -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Robežšķērsošanas vietas -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT dīleris -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT serviss -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Slimnīcas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slēpošana -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporta centri -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Teātra māksla -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Tūrisma informācijas centri -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Uzlādes stacijas -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Uzpildes stacijas -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Valdība un pārvalde -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viesnīcas un moteļi -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Vēstniecības -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vīni un alkoholiskie dzērieni -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="bev">
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Aptiekas -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Apģērbs -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Atpūtas vietas -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Atrakciju parki -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Auto nomas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Automaģistrāles nobrauktuves/uzbrauktuves -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->				
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autoostas -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Autostāvvietas -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankas -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomāti -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Dabasgāzes uzpildes stacijas -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Dievnami -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Dzelzceļa stacijas -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmas -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfa sports -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Iepirkšanās centri -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Ievērojamas vietas -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Izglītības iestādes -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kafejnīcas -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapsētas -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kinoteātri -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresu centri -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Laivu sports -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Lidostas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- LPG uzpildes stacijas -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicīnas pakalpojumi -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muzeji -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktsdzīve -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parki -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Pasts -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Pieminekļi -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policijas -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Prāmji un autovilcieni -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restorāni -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Robežšķērsošanas vietas -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT dīleris -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT serviss -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Slimnīcas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slēpošana -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporta centri -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Teātra māksla -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Tūrisma informācijas centri -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Uzlādes stacijas -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Uzpildes stacijas -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Valdība un pārvalde -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viesnīcas un moteļi -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Vēstniecības -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vīni un alkoholiskie dzērieni -->
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="phev">
+			<PoiCategoryRef>23</PoiCategoryRef>
+			<!-- Aptiekas -->
+			<PoiCategoryRef>28</PoiCategoryRef>
+			<!-- Apģērbs -->
+			<PoiCategoryRef>7</PoiCategoryRef>
+			<!-- Atpūtas vietas -->
+			<PoiCategoryRef>44</PoiCategoryRef>
+			<!-- Atrakciju parki -->
+			<PoiCategoryRef>15</PoiCategoryRef>
+			<!-- Auto nomas -->
+			<PoiCategoryRef>14</PoiCategoryRef>
+			<!-- Automaģistrāles nobrauktuves/uzbrauktuves -->
+			<PoiCategoryRef>1</PoiCategoryRef>
+			<!--Autostadt-->				
+			<PoiCategoryRef>18</PoiCategoryRef>
+			<!-- Autoostas -->
+			<PoiCategoryRef>6</PoiCategoryRef>
+			<!-- Autostāvvietas -->
+			<PoiCategoryRef>45</PoiCategoryRef>
+			<!-- Bankas -->
+			<PoiCategoryRef>25</PoiCategoryRef>
+			<!-- Bankomāti -->
+			<PoiCategoryRef>4</PoiCategoryRef>
+			<!-- Dabasgāzes uzpildes stacijas -->
+			<PoiCategoryRef>53</PoiCategoryRef>
+			<!-- Dievnami -->
+			<PoiCategoryRef>16</PoiCategoryRef>
+			<!-- Dzelzceļa stacijas -->
+			<PoiCategoryRef>29</PoiCategoryRef>
+			<!-- Elektronika -->
+			<PoiCategoryRef>47</PoiCategoryRef>
+			<!-- Firmas -->
+			<PoiCategoryRef>41</PoiCategoryRef>
+			<!-- Golfa sports -->
+			<PoiCategoryRef>27</PoiCategoryRef>
+			<!-- Iepirkšanās centri -->
+			<PoiCategoryRef>33</PoiCategoryRef>
+			<!-- Ievērojamas vietas -->
+			<PoiCategoryRef>52</PoiCategoryRef>
+			<!-- Izglītības iestādes -->
+			<PoiCategoryRef>26</PoiCategoryRef>
+			<!-- Kafejnīcas -->
+			<PoiCategoryRef>54</PoiCategoryRef>
+			<!-- Kapsētas -->
+			<PoiCategoryRef>35</PoiCategoryRef>
+			<!-- Kazino -->
+			<PoiCategoryRef>34</PoiCategoryRef>
+			<!-- Kinoteātri -->
+			<PoiCategoryRef>48</PoiCategoryRef>
+			<!-- Kongresu centri -->
+			<PoiCategoryRef>42</PoiCategoryRef>
+			<!-- Laivu sports -->
+			<PoiCategoryRef>2</PoiCategoryRef>
+			<!-- Lidostas -->
+			<PoiCategoryRef>3</PoiCategoryRef>
+			<!-- LPG uzpildes stacijas -->
+			<PoiCategoryRef>22</PoiCategoryRef>
+			<!-- Medicīnas pakalpojumi -->
+			<PoiCategoryRef>37</PoiCategoryRef>
+			<!-- Muzeji -->
+			<PoiCategoryRef>31</PoiCategoryRef>
+			<!-- Naktsdzīve -->
+			<PoiCategoryRef>32</PoiCategoryRef>
+			<!-- Parki -->
+			<PoiCategoryRef>46</PoiCategoryRef>
+			<!-- Pasts -->
+			<PoiCategoryRef>38</PoiCategoryRef>
+			<!-- Pieminekļi -->
+			<PoiCategoryRef>20</PoiCategoryRef>
+			<!-- Policijas -->
+			<PoiCategoryRef>9</PoiCategoryRef>
+			<!-- Prāmji un autovilcieni -->
+			<PoiCategoryRef>24</PoiCategoryRef>
+			<!-- Restorāni -->
+			<PoiCategoryRef>10</PoiCategoryRef>
+			<!-- Robežšķērsošanas vietas -->
+			<PoiCategoryRef>12</PoiCategoryRef>
+			<!-- SEAT dīleris -->
+			<PoiCategoryRef>11</PoiCategoryRef>
+			<!-- SEAT serviss -->
+			<PoiCategoryRef>21</PoiCategoryRef>
+			<!-- Slimnīcas -->
+			<PoiCategoryRef>43</PoiCategoryRef>
+			<!-- Slēpošana -->
+			<PoiCategoryRef>39</PoiCategoryRef>
+			<!-- Sporta centri -->
+			<PoiCategoryRef>36</PoiCategoryRef>
+			<!-- Teātra māksla -->
+			<PoiCategoryRef>19</PoiCategoryRef>
+			<!-- Tūrisma informācijas centri -->
+			<PoiCategoryRef>55</PoiCategoryRef>
+			<!-- Uzlādes stacijas -->
+			<PoiCategoryRef>5</PoiCategoryRef>
+			<!-- Uzpildes stacijas -->
+			<PoiCategoryRef>49</PoiCategoryRef>
+			<!-- Valdība un pārvalde -->
+			<PoiCategoryRef>8</PoiCategoryRef>
+			<!-- Viesnīcas un moteļi -->
+			<PoiCategoryRef>50</PoiCategoryRef>
+			<!-- Vēstniecības -->
+			<PoiCategoryRef>30</PoiCategoryRef>
+			<!-- Vīni un alkoholiskie dzērieni -->
+		</PoiCategoryMapping>
+	</SetupCategoryDefinition>
+  <PoiCategoryGroupDefinition>
+    <PoiCategoryGroup id="10" type="dynamic">
+      <Priority>1</Priority>
+      <PoiCategoryMapping>
+        <!-- MUSS LEER BLEIBEN Ueber XSD checken !! -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+    <PoiCategoryGroup id="11" type="local">
+      <Priority>2</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <!-- Airports -->
+        <PoiCategoryRef>44</PoiCategoryRef>
+        <!-- Amusement parks -->
+        <PoiCategoryRef>25</PoiCategoryRef>
+        <!-- ATMs -->
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <!-- Autostadt -->		
+        <PoiCategoryRef>45</PoiCategoryRef>
+        <!-- Banks -->
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <!-- Border crossings -->
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <!-- Bus stops -->
+        <PoiCategoryRef>26</PoiCategoryRef>
+        <!-- Cafes -->
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <!-- Casinos -->
+        <PoiCategoryRef>54</PoiCategoryRef>
+        <!-- Cemeteries -->
+        
+        <!-- Charging stations -->
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <!-- Cinemas -->
+        <PoiCategoryRef>28</PoiCategoryRef>
+        <!-- Clothes -->
+        <PoiCategoryRef>47</PoiCategoryRef>
+        <!-- Companies -->
+        <PoiCategoryRef>48</PoiCategoryRef>
+        <!-- Conference centres -->
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <!-- Drugstores -->
+        <PoiCategoryRef>52</PoiCategoryRef>
+        <!-- Educational institutions -->
+        <PoiCategoryRef>29</PoiCategoryRef>
+        <!-- Electronics -->
+        <PoiCategoryRef>50</PoiCategoryRef>
+        <!-- Embassies -->
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <!-- Ferries -->
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <!-- Freeway exits/on-ramps -->
+        <PoiCategoryRef>5</PoiCategoryRef>
+        <!-- Gas stations -->
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <!-- Golfing -->
+        <PoiCategoryRef>49</PoiCategoryRef>
+        <!-- Government and office -->
+        <PoiCategoryRef>21</PoiCategoryRef>
+        <!-- Hospitals -->
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <!-- Hotels and motels -->
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <!-- Local transport -->
+        
+        <!-- LPG gas stations -->
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <!-- Medical services -->
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <!-- Memorials -->
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <!-- Museums -->
+        <PoiCategoryRef>31</PoiCategoryRef>
+        <!-- Nightlife -->
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <!-- Parking lots -->
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <!-- Parks -->
+        <PoiCategoryRef>36</PoiCategoryRef>
+        <!-- Performing arts -->
+        
+        <!-- Petroleum gas stations -->
+        <PoiCategoryRef>53</PoiCategoryRef>
+        <!-- Places of worship -->
+        <PoiCategoryRef>20</PoiCategoryRef>
+        <!-- Police -->
+        <PoiCategoryRef>46</PoiCategoryRef>
+        <!-- Post -->
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <!-- Rest stops -->
+        <PoiCategoryRef>24</PoiCategoryRef>
+        <!-- Restaurants -->
+        <PoiCategoryRef>27</PoiCategoryRef>
+        <!-- Shopping malls -->
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <!-- Skiing -->
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <!-- Sports centres -->
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <!-- Tourist attractions -->
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <!-- Tourist information -->
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <!-- Train stations -->
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <!-- SEAT dealers -->
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <!-- SEAT service -->
+        <PoiCategoryRef>42</PoiCategoryRef>
+        <!-- Watersport -->
+        <PoiCategoryRef>30</PoiCategoryRef>
+        <!-- Wine and spirits -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="12" type="local">
+      <Priority>3</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>44</PoiCategoryRef>
+        <!-- Amusement parks -->
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <!-- Autostadt -->		
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <!-- Casinos -->
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <!-- Cinemas -->
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <!-- Golfing -->
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <!-- Memorials -->
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <!-- Museums -->
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <!-- Parks -->
+        <PoiCategoryRef>36</PoiCategoryRef>
+        <!-- Performing arts -->
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <!-- Skiing -->
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <!-- Sports centres -->
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <!-- Tourist attractions -->
+        <PoiCategoryRef>42</PoiCategoryRef>
+        <!-- Watersport -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="13" type="local">
+      <Priority>4</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <!-- Airports -->
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <!-- Border crossings -->
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <!-- Bus stops -->
+        
+        <!-- Charging stations -->
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <!-- Ferries -->
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <!-- Freeway exits/on-ramps -->
+        <PoiCategoryRef>5</PoiCategoryRef>
+        <!-- Gas stations -->
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <!-- Hotels and motels -->
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <!-- Local transport -->
+        
+        <!-- LPG gas stations -->
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <!-- Parking lots -->
+        
+        <!-- Petroleum gas stations -->
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <!-- Rest stops -->
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <!-- Tourist information -->
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <!-- Train stations -->
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <!-- SEAT dealers -->
+        <PoiCategoryRef>11</PoiCategoryRef>
+        <!-- SEAT service -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="14" type="local">
+      <Priority>5</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>45</PoiCategoryRef>
+        <!-- Banks -->
+        <PoiCategoryRef>54</PoiCategoryRef>
+        <!-- Cemeteries -->
+        <PoiCategoryRef>47</PoiCategoryRef>
+        <!-- Companies -->
+        <PoiCategoryRef>48</PoiCategoryRef>
+        <!-- Conference centres -->
+        <PoiCategoryRef>52</PoiCategoryRef>
+        <!-- Educational institutions -->
+        <PoiCategoryRef>50</PoiCategoryRef>
+        <!-- Embassies -->
+        <PoiCategoryRef>49</PoiCategoryRef>
+        <!-- Government and office -->
+        <PoiCategoryRef>53</PoiCategoryRef>
+        <!-- Places of worship -->
+        <PoiCategoryRef>46</PoiCategoryRef>
+        <!-- Post -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="15" type="local">
+      <Priority>6</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>25</PoiCategoryRef>
+        <!-- ATMs -->
+        <PoiCategoryRef>26</PoiCategoryRef>
+        <!-- Cafes -->
+        <PoiCategoryRef>28</PoiCategoryRef>
+        <!-- Clothes -->
+        <PoiCategoryRef>29</PoiCategoryRef>
+        <!-- Electronics -->
+        <PoiCategoryRef>31</PoiCategoryRef>
+        <!-- Nightlife -->
+        <PoiCategoryRef>24</PoiCategoryRef>
+        <!-- Restaurants -->
+        <PoiCategoryRef>27</PoiCategoryRef>
+        <!-- Shopping malls -->
+        <PoiCategoryRef>30</PoiCategoryRef>
+        <!-- Wine and spirits -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="16" type="local">
+      <Priority>7</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <!-- Drugstores -->
+        <PoiCategoryRef>21</PoiCategoryRef>
+        <!-- Hospitals -->
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <!-- Medical services -->
+        <PoiCategoryRef>20</PoiCategoryRef>
+        <!-- Police -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+  </PoiCategoryGroupDefinition>
+
+  <PoiCategoryGroupNameDefinition>
+    <Name category_group_ref="10">My points of interest (Personal POI)</Name>
+    <Name category_group_ref="11">Categories (alphabetical)</Name>
+    <Name category_group_ref="12">Attractions and leisure</Name>
+    <Name category_group_ref="13">Car and travel</Name>
+    <Name category_group_ref="14">Companies and public services</Name>
+    <Name category_group_ref="15">Dining and shopping</Name>
+    <Name category_group_ref="16">Emergencies</Name>
+  </PoiCategoryGroupNameDefinition>
+
+	<PoiCategoryThesaurusDefinition>
+		<Thesaurus category_ref="1" >
+			<Value>Autostadt</Value>
+		</Thesaurus>	
+		<Thesaurus category_ref="2">
+			<Value>Lidostas</Value>
+			<Value>Lidosta</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="3">
+			<Value>LPG uzpildes stacijas</Value>
+			<Value>LPG</Value>
+			<Value>Gāze</Value>
+			<Value>Uzpildīt</Value>
+			<Value>Uzpildes stacija</Value>
+			<Value>Uzpildes stacijas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="4">
+			<Value>Dabasgāzes uzpildes stacijas</Value>
+			<Value>Dabasgāzes uzpildes stacija</Value>
+			<Value>Dabasgāze</Value>
+			<Value>Gāze</Value>
+			<Value>CNG</Value>
+			<Value>Uzpildīt</Value>
+			<Value>Uzpildes stacija</Value>
+			<Value>Uzpildes stacijas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="5">
+			<Value>Uzpildes stacijas</Value>
+			<Value>Uzpildes stacija</Value>
+			<Value>Uzpildīt</Value>
+			<Value>Benzīns</Value>
+			<Value>Dīzeļdegviela</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="6">
+			<Value>Autostāvvietas</Value>
+			<Value>Autostāvvieta</Value>
+			<Value>Novietot stāvvietā</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="7">
+			<Value>Atpūtas vietas</Value>
+			<Value>Atpūtas vieta</Value>
+			<Value>Kravas automobiļu autostāvvieta</Value>
+			<Value>Tualete</Value>
+			<Value>WC</Value>
+			<Value>Tualetes</Value>
+			<Value>Tualetes</Value>
+			<Value>Atpūsties</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="8">
+			<Value>Viesnīcas un moteļi</Value>
+			<Value>Viesnīca</Value>
+			<Value>Viesnīcas</Value>
+			<Value>Motelis</Value>
+			<Value>Moteļi</Value>
+			<Value>Viesu nams</Value>
+			<Value>Viesu nami</Value>
+			<Value>Nakšņot</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="9">
+			<Value>Prāmji un autovilcieni</Value>
+			<Value>Autovilciens</Value>
+			<Value>Autovilcieni</Value>
+			<Value>Prāmis</Value>
+			<Value>Prāmji</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="10">
+			<Value>Robežšķērsošanas vietas</Value>
+			<Value>Robežšķērsošanas vieta</Value>
+			<Value>Robeža</Value>
+			<Value>Robežas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="12">
+			<Value>SEAT dīleris</Value>
+			<Value>Dīleri</Value>
+			<Value>Dīleris</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="11">
+			<Value>SEAT serviss</Value>
+			<Value>SEAT</Value>
+			<Value>Autoserviss</Value>
+			<Value>Autoservisi</Value>
+			<Value>Serviss</Value>
+			<Value>Servisi</Value>
+			<Value>Tehniskā apkope</Value>
+			<Value>Tehniskās apkopes</Value>
+			<Value>Apkope</Value>
+			<Value>Apkopes</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="14">
+			<Value>Automaģistrāles nobrauktuves/uzbrauktuves</Value>
+			<Value>Izbrauktuve</Value>
+			<Value>Izbrauktuves</Value>
+			<Value>Uzbrauktuve</Value>
+			<Value>Uzbrauktuves</Value>
+			<Value>Nobrauktuve</Value>
+			<Value>Nobrauktuves</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="15">
+			<Value>Auto nomas</Value>
+			<Value>Auto noma</Value>
+			<Value>Nomāt</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="16">
+			<Value>Dzelzceļa stacijas</Value>
+			<Value>Dzelzceļa stacija</Value>
+			<Value>Vilciens</Value>
+			<Value>Vilcieni</Value>
+			<Value>Dzelzceļš</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="18">
+			<Value>Autoostas</Value>
+			<Value>Autoosta</Value>
+			<Value>Autobuss</Value>
+			<Value>Autobusi</Value>
+			<Value>Autobusu pietura</Value>
+			<Value>Autobusu pieturas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="19">
+			<Value>Tūrisma informācijas centri</Value>
+			<Value>Tūrisma informācijas centrs</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="20">
+			<Value>Policijas</Value>
+			<Value>Policija</Value>
+			<Value>110</Value>
+			<Value>112</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="21">
+			<Value>Slimnīcas</Value>
+			<Value>Slimnīca</Value>
+			<Value>Hospitālis</Value>
+			<Value>Hospitāļi</Value>
+			<Value>Klīnika</Value>
+			<Value>Klīnikas</Value>
+			<Value>Ārkārtas gadījums</Value>
+			<Value>Ārkārtas gadījumi</Value>
+			<Value>Ārsts</Value>
+			<Value>Ārsti</Value>
+			<Value>110</Value>
+			<Value>112</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="22">
+			<Value>Medicīnas pakalpojumi</Value>
+			<Value>Medicīnas pakalpojums</Value>
+			<Value>Ārsta prakse</Value>
+			<Value>Ārstu prakses</Value>
+			<Value>Ārsts</Value>
+			<Value>Ārsti</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="23">
+			<Value>Aptiekas</Value>
+			<Value>Aptieka</Value>
+			<Value>Medikaments</Value>
+			<Value>Medikamenti</Value>
+			<Value>Zāles</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="24">
+			<Value>Restorāni</Value>
+			<Value>Restorāns</Value>
+			<Value>Paēst</Value>
+			<Value>Padzerties</Value>
+			<Value>Restorāns</Value>
+			<Value>Restorāni</Value>
+			<Value>Izsalkums</Value>
+			<Value>Slāpes</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="25">
+			<Value>Bankomāti</Value>
+			<Value>Bankomāts</Value>
+			<Value>Nauda</Value>
+			<Value>Skaidra nauda</Value>
+			<Value>ATM</Value>
+			<Value>EC</Value>
+			<Value>Automāts</Value>
+			<Value>Automāti</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="26">
+			<Value>Kafejnīcas</Value>
+			<Value>Kafejnīca</Value>
+			<Value>Kafija</Value>
+			<Value>Kafijas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="27">
+			<Value>Iepirkšanās centri</Value>
+			<Value>Iepirkšanās centrs</Value>
+			<Value>Iepirkšanās</Value>
+			<Value>Iepirkties</Value>
+			<Value>Iepirkties</Value>
+			<Value>Pirkt</Value>
+			<Value>Tirdzniecības centrs</Value>
+			<Value>Tirdzniecības centri</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="28">
+			<Value>Apģērbs</Value>
+			<Value>Tērpi</Value>
+			<Value>Apavi</Value>
+			<Value>Kurpes</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="29">
+			<Value>Elektronika</Value>
+			<Value>Tehnika</Value>
+			<Value>Datori</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="30">
+			<Value>Vīni un alkoholiskie dzērieni</Value>
+			<Value>Vīna pagrabs</Value>
+			<Value>Vīns</Value>
+			<Value>Vīni</Value>
+			<Value>Alkoholiskais dzēriens</Value>
+			<Value>Alkoholiskie dzērieni</Value>
+			<Value>Alkohols</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="31">
+			<Value>Naktsdzīve</Value>
+			<Value>Bārs</Value>
+			<Value>Krogs</Value>
+			<Value>Krogi</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="32">
+			<Value>Parki</Value>
+			<Value>Parks</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="33">
+			<Value>Ievērojamas vietas</Value>
+			<Value>Ievērojama vieta</Value>
+			<Value>Atrakcija</Value>
+			<Value>Atrakcijas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="34">
+			<Value>Kinoteātri</Value>
+			<Value>Kino</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="35">
+			<Value>Kazino</Value>
+			<Value>Kazino</Value>
+			<Value>Spēļu zāle</Value>
+			<Value>Spēļu zāles</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="36">
+			<Value>Teātra māksla</Value>
+			<Value>Opera</Value>
+			<Value>Teātris</Value>
+			<Value>Koncerts</Value>
+			<Value>Mūzikls</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="37">
+			<Value>Muzeji</Value>
+			<Value>Muzejs</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="38">
+			<Value>Pieminekļi</Value>
+			<Value>Piemineklis</Value>
+			<Value>Monuments</Value>
+			<Value>Monumenti</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="39">
+			<Value>Sporta centri</Value>
+			<Value>Sporta centrs</Value>
+			<Value>Stadions</Value>
+			<Value>Stadioni</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="41">
+			<Value>Golfa sports</Value>
+			<Value>Golfs</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="42">
+			<Value>Laivu sports</Value>
+			<Value>Laiva</Value>
+			<Value>Laivas</Value>
+			<Value>Burāt</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="43">
+			<Value>Slēpošana</Value>
+			<Value>Slēpes</Value>
+			<Value>Sports</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="44">
+			<Value>Atrakciju parki</Value>
+			<Value>Atrakciju parks</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="45">
+			<Value>Bankas</Value>
+			<Value>Banka</Value>
+			<Value>Nauda</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="46">
+			<Value>Pasts</Value>
+			<Value>Vēstule</Value>
+			<Value>Vēstules</Value>
+			<Value>Paka</Value>
+			<Value>Pakas</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="47">
+			<Value>Firmas</Value>
+			<Value>Firma</Value>
+			<Value>Uzņēmumi</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="48">
+			<Value>Kongresu centri</Value>
+			<Value>Kongresu centrs</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="49">
+			<Value>Valdība un pārvalde</Value>
+			<Value>Pilsētas dome</Value>
+			<Value>Valdība</Value>
+			<Value>Pārvalde</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="50">
+			<Value>Vēstniecības</Value>
+			<Value>Vēstniecība</Value>
+			<Value>Konsulāts</Value>
+			<Value>Konsulāti</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="52">
+			<Value>Izglītības iestādes</Value>
+			<Value>Skola</Value>
+			<Value>Skolas</Value>
+			<Value>Universitāte</Value>
+			<Value>Universitātes</Value>
+			<Value>Izglītības iestāde</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="53">
+			<Value>Dievnami</Value>
+			<Value>Dievnams</Value>
+			<Value>Mošeja</Value>
+			<Value>Mošejas</Value>
+			<Value>Baznīca</Value>
+			<Value>Baznīcas</Value>
+			<Value>Sinagoga</Value>
+			<Value>Sinagogas</Value>
+			<Value>Klosteris</Value>
+			<Value>Klosteri</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="54">
+			<Value>Kapsētas</Value>
+			<Value>Kapsēta</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="55">
+			<Value>Uzlādes stacijas</Value>
+			<Value>Uzlādes stacija</Value>
+			<Value>Lādēt</Value>
+			<Value>Uzlādēt</Value>
+		</Thesaurus>
+	</PoiCategoryThesaurusDefinition>
+
+	<PoiCategoryNameDefinition>
+		<Name category_ref="1">Autostadt</Name>	
+		<Name category_ref="2">Lidostas</Name>
+		<Name category_ref="3">LPG uzpildes stacijas</Name>
+		<Name category_ref="4">Dabasgāzes uzpildes stacijas</Name>
+		<Name category_ref="5">Uzpildes stacijas</Name>
+		<Name category_ref="6">Autostāvvietas</Name>
+		<Name category_ref="7">Atpūtas vietas</Name>
+		<Name category_ref="8">Viesnīcas un moteļi</Name>
+		<Name category_ref="9">Prāmji un autovilcieni</Name>
+		<Name category_ref="10">Robežšķērsošanas vietas</Name>
+		<Name category_ref="12">SEAT dīleris</Name>
+		<Name category_ref="11">SEAT serviss</Name>
+		<Name category_ref="14">Automaģistrāles nobrauktuves/uzbrauktuves</Name>
+		<Name category_ref="15">Auto nomas</Name>
+		<Name category_ref="16">Dzelzceļa stacijas</Name>
+		<Name category_ref="18">Autoostas</Name>
+		<Name category_ref="19">Tūrisma informācijas centri</Name>
+		<Name category_ref="20">Policijas</Name>
+		<Name category_ref="21">Slimnīcas</Name>
+		<Name category_ref="22">Medicīnas pakalpojumi</Name>
+		<Name category_ref="23">Aptiekas</Name>
+		<Name category_ref="24">Restorāni</Name>
+		<Name category_ref="25">Bankomāti</Name>
+		<Name category_ref="26">Kafejnīcas</Name>
+		<Name category_ref="27">Iepirkšanās centri</Name>
+		<Name category_ref="28">Apģērbs</Name>
+		<Name category_ref="29">Elektronika</Name>
+		<Name category_ref="30">Vīni un alkoholiskie dzērieni</Name>
+		<Name category_ref="31">Naktsdzīve</Name>
+		<Name category_ref="32">Parki</Name>
+		<Name category_ref="33">Ievērojamas vietas</Name>
+		<Name category_ref="34">Kinoteātri</Name>
+		<Name category_ref="35">Kazino</Name>
+		<Name category_ref="36">Teātra māksla</Name>
+		<Name category_ref="37">Muzeji</Name>
+		<Name category_ref="38">Pieminekļi</Name>
+		<Name category_ref="39">Sporta centri</Name>
+		<Name category_ref="41">Golfa sports</Name>
+		<Name category_ref="42">Laivu sports</Name>
+		<Name category_ref="43">Slēpošana</Name>
+		<Name category_ref="44">Atrakciju parki</Name>
+		<Name category_ref="45">Bankas</Name>
+		<Name category_ref="46">Pasts</Name>
+		<Name category_ref="47">Firmas</Name>
+		<Name category_ref="48">Kongresu centri</Name>
+		<Name category_ref="49">Valdība un pārvalde</Name>
+		<Name category_ref="50">Vēstniecības</Name>
+		<Name category_ref="52">Izglītības iestādes</Name>
+		<Name category_ref="53">Dievnami</Name>
+		<Name category_ref="54">Kapsētas</Name>
+		<Name category_ref="55">Uzlādes stacijas</Name>
+	</PoiCategoryNameDefinition>
+</LanguagePoiConfiguration>

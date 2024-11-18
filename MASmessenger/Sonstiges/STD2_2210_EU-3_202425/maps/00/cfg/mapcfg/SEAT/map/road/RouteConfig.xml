@@ -1,0 +1,3501 @@
+﻿<!-- This is an old configuration for EU-SOP1 software -->
+<RouteConfig version="1" >
+	
+	<!-- we can config some general route display options here, these will not result in a style database entry -->
+	<RouteSelfOverLap>true</RouteSelfOverLap>
+	<RouteEatUp>true</RouteEatUp>
+	<OverviewZoomUpdateIntervalInMs>2000</OverviewZoomUpdateIntervalInMs> <!-- sets the time inteval which should be used the update the automatice zoom in the overview map. Not sure whether this is needed or correctly placed here but we don't want forget about it. -->
+  
+	<!--
+	The id have to match tsd::nav::core::guidance::control::routingdata::IRouteOptions
+	TODO: find better matching approach?
+	-->
+   
+	<RouteStyle id="1" desc="EU fast Route (red)"> 
+
+		<!-- type choose one of the valid enum values:
+		    DEFAULT                         - the primary route style
+			BEYOND_FIRST_DESTINATION        - each route can have a different styling after the first destination
+			ALTERNATIVE1                    -
+			ALTERNATIVE2                    - 
+			ISM_MANEUVER_ARROW              - tbd
+			ISM_MANEUVER_ARROW_SHADOW       - 
+			OFFROAD_ROUTE					- style for the offroad part of a displayed route
+		-->
+		
+		<RouteSubStyle type="default">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>110</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#ED3F49FF</Color>
+						<Color mode="night">#ED3F49FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>109</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="selected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>100</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#ED3F49FF</Color>
+						<Color mode="night">#ED3F49FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>99</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="beyond_first_destination">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#F1B9B9FF</Color>
+						<Color mode="night">#F1B9B9FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>50</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#ED3F49FF</Color>
+						<Color mode="night">#ED3F49FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>49</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="unselected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>10</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#ED3F49FF</Color>
+						<Color mode="night">#ED3F49FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>9</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative1">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>20</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#ED3F49FF</Color>
+						<Color mode="night">#ED3F49FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>19</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative2">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#ED3F49FF</Color>
+						<Color mode="night">#ED3F49FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="offroad_route">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#ED3F49FF</Color>
+						<Color mode="night">#ED3F49FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0000007 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>120</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#ED3F49FF</Color>
+						<Color mode="night">#ED3F49FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>119</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow_shadow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>115</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>114</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+		
+   </RouteStyle>
+   
+   <!-- ===================================================================================================================== -->
+	<RouteStyle id="2" desc="(light red)">
+
+		<!-- type choose one of the valid enum values:
+		    DEFAULT                         - the primary route style
+			BEYOND_FIRST_DESTINATION        - each route can have a different styling after the first destination
+			ALTERNATIVE1                    -
+			ALTERNATIVE2                    - 
+			ISM_MANEUVER_ARROW              - tbd
+			ISM_MANEUVER_ARROW_SHADOW       - 
+			OFFROAD_ROUTE					- style for the offroad part of a displayed route
+		-->
+		
+		<RouteSubStyle type="default">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#9E1809FF</Color>
+						<Color mode="night">#9E1809FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>110</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#4F0C04FF</Color>
+						<Color mode="night">#4F0C04FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>109</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="selected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#9E1809FF</Color>
+						<Color mode="night">#9E1809FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>100</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#4F0C04FF</Color>
+						<Color mode="night">#4F0C04FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>99</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="beyond_first_destination">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#BE1D0BFF</Color>
+						<Color mode="night">#BE1D0BFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>50</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#5F0E05FF</Color>
+						<Color mode="night">#5F0E05FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>49</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="unselected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#626262FF</Color>
+						<Color mode="night">#626262FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>10</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#313131FF</Color>
+						<Color mode="night">#313131FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>9</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative1">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#7F1307FF</Color>
+						<Color mode="night">#7F1307FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>20</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#3F0A04FF</Color>
+						<Color mode="night">#3F0A04FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>19</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative2">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#6F1106FF</Color>
+						<Color mode="night">#6F1106FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#370803FF</Color>
+						<Color mode="night">#370803FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="offroad_route">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#B3B3B3FF</Color>
+						<Color mode="night">#B3B3B3FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#5A5A5AFF</Color>
+						<Color mode="night">#5A5A5AFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0000007 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#9E1809FF</Color>
+						<Color mode="night">#9E1809FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>120</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#4F0C04FF</Color>
+						<Color mode="night">#4F0C04FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>119</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow_shadow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>115</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>114</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+		
+   </RouteStyle>
+   
+   <!-- ===================================================================================================================== -->
+
+   
+	<RouteStyle id="3" desc="(very light red)">
+
+		<!-- type choose one of the valid enum values:
+		    DEFAULT                         - the primary route style
+			BEYOND_FIRST_DESTINATION        - each route can have a different styling after the first destination
+			ALTERNATIVE1                    -
+			ALTERNATIVE2                    - 
+			ISM_MANEUVER_ARROW              - tbd
+			ISM_MANEUVER_ARROW_SHADOW       - 
+			OFFROAD_ROUTE					- style for the offroad part of a displayed route
+		-->
+		
+		<RouteSubStyle type="default">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#8B1508FF</Color>
+						<Color mode="night">#8B1508FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>110</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#450B04FF</Color>
+						<Color mode="night">#450B04FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>109</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="selected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#8B1508FF</Color>
+						<Color mode="night">#8B1508FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>100</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#450B04FF</Color>
+						<Color mode="night">#450B04FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>99</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="beyond_first_destination">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#A61909FF</Color>
+						<Color mode="night">#A61909FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>50</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#530D05FF</Color>
+						<Color mode="night">#530D05FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>49</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="unselected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#565656FF</Color>
+						<Color mode="night">#565656FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>10</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#2B2B2BFF</Color>
+						<Color mode="night">#2B2B2BFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>9</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative1">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#6F1106FF</Color>
+						<Color mode="night">#6F1106FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>20</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#370803FF</Color>
+						<Color mode="night">#370803FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>19</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative2">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#610F05FF</Color>
+						<Color mode="night">#610F05FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#310703FF</Color>
+						<Color mode="night">#310703FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="offroad_route">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#B3B3B3FF</Color>
+						<Color mode="night">#B3B3B3FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#5A5A5AFF</Color>
+						<Color mode="night">#5A5A5AFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0000007 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#8B1508FF</Color>
+						<Color mode="night">#8B1508FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>120</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#450B04FF</Color>
+						<Color mode="night">#450B04FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>119</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow_shadow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>115</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>114</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+		
+   </RouteStyle>
+   
+   <!-- ===================================================================================================================== -->
+
+   
+	<RouteStyle id="4" desc="short Route (orange)">
+
+		<!-- type choose one of the valid enum values:
+		    DEFAULT                         - the primary route style
+			BEYOND_FIRST_DESTINATION        - each route can have a different styling after the first destination
+			ALTERNATIVE1                    -
+			ALTERNATIVE2                    - 
+			ISM_MANEUVER_ARROW              - tbd
+			ISM_MANEUVER_ARROW_SHADOW       - 
+			OFFROAD_ROUTE					- style for the offroad part of a displayed route
+		-->
+		
+		<RouteSubStyle type="default">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>110</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#FA9209FF</Color>
+						<Color mode="night">#FA9209FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>109</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="selected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>100</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#FA9209FF</Color>
+						<Color mode="night">#FA9209FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>99</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="beyond_first_destination">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#F0D0A6FF</Color>
+						<Color mode="night">#F0D0A6FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>50</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#FA9209FF</Color>
+						<Color mode="night">#FA9209FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>49</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="unselected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>10</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#FA9209FF</Color>
+						<Color mode="night">#FA9209FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>9</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative1">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>20</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#FA9209FF</Color>
+						<Color mode="night">#FA9209FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>19</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative2">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#FA9209FF</Color>
+						<Color mode="night">#FA9209FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="offroad_route">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#FA9209FF</Color>
+						<Color mode="night">#FA9209FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0000007 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>120</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#FA9209FF</Color>
+						<Color mode="night">#FA9209FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>119</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow_shadow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>115</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>114</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+		
+   </RouteStyle>
+   
+   <!-- ===================================================================================================================== -->
+   
+	<RouteStyle id="5" desc="(light orange)">
+
+		<!-- type choose one of the valid enum values:
+		    DEFAULT                         - the primary route style
+			BEYOND_FIRST_DESTINATION        - each route can have a different styling after the first destination
+			ALTERNATIVE1                    -
+			ALTERNATIVE2                    - 
+			ISM_MANEUVER_ARROW              - tbd
+			ISM_MANEUVER_ARROW_SHADOW       - 
+			OFFROAD_ROUTE					- style for the offroad part of a displayed route
+		-->
+		
+		<RouteSubStyle type="default">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#CCA300FF</Color>
+						<Color mode="night">#CCA300FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>110</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#665200FF</Color>
+						<Color mode="night">#665200FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>109</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="selected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#CCA300FF</Color>
+						<Color mode="night">#CCA300FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>100</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#665200FF</Color>
+						<Color mode="night">#665200FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>99</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="beyond_first_destination">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#F5C400FF</Color>
+						<Color mode="night">#F5C400FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>50</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#7A6200FF</Color>
+						<Color mode="night">#7A6200FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>49</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="unselected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#AAAAAAFF</Color>
+						<Color mode="night">#AAAAAAFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>10</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#555555FF</Color>
+						<Color mode="night">#555555FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>9</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative1">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#A38300FF</Color>
+						<Color mode="night">#A38300FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>20</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#524100FF</Color>
+						<Color mode="night">#524100FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>19</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative2">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#8F7200FF</Color>
+						<Color mode="night">#8F7200FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#473900FF</Color>
+						<Color mode="night">#473900FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="offroad_route">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#B3B3B3FF</Color>
+						<Color mode="night">#B3B3B3FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#5A5A5AFF</Color>
+						<Color mode="night">#5A5A5AFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0000007 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#CCA300FF</Color>
+						<Color mode="night">#CCA300FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>120</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#665200FF</Color>
+						<Color mode="night">#665200FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>119</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow_shadow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>115</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>114</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+		
+   </RouteStyle>
+   
+   <!-- ===================================================================================================================== -->
+   
+	<RouteStyle id="6" desc="(very light orange)">
+
+		<!-- type choose one of the valid enum values:
+		    DEFAULT                         - the primary route style
+			BEYOND_FIRST_DESTINATION        - each route can have a different styling after the first destination
+			ALTERNATIVE1                    -
+			ALTERNATIVE2                    - 
+			ISM_MANEUVER_ARROW              - tbd
+			ISM_MANEUVER_ARROW_SHADOW       - 
+			OFFROAD_ROUTE					- style for the offroad part of a displayed route
+		-->
+		
+		<RouteSubStyle type="default">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#B38F00FF</Color>
+						<Color mode="night">#B38F00FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>110</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#594700FF</Color>
+						<Color mode="night">#594700FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>109</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="selected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#B38F00FF</Color>
+						<Color mode="night">#B38F00FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>100</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#594700FF</Color>
+						<Color mode="night">#594700FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>99</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="beyond_first_destination">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#D6AB00FF</Color>
+						<Color mode="night">#D6AB00FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>50</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#6B5600FF</Color>
+						<Color mode="night">#6B5600FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>49</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="unselected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#959595FF</Color>
+						<Color mode="night">#959595FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>10</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#4A4A4AFF</Color>
+						<Color mode="night">#4A4A4AFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>9</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative1">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#8F7200FF</Color>
+						<Color mode="night">#8F7200FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>20</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#473900FF</Color>
+						<Color mode="night">#473900FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>19</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative2">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#7D6400FF</Color>
+						<Color mode="night">#7D6400FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#3E3200FF</Color>
+						<Color mode="night">#3E3200FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="offroad_route">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#B3B3B3FF</Color>
+						<Color mode="night">#B3B3B3FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#5A5A5AFF</Color>
+						<Color mode="night">#5A5A5AFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0000007 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#B38F00FF</Color>
+						<Color mode="night">#B38F00FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>120</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#594700FF</Color>
+						<Color mode="night">#594700FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>119</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow_shadow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>115</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>114</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+		
+   </RouteStyle>
+   
+   <!-- ===================================================================================================================== -->
+	<RouteStyle id="7" desc="economical route (blue)">
+
+		<!-- type choose one of the valid enum values:
+		    DEFAULT                         - the primary route style
+			BEYOND_FIRST_DESTINATION        - each route can have a different styling after the first destination
+			ALTERNATIVE1                    -
+			ALTERNATIVE2                    - 
+			ISM_MANEUVER_ARROW              - tbd
+			ISM_MANEUVER_ARROW_SHADOW       - 
+			OFFROAD_ROUTE					- style for the offroad part of a displayed route
+		-->
+		
+		<RouteSubStyle type="default">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>110</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#05B9F8FF</Color>
+						<Color mode="night">#05B9F8FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>109</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="selected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>100</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#05B9F8FF</Color>
+						<Color mode="night">#05B9F8FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>99</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="beyond_first_destination">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#B9DFEEFF</Color>
+						<Color mode="night">#B9DFEEFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>50</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#05B9F8FF</Color>
+						<Color mode="night">#05B9F8FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>49</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="unselected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>10</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#05B9F8FF</Color>
+						<Color mode="night">#05B9F8FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>9</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative1">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>20</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#05B9F8FF</Color>
+						<Color mode="night">#05B9F8FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>19</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative2">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#05B9F8FF</Color>
+						<Color mode="night">#05B9F8FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="offroad_route">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#05B9F8FF</Color>
+						<Color mode="night">#05B9F8FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0000007 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFFFFFF</Color>
+						<Color mode="night">#FFFFFFFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>120</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#05B9F8FF</Color>
+						<Color mode="night">#05B9F8FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>119</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow_shadow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>115</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>114</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+		
+   </RouteStyle>
+   
+   <!-- ===================================================================================================================== -->
+   
+	<RouteStyle id="8" desc="(light blue)">
+
+		<!-- type choose one of the valid enum values:
+		    DEFAULT                         - the primary route style
+			BEYOND_FIRST_DESTINATION        - each route can have a different styling after the first destination
+			ALTERNATIVE1                    -
+			ALTERNATIVE2                    - 
+			ISM_MANEUVER_ARROW              - tbd
+			ISM_MANEUVER_ARROW_SHADOW       - 
+			OFFROAD_ROUTE					- style for the offroad part of a displayed route
+		-->
+		
+		<RouteSubStyle type="default">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#28AAAEFF</Color>
+						<Color mode="night">#28AAAEFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>110</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#145557FF</Color>
+						<Color mode="night">#145557FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>109</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="selected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#28AAAEFF</Color>
+						<Color mode="night">#28AAAEFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>100</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#145557FF</Color>
+						<Color mode="night">#145557FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>99</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="beyond_first_destination">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#30CCD1FF</Color>
+						<Color mode="night">#30CCD1FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>50</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#186669FF</Color>
+						<Color mode="night">#186669FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>49</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="unselected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#959595FF</Color>
+						<Color mode="night">#959595FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>10</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#4B4B4BFF</Color>
+						<Color mode="night">#4B4B4BFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>9</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative1">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#20888CFF</Color>
+						<Color mode="night">#20888CFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>20</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#104446FF</Color>
+						<Color mode="night">#104446FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>19</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative2">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#1C777AFF</Color>
+						<Color mode="night">#1C777AFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#0E3C3DFF</Color>
+						<Color mode="night">#0E3C3DFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="offroad_route">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#B3B3B3FF</Color>
+						<Color mode="night">#B3B3B3FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#5A5A5AFF</Color>
+						<Color mode="night">#5A5A5AFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0000007 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#28AAAEFF</Color>
+						<Color mode="night">#28AAAEFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>120</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#145557FF</Color>
+						<Color mode="night">#145557FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>119</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow_shadow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>115</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>114</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+		
+   </RouteStyle>
+   
+   <!-- ===================================================================================================================== -->
+   
+	<RouteStyle id="9" desc="(very light blue)">
+
+		<!-- type choose one of the valid enum values:
+		    DEFAULT                         - the primary route style
+			BEYOND_FIRST_DESTINATION        - each route can have a different styling after the first destination
+			ALTERNATIVE1                    -
+			ALTERNATIVE2                    - 
+			ISM_MANEUVER_ARROW              - tbd
+			ISM_MANEUVER_ARROW_SHADOW       - 
+			OFFROAD_ROUTE					- style for the offroad part of a displayed route
+		-->
+		
+		<RouteSubStyle type="default">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#239599FF</Color>
+						<Color mode="night">#239599FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>110</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#124B4CFF</Color>
+						<Color mode="night">#124B4CFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>109</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="selected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#239599FF</Color>
+						<Color mode="night">#239599FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>100</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#124B4CFF</Color>
+						<Color mode="night">#124B4CFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>99</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="beyond_first_destination">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#2AB3B7FF</Color>
+						<Color mode="night">#2AB3B7FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>50</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#15595CFF</Color>
+						<Color mode="night">#15595CFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>49</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="unselected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#828282FF</Color>
+						<Color mode="night">#828282FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>10</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#414141FF</Color>
+						<Color mode="night">#414141FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>9</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative1">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#1C777AFF</Color>
+						<Color mode="night">#1C777AFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>20</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#0E3C3DFF</Color>
+						<Color mode="night">#0E3C3DFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>19</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative2">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#19686BFF</Color>
+						<Color mode="night">#19686BFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#0C3435FF</Color>
+						<Color mode="night">#0C3435FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="offroad_route">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#B3B3B3FF</Color>
+						<Color mode="night">#B3B3B3FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#5A5A5AFF</Color>
+						<Color mode="night">#5A5A5AFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0000007 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#239599FF</Color>
+						<Color mode="night">#239599FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>120</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#124B4CFF</Color>
+						<Color mode="night">#124B4CFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>119</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow_shadow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>115</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>114</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+		
+   </RouteStyle>
+   
+   <!-- ===================================================================================================================== -->
+   
+	<RouteStyle id="10" desc="(yellow)">
+
+		<!-- type choose one of the valid enum values:
+		    DEFAULT                         - the primary route style
+			BEYOND_FIRST_DESTINATION        - each route can have a different styling after the first destination
+			ALTERNATIVE1                    -
+			ALTERNATIVE2                    - 
+			ISM_MANEUVER_ARROW              - tbd
+			ISM_MANEUVER_ARROW_SHADOW       - 
+			OFFROAD_ROUTE					- style for the offroad part of a displayed route
+		-->
+		
+		<RouteSubStyle type="default">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFF66FF</Color>
+						<Color mode="night">#FFFF66FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>110</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#808033FF</Color>
+						<Color mode="night">#808033FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>109</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="selected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFF66FF</Color>
+						<Color mode="night">#FFFF66FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>100</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#808033FF</Color>
+						<Color mode="night">#808033FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>99</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="beyond_first_destination">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#33327AFF</Color>
+						<Color mode="night">#33327AFF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>50</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#99993DFF</Color>
+						<Color mode="night">#99993DFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>49</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="unselected">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#F4F4F4FF</Color>
+						<Color mode="night">#F4F4F4FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>10</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#7A7A7AFF</Color>
+						<Color mode="night">#7A7A7AFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>9</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative1">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#CCCC52FF</Color>
+						<Color mode="night">#CCCC52FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>20</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#666629FF</Color>
+						<Color mode="night">#666629FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>19</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="alternative2">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#B3B347FF</Color>
+						<Color mode="night">#B3B347FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#595924FF</Color>
+						<Color mode="night">#595924FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="offroad_route">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#B3B3B3FF</Color>
+						<Color mode="night">#B3B3B3FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>30</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#5A5A5AFF</Color>
+						<Color mode="night">#5A5A5AFF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>29</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0000007 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#FFFF66FF</Color>
+						<Color mode="night">#FFFF66FF</Color>
+						<Thickness func="100" unit="px">8.0</Thickness>
+						<Priority>120</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#808033FF</Color>
+						<Color mode="night">#808033FF</Color>
+						<Thickness func="100" unit="px">20.0</Thickness>
+						<Priority>119</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+      
+		<RouteSubStyle type="ism_maneuver_arrow_shadow">
+			<!-- some route styles will be used for rendering maneuver arrows (which have to be styled in a
+			     similar color as the route). Maneuver arrows need to be lifted up a bit to float above the 
+				 map. This value configures it. The unit is "global mercator"
+				 TODO find a unit more intuitive
+				 -->
+			<HeightAboveGround> 0.0 </HeightAboveGround>
+			
+			<!-- the semantic of this LineStyle tag is the same as in RoadConfig(uration).xml -->
+			
+			<LineStyle>
+				<ScaleLevelVisibility>
+					<ScaleLevelValue type="min">         0</ScaleLevelValue>
+					<ScaleLevelValue type="max">  60000000</ScaleLevelValue>
+					<ScaleLevelValue type="fade"> 60000000</ScaleLevelValue>   
+				</ScaleLevelVisibility>
+				
+				<LayerSet>
+					<LayerPattern layer="0" type="uni-fill">
+						<!--inline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>115</Priority>
+					</LayerPattern>
+					<LayerPattern layer="1" type="uni-fill">
+						<!--outline-->
+						<Color mode="day"  >#00000080</Color>
+						<Color mode="night">#00000080</Color>
+						<Thickness func="100" unit="px">40.0</Thickness>
+						<Priority>114</Priority>
+					</LayerPattern>
+				</LayerSet>
+			</LineStyle>
+
+		</RouteSubStyle>
+		
+   </RouteStyle>
+</RouteConfig>

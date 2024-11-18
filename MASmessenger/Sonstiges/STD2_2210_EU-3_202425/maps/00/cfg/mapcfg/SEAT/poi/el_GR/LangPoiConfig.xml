@@ -1,0 +1,1052 @@
+﻿<LanguagePoiConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/locale/LanguagePoiConfiguration.xsd" version="1">
+		<!--Alphabetically sorted setup category definitions for each fuel type, will be reloaded after language change-->
+	<SetupCategoryDefinition>	
+		<PoiCategoryMapping fueltype="default">
+		  <PoiCategoryRef>1</PoiCategoryRef>
+		  <PoiCategoryRef>12</PoiCategoryRef>
+		  <PoiCategoryRef>2</PoiCategoryRef>
+		  <PoiCategoryRef>39</PoiCategoryRef>
+		  <PoiCategoryRef>20</PoiCategoryRef>
+		  <PoiCategoryRef>14</PoiCategoryRef>
+		  <PoiCategoryRef>41</PoiCategoryRef>
+		  <PoiCategoryRef>28</PoiCategoryRef>
+		  <PoiCategoryRef>36</PoiCategoryRef>
+		  <PoiCategoryRef>52</PoiCategoryRef>
+		  <PoiCategoryRef>27</PoiCategoryRef>
+		  <PoiCategoryRef>15</PoiCategoryRef>
+		  <PoiCategoryRef>11</PoiCategoryRef>
+		   <PoiCategoryRef>24</PoiCategoryRef>
+		  <PoiCategoryRef>47</PoiCategoryRef>
+		  <PoiCategoryRef>29</PoiCategoryRef>
+		  <PoiCategoryRef>22</PoiCategoryRef>
+		  <PoiCategoryRef>35</PoiCategoryRef>
+		  <PoiCategoryRef>26</PoiCategoryRef>
+		  <PoiCategoryRef>34</PoiCategoryRef>
+		  <PoiCategoryRef>30</PoiCategoryRef>
+		  <PoiCategoryRef>49</PoiCategoryRef>
+		  <PoiCategoryRef>44</PoiCategoryRef>
+		  <PoiCategoryRef>25</PoiCategoryRef>
+		  <PoiCategoryRef>38</PoiCategoryRef>
+		  <PoiCategoryRef>37</PoiCategoryRef>
+		  <PoiCategoryRef>53</PoiCategoryRef>
+		  <PoiCategoryRef>42</PoiCategoryRef>
+		  <PoiCategoryRef>54</PoiCategoryRef>
+		  <PoiCategoryRef>21</PoiCategoryRef>
+		  <PoiCategoryRef>31</PoiCategoryRef>
+		  <PoiCategoryRef>8</PoiCategoryRef>
+		  <PoiCategoryRef>32</PoiCategoryRef>
+		  <PoiCategoryRef>101</PoiCategoryRef>
+		  <PoiCategoryRef>136</PoiCategoryRef>
+		  <PoiCategoryRef>135</PoiCategoryRef>
+		  <PoiCategoryRef>50</PoiCategoryRef>
+		  <PoiCategoryRef>16</PoiCategoryRef>
+		  <PoiCategoryRef>43</PoiCategoryRef>
+		  <PoiCategoryRef>7</PoiCategoryRef>
+		  <PoiCategoryRef>18</PoiCategoryRef>
+		  <PoiCategoryRef>134</PoiCategoryRef>
+		  <PoiCategoryRef>48</PoiCategoryRef>
+		  <PoiCategoryRef>10</PoiCategoryRef>
+		  <PoiCategoryRef>46</PoiCategoryRef>
+		  <PoiCategoryRef>33</PoiCategoryRef>
+		  <PoiCategoryRef>19</PoiCategoryRef>
+		  <PoiCategoryRef>45</PoiCategoryRef>
+		  <PoiCategoryRef>23</PoiCategoryRef>
+		  <PoiCategoryRef>9</PoiCategoryRef>
+		  <PoiCategoryRef>102</PoiCategoryRef>
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="gasoline">
+		  <PoiCategoryRef>1</PoiCategoryRef>
+		  <PoiCategoryRef>12</PoiCategoryRef>
+		  <PoiCategoryRef>2</PoiCategoryRef>
+		  <PoiCategoryRef>39</PoiCategoryRef>
+		  <PoiCategoryRef>20</PoiCategoryRef>
+		  <PoiCategoryRef>14</PoiCategoryRef>
+		  <PoiCategoryRef>41</PoiCategoryRef>
+		  <PoiCategoryRef>28</PoiCategoryRef>
+		  <PoiCategoryRef>36</PoiCategoryRef>
+		  <PoiCategoryRef>52</PoiCategoryRef>
+		  <PoiCategoryRef>27</PoiCategoryRef>
+		  <PoiCategoryRef>15</PoiCategoryRef>
+		  <PoiCategoryRef>11</PoiCategoryRef>
+		  <PoiCategoryRef>24</PoiCategoryRef>
+		  <PoiCategoryRef>47</PoiCategoryRef>
+		  <PoiCategoryRef>29</PoiCategoryRef>
+		  <PoiCategoryRef>22</PoiCategoryRef>
+		  <PoiCategoryRef>35</PoiCategoryRef>
+		  <PoiCategoryRef>26</PoiCategoryRef>
+		  <PoiCategoryRef>34</PoiCategoryRef>
+		  <PoiCategoryRef>30</PoiCategoryRef>
+		  <PoiCategoryRef>49</PoiCategoryRef>
+		  <PoiCategoryRef>44</PoiCategoryRef>
+		  <PoiCategoryRef>25</PoiCategoryRef>
+		  <PoiCategoryRef>38</PoiCategoryRef>
+		  <PoiCategoryRef>37</PoiCategoryRef>
+		  <PoiCategoryRef>53</PoiCategoryRef>
+		  <PoiCategoryRef>42</PoiCategoryRef>
+		  <PoiCategoryRef>54</PoiCategoryRef>
+		  <PoiCategoryRef>21</PoiCategoryRef>
+		  <PoiCategoryRef>31</PoiCategoryRef>
+		  <PoiCategoryRef>8</PoiCategoryRef>
+		  <PoiCategoryRef>32</PoiCategoryRef>
+		  <PoiCategoryRef>5</PoiCategoryRef>
+		   <PoiCategoryRef>3</PoiCategoryRef>
+		  <PoiCategoryRef>4</PoiCategoryRef>
+		  <PoiCategoryRef>50</PoiCategoryRef>
+		  <PoiCategoryRef>16</PoiCategoryRef>
+		  <PoiCategoryRef>43</PoiCategoryRef>
+		  <PoiCategoryRef>7</PoiCategoryRef>
+		  <PoiCategoryRef>18</PoiCategoryRef>
+		  <PoiCategoryRef>55</PoiCategoryRef>
+		  <PoiCategoryRef>48</PoiCategoryRef>
+		  <PoiCategoryRef>10</PoiCategoryRef>
+		  <PoiCategoryRef>46</PoiCategoryRef>
+		  <PoiCategoryRef>33</PoiCategoryRef>
+		  <PoiCategoryRef>19</PoiCategoryRef>
+		  <PoiCategoryRef>45</PoiCategoryRef>
+		  <PoiCategoryRef>23</PoiCategoryRef>
+		  <PoiCategoryRef>9</PoiCategoryRef>
+		  <PoiCategoryRef>6</PoiCategoryRef>
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="diesel">
+		  <PoiCategoryRef>1</PoiCategoryRef>
+		  <PoiCategoryRef>12</PoiCategoryRef>
+		  <PoiCategoryRef>2</PoiCategoryRef>
+		  <PoiCategoryRef>39</PoiCategoryRef>
+		  <PoiCategoryRef>20</PoiCategoryRef>
+		  <PoiCategoryRef>14</PoiCategoryRef>
+		  <PoiCategoryRef>41</PoiCategoryRef>
+		  <PoiCategoryRef>28</PoiCategoryRef>
+		  <PoiCategoryRef>36</PoiCategoryRef>
+		  <PoiCategoryRef>52</PoiCategoryRef>
+		  <PoiCategoryRef>27</PoiCategoryRef>
+		  <PoiCategoryRef>15</PoiCategoryRef>
+		  <PoiCategoryRef>11</PoiCategoryRef>
+		  <PoiCategoryRef>24</PoiCategoryRef>
+		  <PoiCategoryRef>47</PoiCategoryRef>
+		  <PoiCategoryRef>29</PoiCategoryRef>
+		  <PoiCategoryRef>22</PoiCategoryRef>
+		  <PoiCategoryRef>35</PoiCategoryRef>
+		  <PoiCategoryRef>26</PoiCategoryRef>
+		  <PoiCategoryRef>34</PoiCategoryRef>
+		  <PoiCategoryRef>30</PoiCategoryRef>
+		  <PoiCategoryRef>49</PoiCategoryRef>
+		  <PoiCategoryRef>44</PoiCategoryRef>
+		  <PoiCategoryRef>25</PoiCategoryRef>
+		  <PoiCategoryRef>38</PoiCategoryRef>
+		  <PoiCategoryRef>37</PoiCategoryRef>
+		  <PoiCategoryRef>53</PoiCategoryRef>
+		  <PoiCategoryRef>42</PoiCategoryRef>
+		  <PoiCategoryRef>54</PoiCategoryRef>
+		  <PoiCategoryRef>21</PoiCategoryRef>
+		  <PoiCategoryRef>31</PoiCategoryRef>
+		  <PoiCategoryRef>8</PoiCategoryRef>
+		  <PoiCategoryRef>32</PoiCategoryRef>
+		  <PoiCategoryRef>5</PoiCategoryRef>
+		   <PoiCategoryRef>3</PoiCategoryRef>
+		  <PoiCategoryRef>4</PoiCategoryRef>
+		  <PoiCategoryRef>50</PoiCategoryRef>
+		  <PoiCategoryRef>16</PoiCategoryRef>
+		  <PoiCategoryRef>43</PoiCategoryRef>
+		  <PoiCategoryRef>7</PoiCategoryRef>
+		  <PoiCategoryRef>18</PoiCategoryRef>
+		  <PoiCategoryRef>55</PoiCategoryRef>
+		  <PoiCategoryRef>48</PoiCategoryRef>
+		  <PoiCategoryRef>10</PoiCategoryRef>
+		  <PoiCategoryRef>46</PoiCategoryRef>
+		  <PoiCategoryRef>33</PoiCategoryRef>
+		  <PoiCategoryRef>19</PoiCategoryRef>
+		  <PoiCategoryRef>45</PoiCategoryRef>
+		  <PoiCategoryRef>23</PoiCategoryRef>
+		  <PoiCategoryRef>9</PoiCategoryRef>
+		  <PoiCategoryRef>6</PoiCategoryRef>
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="cng">
+		  <PoiCategoryRef>1</PoiCategoryRef>
+		  <PoiCategoryRef>12</PoiCategoryRef>
+		  <PoiCategoryRef>2</PoiCategoryRef>
+		  <PoiCategoryRef>39</PoiCategoryRef>
+		  <PoiCategoryRef>20</PoiCategoryRef>
+		  <PoiCategoryRef>14</PoiCategoryRef>
+		  <PoiCategoryRef>41</PoiCategoryRef>
+		  <PoiCategoryRef>28</PoiCategoryRef>
+		  <PoiCategoryRef>36</PoiCategoryRef>
+		  <PoiCategoryRef>52</PoiCategoryRef>
+		  <PoiCategoryRef>27</PoiCategoryRef>
+		  <PoiCategoryRef>15</PoiCategoryRef>
+		  <PoiCategoryRef>11</PoiCategoryRef>
+		  <PoiCategoryRef>24</PoiCategoryRef>
+		  <PoiCategoryRef>47</PoiCategoryRef>
+		  <PoiCategoryRef>29</PoiCategoryRef>
+		  <PoiCategoryRef>22</PoiCategoryRef>
+		  <PoiCategoryRef>35</PoiCategoryRef>
+		  <PoiCategoryRef>26</PoiCategoryRef>
+		  <PoiCategoryRef>34</PoiCategoryRef>
+		  <PoiCategoryRef>30</PoiCategoryRef>
+		  <PoiCategoryRef>49</PoiCategoryRef>
+		  <PoiCategoryRef>44</PoiCategoryRef>
+		  <PoiCategoryRef>25</PoiCategoryRef>
+		  <PoiCategoryRef>38</PoiCategoryRef>
+		  <PoiCategoryRef>37</PoiCategoryRef>
+		  <PoiCategoryRef>53</PoiCategoryRef>
+		  <PoiCategoryRef>42</PoiCategoryRef>
+		  <PoiCategoryRef>54</PoiCategoryRef>
+		  <PoiCategoryRef>21</PoiCategoryRef>
+		  <PoiCategoryRef>31</PoiCategoryRef>
+		  <PoiCategoryRef>8</PoiCategoryRef>
+		  <PoiCategoryRef>32</PoiCategoryRef>
+		  <PoiCategoryRef>5</PoiCategoryRef>
+		   <PoiCategoryRef>3</PoiCategoryRef>
+		  <PoiCategoryRef>4</PoiCategoryRef>
+		  <PoiCategoryRef>50</PoiCategoryRef>
+		  <PoiCategoryRef>16</PoiCategoryRef>
+		  <PoiCategoryRef>43</PoiCategoryRef>
+		  <PoiCategoryRef>7</PoiCategoryRef>
+		  <PoiCategoryRef>18</PoiCategoryRef>
+		  <PoiCategoryRef>55</PoiCategoryRef>
+		  <PoiCategoryRef>48</PoiCategoryRef>
+		  <PoiCategoryRef>10</PoiCategoryRef>
+		  <PoiCategoryRef>46</PoiCategoryRef>
+		  <PoiCategoryRef>33</PoiCategoryRef>
+		  <PoiCategoryRef>19</PoiCategoryRef>
+		  <PoiCategoryRef>45</PoiCategoryRef>
+		  <PoiCategoryRef>23</PoiCategoryRef>
+		  <PoiCategoryRef>9</PoiCategoryRef>
+		  <PoiCategoryRef>6</PoiCategoryRef>
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="lpg">
+		  <PoiCategoryRef>1</PoiCategoryRef>
+		  <PoiCategoryRef>12</PoiCategoryRef>
+		  <PoiCategoryRef>2</PoiCategoryRef>
+		  <PoiCategoryRef>39</PoiCategoryRef>
+		  <PoiCategoryRef>20</PoiCategoryRef>
+		  <PoiCategoryRef>14</PoiCategoryRef>
+		  <PoiCategoryRef>41</PoiCategoryRef>
+		  <PoiCategoryRef>28</PoiCategoryRef>
+		  <PoiCategoryRef>36</PoiCategoryRef>
+		  <PoiCategoryRef>52</PoiCategoryRef>
+		  <PoiCategoryRef>27</PoiCategoryRef>
+		  <PoiCategoryRef>15</PoiCategoryRef>
+		  <PoiCategoryRef>11</PoiCategoryRef>
+		  <PoiCategoryRef>24</PoiCategoryRef>
+		  <PoiCategoryRef>47</PoiCategoryRef>
+		  <PoiCategoryRef>29</PoiCategoryRef>
+		  <PoiCategoryRef>22</PoiCategoryRef>
+		  <PoiCategoryRef>35</PoiCategoryRef>
+		  <PoiCategoryRef>26</PoiCategoryRef>
+		  <PoiCategoryRef>34</PoiCategoryRef>
+		  <PoiCategoryRef>30</PoiCategoryRef>
+		  <PoiCategoryRef>49</PoiCategoryRef>
+		  <PoiCategoryRef>44</PoiCategoryRef>
+		  <PoiCategoryRef>25</PoiCategoryRef>
+		  <PoiCategoryRef>38</PoiCategoryRef>
+		  <PoiCategoryRef>37</PoiCategoryRef>
+		  <PoiCategoryRef>53</PoiCategoryRef>
+		  <PoiCategoryRef>42</PoiCategoryRef>
+		  <PoiCategoryRef>54</PoiCategoryRef>
+		  <PoiCategoryRef>21</PoiCategoryRef>
+		  <PoiCategoryRef>31</PoiCategoryRef>
+		  <PoiCategoryRef>8</PoiCategoryRef>
+		  <PoiCategoryRef>32</PoiCategoryRef>
+		  <PoiCategoryRef>5</PoiCategoryRef>
+		   <PoiCategoryRef>3</PoiCategoryRef>
+		  <PoiCategoryRef>4</PoiCategoryRef>
+		  <PoiCategoryRef>50</PoiCategoryRef>
+		  <PoiCategoryRef>16</PoiCategoryRef>
+		  <PoiCategoryRef>43</PoiCategoryRef>
+		  <PoiCategoryRef>7</PoiCategoryRef>
+		  <PoiCategoryRef>18</PoiCategoryRef>
+		  <PoiCategoryRef>55</PoiCategoryRef>
+		  <PoiCategoryRef>48</PoiCategoryRef>
+		  <PoiCategoryRef>10</PoiCategoryRef>
+		  <PoiCategoryRef>46</PoiCategoryRef>
+		  <PoiCategoryRef>33</PoiCategoryRef>
+		  <PoiCategoryRef>19</PoiCategoryRef>
+		  <PoiCategoryRef>45</PoiCategoryRef>
+		  <PoiCategoryRef>23</PoiCategoryRef>
+		  <PoiCategoryRef>9</PoiCategoryRef>
+		  <PoiCategoryRef>6</PoiCategoryRef>
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="bev">
+		  <PoiCategoryRef>1</PoiCategoryRef>
+		  <PoiCategoryRef>12</PoiCategoryRef>
+		  <PoiCategoryRef>2</PoiCategoryRef>
+		  <PoiCategoryRef>39</PoiCategoryRef>
+		  <PoiCategoryRef>20</PoiCategoryRef>
+		  <PoiCategoryRef>14</PoiCategoryRef>
+		  <PoiCategoryRef>41</PoiCategoryRef>
+		  <PoiCategoryRef>28</PoiCategoryRef>
+		  <PoiCategoryRef>36</PoiCategoryRef>
+		  <PoiCategoryRef>52</PoiCategoryRef>
+		  <PoiCategoryRef>27</PoiCategoryRef>
+		  <PoiCategoryRef>15</PoiCategoryRef>
+		  <PoiCategoryRef>11</PoiCategoryRef>
+		  <PoiCategoryRef>24</PoiCategoryRef>
+		  <PoiCategoryRef>47</PoiCategoryRef>
+		  <PoiCategoryRef>29</PoiCategoryRef>
+		  <PoiCategoryRef>22</PoiCategoryRef>
+		  <PoiCategoryRef>35</PoiCategoryRef>
+		  <PoiCategoryRef>26</PoiCategoryRef>
+		  <PoiCategoryRef>34</PoiCategoryRef>
+		  <PoiCategoryRef>30</PoiCategoryRef>
+		  <PoiCategoryRef>49</PoiCategoryRef>
+		  <PoiCategoryRef>44</PoiCategoryRef>
+		  <PoiCategoryRef>25</PoiCategoryRef>
+		  <PoiCategoryRef>38</PoiCategoryRef>
+		  <PoiCategoryRef>37</PoiCategoryRef>
+		  <PoiCategoryRef>53</PoiCategoryRef>
+		  <PoiCategoryRef>42</PoiCategoryRef>
+		  <PoiCategoryRef>54</PoiCategoryRef>
+		  <PoiCategoryRef>21</PoiCategoryRef>
+		  <PoiCategoryRef>31</PoiCategoryRef>
+		  <PoiCategoryRef>8</PoiCategoryRef>
+		  <PoiCategoryRef>32</PoiCategoryRef>
+		  <PoiCategoryRef>5</PoiCategoryRef>
+		   <PoiCategoryRef>3</PoiCategoryRef>
+		  <PoiCategoryRef>4</PoiCategoryRef>
+		  <PoiCategoryRef>50</PoiCategoryRef>
+		  <PoiCategoryRef>16</PoiCategoryRef>
+		  <PoiCategoryRef>43</PoiCategoryRef>
+		  <PoiCategoryRef>7</PoiCategoryRef>
+		  <PoiCategoryRef>18</PoiCategoryRef>
+		  <PoiCategoryRef>55</PoiCategoryRef>
+		  <PoiCategoryRef>48</PoiCategoryRef>
+		  <PoiCategoryRef>10</PoiCategoryRef>
+		  <PoiCategoryRef>46</PoiCategoryRef>
+		  <PoiCategoryRef>33</PoiCategoryRef>
+		  <PoiCategoryRef>19</PoiCategoryRef>
+		  <PoiCategoryRef>45</PoiCategoryRef>
+		  <PoiCategoryRef>23</PoiCategoryRef>
+		  <PoiCategoryRef>9</PoiCategoryRef>
+		  <PoiCategoryRef>6</PoiCategoryRef>
+		</PoiCategoryMapping>
+		<PoiCategoryMapping fueltype="phev">
+		  <PoiCategoryRef>1</PoiCategoryRef>
+		  <PoiCategoryRef>12</PoiCategoryRef>
+		  <PoiCategoryRef>2</PoiCategoryRef>
+		  <PoiCategoryRef>39</PoiCategoryRef>
+		  <PoiCategoryRef>20</PoiCategoryRef>
+		  <PoiCategoryRef>14</PoiCategoryRef>
+		  <PoiCategoryRef>41</PoiCategoryRef>
+		  <PoiCategoryRef>28</PoiCategoryRef>
+		  <PoiCategoryRef>36</PoiCategoryRef>
+		  <PoiCategoryRef>52</PoiCategoryRef>
+		  <PoiCategoryRef>27</PoiCategoryRef>
+		  <PoiCategoryRef>15</PoiCategoryRef>
+		  <PoiCategoryRef>11</PoiCategoryRef>
+		  <PoiCategoryRef>24</PoiCategoryRef>
+		  <PoiCategoryRef>47</PoiCategoryRef>
+		  <PoiCategoryRef>29</PoiCategoryRef>
+		  <PoiCategoryRef>22</PoiCategoryRef>
+		  <PoiCategoryRef>35</PoiCategoryRef>
+		  <PoiCategoryRef>26</PoiCategoryRef>
+		  <PoiCategoryRef>34</PoiCategoryRef>
+		  <PoiCategoryRef>30</PoiCategoryRef>
+		  <PoiCategoryRef>49</PoiCategoryRef>
+		  <PoiCategoryRef>44</PoiCategoryRef>
+		  <PoiCategoryRef>25</PoiCategoryRef>
+		  <PoiCategoryRef>38</PoiCategoryRef>
+		  <PoiCategoryRef>37</PoiCategoryRef>
+		  <PoiCategoryRef>53</PoiCategoryRef>
+		  <PoiCategoryRef>42</PoiCategoryRef>
+		  <PoiCategoryRef>54</PoiCategoryRef>
+		  <PoiCategoryRef>21</PoiCategoryRef>
+		  <PoiCategoryRef>31</PoiCategoryRef>
+		  <PoiCategoryRef>8</PoiCategoryRef>
+		  <PoiCategoryRef>32</PoiCategoryRef>
+		  <PoiCategoryRef>5</PoiCategoryRef>
+		   <PoiCategoryRef>3</PoiCategoryRef>
+		  <PoiCategoryRef>4</PoiCategoryRef>
+		  <PoiCategoryRef>50</PoiCategoryRef>
+		  <PoiCategoryRef>16</PoiCategoryRef>
+		  <PoiCategoryRef>43</PoiCategoryRef>
+		  <PoiCategoryRef>7</PoiCategoryRef>
+		  <PoiCategoryRef>18</PoiCategoryRef>
+		  <PoiCategoryRef>55</PoiCategoryRef>
+		  <PoiCategoryRef>48</PoiCategoryRef>
+		  <PoiCategoryRef>10</PoiCategoryRef>
+		  <PoiCategoryRef>46</PoiCategoryRef>
+		  <PoiCategoryRef>33</PoiCategoryRef>
+		  <PoiCategoryRef>19</PoiCategoryRef>
+		  <PoiCategoryRef>45</PoiCategoryRef>
+		  <PoiCategoryRef>23</PoiCategoryRef>
+		  <PoiCategoryRef>9</PoiCategoryRef>
+		  <PoiCategoryRef>6</PoiCategoryRef>
+		</PoiCategoryMapping>
+	</SetupCategoryDefinition>
+	
+	<!-- ### Poi category groups defined by vw, the type defines the "local" or "personal Poi" or other types -->
+	<PoiCategoryGroupDefinition>
+		<PoiCategoryGroup id="11" type="local">
+			<Priority>1</Priority>
+			<PoiCategoryMapping>
+				<PoiCategoryRef>1</PoiCategoryRef>
+				<PoiCategoryRef>12</PoiCategoryRef>
+				<PoiCategoryRef>11</PoiCategoryRef>
+				<PoiCategoryRef>2</PoiCategoryRef>
+				<PoiCategoryRef>39</PoiCategoryRef>
+				<PoiCategoryRef>20</PoiCategoryRef>
+				<PoiCategoryRef>14</PoiCategoryRef>
+				<PoiCategoryRef>41</PoiCategoryRef>
+				<PoiCategoryRef>28</PoiCategoryRef>
+				<PoiCategoryRef>36</PoiCategoryRef>
+				<PoiCategoryRef>52</PoiCategoryRef>
+				<PoiCategoryRef>27</PoiCategoryRef>
+				<PoiCategoryRef>15</PoiCategoryRef>
+				<PoiCategoryRef>24</PoiCategoryRef>
+				<PoiCategoryRef>47</PoiCategoryRef>
+				<PoiCategoryRef>29</PoiCategoryRef>
+				<PoiCategoryRef>22</PoiCategoryRef>
+				<PoiCategoryRef>35</PoiCategoryRef>
+				<PoiCategoryRef>26</PoiCategoryRef>
+				<PoiCategoryRef>34</PoiCategoryRef>
+				<PoiCategoryRef>30</PoiCategoryRef>
+				<PoiCategoryRef>49</PoiCategoryRef>
+				<PoiCategoryRef>44</PoiCategoryRef>
+				<PoiCategoryRef>25</PoiCategoryRef>
+				<PoiCategoryRef>38</PoiCategoryRef>
+				<PoiCategoryRef>37</PoiCategoryRef>
+				<PoiCategoryRef>53</PoiCategoryRef>
+				<PoiCategoryRef>42</PoiCategoryRef>
+				<PoiCategoryRef>54</PoiCategoryRef>
+				<PoiCategoryRef>21</PoiCategoryRef>
+				<PoiCategoryRef>31</PoiCategoryRef>
+				<PoiCategoryRef>8</PoiCategoryRef>
+				<PoiCategoryRef>32</PoiCategoryRef>
+				<PoiCategoryRef>5</PoiCategoryRef>
+				<PoiCategoryRef>3</PoiCategoryRef>
+				<PoiCategoryRef>4</PoiCategoryRef>
+				<PoiCategoryRef>50</PoiCategoryRef>
+				<PoiCategoryRef>16</PoiCategoryRef>
+				<PoiCategoryRef>43</PoiCategoryRef>
+				<PoiCategoryRef>7</PoiCategoryRef>
+				<PoiCategoryRef>18</PoiCategoryRef>
+				<PoiCategoryRef>55</PoiCategoryRef>
+				<PoiCategoryRef>48</PoiCategoryRef>
+				<PoiCategoryRef>10</PoiCategoryRef>
+				<PoiCategoryRef>46</PoiCategoryRef>
+				<PoiCategoryRef>33</PoiCategoryRef>
+				<PoiCategoryRef>19</PoiCategoryRef>
+				<PoiCategoryRef>45</PoiCategoryRef>
+				<PoiCategoryRef>23</PoiCategoryRef>
+				<PoiCategoryRef>9</PoiCategoryRef>
+				<PoiCategoryRef>6</PoiCategoryRef>
+			</PoiCategoryMapping>
+		</PoiCategoryGroup>
+
+		<PoiCategoryGroup id="12" type="local">
+			<Priority>2</Priority>
+			<PoiCategoryMapping>
+				<PoiCategoryRef>1</PoiCategoryRef>
+				<PoiCategoryRef>39</PoiCategoryRef>
+				<PoiCategoryRef>41</PoiCategoryRef>
+				<PoiCategoryRef>36</PoiCategoryRef>
+				<PoiCategoryRef>35</PoiCategoryRef>
+				<PoiCategoryRef>34</PoiCategoryRef>
+				<PoiCategoryRef>44</PoiCategoryRef>
+				<PoiCategoryRef>38</PoiCategoryRef>
+				<PoiCategoryRef>37</PoiCategoryRef>
+				<PoiCategoryRef>42</PoiCategoryRef>
+				<PoiCategoryRef>32</PoiCategoryRef>
+				<PoiCategoryRef>43</PoiCategoryRef>
+				<PoiCategoryRef>33</PoiCategoryRef>
+			</PoiCategoryMapping> 
+		</PoiCategoryGroup>
+
+		<PoiCategoryGroup id="13" type="local">
+			<Priority>3</Priority>
+			<PoiCategoryMapping> 
+				<PoiCategoryRef>12</PoiCategoryRef>
+				<PoiCategoryRef>11</PoiCategoryRef>
+				<PoiCategoryRef>2</PoiCategoryRef>
+				<PoiCategoryRef>14</PoiCategoryRef>
+				<PoiCategoryRef>15</PoiCategoryRef>
+				<PoiCategoryRef>8</PoiCategoryRef>
+				<PoiCategoryRef>5</PoiCategoryRef>
+				<PoiCategoryRef>3</PoiCategoryRef>
+				<PoiCategoryRef>4</PoiCategoryRef>
+				<PoiCategoryRef>16</PoiCategoryRef>
+				<PoiCategoryRef>7</PoiCategoryRef>
+				<PoiCategoryRef>18</PoiCategoryRef>
+				<PoiCategoryRef>55</PoiCategoryRef>
+				<PoiCategoryRef>10</PoiCategoryRef>
+				<PoiCategoryRef>19</PoiCategoryRef>
+				<PoiCategoryRef>9</PoiCategoryRef>
+				<PoiCategoryRef>6</PoiCategoryRef>
+			</PoiCategoryMapping> 
+		</PoiCategoryGroup>
+
+		<PoiCategoryGroup id="14" type="local">
+			<Priority>4</Priority>
+			<PoiCategoryMapping> 
+				<PoiCategoryRef>20</PoiCategoryRef>
+				<PoiCategoryRef>22</PoiCategoryRef>
+				<PoiCategoryRef>21</PoiCategoryRef>
+				<PoiCategoryRef>23</PoiCategoryRef>
+			</PoiCategoryMapping> 
+		</PoiCategoryGroup>
+
+		<PoiCategoryGroup id="15" type="local">
+			<Priority>5</Priority>
+			<PoiCategoryMapping> 
+				<PoiCategoryRef>52</PoiCategoryRef>
+				<PoiCategoryRef>47</PoiCategoryRef>
+				<PoiCategoryRef>49</PoiCategoryRef>
+				<PoiCategoryRef>53</PoiCategoryRef>
+				<PoiCategoryRef>54</PoiCategoryRef>
+				<PoiCategoryRef>50</PoiCategoryRef>
+				<PoiCategoryRef>48</PoiCategoryRef>
+				<PoiCategoryRef>46</PoiCategoryRef>
+				<PoiCategoryRef>45</PoiCategoryRef>
+			</PoiCategoryMapping> 
+		</PoiCategoryGroup>
+
+		<PoiCategoryGroup id="16" type="local">
+			<Priority>6</Priority>
+			<PoiCategoryMapping> 
+				<PoiCategoryRef>28</PoiCategoryRef>
+				<PoiCategoryRef>27</PoiCategoryRef>
+				<PoiCategoryRef>24</PoiCategoryRef>
+				<PoiCategoryRef>29</PoiCategoryRef>
+				<PoiCategoryRef>26</PoiCategoryRef>
+				<PoiCategoryRef>30</PoiCategoryRef>
+				<PoiCategoryRef>25</PoiCategoryRef>
+				<PoiCategoryRef>31</PoiCategoryRef>
+			</PoiCategoryMapping> 
+		</PoiCategoryGroup>
+
+		<PoiCategoryGroup id="10" type="dynamic">
+			<Priority>7</Priority> 
+			<PoiCategoryMapping> 
+				<!-- MUSS LEER BLEIBEN Ueber XSD checken !! --> 
+			</PoiCategoryMapping> 
+		</PoiCategoryGroup>
+	</PoiCategoryGroupDefinition>
+
+	<PoiCategoryGroupNameDefinition>
+		<Name category_group_ref="10">Οι προσωπικοί μου ειδικοί προορισμοί</Name>
+		<Name category_group_ref="11">Κατηγορίες (αλφαβητικά)</Name>
+		<Name category_group_ref="12">Αυτοκίνητο-Ταξίδια</Name>
+		<Name category_group_ref="13">Φαγητό και αγορές</Name>
+		<Name category_group_ref="14">Εταιρείες|Δημόσ.Υπ</Name>
+		<Name category_group_ref="15">Επείγουσα ανάγκη</Name>
+		<Name category_group_ref="16">Αξιοθέατα-Αναψυχή</Name>
+	</PoiCategoryGroupNameDefinition>
+
+	<PoiCategoryThesaurusDefinition>
+		<Thesaurus category_ref="1" >
+			<Value>Autostadt</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="2" >
+			<Value>ΑΕΡΟΔΡΟΜΙΟ</Value>
+			<Value>ΑΝΑΧΩΡΗΣΕΙΣ</Value>
+			<Value>ΑΦΙΞΕΙΣ</Value>
+			<Value>TERMINAL</Value>
+			<Value>ΤΑΞΙΔΙ</Value>
+			<Value>ΑΕΡΟΛΙΜΕΝΑΣ</Value>
+			<Value>ΑΕΡΟΠΛΑΝΟ</Value>
+			<Value>ΑΕΡΟΜΕΤΑΦΟΡΕΣ</Value>
+			<Value>ΑΕΡΟΣΤΑΘΜΟΣ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="3" >
+			<Value>ΥΓΡΑΕΡΙΟ</Value>
+			<Value>ΓΚΑΖΙ</Value>
+			<Value>ΑΝΕΦΟΔΙΑΣΜΟΣ</Value>
+			<Value>ΠΡΑΤΗΡΙΟ ΚΑΥΣΙΜΩΝ</Value>
+			<Value>LPG</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="4" >
+			<Value>ΠΡΑΤΗΡΙΟ ΦΥΣΙΚΟΥ ΑΕΡΙΟΥ</Value>
+			<Value>ΦΥΣΙΚΟ ΑΕΡΙΟ</Value>
+			<Value>ΓΚΑΖΙ</Value>
+			<Value>ΑΝΕΦΟΔΙΑΣΜΟΣ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="5" >
+			<Value>ΠΡΑΤΗΡΙΟ ΚΑΥΣΙΜΩΝ</Value>
+			<Value>ΒΕΝΖΙΝΑΔΙΚΟ</Value>
+			<Value>ΣΤΑΘΜΟΣ ΚΑΥΣΙΜΩΝ</Value>
+			<Value>ΒΕΝΖΙΝΗ</Value>
+			<Value>DIESEL</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="6" >
+			<Value>ΠΑΡΚΙΝΓΚ</Value>
+			<Value>ΣΤΑΘΜΕΥΣΗ ΑΥΤΟΚΙΝΗΤΩΝ</Value>
+			<Value>ΓΚΑΡΑΖ</Value>
+			<Value>ΣΤΑΘΜΟΣ ΑΥΤΟΚΙΝΗΤΩΝ</Value>
+			<Value>ΘΕΣΕΙΣ ΣΤΑΘΜΕΥΣΗΣ</Value>
+			<Value>ΣΤΑΣΗ</Value>
+			<Value>ΣΤΟΠ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="7" >
+			<Value>ΣΤΑΘΜΟΙ ΑΥΤΟΚΙΝΗΤΩΝ</Value>
+			<Value>ΟΔΙΚΟΙ ΣΤΑΘΜΟΙ</Value>
+			<Value>ΞΕΚΟΥΡΑΣΗ</Value>
+			<Value>ΣΤΑΣΗ</Value>
+			<Value>ΣΤΑΘΜΕΥΣΗ</Value>
+			<Value>ΤΟΥΑΛΕΤΑ</Value>
+			<Value>ΦΑΓΗΤΟ</Value>
+			<Value>ΒΕΝΖΙΝΗ</Value>
+			<Value>ΕΣΤΙΑΤΟΡΙΟ</Value>
+			<Value>WC</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="8" >
+			<Value>ΞΕΝΟΔΟΧΕΙΟ|HOTEL</Value>
+			<Value>MOTEL</Value>
+			<Value>ΕΝΟΙΚΙΑΖΟΜΕΝΑ ΔΩΜΑΤΙΑ</Value>
+			<Value>STUDIOS</Value>
+			<Value>ΔΙΑΝΥΚΤΕΡΕΥΣΗ</Value>
+			<Value>ΠΑΝΣΙΟΝ</Value>
+			<Value>ΠΑΝΔΟΧΕΙΟ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="9" >
+			<Value>ΦΕΡΙ ΜΠΟΤ</Value>
+			<Value>ΛΙΜΑΝΙ</Value>
+			<Value>ΠΛΟΙΟ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="10">
+			<Value>ΣΥΝΟΡΑ</Value>
+			<Value>ΤΕΛΩΝΕΙΟ</Value>
+			<Value>ΟΡΙΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="11">
+			<Value>ΑΞΕΣΟΥΑΡ</Value>
+			<Value>ΕΜΠΟΡΟΙ</Value>
+			<Value>SEAT</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="12">
+			<Value>SEAT</Value>
+			<Value>ΣΥΝΕΡΓΕΙΟ</Value>
+			<Value>ΣΕΡΒΙΣ</Value>
+			<Value>ΣΥΝΕΡΓΕΙΟ ΑΥΤΟΚΙΝΗΤΩΝ</Value>
+			<Value>ΣΥΝΤΗΡΗΣΗ</Value>
+			<Value>ΕΠΙΣΚΕΥΗ</Value>
+			<Value>ΒΟΗΘΕΙΑ</Value>
+		</Thesaurus>
+		<!--<Thesaurus category_ref="13">
+			<Value>EΞΟΔΟΣ ΑΠΌ ΤΟΝ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟ</Value>
+			<Value>ΕΧΟΔΟΣ</Value>
+			<Value>ΔΙΑΣΤΑΥΡΩΣΗ</Value>
+			<Value>ΠΑΡΑΚΑΜΨΗ</Value>
+		</Thesaurus>-->
+		<Thesaurus category_ref="14">
+			<Value>EΞΟΔΟΣ ΑΠΌ ΤΟΝ ΑΥΤΟΚΙΝΗΤΟΔΡΟΜΟ</Value>
+			<Value>ΕΧΟΔΟΣ</Value>
+			<Value>ΔΙΑΣΤΑΥΡΩΣΗ</Value>
+			<Value>ΠΑΡΑΚΑΜΨΗ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="15">
+			<Value>ΕΝΟΙΚΙΑΣΕΙΣ ΑΥΤΟΚΙΝΗΤΩΝ</Value>
+			<Value>RENT A CAR</Value>
+			<Value>ENOIKIAΣH AYTOKINHTOY</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="16">
+			<Value>ΣΙΔΗΡΟΔΡΟΜΙΚΟΣ ΣΤΑΘΜΟΣ</Value>
+			<Value>ΤΡΕΝΟ</Value>
+			<Value>ΣΤΑΘΜΟΣ</Value>
+			<Value>ΗΛΕΚΤΡΙΚΟΣ ΣΙΔΗΡΟΔΡΟΜΟΣ</Value>
+		</Thesaurus>
+		<!--<Thesaurus category_ref="17">
+			<Value>ΜΕΤΑΦΟΡΑΣ</Value>
+			<Value>ΠΡΟΑΣΤΕΙΑΚΟΣ</Value>
+			<Value>ΜΕΤΡΟ</Value>
+			<Value>ΤΡΕΝΟ</Value>
+			<Value>ΑΣΤΙΚΗ ΣΥΓΚΟΙΝΩΝΙΑ</Value>
+		</Thesaurus>-->
+		<Thesaurus category_ref="18">
+			<Value>ΛΕΩΦΟΡΕΙΟ</Value>
+			<Value>ΑΝΑΜΟΝΗ</Value>
+			<Value>ΣΤΑΣΗ</Value>
+			<Value>ΣΤΑΣΕΙΣ ΛΕΩΦΟΡΕΙΩΝ</Value>
+			<Value>ΚΤΕΛ</Value>
+			<Value>ΣΤΟΠ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="19">
+			<Value>ΠΛΗΡΟΦΟΡΙΕΣ</Value>
+			<Value>ΤΟΥΡΙΣΤΙΚΕΣ ΠΛΗΡΟΦΟΡΙΕΣ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="20">
+			<Value>ΒΟΗΘΕΙΑ</Value>
+			<Value>ΕΠΙΘΕΣΗ</Value>
+			<Value>ΚΛΟΠΗ</Value>
+			<Value>ΑΣΤΥΝΟΜΙΑ</Value>
+			<Value>ΚΑΤΑΓΓΕΛΙΑ</Value>
+			<Value>112</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="21">
+			<Value>ΝΟΣΟΚΟΜΕΙΟ</Value>
+			<Value>HOSPITAL</Value>
+			<Value>ΙΑΤΡΙΚΟ ΚΕΝΤΡΟ</Value>
+			<Value>ΓΙΑΤΡΟΣ</Value>
+			<Value>ΠΡΩΤΕΣ ΒΟΗΘΕΙΕΣ</Value>
+			<Value>ΣΤΑΘΜΟΣ ΠΡΩΤΩΝ ΒΟΗΘΕΙΩΝ</Value>
+			<Value>ΑΣΘΕΝΟΦΟΡΟ</Value>
+			<Value>ΙΑΤΡΙΚΕΣ ΥΠΗΡΕΣΙΕΣ</Value>
+			<Value>ΑΤΥΧΗΜΑ</Value>
+			<Value>ΑΜΕΣΗ ΕΠΜΕΜΒΑΣΗ</Value>
+			<Value>ΕΠΕΙΓΟΝΤΑ</Value>
+			<Value>ΕΞΩΤΕΡΙΚΑ ΙΑΤΡΕΙΑ</Value>
+			<Value>ΧΕΙΡΟΥΡΓΕΙΟ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="22">
+			<Value>ΙΑΤΡΕΙΟ</Value>
+			<Value>ΓΙΑΤΡΟΣ</Value>
+			<Value>ΥΓΕΙΑ</Value>
+			<Value>ΦΡΟΝΤΙΔΑ</Value>
+			<Value>ΙΑΤΡΙΚΕΣ ΥΠΗΡΕΣΙΕΣ</Value>
+			<Value>ΙΑΤΡΙΚΟ ΚΕΝΤΡΟ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="23">
+			<Value>ΦΑΡΜΑΚΑ</Value>
+			<Value>ΙΑΤΡΕΙΑ</Value>
+			<Value>ΣΥΝΤΑΓΕΣ</Value>
+			<Value>ΑΣΠΙΡΙΝΗ</Value>
+			<Value>ΠΟΝΟΣ</Value>
+			<Value>ΧΑΠΙ</Value>
+			<Value>ΦΑΡΜΑΚΕΙΟ</Value>
+			<Value>ΦΑΡΜΑΚΕΙΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="24">
+			<Value>ΕΣΤΙΑΤΟΡΙΟ</Value>
+			<Value>ΡΕΣΤΟΡΑΝ</Value>
+			<Value>ΤΑΒΕΡΝΑ</Value>
+			<Value>FAST FOOD</Value>
+			<Value>ΚΑΦΕΤΕΡΙΑ</Value>
+			<Value>ΟΥΖΕΡΙ</Value>
+			<Value>ΜΕΖΕΔΟΠΩΛΕΙΟ</Value>
+			<Value>ΦΑΓΗΤΟ</Value>
+			<Value>ΠΟΤΟ</Value>
+			<Value>ΣΟΥΒΛΑΤΖΙΔΙΚΟ</Value>
+			<Value>ΨΑΡΟΤΑΒΕΡΝΑ&lt;SNACK BAR</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="25">
+			<Value>ΜΗΧΑΝΗΜΑ ΑΥΤΟΜΑΤΗΣ ΑΝΑΛΗΨΗΣ ΧΡΗΜΑΤΩΝ</Value>
+			<Value>ΑΤΜ</Value>
+			<Value>ΜΕΤΡΗΤΑ</Value>
+			<Value>EURO</Value>
+			<Value>EC</Value>
+			<Value>VISA</Value>
+			<Value>MASTERCARD</Value>
+			<Value>ΠΙΣΤΩΤΙΚΗ ΚΑΡΤΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="26">
+			<Value>ΚΑΦΕΣ</Value>
+			<Value>ΚΑΦΕΤΕΡΙΑ</Value>
+			<Value>ΓΛΥΚΑ</Value>
+			<Value>ΖΑΧΑΡΟΠΛΑΣΤΕΙΟ</Value>
+			<Value>ΚΑΠΟΥΤΣΙΝΟ</Value>
+			<Value>ΕΣΠΡΕΣΣΟ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="27">
+			<Value>ΕΜΠΟΡΙΚΟ ΚΕΝΤΡΟ</Value>
+			<Value>ΑΓΟΡΕΣ</Value>
+			<Value>ΨΩΝΙΑ</Value>
+			<Value>ΠΟΛΥΚΑΤΑΣΤΗΜΑ</Value>
+			<Value>ΣΟΥΠΕΡΜΑΡΚΕΤ</Value>
+			<Value>ΜΑΓΑΖΙΑ</Value>
+			<Value>ΚΑΤΑΣΤΗΜΑΤΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="28">
+			<Value>ΡΟΥΧΑ</Value>
+			<Value>ΠΑΠΟΥΤΣΙΑ</Value>
+			<Value>ΦΟΡΕΜΑΤΑ</Value>
+			<Value>ΠΑΝΤΕΛΟΝΙΑ</Value>
+			<Value>ΚΟΣΤΟΥΜΙΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="29">
+			<Value>LAPTOP</Value>
+			<Value>HARDWARE</Value>
+			<Value>ΗΛΕΚΤΡΟΝΙΚΑ</Value>
+			<Value>ΗΛ.ΥΠΟΛΟΓΙΣΤΕΣ</Value>
+			<Value>ΤΗΛΕΟΡΑΣΕΙΣ</Value>
+			<Value>ΡΑΔΙΟΦΩΝΑ</Value>
+			<Value>HiFi</Value>
+			<Value>DVD</Value>
+			<Value>ΤΗΛΕΩΝΑ</Value>
+			<Value>ΚΙΝΗΤΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="30">
+			<Value>ΚΡΑΣΙ</Value>
+			<Value>ΟΙΝΟΠΟΙΕΙΟ</Value>
+			<Value>ΚΑΒΑ</Value>
+			<Value>ΠΡΑΤΗΡΙΟ ΠΟΤΩΝ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="31">
+			<Value>ΜΟΥΣΙΚΗ</Value>
+			<Value>ΠΑΡΤΙ</Value>
+			<Value>ΜΠΑΡ</Value>
+			<Value>ΝΥΧΤΕΡΙΝΗ ΖΩΗ</Value>
+			<Value>ΧΟΡΟΣ</Value>
+			<Value>ΚΟΚΤΕΙΛ</Value>
+			<Value>ΠΟΤΑ</Value>
+			<Value>ΜΠΑΡ</Value>
+			<Value>ΚΛΑΜΠ</Value>
+			<Value>ΜΠΥΡΑΡΙΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="32">
+			<Value>ΠΕΡΙΠΑΤΟΣ</Value>
+			<Value>ΤΖΟΚΙΝ</Value>
+			<Value>ΧΑΛΑΡΩΣΗ</Value>
+			<Value>ΠΙΚ ΝΙΚ</Value>
+			<Value>ΠΑΡΚΑ</Value>
+			<Value>ΒΟΛΤΑ</Value>
+			<Value>ΣΚΥΛΟΣ</Value>
+			<Value>ΠΑΡΚΟ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="33">
+			<Value>ΠΛΗΡΟΦΟΡΙΕΣ</Value>
+			<Value>ΤΟΥΡΙΣΤΙΚΟ ΓΡΑΦΕΙΟ</Value>
+			<Value>ΤΟΥΡΙΣΤΙΚΗ ΑΣΤΥΝΟΜΙΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="34">
+			<Value>ΚΙΝΗΜΑΤΟΓΡΑΦΟΣ</Value>
+			<Value>ΣΙΝΕΜΑ</Value>
+			<Value>ΘΕΑΜΑ</Value>
+			<Value>ΤΑΙΝΙΑ</Value>
+			<Value>ΦΙΛΜ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="35">
+			<Value>ΤΥΧΕΡΑ ΠΑΙΧΝΙΔΙΑ</Value>
+			<Value>ΧΡΗΜΑΤΑ</Value>
+			<Value>ΚΟΥΛΟΧΕΡΗΔΕΣ</Value>
+			<Value>ΡΟΥΛΕΤΑ</Value>
+			<Value>ΚΑΖΙΝΟ</Value>
+			<Value>ΜΠΛΑΚ ΤΖΑΚ</Value>
+			<Value>ΠΟΚΕΡ</Value>
+			<Value>ΦΡΟΥΤΑΚΙΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="36">
+			<Value>ΘΕΑΤΡΟ</Value>
+			<Value>ΟΠΕΡΑ</Value>
+			<Value>ΣΥΝΑΥΛΙΑ</Value>
+			<Value>ΘΕΑΤΡΙΚΗ ΣΚΗΝΗ</Value>
+			<Value>ΘΕΑΤΡΙΚΟ ΕΡΓΟ</Value>
+			<Value>ΜΙΟΥΖΙΚΑΛ</Value>
+			<Value>ΤΕΧΝΗ</Value>
+			<Value>ΠΟΛΙΤΙΣΜΟΣ</Value>
+			<Value>ΕΙΚΑΣΤΙΚΕΣ ΤΕΧΝΕΣ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="37">
+			<Value>ΜΟΥΣΕΙΟ</Value>
+			<Value>ΤΕΧΝΗ</Value>
+			<Value>ΠΟΛΙΤΙΣΜΟΣ</Value>
+			<Value>ΓΚΑΛΕΡΙ</Value>
+			<Value>ΠΙΝΑΚΟΘΗΚΗ</Value>
+			<Value>ΕΚΘΕΣΗ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="38">
+			<Value>ΠΡΟΣΩΠΙΚΟΤΗΤΕΣ</Value>
+			<Value>ΑΡΧΑΙΑ</Value>
+			<Value>ΑΓΑΛΜΑΤΑ</Value>
+			<Value>ΜΝΗΜΕΙΑ</Value>
+			<Value>ΑΡΧΑΙΟΛΟΓΙΚΟΙ ΧΩΡΟΙ</Value>
+			<Value>ΜΟΥΣΕΙΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="39">
+			<Value>ΑΘΛΗΤΙΚΕΣ ΕΓΚΑΤΑΣΤΑΣΕΙΣ</Value>
+			<Value>ΣΤΑΔΙΟ</Value>
+			<Value>ΓΗΠΕΔΟ</Value>
+			<Value>ΓΥΜΝΑΣΤΗΡΙΟ</Value>
+		</Thesaurus>
+		<!--<Thesaurus category_ref="40">
+			<Value>ΑΕΡΟΠΛΟΪΑ</Value>
+			<Value>ΠΤΗΣΕΙΣ</Value>
+			<Value>ΕΚΠΑΙΔΕΥΤΙΚΕΣ ΠΤΗΣΕΙΣ</Value>
+			<Value>ΑΕΡΟΠΤΕΡΙΣΜΟΣ</Value>
+			<Value>ΑΕΡΑΘΛΗΜΑΤΑ</Value>
+			<Value>ΑΝΕΜΟΠΤΕΡΟ</Value>
+			<Value>ΑΕΡΟΛΕΣΧΗ</Value>
+			<Value>ΑΝΕΜΟΛΕΣΧΗ</Value>
+		</Thesaurus>-->
+		<Thesaurus category_ref="41">
+			<Value>ΓΗΠΕΔΟ ΓΚΟΛΦ</Value>
+			<Value>ΓΚΟΛΦ</Value>
+			<Value>ΓΚΑΖΟΝ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="42">
+			<Value>ΣΚΑΦΟΣ</Value>
+			<Value>ΙΣΤΙΟΠΛΟΪΚΟ</Value>
+			<Value>ΘΑΛΑΣΣΑ</Value>
+			<Value>ΙΣΤΙΟΠΛΟΪΑ</Value>
+			<Value>ΜΗΧΑΝΟΚΙΝΗΤΑ</Value>
+			<Value>ΛΙΜΑΝΙ</Value>
+			<Value>ΘΑΛΑΣΣΙΑ ΣΠΟΡ</Value>
+			<Value>ΜΑΡΙΝΑ</Value>
+			<Value>ΠΛΟΙΑ</Value>
+			<Value>ΤΑΧΥΠΛΟΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="43">
+			<Value>ΧΕΙΜΩΝΑΣ</Value>
+			<Value>ΣΚΙ</Value>
+			<Value>ΠΙΣΤΑ</Value>
+			<Value>ΤΕΛΕΦΕΡΙΚ</Value>
+			<Value>ΧΙΟΝΙ</Value>
+			<Value>ΑΘΛΗΜΑ ΣΚΙ</Value>
+			<Value>ΚΑΤΑΒΑΣΗ</Value>
+			<Value>ΣΠΟΡ</Value>
+			<Value>ΛΙΦΤ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="44">
+			<Value>ΠΑΡΚΟ ΨΥΧΑΓΩΓΙΑΣ</Value>
+			<Value>ΛΟΥΝΑ ΠΑΡΚ</Value>
+			<Value>ΠΑΙΔΙΚΗ ΧΑΡΑ</Value>
+			<Value>ΠΑΡΚΟ ΑΝΑΨΥΧΗΣ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="45">
+			<Value>ΧΡΗΜΑΤΑ</Value>
+			<Value>ΕΜΒΑΣΜΑΤΑ</Value>
+			<Value>ΛΟΓΑΡΙΑΣΜΟΙ</Value>
+			<Value>ΕΝΗΜΕΡΩΣΗ ΛΟΓΑΡΙΑΣΜΩΝ</Value>
+			<Value>ΤΡΑΠΕΖΕΣ</Value>
+			<Value>ΠΙΣΤΩΣΕΙΣ</Value>
+			<Value>ΜΕΤΡΗΤΑ</Value>
+			<Value>ΠΙΣΤΩΤΙΚΗ ΚΑΡΤΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="46">
+			<Value>ΤΑΧΥΔΡΟΜΕΙΟ</Value>
+			<Value>POST</Value>
+			<Value>ΤΑΧΥΔΡΟΜΙΚΕΣ ΥΠΗΡΕΣΙΕΣ</Value>
+			<Value>ΓΡΑΜΜΑ</Value>
+			<Value>ΑΛΛΗΛΟΓΡΑΦΙΑ</Value>
+			<Value>ΔΕΜΑ</Value>
+			<Value>ΠΑΚΕΤΟ</Value>
+			<Value>ΚΑΡΤ ΠΟΣΤΑΛ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="47">
+			<Value>ΕΠΙΧΕΙΡΗΣΗ</Value>
+			<Value>ΕΡΓΟΣΤΑΣΙΟ</Value>
+			<Value>ΠΥΛΗ</Value>
+			<Value>ΕΤΑΙΡΕΙΑ</Value>
+			<Value>ΒΙΟΤΕΧΝΙΑ</Value>
+			<Value>ΒΙΟΜΗΧΑΝΙΑ</Value>
+			<Value>ΕΠΙΤΗΔΕΥΜΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="48">
+			<Value>Kongress</Value>
+			<Value>Messe</Value>
+			<Value>Ausstellung</Value>
+			<Value>Congress</Value>
+			<Value>Kongresszentren</Value>
+			<Value>Kongresszentrum</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="49">
+			<Value>ΔΗΜΟΣΙΑ ΥΠΗΡΕΣΙΑ</Value>
+			<Value>ΔΗΜΑΡΧΕΙΟ</Value>
+			<Value>ΠΟΛΗ</Value>
+			<Value>ΠΕΡΙΦΕΡΕΙΑ</Value>
+			<Value>ΤΟΠΙΚΗ ΑΥΤΟΔΙΟΙΚΗΣΗ</Value>
+			<Value>ΔΙΟΙΚΗΤΙΚΕΣ ΥΠΗΡΕΣΙΕΣ</Value>
+			<Value>ΥΠΗΡΕΣΙΕΣ ΑΛΛΟΔΑΠΩΝ</Value>
+			<Value>ΥΠΟΥΡΓΕΙΟ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="50">
+			<Value>ΠΡΕΣΒΕΙΑ</Value>
+			<Value>ΠΡΟΞΕΝΕΙΟ</Value>
+			<Value>ΑΔΕΙΑ ΠΑΡΑΜΟΝΗΣ</Value>
+			<Value>ΜΕΤΑΝΑΣΤΕΥΣΗ</Value>
+			<Value>ΒΙΖΑ</Value>
+			<Value>ΕΞΟΔΟΣ ΑΠΟ ΤΗ ΧΩΡΑ</Value>
+		</Thesaurus>
+		<!--<Thesaurus category_ref="51">
+			<Value>ΚΟΙΝΟΤΗΤΑ</Value>
+			<Value>ΔΗΜΑΡΧΕΙΟ</Value>
+			<Value>ΣΥΝΟΙΚΙΑ</Value>
+			<Value>ΚΟΙΝΟΤΙΚΟ ΚΕΝΤΡΟ</Value>
+		</Thesaurus>-->
+		<Thesaurus category_ref="52">
+			<Value>ΣΧΟΛΕΙΟ</Value>
+			<Value>ΠΑΝΕΠΙΣΤΗΜΙΟ</Value>
+			<Value>ΤΕΙ</Value>
+			<Value>ΕΠΙΣΤΗΜΗ</Value>
+			<Value>ΕΠΙΜΟΡΦΩΣΗ</Value>
+			<Value>ΣΕΜΙΝΑΡΙΑ</Value>
+			<Value>ΕΚΠΑΙΔΕΥΣΗ</Value>
+			<Value>ΜΟΡΦΩΤΙΚΑ ΙΔΡΥΜΑΤΑ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="53">
+			<Value>ΕΚΚΛΗΣΙΑ</Value>
+			<Value>ΝΑΟΣ</Value>
+			<Value>ΜΗΤΡΟΠΟΛΗ</Value>
+			<Value>ΕΞΩΚΚΛΗΣΙ</Value>
+			<Value>ΤΕΜΕΝΟΣ</Value>
+			<Value>ΤΖΑΜΙ</Value>
+			<Value>ΣΥΝΑΓΩΓΗ</Value>
+			<Value>ΧΩΡΟΣ ΛΑΤΡΕΙΑΣ</Value>
+			<Value>ΜΟΝΑΣΤΗΡΙ</Value>
+			<Value>ΚΑΘΟΛΙΚΗ ΕΚΚΛΗΣΙΑ</Value>
+			<Value>ΙΕΡΟΣ ΧΩΡΟΣ</Value>
+			<Value>ΜΟΝΗ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="54">
+			<Value>ΝΕΚΡΟΤΑΦΕΙΟ</Value>
+			<Value>ΓΡΑΦΕΙΟ ΚΗΔΕΙΩΝ</Value>
+			<Value>ΦΕΡΕΤΡΟ</Value>
+			<Value>ΝΕΚΡΟΣ</Value>
+			<Value>ΤΑΦΟΣ</Value>
+			<Value>ΜΝΗΜΑ</Value>
+			<Value>ΝΕΚΡΟΘΑΦΤΗΣ</Value>
+			<Value>ΓΡΑΦΕΙΟ ΤΕΛΕΤΩΝ</Value>
+			<Value>ΚΟΙΜΗΤΗΡΙΟ</Value>
+		</Thesaurus>
+		<Thesaurus category_ref="55">
+			<Value>Ladestation</Value>
+		</Thesaurus>
+	</PoiCategoryThesaurusDefinition>
+
+	<PoiCategoryNameDefinition>
+		<Name category_ref="1" >Autostadt (Πόλη των Αυτοκινήτων)</Name>
+		<Name category_ref="2" >Αεροδρόμια</Name>
+		<Name category_ref="3" >Πρατήρια υγραερίου</Name>
+		<Name category_ref="4" >Πρατήρια φυσικ. αερίου</Name>
+		<Name category_ref="5" >Πρατηρια καυσίμων</Name>
+		<Name category_ref="6" >Θέσεις στάθμευσης</Name>
+		<Name category_ref="7" >Οδικοί σταθμοί</Name>
+		<Name category_ref="8" >Ξενοδοχεία-Ενοικ.δωμ</Name>
+		<Name category_ref="9" >Φέρι μποτ</Name>
+		<Name category_ref="10">Συνοριακές διαβάσεις</Name>
+		<Name category_ref="11">SEAT Service</Name>
+		<Name category_ref="12">SEAT Εξουσιοδοτημένοι Έμποροι</Name>
+		<!-- <Name category_ref="13">Διασταυρώσεις εθν.οδών</Name> -->
+		<Name category_ref="14">Έξοδοι/Είσοδ. εθνικ.οδών</Name>
+		<Name category_ref="15">Ενοικιάσεις αυτοκινήτων</Name>
+		<Name category_ref="16">Σιδηροδρομικοί σταθμοί</Name>
+		<!--<Name category_ref="17">Αστική συγκοινωνία</Name>-->
+		<Name category_ref="18">Στάσεις λεωφορείων</Name>
+		<Name category_ref="19">Τουριστικές πληροφορίες</Name>
+		<Name category_ref="20">Αστυνομία</Name>
+		<Name category_ref="21">Νοσοκομεία</Name>
+		<Name category_ref="22">Ιατρικές υπηρεσίες</Name>
+		<Name category_ref="23">Φαρμακεία</Name>
+		<Name category_ref="24">Εστιατόρια</Name>
+		<Name category_ref="25">Αυτόματη ανάληψη (ATM)</Name>
+		<Name category_ref="26">Καφετέριες</Name>
+		<Name category_ref="27">Εμπορικά κέντρα</Name>
+		<Name category_ref="28">Ρούχα</Name>
+		<Name category_ref="29">Ηλεκτρονικά</Name>
+		<Name category_ref="30">Κρασιά και ποτά</Name>
+		<Name category_ref="31">Νυχτερινή ζωή</Name>
+		<Name category_ref="32">Πάρκα</Name>
+		<Name category_ref="33">Τουριστικά αξιοθέατα</Name>
+		<Name category_ref="34">Κινηματογράφοι</Name>
+		<Name category_ref="35">Καζίνο</Name>
+		<Name category_ref="36">Εικαστικές τέχνες</Name>
+		<Name category_ref="37">Μουσεία</Name>
+		<Name category_ref="38">Μνημεία</Name>
+		<Name category_ref="39">Αθλητικά κέντρα</Name>
+		<!-- <Name category_ref="40">Αεροδρόμια αεραθλητισμού</Name> -->
+		<Name category_ref="41">Γκολφ</Name>
+		<Name category_ref="42">Θαλάσσια σπορ</Name>
+		<Name category_ref="43">Σκι</Name>
+		<Name category_ref="44">Πάρκα ψυχαγωγίας</Name>
+		<Name category_ref="45">Τράπεζες</Name>
+		<Name category_ref="46">Ταχυδρομείο</Name>
+		<Name category_ref="47">Εταιρείες</Name>
+		<Name category_ref="48">Συνεδριακά κέντρα</Name>
+		<Name category_ref="49">Κυβέρνηση - Διοίκηση</Name>
+		<Name category_ref="50">Πρεσβείες</Name>
+		<!-- <Name category_ref="51">Κοινοτικά κέντρα</Name> -->
+		<Name category_ref="52">Εκπαιδευτικά ιδρύματα</Name>
+		<Name category_ref="53">Εκκλησίες</Name>
+		<Name category_ref="54">Νεκροταφεία</Name>
+		<Name category_ref="55">Σταθμοί φόρτισης</Name>
+	</PoiCategoryNameDefinition>
+
+</LanguagePoiConfiguration>

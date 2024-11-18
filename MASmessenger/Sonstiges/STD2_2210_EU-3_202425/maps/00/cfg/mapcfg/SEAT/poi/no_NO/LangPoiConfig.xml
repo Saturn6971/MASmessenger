@@ -1,0 +1,1656 @@
+﻿<LanguagePoiConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/locale/LanguagePoiConfiguration.xsd" version="1">
+    <!--Alphabetically sorted setup category definitions for each fuel type, will be reloaded after language change-->
+  <SetupCategoryDefinition>
+    <PoiCategoryMapping fueltype="default">
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <!--Ambassade-->
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <!--Apotek-->
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <!--Autostadt-->
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <!--Bank-->
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <!--Båtliv-->
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <!--Bensinstasjon-->
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <!--Bilutleie-->
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <!--Bussholdeplass-->
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <!--Elektronikk-->
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <!--Ferge-->
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <!--Flyplass-->
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <!--Fornøyelsespark-->
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <!--Gasstasjon-->
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <!--Golf-->
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <!--Gravlund-->
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <!--Grenseovergang-->
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <!--Idrettsanlegg-->
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <!--Industri-->
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <!--Jernbanestasjon-->
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <!--Kafé-->
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <!--Kasino-->
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <!--Kino-->
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <!--Kjøpesenter-->
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <!--Klær-->
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <!--Ladestasjoner-->
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <!--Lege-->
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <!--LPG-stasjon-->
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <!--Messesenter-->
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <!--Minibank-->
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <!--Monument-->
+
+      <!--Motorveikryss-->
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <!--Museum-->
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <!--Offentlig administrasjon-->
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <!--Overnatting-->
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <!--På-/avkjøring for motorv.-->
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <!--Park-->
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <!--Parkeringsplass-->
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <!--Politi-->
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <!--Postkontor-->
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <!--Rasteplass-->
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <!--Religionsbygg-->
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <!--Restaurant-->
+
+      <!--Samfunnshus-->
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <!--Scenekunst-->
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <!--SEAT-forhandler-->
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <!--SEAT-verksted-->
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <!--Ski-->
+
+      <!--Småflyplass-->
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <!--Sykehus-->
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <!--Turistattraksjon-->
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <!--Turistinformasjon-->
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <!--Utdanning-->
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <!--Uteliv-->
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <!--Vin og brennevin-->
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="gasoline">
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <!--Ambassade-->
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <!--Apotek-->
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <!--Autostadt-->
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <!--Bank-->
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <!--Båtliv-->
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <!--Bensinstasjon-->
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <!--Bilutleie-->
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <!--Bussholdeplass-->
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <!--Elektronikk-->
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <!--Ferge-->
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <!--Flyplass-->
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <!--Fornøyelsespark-->
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <!--Gasstasjon-->
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <!--Golf-->
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <!--Gravlund-->
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <!--Grenseovergang-->
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <!--Idrettsanlegg-->
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <!--Industri-->
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <!--Jernbanestasjon-->
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <!--Kafé-->
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <!--Kasino-->
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <!--Kino-->
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <!--Kjøpesenter-->
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <!--Klær-->
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <!--Ladestasjoner-->
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <!--Lege-->
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <!--LPG-stasjon-->
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <!--Messesenter-->
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <!--Minibank-->
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <!--Monument-->
+
+      <!--Motorveikryss-->
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <!--Museum-->
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <!--Offentlig administrasjon-->
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <!--Overnatting-->
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <!--På-/avkjøring for motorv.-->
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <!--Park-->
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <!--Parkeringsplass-->
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <!--Politi-->
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <!--Postkontor-->
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <!--Rasteplass-->
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <!--Religionsbygg-->
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <!--Restaurant-->
+
+      <!--Samfunnshus-->
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <!--Scenekunst-->
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <!--SEAT-forhandler-->
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <!--SEAT-verksted-->
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <!--Ski-->
+
+      <!--Småflyplass-->
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <!--Sykehus-->
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <!--Turistattraksjon-->
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <!--Turistinformasjon-->
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <!--Utdanning-->
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <!--Uteliv-->
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <!--Vin og brennevin-->
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="diesel">
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <!--Ambassade-->
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <!--Apotek-->
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <!--Autostadt-->
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <!--Bank-->
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <!--Båtliv-->
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <!--Bensinstasjon-->
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <!--Bilutleie-->
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <!--Bussholdeplass-->
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <!--Elektronikk-->
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <!--Ferge-->
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <!--Flyplass-->
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <!--Fornøyelsespark-->
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <!--Gasstasjon-->
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <!--Golf-->
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <!--Gravlund-->
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <!--Grenseovergang-->
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <!--Idrettsanlegg-->
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <!--Industri-->
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <!--Jernbanestasjon-->
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <!--Kafé-->
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <!--Kasino-->
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <!--Kino-->
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <!--Kjøpesenter-->
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <!--Klær-->
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <!--Ladestasjoner-->
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <!--Lege-->
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <!--LPG-stasjon-->
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <!--Messesenter-->
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <!--Minibank-->
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <!--Monument-->
+
+      <!--Motorveikryss-->
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <!--Museum-->
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <!--Offentlig administrasjon-->
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <!--Overnatting-->
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <!--På-/avkjøring for motorv.-->
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <!--Park-->
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <!--Parkeringsplass-->
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <!--Politi-->
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <!--Postkontor-->
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <!--Rasteplass-->
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <!--Religionsbygg-->
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <!--Restaurant-->
+
+      <!--Samfunnshus-->
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <!--Scenekunst-->
+        <PoiCategoryRef>12</PoiCategoryRef>
+      <!--SEAT-forhandler-->
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <!--SEAT-verksted-->
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <!--Ski-->
+
+      <!--Småflyplass-->
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <!--Sykehus-->
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <!--Turistattraksjon-->
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <!--Turistinformasjon-->
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <!--Utdanning-->
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <!--Uteliv-->
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <!--Vin og brennevin-->
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="cng">
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <!--Ambassade-->
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <!--Apotek-->
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <!--Autostadt-->
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <!--Bank-->
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <!--Båtliv-->
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <!--Bensinstasjon-->
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <!--Bilutleie-->
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <!--Bussholdeplass-->
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <!--Elektronikk-->
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <!--Ferge-->
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <!--Flyplass-->
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <!--Fornøyelsespark-->
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <!--Gasstasjon-->
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <!--Golf-->
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <!--Gravlund-->
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <!--Grenseovergang-->
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <!--Idrettsanlegg-->
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <!--Industri-->
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <!--Jernbanestasjon-->
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <!--Kafé-->
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <!--Kasino-->
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <!--Kino-->
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <!--Kjøpesenter-->
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <!--Klær-->
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <!--Ladestasjoner-->
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <!--Lege-->
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <!--LPG-stasjon-->
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <!--Messesenter-->
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <!--Minibank-->
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <!--Monument-->
+
+      <!--Motorveikryss-->
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <!--Museum-->
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <!--Offentlig administrasjon-->
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <!--Overnatting-->
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <!--På-/avkjøring for motorv.-->
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <!--Park-->
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <!--Parkeringsplass-->
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <!--Politi-->
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <!--Postkontor-->
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <!--Rasteplass-->
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <!--Religionsbygg-->
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <!--Restaurant-->
+
+      <!--Samfunnshus-->
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <!--Scenekunst-->
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <!--SEAT-forhandler-->
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <!--SEAT-verksted-->
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <!--Ski-->
+
+      <!--Småflyplass-->
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <!--Sykehus-->
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <!--Turistattraksjon-->
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <!--Turistinformasjon-->
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <!--Utdanning-->
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <!--Uteliv-->
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <!--Vin og brennevin-->
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="lpg">
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <!--Ambassade-->
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <!--Apotek-->
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <!--Autostadt-->
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <!--Bank-->
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <!--Båtliv-->
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <!--Bensinstasjon-->
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <!--Bilutleie-->
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <!--Bussholdeplass-->
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <!--Elektronikk-->
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <!--Ferge-->
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <!--Flyplass-->
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <!--Fornøyelsespark-->
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <!--Gasstasjon-->
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <!--Golf-->
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <!--Gravlund-->
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <!--Grenseovergang-->
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <!--Idrettsanlegg-->
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <!--Industri-->
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <!--Jernbanestasjon-->
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <!--Kafé-->
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <!--Kasino-->
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <!--Kino-->
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <!--Kjøpesenter-->
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <!--Klær-->
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <!--Ladestasjoner-->
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <!--Lege-->
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <!--LPG-stasjon-->
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <!--Messesenter-->
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <!--Minibank-->
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <!--Monument-->
+
+      <!--Motorveikryss-->
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <!--Museum-->
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <!--Offentlig administrasjon-->
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <!--Overnatting-->
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <!--På-/avkjøring for motorv.-->
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <!--Park-->
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <!--Parkeringsplass-->
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <!--Politi-->
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <!--Postkontor-->
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <!--Rasteplass-->
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <!--Religionsbygg-->
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <!--Restaurant-->
+
+      <!--Samfunnshus-->
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <!--Scenekunst-->
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <!--SEAT-forhandler-->
+        <PoiCategoryRef>11</PoiCategoryRef>
+      <!--SEAT-verksted-->
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <!--Ski-->
+
+      <!--Småflyplass-->
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <!--Sykehus-->
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <!--Turistattraksjon-->
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <!--Turistinformasjon-->
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <!--Utdanning-->
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <!--Uteliv-->
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <!--Vin og brennevin-->
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="bev">
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <!--Ambassade-->
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <!--Apotek-->
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <!--Autostadt-->
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <!--Bank-->
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <!--Båtliv-->
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <!--Bensinstasjon-->
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <!--Bilutleie-->
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <!--Bussholdeplass-->
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <!--Elektronikk-->
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <!--Ferge-->
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <!--Flyplass-->
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <!--Fornøyelsespark-->
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <!--Gasstasjon-->
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <!--Golf-->
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <!--Gravlund-->
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <!--Grenseovergang-->
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <!--Idrettsanlegg-->
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <!--Industri-->
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <!--Jernbanestasjon-->
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <!--Kafé-->
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <!--Kasino-->
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <!--Kino-->
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <!--Kjøpesenter-->
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <!--Klær-->
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <!--Ladestasjoner-->
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <!--Lege-->
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <!--LPG-stasjon-->
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <!--Messesenter-->
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <!--Minibank-->
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <!--Monument-->
+
+      <!--Motorveikryss-->
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <!--Museum-->
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <!--Offentlig administrasjon-->
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <!--Overnatting-->
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <!--På-/avkjøring for motorv.-->
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <!--Park-->
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <!--Parkeringsplass-->
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <!--Politi-->
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <!--Postkontor-->
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <!--Rasteplass-->
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <!--Religionsbygg-->
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <!--Restaurant-->
+
+      <!--Samfunnshus-->
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <!--Scenekunst-->
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <!--SEAT-forhandler-->
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <!--SEAT-verksted-->
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <!--Ski-->
+
+      <!--Småflyplass-->
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <!--Sykehus-->
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <!--Turistattraksjon-->
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <!--Turistinformasjon-->
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <!--Utdanning-->
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <!--Uteliv-->
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <!--Vin og brennevin-->
+    </PoiCategoryMapping>
+    <PoiCategoryMapping fueltype="phev">
+      <PoiCategoryRef>50</PoiCategoryRef>
+      <!--Ambassade-->
+      <PoiCategoryRef>23</PoiCategoryRef>
+      <!--Apotek-->
+      <PoiCategoryRef>1</PoiCategoryRef>
+      <!--Autostadt-->
+      <PoiCategoryRef>45</PoiCategoryRef>
+      <!--Bank-->
+      <PoiCategoryRef>42</PoiCategoryRef>
+      <!--Båtliv-->
+      <PoiCategoryRef>5</PoiCategoryRef>
+      <!--Bensinstasjon-->
+      <PoiCategoryRef>15</PoiCategoryRef>
+      <!--Bilutleie-->
+      <PoiCategoryRef>18</PoiCategoryRef>
+      <!--Bussholdeplass-->
+      <PoiCategoryRef>29</PoiCategoryRef>
+      <!--Elektronikk-->
+      <PoiCategoryRef>9</PoiCategoryRef>
+      <!--Ferge-->
+      <PoiCategoryRef>2</PoiCategoryRef>
+      <!--Flyplass-->
+      <PoiCategoryRef>44</PoiCategoryRef>
+      <!--Fornøyelsespark-->
+      <PoiCategoryRef>4</PoiCategoryRef>
+      <!--Gasstasjon-->
+      <PoiCategoryRef>41</PoiCategoryRef>
+      <!--Golf-->
+      <PoiCategoryRef>54</PoiCategoryRef>
+      <!--Gravlund-->
+      <PoiCategoryRef>10</PoiCategoryRef>
+      <!--Grenseovergang-->
+      <PoiCategoryRef>39</PoiCategoryRef>
+      <!--Idrettsanlegg-->
+      <PoiCategoryRef>47</PoiCategoryRef>
+      <!--Industri-->
+      <PoiCategoryRef>16</PoiCategoryRef>
+      <!--Jernbanestasjon-->
+      <PoiCategoryRef>26</PoiCategoryRef>
+      <!--Kafé-->
+      <PoiCategoryRef>35</PoiCategoryRef>
+      <!--Kasino-->
+      <PoiCategoryRef>34</PoiCategoryRef>
+      <!--Kino-->
+      <PoiCategoryRef>27</PoiCategoryRef>
+      <!--Kjøpesenter-->
+      <PoiCategoryRef>28</PoiCategoryRef>
+      <!--Klær-->
+      <PoiCategoryRef>55</PoiCategoryRef>
+      <!--Ladestasjoner-->
+      <PoiCategoryRef>22</PoiCategoryRef>
+      <!--Lege-->
+      <PoiCategoryRef>3</PoiCategoryRef>
+      <!--LPG-stasjon-->
+      <PoiCategoryRef>48</PoiCategoryRef>
+      <!--Messesenter-->
+      <PoiCategoryRef>25</PoiCategoryRef>
+      <!--Minibank-->
+      <PoiCategoryRef>38</PoiCategoryRef>
+      <!--Monument-->
+
+      <!--Motorveikryss-->
+      <PoiCategoryRef>37</PoiCategoryRef>
+      <!--Museum-->
+      <PoiCategoryRef>49</PoiCategoryRef>
+      <!--Offentlig administrasjon-->
+      <PoiCategoryRef>8</PoiCategoryRef>
+      <!--Overnatting-->
+      <PoiCategoryRef>14</PoiCategoryRef>
+      <!--På-/avkjøring for motorv.-->
+      <PoiCategoryRef>32</PoiCategoryRef>
+      <!--Park-->
+      <PoiCategoryRef>6</PoiCategoryRef>
+      <!--Parkeringsplass-->
+      <PoiCategoryRef>20</PoiCategoryRef>
+      <!--Politi-->
+      <PoiCategoryRef>46</PoiCategoryRef>
+      <!--Postkontor-->
+      <PoiCategoryRef>7</PoiCategoryRef>
+      <!--Rasteplass-->
+      <PoiCategoryRef>53</PoiCategoryRef>
+      <!--Religionsbygg-->
+      <PoiCategoryRef>24</PoiCategoryRef>
+      <!--Restaurant-->
+
+      <!--Samfunnshus-->
+      <PoiCategoryRef>36</PoiCategoryRef>
+      <!--Scenekunst-->
+      <PoiCategoryRef>12</PoiCategoryRef>
+      <!--SEAT-forhandler-->
+      <PoiCategoryRef>11</PoiCategoryRef>
+      <!--SEAT-verksted-->
+      <PoiCategoryRef>43</PoiCategoryRef>
+      <!--Ski-->
+
+      <!--Småflyplass-->
+      <PoiCategoryRef>21</PoiCategoryRef>
+      <!--Sykehus-->
+      <PoiCategoryRef>33</PoiCategoryRef>
+      <!--Turistattraksjon-->
+      <PoiCategoryRef>19</PoiCategoryRef>
+      <!--Turistinformasjon-->
+      <PoiCategoryRef>52</PoiCategoryRef>
+      <!--Utdanning-->
+      <PoiCategoryRef>31</PoiCategoryRef>
+      <!--Uteliv-->
+      <PoiCategoryRef>30</PoiCategoryRef>
+      <!--Vin og brennevin-->
+    </PoiCategoryMapping>
+  </SetupCategoryDefinition>
+
+  <!-- ### Poi category groups defined by vw, the type defines the "local" or "personal Poi" or other types -->
+  <PoiCategoryGroupDefinition>
+    <PoiCategoryGroup id="10" type="dynamic">
+      <Priority>1</Priority>
+      <PoiCategoryMapping>
+        <!-- MUSS LEER BLEIBEN Ueber XSD checken !! -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="11" type="local">
+      <Priority>2</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>50</PoiCategoryRef>
+        <!-- Ambassade -->
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <!-- Apotek -->
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <!-- Autostadt -->
+        <PoiCategoryRef>45</PoiCategoryRef>
+        <!-- Bank -->
+        <PoiCategoryRef>42</PoiCategoryRef>
+        <!-- Båtliv -->
+        <PoiCategoryRef>5</PoiCategoryRef>
+        <!-- Bensinstasjon -->
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <!-- Bilutleie -->
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <!-- Bussholdeplass -->
+        <PoiCategoryRef>29</PoiCategoryRef>
+        <!-- Elektronikk -->
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <!-- Ferge -->
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <!-- Flyplass -->
+        <PoiCategoryRef>44</PoiCategoryRef>
+        <!-- Fornøyelsespark -->
+        <PoiCategoryRef>4</PoiCategoryRef>
+        <!-- Gasstasjon -->
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <!-- Golf -->
+        <PoiCategoryRef>54</PoiCategoryRef>
+        <!-- Gravlund -->
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <!-- Grenseovergang -->
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <!-- Idrettsanlegg -->
+        <PoiCategoryRef>47</PoiCategoryRef>
+        <!-- Industri -->
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <!-- Jernbanestasjon -->
+        <PoiCategoryRef>26</PoiCategoryRef>
+        <!-- Kafé -->
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <!-- Kasino -->
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <!-- Kino -->
+        <PoiCategoryRef>27</PoiCategoryRef>
+        <!-- Kjøpesenter -->
+        <PoiCategoryRef>28</PoiCategoryRef>
+        <!-- Klær -->
+        <PoiCategoryRef>55</PoiCategoryRef>
+        <!-- Ladestasjoner -->
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <!-- Lege -->
+        <PoiCategoryRef>3</PoiCategoryRef>
+        <!-- LPG-stasjon -->
+        <PoiCategoryRef>48</PoiCategoryRef>
+        <!-- Messesenter -->
+        <PoiCategoryRef>25</PoiCategoryRef>
+        <!-- Minibank -->
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <!-- Monument -->
+
+        <!-- Motorveikryss -->
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <!-- Museum -->
+        <PoiCategoryRef>49</PoiCategoryRef>
+        <!-- Offentlig administrasjon -->
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <!-- Overnatting -->
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <!-- På-/avkjøring for motorv. -->
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <!-- Park -->
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <!-- Parkeringsplass -->
+        <PoiCategoryRef>20</PoiCategoryRef>
+        <!-- Politi -->
+        <PoiCategoryRef>46</PoiCategoryRef>
+        <!-- Postkontor -->
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <!-- Rasteplass -->
+        <PoiCategoryRef>53</PoiCategoryRef>
+        <!-- Religionsbygg -->
+        <PoiCategoryRef>24</PoiCategoryRef>
+        <!-- Restaurant -->
+
+        <!-- Samfunnshus -->
+        <PoiCategoryRef>36</PoiCategoryRef>
+        <!-- Scenekunst -->
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <!-- SEAT-forhandler -->
+        <PoiCategoryRef>11</PoiCategoryRef>
+        <!-- SEAT-verksted -->
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <!-- Ski -->
+
+        <!-- Småflyplass -->
+        <PoiCategoryRef>21</PoiCategoryRef>
+        <!-- Sykehus -->
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <!-- Turistattraksjon -->
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <!-- Turistinformasjon -->
+        <PoiCategoryRef>52</PoiCategoryRef>
+        <!-- Utdanning -->
+        <PoiCategoryRef>31</PoiCategoryRef>
+        <!-- Uteliv -->
+        <PoiCategoryRef>30</PoiCategoryRef>
+        <!-- Vin og brennevin -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="12" type="local">
+      <Priority>3</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>5</PoiCategoryRef>
+        <!-- Bensinstasjon -->
+        <PoiCategoryRef>15</PoiCategoryRef>
+        <!-- Bilutleie -->
+        <PoiCategoryRef>18</PoiCategoryRef>
+        <!-- Bussholdeplass -->
+        <PoiCategoryRef>9</PoiCategoryRef>
+        <!-- Ferge -->
+        <PoiCategoryRef>2</PoiCategoryRef>
+        <!-- Flyplass -->
+        <PoiCategoryRef>4</PoiCategoryRef>
+        <!-- Gasstasjon -->
+        <PoiCategoryRef>10</PoiCategoryRef>
+        <!-- Grenseovergang -->
+        <PoiCategoryRef>16</PoiCategoryRef>
+        <!-- Jernbanestasjon -->
+        <PoiCategoryRef>55</PoiCategoryRef>
+        <!-- Ladestasjoner -->
+        <PoiCategoryRef>3</PoiCategoryRef>
+        <!-- LPG-stasjon -->
+
+        <!-- Motorveikryss -->
+        <PoiCategoryRef>8</PoiCategoryRef>
+        <!-- Overnatting -->
+        <PoiCategoryRef>14</PoiCategoryRef>
+        <!-- På-/avkjøring for motorv. -->
+        <PoiCategoryRef>6</PoiCategoryRef>
+        <!-- Parkeringsplass -->
+        <PoiCategoryRef>7</PoiCategoryRef>
+        <!-- Rasteplass -->
+        <PoiCategoryRef>12</PoiCategoryRef>
+        <!-- SEAT-forhandler -->
+        <PoiCategoryRef>11</PoiCategoryRef>
+        <!-- SEAT-verksted -->
+        <PoiCategoryRef>19</PoiCategoryRef>
+        <!-- Turistinformasjon -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="13" type="local">
+      <Priority>4</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>1</PoiCategoryRef>
+        <!-- Autostadt -->
+        <PoiCategoryRef>42</PoiCategoryRef>
+        <!-- Båtliv -->
+        <PoiCategoryRef>44</PoiCategoryRef>
+        <!-- Fornøyelsespark -->
+        <PoiCategoryRef>41</PoiCategoryRef>
+        <!-- Golf -->
+        <PoiCategoryRef>39</PoiCategoryRef>
+        <!-- Idrettsanlegg -->
+        <PoiCategoryRef>35</PoiCategoryRef>
+        <!-- Kasino -->
+        <PoiCategoryRef>34</PoiCategoryRef>
+        <!-- Kino -->
+        <PoiCategoryRef>38</PoiCategoryRef>
+        <!-- Monument -->
+        <PoiCategoryRef>37</PoiCategoryRef>
+        <!-- Museum -->
+        <PoiCategoryRef>32</PoiCategoryRef>
+        <!-- Park -->
+        <PoiCategoryRef>36</PoiCategoryRef>
+        <!-- Scenekunst -->
+        <PoiCategoryRef>43</PoiCategoryRef>
+        <!-- Ski -->
+
+        <!-- Småflyplass -->
+        <PoiCategoryRef>33</PoiCategoryRef>
+        <!-- Turistattraksjon -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="14" type="local">
+      <Priority>5</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>50</PoiCategoryRef>
+        <!-- Ambassade -->
+        <PoiCategoryRef>45</PoiCategoryRef>
+        <!-- Bank -->
+        <PoiCategoryRef>54</PoiCategoryRef>
+        <!-- Gravlund -->
+        <PoiCategoryRef>47</PoiCategoryRef>
+        <!-- Industri -->
+        <PoiCategoryRef>48</PoiCategoryRef>
+        <!-- Messesenter -->
+        <PoiCategoryRef>49</PoiCategoryRef>
+        <!-- Offentlig administrasjon -->
+        <PoiCategoryRef>46</PoiCategoryRef>
+        <!-- Postkontor -->
+        <PoiCategoryRef>53</PoiCategoryRef>
+        <!-- Religionsbygg -->
+
+        <!-- Samfunnshus -->
+        <PoiCategoryRef>52</PoiCategoryRef>
+        <!-- Utdanning -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="15" type="local">
+      <Priority>6</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>23</PoiCategoryRef>
+        <!-- Apotek -->
+        <PoiCategoryRef>22</PoiCategoryRef>
+        <!-- Lege -->
+        <PoiCategoryRef>20</PoiCategoryRef>
+        <!-- Politi -->
+        <PoiCategoryRef>21</PoiCategoryRef>
+        <!-- Sykehus -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+    <PoiCategoryGroup id="16" type="local">
+      <Priority>7</Priority>
+      <PoiCategoryMapping>
+        <PoiCategoryRef>29</PoiCategoryRef>
+        <!-- Elektronikk -->
+        <PoiCategoryRef>26</PoiCategoryRef>
+        <!-- Kafé -->
+        <PoiCategoryRef>27</PoiCategoryRef>
+        <!-- Kjøpesenter -->
+        <PoiCategoryRef>28</PoiCategoryRef>
+        <!-- Klær -->
+        <PoiCategoryRef>25</PoiCategoryRef>
+        <!-- Minibank -->
+        <PoiCategoryRef>24</PoiCategoryRef>
+        <!-- Restaurant -->
+        <PoiCategoryRef>31</PoiCategoryRef>
+        <!-- Uteliv -->
+        <PoiCategoryRef>30</PoiCategoryRef>
+        <!-- Vin og brennevin -->
+      </PoiCategoryMapping>
+    </PoiCategoryGroup>
+
+  </PoiCategoryGroupDefinition>
+
+  <PoiCategoryGroupNameDefinition>
+    <Name category_group_ref="10">Mine spesialmål (Personal POI)</Name>
+    <Name category_group_ref="11">Kategori (A-Å)</Name>
+    <Name category_group_ref="16">Spise og shoppe</Name>
+    <Name category_group_ref="15">Nødssituasjon</Name>
+    <Name category_group_ref="13">Fritid og attraksjoner</Name>
+    <Name category_group_ref="12">Biler og reise</Name>
+    <Name category_group_ref="14">Industri og offentl. bygg</Name>
+  </PoiCategoryGroupNameDefinition>
+
+  <PoiCategoryThesaurusDefinition>
+    <Thesaurus category_ref="1" >
+      <Value>Autostadt</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="2" >
+      <Value>LUFTHAVN</Value>
+      <Value>AVREISE</Value>
+      <Value>ANKOMST</Value>
+      <Value>TERMINAL</Value>
+      <Value>REISE</Value>
+      <Value>FLY</Value>
+      <Value>FLYMASKIN</Value>
+      <Value>FLYPLASS</Value>
+      <Value>AERODROM</Value>
+      <Value>FLYVEMASKIN</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="3" >
+      <Value>LPG</Value>
+      <Value>GASS</Value>
+      <Value>PÅFYLLING</Value>
+      <Value>FLYTENDE GASS</Value>
+      <Value>BENSINSTASJON</Value>
+      <Value>SERVICESTASJON</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="4" >
+      <Value>NATURGASS</Value>
+      <Value>GASS</Value>
+      <Value>CNG</Value>
+      <Value>GASSFYLLING</Value>
+      <Value>SERVICESTASJON</Value>
+      <Value>BENSINSTASJON</Value>
+      <Value>FYLLESTASJON</Value>
+      <Value>GASSTASJON</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="5" >
+      <Value>BENSIN</Value>
+      <Value>DIESEL</Value>
+      <Value>PÅFYLLING</Value>
+      <Value>BENSINSTASJON</Value>
+      <Value>BENSINSTASJONER</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="6" >
+      <Value>PARKERINGSHUS</Value>
+      <Value>PARKERE</Value>
+      <Value>STANS</Value>
+      <Value>STOPP</Value>
+      <Value>PAUSE</Value>
+      <Value>PARKERINGSPLASS</Value>
+      <Value>BILPARKERING</Value>
+      <Value>PARKERING</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="7" >
+      <Value>VEIRESTAURANT</Value>
+      <Value>RASTEPLASS</Value>
+      <Value>RAST</Value>
+      <Value>PAUSE</Value>
+      <Value>WC</Value>
+      <Value>TOALETT</Value>
+      <Value>SULTEN</Value>
+      <Value>RASTEPLASSER</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="8" >
+      <Value>SOVE</Value>
+      <Value>PENSJONAT</Value>
+      <Value>GJESTGIVERI</Value>
+      <Value>LOSJI</Value>
+      <Value>OVERNATTE</Value>
+      <Value>ROM</Value>
+      <Value>HOTELL</Value>
+      <Value>MOTELL</Value>
+      <Value>OVERNATTING</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="9" >
+      <Value>HAVN</Value>
+      <Value>KAI</Value>
+      <Value>SKIP</Value>
+      <Value>FERGE</Value>
+      <Value>BÅT</Value>
+      <Value>ANLØPSSTED</Value>
+      <Value>BRYGGE</Value>
+      <Value>HAVNEANLEGG</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="10">
+      <Value>GRENSE</Value>
+      <Value>LANDEGRENSE</Value>
+      <Value>RIKSGRENSE</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="11">
+      <Value>TILBEHØR</Value>
+      <Value>FORHANDLER</Value>
+      <Value>SEAT</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="12">
+      <Value>SEAT</Value>
+      <Value>DRIFTSSTANS</Value>
+      <Value>HAVARI</Value>
+      <Value>VERKSTED</Value>
+      <Value>SERVICE</Value>
+      <Value>REPARASJON</Value>
+      <Value>INSPEKSJON</Value>
+      <Value>VEDLIKEHOLD</Value>
+      <Value>HJELP</Value>
+      <Value>ASSISTANSE</Value>
+    </Thesaurus>
+    <!--<Thesaurus category_ref="13">
+      <Value>AVKJØRING</Value>
+      <Value>MOTORVEIKRYSS</Value>
+      <Value>VEIKRYSS</Value>
+      <Value>KRYSS</Value>
+      <Value>FORBINDELSE</Value>
+      <Value>MOTORVEI</Value>
+      <Value>UTKJØRSEL</Value>
+      <Value>MOTORVEIAVKJØRSEL</Value>
+      <Value>MOTORVEIAVKJØRING</Value>
+      <Value>KNUTEPUNKT</Value>
+    </Thesaurus>-->
+    <Thesaurus category_ref="14">
+      <Value>AVKJØRING</Value>
+      <Value>MOTORVEIKRYSS</Value>
+      <Value>VEIKRYSS</Value>
+      <Value>KRYSS</Value>
+      <Value>FORBINDELSE</Value>
+      <Value>MOTORVEI</Value>
+      <Value>UTKJØRSEL</Value>
+      <Value>MOTORVEIAVKJØRSEL</Value>
+      <Value>MOTORVEIAVKJØRING</Value>
+      <Value>KNUTEPUNKT</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="15">
+      <Value>LEIEBIL</Value>
+      <Value>UTLEIEBIL</Value>
+      <Value>AUTOMOBIL</Value>
+      <Value>BILUTLEIE</Value>
+      <Value>BIL</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="16">
+      <Value>REISE</Value>
+      <Value>JERNBANE</Value>
+      <Value>BANE</Value>
+      <Value>STOPPESTED</Value>
+      <Value>JERNBANESTASJON</Value>
+      <Value>NSB</Value>
+      <Value>TOGSTASJON</Value>
+    </Thesaurus>
+    <!--<Thesaurus category_ref="17">
+      <Value>TRANSPORTMIDDEL</Value>
+      <Value>TRIKK</Value>
+      <Value>T-BANE</Value>
+      <Value>TUNNELBANE</Value>
+      <Value>BYBANE</Value>
+      <Value>LOKALTRAFIKK</Value>
+    </Thesaurus>-->
+    <Thesaurus category_ref="18">
+      <Value>BUSS</Value>
+      <Value>VENTEROM</Value>
+      <Value>HOLDEPLASS</Value>
+      <Value>BUSSHOLDEPLASS</Value>
+      <Value>BUSSTERMINAL</Value>
+      <Value>BUSSTASJON</Value>
+      <Value>RUTEBIL</Value>
+      <Value>BUSSHOLDEPLASSER</Value>
+      <Value>BUSSTOPP</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="19">
+      <Value>INFORMASJON</Value>
+      <Value>INFO</Value>
+      <Value>TURIST</Value>
+      <Value>TURISTINFORMASJON</Value>
+      <Value>TURISTKONTOR</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="20">
+      <Value>HJELP</Value>
+      <Value>OVERFALL</Value>
+      <Value>RAN</Value>
+      <Value>POLITI</Value>
+      <Value>LENSMANN</Value>
+      <Value>POLITISTASJON</Value>
+      <Value>LENSMANNSKONTOR</Value>
+      <Value>ANMELDELSE</Value>
+      <Value>110</Value>
+      <Value>112</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="21">
+      <Value>HOSPITAL</Value>
+      <Value>KLINIKK</Value>
+      <Value>LEGEVAKT</Value>
+      <Value>NØDSTILFELLE</Value>
+      <Value>LEGE</Value>
+      <Value>ULYKKE</Value>
+      <Value>FØRSTEHJELP</Value>
+      <Value>AKUTTMOTTAK</Value>
+      <Value>SYKEHUS</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="22">
+      <Value>LEGEKONTOR</Value>
+      <Value>LEGETJENESTER</Value>
+      <Value>HELSE</Value>
+      <Value>PLEIE</Value>
+      <Value>LEGEHUS</Value>
+      <Value>LEGEGESENTER</Value>
+      <Value>MEDISINSK SENTER</Value>
+      <Value>LEGE</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="23">
+      <Value>MEDIKAMENTER</Value>
+      <Value>MEDISIN</Value>
+      <Value>RESEPT</Value>
+      <Value>APOTEKER</Value>
+      <Value>ASPIRIN</Value>
+      <Value>SMERTE</Value>
+      <Value>PILLER</Value>
+      <Value>MEDISINUTSALG</Value>
+      <Value>APOTEK</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="24">
+      <Value>SPISE</Value>
+      <Value>DRIKKE</Value>
+      <Value>TØRST</Value>
+      <Value>SULTEN</Value>
+      <Value>KAFÉ</Value>
+      <Value>BAR</Value>
+      <Value>PUB</Value>
+      <Value>RESTAURANT</Value>
+      <Value>SPISESTED</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="25">
+      <Value>PENGER</Value>
+      <Value>KONTANTER</Value>
+      <Value>BANKAUTOMAT</Value>
+      <Value>BANKOMAT</Value>
+      <Value>EURO</Value>
+      <Value>KRONER</Value>
+      <Value>VISA</Value>
+      <Value>MASTERCARD</Value>
+      <Value>MINIBANK</Value>
+      <Value>MINIBANKER</Value>
+      <Value>KONTANTAUTOMAT</Value>
+      <Value>SEDDELAUTOMAT</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="26">
+      <Value>CAFÉ</Value>
+      <Value>KAFÉ</Value>
+      <Value>KAKER</Value>
+      <Value>KAFFE</Value>
+      <Value>LATTE</Value>
+      <Value>CAPPUCCINO</Value>
+      <Value>ESPRESSO</Value>
+      <Value>MUFFIN</Value>
+      <Value>KAFEER</Value>
+      <Value>KAFFEBAR</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="27">
+      <Value>HANDLING</Value>
+      <Value>HANDLE</Value>
+      <Value>KJØPE</Value>
+      <Value>INNKJØP</Value>
+      <Value>SUPERMARKED</Value>
+      <Value>SHOPPINGSENTER</Value>
+      <Value>KJØPESENTER</Value>
+      <Value>HANDLESENTER</Value>
+      <Value>SHOPPING</Value>
+      <Value>VAREHUS</Value>
+      <Value>SHOPPE</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="28">
+      <Value>KLÆR</Value>
+      <Value>ANTREKK</Value>
+      <Value>KJOLE</Value>
+      <Value>SKO</Value>
+      <Value>BUKSE</Value>
+      <Value>DRESS</Value>
+      <Value>KONFEKSJON</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="29">
+      <Value>LAPTOP</Value>
+      <Value>BÆRBAR PC</Value>
+      <Value>HARDWARE</Value>
+      <Value>MASKINVARE</Value>
+      <Value>ELEKTRONIKK</Value>
+      <Value>COMPUTER</Value>
+      <Value>DATAMASKIN</Value>
+      <Value>TV</Value>
+      <Value>RADIO</Value>
+      <Value>HIFI</Value>
+      <Value>DVD</Value>
+      <Value>TELEFON</Value>
+      <Value>MOBILTELEFON</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="30">
+      <Value>VINDYRKER</Value>
+      <Value>VINKJELLER</Value>
+      <Value>RESTAURANT</Value>
+      <Value>ALKOHOL</Value>
+      <Value>VIN</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="31">
+      <Value>MUSIKK</Value>
+      <Value>PARTY</Value>
+      <Value>FEST</Value>
+      <Value>BAR</Value>
+      <Value>NATTKLUBB</Value>
+      <Value>UTELIV</Value>
+      <Value>DANSE</Value>
+      <Value>DRIKKE</Value>
+      <Value>DRINKER</Value>
+      <Value>COCKTAIL</Value>
+      <Value>KNEIPE</Value>
+      <Value>PUB</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="32">
+      <Value>SPASERE</Value>
+      <Value>JOGGE</Value>
+      <Value>SLAPPE AV</Value>
+      <Value>PICKNICK</Value>
+      <Value>PARK</Value>
+      <Value>GRØNTOMRÅDE</Value>
+      <Value>TUR</Value>
+      <Value>HUND</Value>
+      <Value>PARKER</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="33">
+      <Value>INFORMASJON</Value>
+      <Value>TURIST</Value>
+      <Value>TURISTINFORMASJON</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="34">
+      <Value>FILM</Value>
+      <Value>KUNST</Value>
+      <Value>POPKORN</Value>
+      <Value>KULTUR</Value>
+      <Value>KINO</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="35">
+      <Value>SPILL</Value>
+      <Value>PENGESPILL</Value>
+      <Value>SPILLEAUTOMAT</Value>
+      <Value>ROULETTE</Value>
+      <Value>KASINO</Value>
+      <Value>CASINO</Value>
+      <Value>BLACKJACK</Value>
+      <Value>SJETONG</Value>
+      <Value>SPILLESTED</Value>
+      <Value>KASINOER</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="36">
+      <Value>TEATER</Value>
+      <Value>OPERA</Value>
+      <Value>KONSERT</Value>
+      <Value>SCENE</Value>
+      <Value>SKUESPILL</Value>
+      <Value>SYNGESPILL</Value>
+      <Value>MUSIKAL</Value>
+      <Value>KUNST</Value>
+      <Value>KULTUR</Value>
+      <Value>SCENEKUNST</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="37">
+      <Value>KULTUR</Value>
+      <Value>UTSTILLING</Value>
+      <Value>GALLERI</Value>
+      <Value>KUNST</Value>
+      <Value>MUSEUM</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="38">
+      <Value>PERSONER</Value>
+      <Value>STEIN</Value>
+      <Value>STATUE</Value>
+      <Value>MONUMENT</Value>
+      <Value>MINNESMERKE</Value>
+      <Value>BAUTA</Value>
+      <Value>MINNESTEIN</Value>
+      <Value>MONUMENTER</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="39">
+      <Value>SPORT</Value>
+      <Value>STADION</Value>
+      <Value>ARENA</Value>
+      <Value>IDRETTSANLEGG</Value>
+      <Value>IDRETTSPLASS</Value>
+    </Thesaurus>
+    <!--<Thesaurus category_ref="40">
+      <Value>FLYSIGHTSEEING</Value>
+      <Value>SEILFLY</Value>
+      <Value>SMÅFLYPLASS</Value>
+      <Value>SMÅFLYPLASSER</Value>
+      <Value>PRIVAT FLYPLASS</Value>
+      <Value>FLYSTRIPE</Value>
+      <Value>FLY</Value>
+    </Thesaurus>-->
+    <Thesaurus category_ref="41">
+      <Value>SPORT</Value>
+      <Value>GOLF</Value>
+      <Value>RANGE</Value>
+      <Value>GREEN</Value>
+      <Value>GOLFBANE</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="42">
+      <Value>BÅT</Value>
+      <Value>YACHT</Value>
+      <Value>HAV</Value>
+      <Value>SEILE</Value>
+      <Value>SEILING</Value>
+      <Value>KAI</Value>
+      <Value>BRYGGE</Value>
+      <Value>HAVN</Value>
+      <Value>BÅTLIV</Value>
+      <Value>MARINA</Value>
+      <Value>BÅTHAVN</Value>
+      <Value>SMÅBÅTHAVN</Value>
+      <Value>SKIP</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="43">
+      <Value>VINTER</Value>
+      <Value>SKILØYPE</Value>
+      <Value>LØYPE</Value>
+      <Value>ALPINANLEGG</Value>
+      <Value>SKIHEIS</Value>
+      <Value>SNØ</Value>
+      <Value>SKI</Value>
+      <Value>LANGRENN</Value>
+      <Value>ALPINT</Value>
+      <Value>SLALOM</Value>
+      <Value>AKE</Value>
+      <Value>BOB</Value>
+      <Value>SPORT</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="44">
+      <Value>nb_NOITID</Value>
+      <Value>OPPLEVELSESPARK</Value>
+      <Value>BERG OG DALBANE</Value>
+      <Value>KARUSELL</Value>
+      <Value>TIVOLI</Value>
+      <Value>nb_NOITIDSPARK</Value>
+      <Value>LEKEPARK</Value>
+      <Value>FORNØYELSESSTED</Value>
+      <Value>FORNØYELSESPARK</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="45">
+      <Value>PENGER</Value>
+      <Value>OVERFØRING</Value>
+      <Value>KONTO</Value>
+      <Value>KONTOUTSKRIFT</Value>
+      <Value>KONTOUTTAK</Value>
+      <Value>BANK</Value>
+      <Value>KONTANTER</Value>
+      <Value>UTTAK</Value>
+      <Value>LÅN</Value>
+      <Value>BANKER</Value>
+      <Value>BANKFILIAL</Value>
+      <Value>SPAREBANK</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="46">
+      <Value>BREV</Value>
+      <Value>PAKKE</Value>
+      <Value>PENGER</Value>
+      <Value>POST</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="47">
+      <Value>BEDRIFT</Value>
+      <Value>FABRIKK</Value>
+      <Value>VERK</Value>
+      <Value>NÆRINGSPARK</Value>
+      <Value>FIRMA</Value>
+      <Value>INDUSTRI</Value>
+      <Value>INDUSTRIANLEGG</Value>
+      <Value>NÆRINGSVIRKSOMHET</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="48">
+      <Value>KONGRESS</Value>
+      <Value>UTSTILLING</Value>
+      <Value>MESSE</Value>
+      <Value>KONFERANSE</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="49">
+      <Value>OFFENTLIG KONTOR</Value>
+      <Value>RÅDHUS</Value>
+      <Value>BY</Value>
+      <Value>DISTRIKT</Value>
+      <Value>REGJERING</Value>
+      <Value>ADMINISTRASJON</Value>
+      <Value>REGISTRERING</Value>
+      <Value>MYNDIGHET</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="50">
+      <Value>KONSULAT</Value>
+      <Value>VISUM</Value>
+      <Value>UTREISE</Value>
+      <Value>INNREISE</Value>
+      <Value>INNVANDRING</Value>
+      <Value>AMBASSADE</Value>
+      <Value>AMBASSADER</Value>
+    </Thesaurus>
+    <!--<Thesaurus category_ref="51">
+      <Value>DISTRIKT</Value>
+      <Value>RÅDHUS</Value>
+      <Value>KOMMUNE</Value>
+      <Value>SAMFUNNSHUS</Value>
+      <Value>KOMMUNESENTER</Value>
+      <Value>KOMMUNEHUS</Value>
+    </Thesaurus>-->
+    <Thesaurus category_ref="52">
+      <Value>SKOLE</Value>
+      <Value>UNIVERSITET</Value>
+      <Value>HØGSKOLE</Value>
+      <Value>FAG</Value>
+      <Value>VIDEREUTDANNING</Value>
+      <Value>KURS</Value>
+      <Value>OPPLÆRING</Value>
+      <Value>UTDANNING</Value>
+      <Value>UTDANNELSE</Value>
+      <Value>TEKNISK HØGSKOLE</Value>
+      <Value>UTDANNINGSINSTITUSJON</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="53">
+      <Value>MOSKÉ</Value>
+      <Value>DOMKIRKE</Value>
+      <Value>SYNAGOGE</Value>
+      <Value>KAPELL</Value>
+      <Value>KATEDRAL</Value>
+      <Value>KLOSTER</Value>
+      <Value>KIRKE</Value>
+      <Value>TEMPEL</Value>
+      <Value>RELIGIONSBYGG</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="54">
+      <Value>DØD</Value>
+      <Value>SORG</Value>
+      <Value>GRAV</Value>
+      <Value>BEGRAVELSE</Value>
+      <Value>KIRKEGÅRD</Value>
+      <Value>KAPELL</Value>
+      <Value>GRAVKAMMER</Value>
+      <Value>GRAVLUND</Value>
+    </Thesaurus>
+    <Thesaurus category_ref="55">
+      <Value>Ladestasjon</Value>
+      <Value>Lade</Value>
+      <Value>Lade opp</Value>
+      <Value>Stikkontakt</Value>
+      <Value>Stikkontakter</Value>
+      <Value>Plugg</Value>
+      <Value>Strøm</Value>
+      <Value>Elektrisitet</Value>
+      <Value>Ladenettverk</Value>
+      <Value>AC</Value>
+      <Value>DC</Value>
+    </Thesaurus>
+  </PoiCategoryThesaurusDefinition>
+
+  <PoiCategoryNameDefinition>
+    <Name category_ref="1" >Autostadt</Name>
+    <Name category_ref="2" >Flyplass</Name>
+    <Name category_ref="3" >LPG-stasjon</Name>
+    <Name category_ref="4" >Gasstasjon</Name>
+    <Name category_ref="5" >Bensinstasjon</Name>
+    <Name category_ref="6" >Parkeringsplass</Name>
+    <Name category_ref="7" >Rasteplass</Name>
+    <Name category_ref="8" >Overnatting</Name>
+    <Name category_ref="9" >Ferge</Name>
+    <Name category_ref="10">Grenseovergang</Name>
+    <Name category_ref="11">SEAT-verksted</Name>
+    <Name category_ref="12">SEAT-forhandler</Name>
+    <!-- <Name category_ref="13">Motorveikryss</Name> -->
+    <Name category_ref="14">På-/avkjøring for motorv.</Name>
+    <Name category_ref="15">Bilutleie</Name>
+    <Name category_ref="16">Jernbanestasjon</Name>
+    <!--<Name category_ref="17">Lokaltrafikk</Name>-->
+    <Name category_ref="18">Bussholdeplass</Name>
+    <Name category_ref="19">Turistinformasjon</Name>
+    <Name category_ref="20">Politi</Name>
+    <Name category_ref="21">Sykehus</Name>
+    <Name category_ref="22">Lege</Name>
+    <Name category_ref="23">Apotek</Name>
+    <Name category_ref="24">Restaurant</Name>
+    <Name category_ref="25">Minibank</Name>
+    <Name category_ref="26">Kafé</Name>
+    <Name category_ref="27">Kjøpesenter</Name>
+    <Name category_ref="28">Klær</Name>
+    <Name category_ref="29">Elektronikk</Name>
+    <Name category_ref="30">Vin og brennevin</Name>
+    <Name category_ref="31">Uteliv</Name>
+    <Name category_ref="32">Park</Name>
+    <Name category_ref="33">Turistattraksjon</Name>
+    <Name category_ref="34">Kino</Name>
+    <Name category_ref="35">Kasino</Name>
+    <Name category_ref="36">Scenekunst</Name>
+    <Name category_ref="37">Museum</Name>
+    <Name category_ref="38">Monument</Name>
+    <Name category_ref="39">Idrettsanlegg</Name>
+    <!-- <Name category_ref="40">Småflyplass</Name> -->
+    <Name category_ref="41">Golf</Name>
+    <Name category_ref="42">Båtliv</Name>
+    <Name category_ref="43">Ski</Name>
+    <Name category_ref="44">Fornøyelsespark</Name>
+    <Name category_ref="45">Bank</Name>
+    <Name category_ref="46">Postkontor</Name>
+    <Name category_ref="47">Industri</Name>
+    <Name category_ref="48">Messesenter</Name>
+    <Name category_ref="49">Offentlig administrasjon</Name>
+    <Name category_ref="50">Ambassade</Name>
+    <!-- <Name category_ref="51">Samfunnshus</Name> -->
+    <Name category_ref="52">Utdanning</Name>
+    <Name category_ref="53">Religionsbygg</Name>
+    <Name category_ref="54">Gravlund</Name>
+    <Name category_ref="55">Ladestasjoner</Name>
+  </PoiCategoryNameDefinition>
+
+</LanguagePoiConfiguration>

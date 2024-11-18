@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<TurnListIconConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="21">
+  <IconType desc="destination" id="0">
+    <Icon id="1">icons_flags/Destination.png</Icon>
+  </IconType>
+  <IconType desc="ferry" id="1">
+    <Icon id="1">icons_poi/Ferry-HMI.png</Icon>
+  </IconType>
+  <IconType desc="tollgate" id="3">
+    <Icon desc="Tollgate" id="1">icons_poi/Toll_Station-HMI.png</Icon>
+  </IconType>
+  <IconType desc="tollgate_etc" id="4">
+    <Icon desc="Tollgate ETC" id="1">icons_poi/ETC-HMI.png</Icon>
+  </IconType>
+  <IconType desc="trafficlight" id="5">
+    <Icon desc="Traffic light" id="1">icons_trafficlight/Traffic_Light-06.png</Icon>
+  </IconType>
+  <IconType desc="tunnel" id="6">
+    <Icon desc="Tunnel" id="1">icons_poi/Tunnel-HMI.png</Icon>
+  </IconType>
+</TurnListIconConfig>

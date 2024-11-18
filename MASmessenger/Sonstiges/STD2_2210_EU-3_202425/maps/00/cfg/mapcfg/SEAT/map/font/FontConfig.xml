@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FontConfiguration version="1">
+
+   <!--
+      Description:
+
+         This configuration file defines the available font files in the system (besides the HMI).
+         There are two main level tags Fonts and FontVaraints.
+
+         <Fonts>
+            This tag serves as a parent node for all <Font> nodes.
+
+         <FontVariants>
+            This tag serves as a parent node for all <FontVariant> nodes
+
+         <Font>
+            id:         This attribute is used to identify the font and must be unique for all fonts!
+                        IMPORTANT!! It is currently not used in the application.
+                        To refer to a certain font, only the order of definition is used (zero-based).
+            <FileName>  The filename to the ttf file used by this font is definied here. The base directory
+                        is the 'resources' directory next to the 'nav' folder. Fonts should be placed in the
+                        font subdirectory.
+
+         <FontVariant>
+            id:               This attribute is used to identify the font variant when used in other configuration
+                              files, e.g. the area configuration.
+                              IMPORTANT!! It is currently not used in the application.
+                              To refer to a certain font variant, only the order of definition is used (zero-based).
+            <FontReference>   The id of the font that this variant should use. Currently, the system will NOT interpret
+                              this number as the id of a font. Instead it will be used as zero based index for the defined
+                              fonts.
+            <Size>            The size of this font variant. This value fill be used as input for the freetype function
+                              FT_Set_Pixel_Sizes. Currently, only the largest size value for a font will be considered.
+            <Outline>         Defines if this FontVariant should be drawn using an outline or not. Possible values are
+                              'true' and 'false'.
+            <Color>           The color of this font variant. The value of this tag must be in the
+                              format #rrggbbaa using hex numbers.
+            <OutlineColor>    The outline color of this font variant. The value of this tag must be in the
+                              format #rrggbbaa using hex numbers.
+            <OutlineSize>     Size of the Outline in Pixel.
+
+            <InnerSize>
+
+            <FilterSize>
+   -->
+
+   <Fonts>
+      <Font id="0">
+      <FileName>font/SEAT MetaStyle-regular.ttf</FileName>
+      </Font>
+      <Font id="1">
+         <FileName>font/UbuntuMono_R.ttf</FileName>
+      </Font>
+	  <Font id="2">
+         <FileName>font/VWThesis_MIB_Semibold.ttf</FileName>
+      </Font>	  
+   </Fonts>
+
+   <FontVariants>
+
+      <FontVariant id="0" desc="0">
+         <FontReference>0</FontReference>
+         <Size>32</Size>
+         <Outline>true</Outline>
+         <Color>#000000ff</Color>
+         <OutlineColor>#ffffffff</OutlineColor>
+         <OutlineSize>0.2</OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <!-- Font Variants used for RoadIcons -->
+      <FontVariant id="1" desc="1">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#ffffffff</Color>
+         <!-- <TextBGColor>#126128</TextBGColor> -->
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="2" desc="2">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#FFFFFFFF</Color>
+         <!-- <TextBGColor>#B90000</TextBGColor> -->
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="3" desc="3">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#FFFFFFFF</Color>
+         <!-- <TextBGColor>#3C52AF</TextBGColor> -->
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="4" desc="4">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#FFFFFFFF</Color>
+         <!-- <TextBGColor>#092251</TextBGColor> -->
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="5" desc="5">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#FFFFFFFF</Color>
+         <!-- <TextBGColor>#009900</TextBGColor> -->
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="6" desc="6"> <!--Road Label NIGHT-->
+         <FontReference>0</FontReference>
+         <Size>23</Size>
+         <Outline>true</Outline>
+         <Color>#BEBFC0FF</Color>
+         <!-- <TextBGColor>#0000FF</TextBGColor> -->
+         <OutlineColor>#000000FF</OutlineColor>
+      <OutlineSize>0.15</OutlineSize>
+      <InnerSize>0.4</InnerSize>
+      <FilterSize>0.2</FilterSize>
+      </FontVariant>
+	  
+      <FontVariant id="7" desc="7"> <!--Road Label DAY-->
+         <FontReference>0</FontReference>
+         <Size>23</Size>
+         <Outline>true</Outline>
+         <Color>#000000FF</Color>
+         <!-- <TextBGColor>#F9EE23</TextBGColor> -->
+      <OutlineColor>#E5E3DAFF</OutlineColor>
+      <OutlineSize>0.15</OutlineSize>
+      <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="8" desc="8">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#000000FF</Color>
+         <!-- <TextBGColor>#FFFFFF</TextBGColor> -->
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="9" desc="9">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#000000FF</Color>
+         <!-- <TextBGColor>#F7EA19</TextBGColor> -->
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="10" desc="10">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#1F52AFFF</Color>
+         <!-- <TextBGColor>#FFFFFF</TextBGColor> -->
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="11" desc="11">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#FFFFFFFF</Color>
+         <!-- <TextBGColor>#3C48B9</TextBGColor> -->
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="12" desc="12">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#F9EE23FF</Color>
+         <!-- <TextBGColor>#126128</TextBGColor> -->
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="13" desc="13">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#000000FF</Color>
+         <!-- <TextBGColor>#FFEE00</TextBGColor> -->
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="14" desc="14">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#FFFFFFFF</Color>
+         <!-- <TextBGColor>#125728</TextBGColor> -->
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="15" desc="15">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#FFFFFFFF</Color>
+         <!-- <TextBGColor>#F28901</TextBGColor> -->
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="16" desc="16">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>true</Outline>
+         <Color>#106E9DFF</Color>
+         <!-- <TextBGColor>#F28901</TextBGColor> -->
+         <OutlineColor>#FFFFFFAA</OutlineColor>
+         <OutlineSize>0.2</OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="17" desc="debug mono spaced">
+         <FontReference>1</FontReference>
+         <Size>14</Size>
+         <Outline>false</Outline>
+         <Color>#000000ff</Color>
+         <OutlineColor>#ffffffff</OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="18" desc="debug mono spaced db tile load">
+         <FontReference>1</FontReference>
+         <Size>12</Size>
+         <Outline>false</Outline>
+         <Color>#000000ff</Color>
+         <OutlineColor>#ffffffff</OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="19" desc="debug mono spaced reserved">
+         <FontReference>1</FontReference>
+         <Size>14</Size>
+         <Outline>false</Outline>
+         <Color>#000000ff</Color>
+         <OutlineColor>#ffffffff</OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+     <FontVariant id="20" desc="Black for RoadSign">
+         <FontReference>0</FontReference>
+         <Size>12</Size>
+         <Outline>false</Outline>
+         <Color>#000000ff</Color>
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+    <FontVariant id="80" desc="Fontvariant for the SignPostText">
+         <FontReference>0</FontReference>
+         <Size>20</Size>
+         <Outline>false</Outline>
+         <Color>#FFFFFFFF</Color>
+         <TextBGColor>#0000FF</TextBGColor>
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant id="81" desc="Fontvariant for the SignPostText">
+         <FontReference>0</FontReference>
+         <Size>20</Size>
+         <Outline>false</Outline>
+         <Color>#000000FF</Color>
+         <TextBGColor>#0000FF</TextBGColor>
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant desc="White for RoadSigns MAP" id="22">
+         <FontReference>0</FontReference>
+         <Size>17</Size>
+         <Outline>false</Outline>
+         <Color>#FFFFFFFF</Color>
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant desc="Black for RoadSigns MAP" id="23">
+         <FontReference>0</FontReference>
+         <Size>17</Size>
+         <Outline>false</Outline>
+         <Color>#000000FF</Color>
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant desc="Blue for RoadSigns MAP" id="24">
+         <FontReference>0</FontReference>
+         <Size>17</Size>
+         <Outline>false</Outline>
+         <Color>#1E52AFFF</Color>
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant desc="Yellow for RoadSigns MAP" id="25">
+         <FontReference>0</FontReference>
+         <Size>17</Size>
+         <Outline>false</Outline>
+         <Color>#F9EE23FF</Color>
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant desc="Citylabel 0 bis 80k DAY" id="26">
+         <FontReference>0</FontReference>
+         <Size>29</Size>
+         <Outline>true</Outline>
+         <Color>#000000FF</Color>
+         <OutlineColor>#E5E3DAFF</OutlineColor><!--E5E3DAFF-->
+         <OutlineSize>0.10</OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant desc="Citylabel 80k bis 100k DAY" id="27">
+         <FontReference>0</FontReference>
+         <Size>36</Size>
+         <Outline>true</Outline>
+         <Color>#000000FF</Color>
+         <OutlineColor>#E5E3DAFF</OutlineColor>
+         <OutlineSize>0.10</OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize><!--0.2-->
+      </FontVariant>
+
+      <FontVariant desc="Citylabel groesser 100k DAY" id="28">
+         <FontReference>0</FontReference>
+         <Size>38</Size>
+         <Outline>true</Outline>
+         <Color>#000000FF</Color>
+         <OutlineColor>#E5E3DAFF</OutlineColor>
+         <OutlineSize>0.10</OutlineSize><!--0.05-->
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant desc="Citylabel 0 bis 80k Night" id="29">
+         <FontReference>0</FontReference>
+         <Size>29</Size>
+         <Outline>true</Outline>
+         <Color>#D3D3D3FF</Color>
+         <OutlineColor>#000000FF</OutlineColor>
+         <OutlineSize>0.10</OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant desc="Citylabel 80k bis 100k Night" id="30">
+         <FontReference>0</FontReference>
+         <Size>36</Size>
+         <Outline>true</Outline>
+         <Color>#D3D3D3FF</Color>
+         <OutlineColor>#000000FF</OutlineColor>
+         <OutlineSize>0.10</OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant desc="Citylabel groesser 100k Night" id="31">
+         <FontReference>0</FontReference>
+         <Size>38</Size>
+         <Outline>true</Outline>
+         <Color>#D3D3D3FF</Color>
+         <OutlineColor>#000000FF</OutlineColor>
+         <OutlineSize>0.10</OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+	  
+	  
+      <FontVariant desc="Citylabel Capital 100k DAY" id="32">
+         <FontReference>0</FontReference>
+         <Size>40</Size>
+         <Outline>true</Outline>
+         <Color>#000000FF</Color>
+         <OutlineColor>#E5E3DAFF</OutlineColor>
+         <OutlineSize>0.10</OutlineSize><!--0.05-->
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+	  
+	  <FontVariant desc="Citylabel Capital Night" id="33">
+         <FontReference>0</FontReference>
+         <Size>40</Size>
+         <Outline>true</Outline>
+         <Color>#E4E4E4FF</Color>
+         <OutlineColor>#000000FF</OutlineColor>
+         <OutlineSize>0.10</OutlineSize>
+         <InnerSize>0.4</InnerSize>
+      <FilterSize>0.2</FilterSize>
+    </FontVariant>
+	  
+	  <FontVariant id="34" desc="Polygon Label River DAY">
+      <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#4B6A84FF</Color>
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+	  
+	  <FontVariant id="35" desc="Polygon Label River Night">
+         <FontReference>0</FontReference>
+         <Size>16</Size>
+         <Outline>false</Outline>
+         <Color>#798691FF</Color>
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant desc="Red for RoadSigns MAP" id="36">
+         <FontReference>0</FontReference>
+         <Size>17</Size>
+         <Outline>false</Outline>
+         <Color>#B90000FF</Color>
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant desc="Green for RoadSigns MAP" id="37">
+         <FontReference>0</FontReference>
+         <Size>17</Size>
+         <Outline>false</Outline>
+         <Color>#126128FF</Color>
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+
+      <FontVariant desc="Orange for RoadSigns MAP" id="38">
+         <FontReference>0</FontReference>
+         <Size>17</Size>
+         <Outline>false</Outline>
+         <Color>#F28901FF</Color>
+         <OutlineColor></OutlineColor>
+         <OutlineSize></OutlineSize>
+         <InnerSize>0.4</InnerSize>
+         <FilterSize>0.2</FilterSize>
+      </FontVariant>
+	  
+   </FontVariants>
+
+</FontConfiguration>
