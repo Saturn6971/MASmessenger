@@ -20,17 +20,21 @@
         <!-- Zusätzlicher Benutzername für Sign-up -->
         <v-text-field
           v-if="isSignUp"
+          v-model="username"
           density="compact"
           placeholder="Username"
           prepend-inner-icon="mdi-account"
           variant="outlined"
+          :rules="usernameRules"
         ></v-text-field>
 
         <v-text-field
+          v-model="email"
           density="compact"
           placeholder="Email address"
           prepend-inner-icon="mdi-email-outline"
           variant="outlined"
+          :rules="emailRules"
         ></v-text-field>
 
         <div class="text-subtitle-1 text-medium-emphasis d-flex align-center justify-space-between mt-4 mb-2">
@@ -38,6 +42,7 @@
         </div>
 
         <v-text-field
+          v-model="password"
           :append-inner-icon="visible ? 'mdi-eye-off' : 'mdi-eye'"
           :type="visible ? 'text' : 'password'"
           density="compact"
@@ -45,6 +50,7 @@
           prepend-inner-icon="mdi-lock-outline"
           variant="outlined"
           @click:append-inner="visible = !visible"
+          :rules="passwordRules"
         ></v-text-field>
 
         <v-btn
@@ -52,6 +58,7 @@
           size="large"
           variant="tonal"
           block
+          @click="submitForm"
         >
           {{ isSignUp ? "Sign Up" : "Log In" }}
         </v-btn>
@@ -75,6 +82,7 @@
       </v-card>
     </div>
 
+
     <!-- Bild -->
     <v-img class="Handy" src="../assets/Bild.png"></v-img>
   </div>
@@ -96,10 +104,49 @@ export default {
   data: () => ({
     visible: false, // Passwort-Anzeige umschalten
     isSignUp: false, // Wechsel zwischen Login und Sign-up
+    username: "",
+    email: "",
+    password: "",
   }),
   methods: {
     toggleSignUp() {
       this.isSignUp = !this.isSignUp; // Umschalten zwischen den Modi
+    },
+    submitForm() {
+      const usernameValid = this.$refs.username.validate();
+      const emailValid = this.$refs.email.validate();
+      const passwordValid = this.$refs.password.validate();
+
+      if (usernameValid && emailValid && passwordValid) {
+        console.log("Formular ist gültig");
+      } else {
+        console.log("Es gibt Fehler im Formular.");
+      }
+    },
+  },
+  computed: {
+    usernameRules() {
+      return [
+        (v) =>
+          !v || /^[a-zA-Z0-9]{1,12}$/.test(v) ||
+          "Der Benutzername darf maximal 12 Zeichen lang sein und keine Sonderzeichen enthalten.",
+      ];
+    },
+    emailRules() {
+      return [
+        (v) =>
+          !v ||
+          /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(v) ||
+          "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      ];
+    },
+    passwordRules() {
+      return [
+        (v) =>
+          !v ||
+          /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/.test(v) ||
+          "Das Passwort muss mindestens 8 Zeichen lang sein und Groß-, Kleinbuchstaben sowie Zahlen enthalten.",
+      ];
     },
   },
 };
@@ -143,7 +190,7 @@ html, body {
 
   background-color: #000; /* Schwarzer Hintergrund */
   color: #bb45ff; /* Lila Text */
- padding: 50px;
+ padding: 45px;
   position: relative;
   
 }
