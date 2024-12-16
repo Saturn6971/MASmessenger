@@ -20,7 +20,8 @@
         <!-- Zusätzlicher Benutzername für Sign-up -->
         <v-text-field
           v-if="isSignUp"
-          v-model="username"
+          v-model="name"
+          ref="name"
           density="compact"
           placeholder="Username"
           prepend-inner-icon="mdi-account"
@@ -30,6 +31,7 @@
 
         <v-text-field
           v-model="email"
+          ref="email"
           density="compact"
           placeholder="Email address"
           prepend-inner-icon="mdi-email-outline"
@@ -43,6 +45,7 @@
 
         <v-text-field
           v-model="password"
+          ref="password"
           :append-inner-icon="visible ? 'mdi-eye-off' : 'mdi-eye'"
           :type="visible ? 'text' : 'password'"
           density="compact"
@@ -74,8 +77,9 @@
           class="signup"
           size="large"
           variant="tonal"
+          type = "submit"
           block
-          @click="toggleSignUp"
+          @click="handleSignUp()"
         >
           {{ isSignUp ? "Log In" : "Sign Up" }}
         </v-btn>
@@ -104,7 +108,7 @@ export default {
   data: () => ({
     visible: false, // Passwort-Anzeige umschalten
     isSignUp: false, // Wechsel zwischen Login und Sign-up
-    username: "",
+    name: "",
     email: "",
     password: "",
   }),
@@ -113,16 +117,52 @@ export default {
       this.isSignUp = !this.isSignUp; // Umschalten zwischen den Modi
     },
     submitForm() {
-      const usernameValid = this.$refs.username.validate();
-      const emailValid = this.$refs.email.validate();
-      const passwordValid = this.$refs.password.validate();
+      //const nameValid = this.$refs.name.validate();
+      //const emailValid = this.$refs.email.validate();
+      //const passwordValid = this.$refs.password.validate();
 
-      if (usernameValid && emailValid && passwordValid) {
+      const nameValid = this.$refs.name?.validate?.();
+      const emailValid = this.$refs.email?.validate?.();
+      const passwordValid = this.$refs.password?.validate?.();
+
+      if (nameValid && emailValid && passwordValid) {
         console.log("Formular ist gültig");
       } else {
         console.log("Es gibt Fehler im Formular.");
       }
     },
+
+    async addUser() {
+  try {
+    const response = await fetch('https://localhost:7267/Users', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        name: this.name,
+        email: this.email,
+        password: this.password,
+      }),
+    });
+    if (response.ok) {
+      console.log('Benutzer erfolgreich hinzugefügt!');
+      this.clearForm();
+    } else {
+      const errorText = await response.text();
+      console.error('Fehler beim Hinzufügen des Benutzers:', errorText);
+    }
+  } catch (error) {
+    console.error('Ein Fehler ist aufgetreten:', error.message);
+  }
+},
+handleSignUp() {
+  console.log('handleSignUp wurde aufgerufen');
+  if (this.isSignUp) {
+    this.addUser();
+  }
+  this.toggleSignUp();
+}
   },
   computed: {
     usernameRules() {
@@ -144,7 +184,7 @@ export default {
       return [
         (v) =>
           !v ||
-          /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/.test(v) ||
+          /^(?=.*[a-z])(?=.*[A-Z]).{8,}$/.test(v) ||
           "Das Passwort muss mindestens 8 Zeichen lang sein und Groß-, Kleinbuchstaben sowie Zahlen enthalten.",
       ];
     },
