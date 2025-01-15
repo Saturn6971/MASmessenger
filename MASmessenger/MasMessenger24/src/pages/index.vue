@@ -129,46 +129,39 @@ export default {
       this.isSignUp = !this.isSignUp; // Umschalten zwischen den Modi
     },
     submitForm() {
-      //const firstNameValid = this.$refs.firstName.validate();
-      //const lastNameValid = this.$refs.lastName.validate();
-      //const emailValid = this.$refs.email.validate();
-      //const passwordValid = this.$refs.password.validate();
-
-      const firstNameValid = this.$refs.firstName?.validate?.();
-      const lastNameValid = this.$refs.lastName?.validate?.();
-      const emailValid = this.$refs.email?.validate?.();
-      const passwordValid = this.$refs.password?.validate?.();
-
-      if (firstNameValid && lastNameValid && emailValid && passwordValid) {
-        console.log("Formular ist gültig");
-      } else {
-        console.log("Es gibt Fehler im Formular.");
-      }
-    },
+  if (this.firstName && this.lastName && this.email) {
+    console.log("Formular ist gültig");
+    this.addUser();
+    this.clearForm();
+  } else {
+    console.log("Es gibt Fehler im Formular.");
+  }
+},
 
     async addUser() {
   try {
-    const response = await fetch('https://localhost:7267/Users', {
-      method: 'POST',
+    const response = await fetch("https://localhost:7267/Users", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        firstName: this.firstName,
-        lastName: this.lastName,
-        email: this.email,
-        password: this.password,
+        Name: this.firstName,    // Muss mit dem Backend-Feld übereinstimmen
+        Surname: this.lastName,  // Muss mit dem Backend-Feld übereinstimmen
+        Email: this.email,       // Muss mit dem Backend-Feld übereinstimmen
+        Password: this.password,
       }),
     });
+
     if (response.ok) {
-      console.log('Benutzer erfolgreich hinzugefügt!');
+      console.log("Benutzer erfolgreich erstellt!");
       this.clearForm();
     } else {
       const errorText = await response.text();
-      console.error('Fehler beim Hinzufügen des Benutzers:', errorText);
+      console.error("Fehler beim Hinzufügen des Benutzers:", errorText);
     }
   } catch (error) {
-    console.error('Ein Fehler ist aufgetreten:', error.message);
+    console.error("Ein Fehler ist aufgetreten:", error.message);
   }
 },
 handleSignUp() {
@@ -177,7 +170,15 @@ handleSignUp() {
     this.addUser();
   }
   this.toggleSignUp();
-}
+},
+clearForm() {
+    this.firstName = '';
+    this.lastName = '';
+    this.email = '';
+    this.password = '';
+
+  },
+
   },
   computed: {
     nameRules() {
