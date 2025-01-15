@@ -133,6 +133,7 @@ export default {
     console.log("Formular ist gültig");
     this.addUser();
     this.clearForm();
+    this.redirectToMain();
   } else {
     console.log("Es gibt Fehler im Formular.");
   }
@@ -177,6 +178,10 @@ clearForm() {
     this.email = '';
     this.password = '';
 
+  },
+
+  redirectToMain() {
+    this.$router.push({ path: "/main" });
   },
 
   },
