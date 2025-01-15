@@ -20,13 +20,24 @@
         <!-- Zusätzlicher Benutzername für Sign-up -->
         <v-text-field
           v-if="isSignUp"
-          v-model="name"
-          ref="name"
+          v-model="firstName"
+          ref="firstName"
           density="compact"
-          placeholder="Username"
+          placeholder="Vorname"
           prepend-inner-icon="mdi-account"
           variant="outlined"
-          :rules="usernameRules"
+          :rules="nameRules"
+        ></v-text-field>
+
+        <v-text-field
+          v-if="isSignUp"
+          v-model="lastName"
+          ref="lastName"
+          density="compact"
+          placeholder="Nachname"
+          prepend-inner-icon="mdi-account"
+          variant="outlined"
+          :rules="nameRules"
         ></v-text-field>
 
         <v-text-field
@@ -108,7 +119,8 @@ export default {
   data: () => ({
     visible: false, // Passwort-Anzeige umschalten
     isSignUp: false, // Wechsel zwischen Login und Sign-up
-    name: "",
+    firstName: "",
+    lastName: "",
     email: "",
     password: "",
   }),
@@ -117,15 +129,17 @@ export default {
       this.isSignUp = !this.isSignUp; // Umschalten zwischen den Modi
     },
     submitForm() {
-      //const nameValid = this.$refs.name.validate();
+      //const firstNameValid = this.$refs.firstName.validate();
+      //const lastNameValid = this.$refs.lastName.validate();
       //const emailValid = this.$refs.email.validate();
       //const passwordValid = this.$refs.password.validate();
 
-      const nameValid = this.$refs.name?.validate?.();
+      const firstNameValid = this.$refs.firstName?.validate?.();
+      const lastNameValid = this.$refs.lastName?.validate?.();
       const emailValid = this.$refs.email?.validate?.();
       const passwordValid = this.$refs.password?.validate?.();
 
-      if (nameValid && emailValid && passwordValid) {
+      if (firstNameValid && lastNameValid && emailValid && passwordValid) {
         console.log("Formular ist gültig");
       } else {
         console.log("Es gibt Fehler im Formular.");
@@ -140,7 +154,8 @@ export default {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        name: this.name,
+        firstName: this.firstName,
+        lastName: this.lastName,
         email: this.email,
         password: this.password,
       }),
@@ -165,11 +180,11 @@ handleSignUp() {
 }
   },
   computed: {
-    usernameRules() {
+    nameRules() {
       return [
         (v) =>
           !v || /^[a-zA-Z0-9]{1,12}$/.test(v) ||
-          "Der Benutzername darf maximal 12 Zeichen lang sein und keine Sonderzeichen enthalten.",
+          "Der Name darf maximal 12 Zeichen lang sein und keine Sonderzeichen enthalten.",
       ];
     },
     emailRules() {
@@ -291,20 +306,6 @@ html, body {
 }
 
 .text-medium-emphasis {
-  color: rgba(255, 255, 255, 0.7); /* Weiche Textfarbe */
-}
-
-/* Bild */
-.Handy {
-  height: 800px;
-  width: 800px;
-  object-fit: cover; /* Skaliert das Bild proportional */
-  border-radius: 10px; /* Optional: abgerundete Ecken */
-}
-
-.Title {
-  margin-bottom: 10px;
-  font-size: 40px;
-  font-weight: bolder;
+  color: rgba(255, 255, 255, 0.7)
 }
 </style>
