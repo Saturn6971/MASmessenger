@@ -1,99 +1,70 @@
 <template>
-    <v-container fluid class="d-flex fill-height" dark>
-      <!-- Sidebar Navigation -->
-      <v-navigation-drawer app permanent dark color="black">
-        <v-list>
-          <v-list-item>
-            <v-icon>mdi-home</v-icon>
-            <v-list-item-title>Home</v-list-item-title>
-          </v-list-item>
-  
-          <v-list-item>
-            <v-icon>mdi-message</v-icon>
-            <v-list-item-title>Chats</v-list-item-title>
-          </v-list-item>
-  
-          <v-list-item>
-            <v-icon>mdi-account</v-icon>
-            <v-list-item-title>Profile</v-list-item-title>
-          </v-list-item>
-        </v-list>
-      </v-navigation-drawer>
-  
-      <!-- Contacts List -->
-      <v-col cols="3" class="pa-4 grey darken-3">
-        <v-list dense>
-          <v-list-item v-for="contact in contacts" :key="contact.name">
-            <v-list-item-avatar>
-              <v-icon>mdi-account-circle</v-icon>
-            </v-list-item-avatar>
-  
-            <v-list-item-content>
-              <v-list-item-title>{{ contact.name }}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </v-list>
-      </v-col>
-  
-      <!-- Chat Section -->
-      <v-col cols="9" class="pa-4">
-        <div class="chat-container">
-          <v-row v-for="(message, index) in messages" :key="index" :class="{'justify-end': message.sent}">
-            <v-col cols="auto">
-              <div class="message-bubble" :class="{'sent': message.sent}">
-                {{ message.text }}
-              </div>
-            </v-col>
-          </v-row>
-        </div>
-      </v-col>
+  <v-app>
+    <v-container>
+      <!-- Navbar -->
+      <v-app-bar app color="deep-purple darken-2" dark>
+        <v-toolbar-title>Masmessenger</v-toolbar-title>
+        <v-spacer></v-spacer>
+        <v-btn text to="#chats">Chats</v-btn>
+        <v-btn text to="#account">Account</v-btn>
+        <v-btn text to="#about-us">About Us</v-btn>
+      </v-app-bar>
+
+      <!-- Hero Section -->
+      <v-row class="text-center" align="center" justify="center" style="height: 50vh; background: linear-gradient(to right, #7e57c2, #512da8); border-radius: 15px; margin-top: 100px;">
+        <v-col cols="12">
+          <h1 class="display-2 white--text">Masmessenger</h1>
+          <p class="subtitle-1 white--text">Chats made simple, secure, and beautiful.</p>
+          <v-btn color="purple lighten-1" dark large>Start Chatting</v-btn>
+        </v-col>
+      </v-row>
+
+      <!-- Features Section -->
+      <v-row class="my-10">
+        <v-col cols="12" md="4">
+          <v-btn block outlined color="purple darken-2" class="rounded-button" href="#chats">
+            Chats
+          </v-btn>
+        </v-col>
+        <v-col cols="12" md="4">
+          <v-btn block outlined color="purple darken-2" class="rounded-button" href="#account">
+            Account
+          </v-btn>
+        </v-col>
+        <v-col cols="12" md="4">
+          <v-btn block outlined color="purple darken-2" class="rounded-button" href="#about-us">
+            About Us
+          </v-btn>
+        </v-col>
+      </v-row>
+
+      <!-- Footer -->
+      <v-footer color="deep-purple darken-2" dark>
+        <v-col class="text-center white--text">© 2025 Masmessenger. All Rights Reserved.</v-col>
+      </v-footer>
     </v-container>
-  </template>
-  
-  <script>
-  export default {
-    data() {
-      return {
-        contacts: [
-          { name: 'Alice' },
-          { name: 'Bob' },
-          { name: 'Charlie' },
-          { name: 'Diana' }
-        ],
-        messages: [
-          { text: 'Hey there!', sent: true },
-          { text: 'Hi! How are you?', sent: false },
-       +
-        ]
-      };
-    }
-  };
-  </script>
-  
-  <style scoped>
-  .chat-container {
-    background-color: #212121;
-    border-radius: 8px;
-    padding: 16px;
-    height: 100%;
-    overflow-y: auto;
-  }
-  
-  .message-bubble {
-    background-color: #7e57c2;
-    color: white;
-    padding: 12px;
-    border-radius: 16px;
-    max-width: 60%;
-    word-wrap: break-word;
-  }
-  
-  .message-bubble.sent {
-    background-color: #6200ea;
-  }
-  
-  .v-navigation-drawer {
-    width: 80px;
-  }
-  </style>
-  
+  </v-app>
+</template>
+
+<script>
+export default {
+  name: "MasmessengerWebsite",
+};
+</script>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.rounded-button {
+  border-radius: 15px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.rounded-button:hover {
+  background-color: #673ab7;
+  transform: scale(1.05);
+}
+</style>
