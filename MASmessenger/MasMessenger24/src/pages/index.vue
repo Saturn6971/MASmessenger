@@ -129,11 +129,17 @@ export default {
       this.isSignUp = !this.isSignUp; // Umschalten zwischen den Modi
     },
     submitForm() {
-  if (this.firstName && this.lastName && this.email) {
-    console.log("Formular ist gültig");
+  if (this.firstName && this.lastName && this.email && this.password) {
+    // Registrierung
+    console.log("Registrierungsformular ist gültig.");
     this.addUser();
     this.clearForm();
     this.redirectToMain();
+  } else if (this.email && this.password) {
+    // Anmeldung
+    console.log("Anmeldeformular ist gültig.");
+    this.loginUser();
+    this.clearForm(); // Optional, wenn Sie Felder nach Login leeren möchten
   } else {
     console.log("Es gibt Fehler im Formular.");
   }
@@ -163,6 +169,40 @@ export default {
     }
   } catch (error) {
     console.error("Ein Fehler ist aufgetreten:", error.message);
+  }
+},
+async loginUser() {
+  try {
+    const response = await fetch('https://localhost:7267/Users/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email: this.email,
+        password: this.password, // Passwort wird für die Authentifizierung gesendet
+      }),
+    });
+
+    if (response.ok) {
+      const user = await response.json(); // Benutzerinformationen vom Server
+
+      // Speichern der Benutzerinformationen (ohne Passwort)
+      this.userData = {
+        ...user, // Enthält alle relevanten Informationen vom Backend
+      };
+
+      // Optional: Weiterleitung nach erfolgreichem Login
+      this.redirectToMain();
+      console.log('Login erfolgreich!', this.userData);
+    } else {
+      const errorText = await response.text();
+      console.error('Login fehlgeschlagen:', errorText);
+      this.errorMessage = 'Ungültige Anmeldedaten.';
+    }
+  } catch (error) {
+    console.error('Ein Fehler ist aufgetreten:', error.message);
+    this.errorMessage = 'Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.';
   }
 },
 handleSignUp() {
