@@ -46,25 +46,57 @@
 
       <!-- Features Section -->
       <v-row class="my-10">
-        <v-col cols="12" md="4">
-          <v-btn block outlined color="purple darken-2" class="btns " href="#chats">
-            Chats
-          </v-btn>
-        </v-col>
-        <v-col cols="12" md="4">
-          <v-btn block outlined color="purple darken-2" class="btns " href="#account">
-            Account
-          </v-btn>
-        </v-col>
-        <v-col cols="12" md="4">
-          <v-btn block outlined color="purple darken-2" class="btns " href="#about-us">
-            About Us
-          </v-btn>
-        </v-col>
-      </v-row>
-
+  <v-col cols="12" md="4">
+    <v-tooltip text="Start and manage your chats" location="bottom">
+      <template v-slot:activator="{ props }">
+        <v-btn
+          block
+          outlined
+          color="purple darken-2"
+          class="btns"
+          href="#chats"
+          v-bind="props"
+        >
+          Chats
+        </v-btn>
+      </template>
+    </v-tooltip>
+  </v-col>
+  <v-col cols="12" md="4">
+    <v-tooltip text="Manage your account settings" location="bottom">
+      <template v-slot:activator="{ props }">
+        <v-btn
+          block
+          outlined
+          color="purple darken-2"
+          class="btns"
+          href="#account"
+          v-bind="props"
+        >
+          Account
+        </v-btn>
+      </template>
+    </v-tooltip>
+  </v-col>
+  <v-col cols="12" md="4">
+    <v-tooltip text="Learn more about us" location="bottom">
+      <template v-slot:activator="{ props }">
+        <v-btn
+          block
+          outlined
+          color="purple darken-2"
+          class="btns"
+          href="#about-us"
+          v-bind="props"
+        >
+          About Us
+        </v-btn>
+      </template>
+    </v-tooltip>
+  </v-col>
+</v-row>
       <!-- Footer -->
-      <v-footer color="deep-purple darken-2" dark>
+      <v-footer class="footer">
         <v-col class="text-center white--text">© 2025 Masmessenger. All Rights Reserved.</v-col>
       </v-footer>
     </v-container>
@@ -137,11 +169,13 @@ body {
 
 .btns {
 
-  margin: 20px;
+
   height: 50px; /* Optional: Anpassen der Buttonhöhe */
   padding: 25px;
   border-radius: 20px;
 }
+
+
 
 .v-btns {
   border-radius: 30px; /* Abgerundete Ecken */
@@ -177,5 +211,23 @@ body {
 
 .btn1{
   margin: 20px;
+}
+
+
+.footer{
+  margin-top: 200px;
+  color: black;
+  border-radius: 20px;
+  
+}
+
+.v-tooltip .v-overlay__content {
+  font-size: 16px; /* Größerer Tooltip-Text */
+  color: white !important; /* Weißer Text */
+  background-color: rgb(98, 98, 98) !important; /* Schwarzer Hintergrund */
+  padding: 10px 15px; /* Größeres Padding */
+  border-radius: 8px; /* Runde Ecken */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Schatteneffekt */
+  text-align: center; /* Text zentrieren */
 }
 </style>
