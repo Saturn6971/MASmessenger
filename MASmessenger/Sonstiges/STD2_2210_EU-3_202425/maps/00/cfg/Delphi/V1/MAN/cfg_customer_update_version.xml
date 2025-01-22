@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Config Description="Configuration package information">
-  <Packageinformations>
-    <ConfigItem Customer="MAN" CustomerCoding="08" Market="EUR" MarketCoding="01" Version="766" Checksum="TBD" />
-  </Packageinformations>
-</Config>
