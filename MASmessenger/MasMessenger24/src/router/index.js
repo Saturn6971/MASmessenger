@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import index from '../pages/index.vue'
 import main from '../pages/main.vue'
 import AboutUs from '../pages/AboutUs.vue'
+import ChatArea from '../pages/ChatArea.vue'
 
 const routes = [
   {
@@ -20,7 +21,11 @@ const routes = [
     name: 'AboutUs',
     component: AboutUs
   },
-
+  {
+    path: '/main/Chat',
+    name: 'ChatArea',
+    component: ChatArea
+  },
 
 ]
 

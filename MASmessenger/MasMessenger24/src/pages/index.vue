@@ -67,7 +67,8 @@
           :rules="passwordRules"
         ></v-text-field>
 
-        <v-btn
+        <v-btn 
+    
           class="login"
           size="large"
           variant="tonal"
@@ -129,80 +130,46 @@ export default {
       this.isSignUp = !this.isSignUp; // Umschalten zwischen den Modi
     },
     submitForm() {
-  if (this.firstName && this.lastName && this.email && this.password) {
-    // Registrierung
-    console.log("Registrierungsformular ist gültig.");
-    this.addUser();
-    this.clearForm();
-    this.redirectToMain();
-  } else if (this.email && this.password) {
-    // Anmeldung
-    console.log("Anmeldeformular ist gültig.");
-    this.loginUser();
-    this.clearForm(); // Optional, wenn Sie Felder nach Login leeren möchten
-  } else {
-    console.log("Es gibt Fehler im Formular.");
-  }
-},
+      //const firstNameValid = this.$refs.firstName.validate();
+      //const lastNameValid = this.$refs.lastName.validate();
+      //const emailValid = this.$refs.email.validate();
+      //const passwordValid = this.$refs.password.validate();
+
+      const firstNameValid = this.$refs.firstName?.validate?.();
+      const lastNameValid = this.$refs.lastName?.validate?.();
+      const emailValid = this.$refs.email?.validate?.();
+      const passwordValid = this.$refs.password?.validate?.();
+
+      if (firstNameValid && lastNameValid && emailValid && passwordValid) {
+        console.log("Formular ist gültig");
+      } else {
+        console.log("Es gibt Fehler im Formular.");
+      }
+    },
 
     async addUser() {
   try {
-    const response = await fetch("https://localhost:7267/Users", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        Name: this.firstName,    // Muss mit dem Backend-Feld übereinstimmen
-        Surname: this.lastName,  // Muss mit dem Backend-Feld übereinstimmen
-        Email: this.email,       // Muss mit dem Backend-Feld übereinstimmen
-        Password: this.password,
-      }),
-    });
-
-    if (response.ok) {
-      console.log("Benutzer erfolgreich erstellt!");
-      this.clearForm();
-    } else {
-      const errorText = await response.text();
-      console.error("Fehler beim Hinzufügen des Benutzers:", errorText);
-    }
-  } catch (error) {
-    console.error("Ein Fehler ist aufgetreten:", error.message);
-  }
-},
-async loginUser() {
-  try {
-    const response = await fetch('https://localhost:7267/Users/login', {
+    const response = await fetch('https://localhost:7267/Users', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
+        firstName: this.firstName,
+        lastName: this.lastName,
         email: this.email,
-        password: this.password, // Passwort wird für die Authentifizierung gesendet
+        password: this.password,
       }),
     });
-
     if (response.ok) {
-      const user = await response.json(); // Benutzerinformationen vom Server
-
-      // Speichern der Benutzerinformationen (ohne Passwort)
-      this.userData = {
-        ...user, // Enthält alle relevanten Informationen vom Backend
-      };
-
-      // Optional: Weiterleitung nach erfolgreichem Login
-      this.redirectToMain();
-      console.log('Login erfolgreich!', this.userData);
+      console.log('Benutzer erfolgreich hinzugefügt!');
+      this.clearForm();
     } else {
       const errorText = await response.text();
-      console.error('Login fehlgeschlagen:', errorText);
-      this.errorMessage = 'Ungültige Anmeldedaten.';
+      console.error('Fehler beim Hinzufügen des Benutzers:', errorText);
     }
   } catch (error) {
     console.error('Ein Fehler ist aufgetreten:', error.message);
-    this.errorMessage = 'Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es erneut.';
   }
 },
 handleSignUp() {
@@ -211,19 +178,7 @@ handleSignUp() {
     this.addUser();
   }
   this.toggleSignUp();
-},
-clearForm() {
-    this.firstName = '';
-    this.lastName = '';
-    this.email = '';
-    this.password = '';
-
-  },
-
-  redirectToMain() {
-    this.$router.push({ path: "/main" });
-  },
-
+}
   },
   computed: {
     nameRules() {
