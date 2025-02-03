@@ -5,76 +5,8 @@
       <v-app-bar app color="deep-purple darken-2" dark>
         <v-toolbar-title>Masmessenger</v-toolbar-title>
         <v-spacer></v-spacer>
- 
-  <div class="text-center">
-    <v-menu
-      v-model="menu"
-      :close-on-content-click="false"
-      location="end"
-    >
-      <template v-slot:activator="{ props }">
-        <v-btn
-          color="white"
-          v-bind="props"
-        >
-          Account 
-        </v-btn>
-      </template>
-
-      <v-card min-width="300">
-        <v-list>
-          <v-list-item
-            prepend-avatar="https://cdn.vuetifyjs.com/images/john.jpg"
-            subtitle="Ur Account"
-            title="Mas Girkovic"
-          >
-            <template v-slot:append>
-           
-            </template>
-          </v-list-item>
-        </v-list>
-
-        <v-divider></v-divider>
-
-        <v-list>
-          <v-list-item>
-            <v-btn
-              v-model="message"
-              color="purple"
-              label="Enable messages"
-              hide-details
-            >Details</v-btn>
-          </v-list-item>
-
-          <v-list-item>
-            <v-btn
-              v-model="hints"
-              color="purple"
-              label="Enable hints"
-              hide-details
-              style="width: 100px;"
-              href="/"
-            > Abmelden </v-btn>
-          </v-list-item>
-        </v-list>
-
-        <v-card-actions>
-          <v-spacer></v-spacer>
-
-          <v-btn
-            variant="text"
-            @click="menu = false"
-          >
-            Cancel
-          </v-btn>
-        
-        </v-card-actions>
-      </v-card>
-    </v-menu>
-  </div>
-
-
-        <v-btn text to="/main/aboutus">About Us</v-btn>
+        <v-btn class="btn1" text to="#account">Account</v-btn>
+        <v-btn text to="#about-us">About Us</v-btn>
       </v-app-bar>
 
       <!-- Hero Section -->
@@ -168,10 +100,34 @@
         <v-col class="text-center white--text">© 2025 Masmessenger. All Rights Reserved.</v-col>
       </v-footer>
     </v-container>
+    <v-col cols="12">
+            <v-card class="pa-4">
+              <v-card-title>
+                Current Users
+              </v-card-title>
+              <v-container>
+                <v-row>
+                  <v-col v-for="(user, index) in users" :key="user.Oid" cols="12" md="6" lg="4">
+                    <v-card :class="{ card: true, expanded: detailsVisible.has(index) }" elevation="16">
+                      <v-card-title>
+                        Name: {{ user.firstName }}
+                      </v-card-title>
+                      <v-card-subtitle>
+                        Surname: {{ user.lastName }}
+                      </v-card-subtitle>
+                      <v-card-subtitle>
+                        Email: {{ user.email }}
+                      </v-card-subtitle>
+                    </v-card>
+                  </v-col>
+                </v-row>
+              </v-container>
+            </v-card>
+          </v-col>
   </v-app>
 </template>
 
-<script>
+<script>  
 const gradients = [
   ['#222'],
   ['#42b3f4'],
@@ -195,11 +151,24 @@ export default {
     fill: false,
     type: 'trend',
     autoLineWidth: false,
-    fav: true,
-      menu: false,
-      message: false,
-      hints: true,
+    users: []
   }),
+
+  async fetchUsers() {
+  try {
+    const response = await fetch('https://localhost:7267/Users');
+    if (response.ok) {
+      const data = await response.json();
+      console.log("Empfangene Benutzerdaten:", data); // Debugging
+      this.users = data;
+    } else {
+      console.error('Fehler beim Laden der Benutzer:', await response.text());
+    }
+  } catch (error) {
+    console.error('Fehler beim Laden der Benutzer:', error);
+  }
+}
+
 };
 </script>
 
@@ -302,9 +271,4 @@ body {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Schatteneffekt */
   text-align: center; /* Text zentrieren */
 }
-
-.v-app-bar {
-    border-radius: 0 0 15px 15px;
-  }
-  
 </style>
