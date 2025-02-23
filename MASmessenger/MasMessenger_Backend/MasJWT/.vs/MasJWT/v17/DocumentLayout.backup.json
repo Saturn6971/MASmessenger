@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|c:\\users\\maxgm\\source\\repos\\masjwt\\masjwt\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|solutionrelative:masjwt\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|c:\\users\\maxgm\\source\\repos\\masjwt\\masjwt\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|solutionrelative:masjwt\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|c:\\users\\maxgm\\source\\repos\\masjwt\\masjwt\\masjwt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|solutionrelative:masjwt\\masjwt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|c:\\users\\maxgm\\source\\repos\\masjwt\\masjwt\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|solutionrelative:masjwt\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|c:\\users\\maxgm\\source\\repos\\masjwt\\masjwt\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|solutionrelative:masjwt\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|c:\\users\\maxgm\\source\\repos\\masjwt\\masjwt\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|solutionrelative:masjwt\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|c:\\users\\maxgm\\source\\repos\\masjwt\\masjwt\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|solutionrelative:masjwt\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|c:\\users\\maxgm\\source\\repos\\masjwt\\masjwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22D107E-58E5-4C4E-AC90-5D6FAA0DDC0F}|MasJWT\\MasJWT.csproj|solutionrelative:masjwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MasJWT",
+              "DocumentMoniker": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\MasJWT.csproj",
+              "RelativeDocumentMoniker": "MasJWT\\MasJWT.csproj",
+              "ToolTip": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\MasJWT.csproj",
+              "RelativeToolTip": "MasJWT\\MasJWT.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-19T11:38:43.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\UserLogin.cs",
+              "RelativeDocumentMoniker": "MasJWT\\UserLogin.cs",
+              "ToolTip": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\UserLogin.cs",
+              "RelativeToolTip": "MasJWT\\UserLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:39:03.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\Classes\\User.cs",
+              "RelativeDocumentMoniker": "MasJWT\\Classes\\User.cs",
+              "ToolTip": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\Classes\\User.cs",
+              "RelativeToolTip": "MasJWT\\Classes\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:37:47.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\DTOs\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "MasJWT\\DTOs\\LoginResponseDto.cs",
+              "ToolTip": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\DTOs\\LoginResponseDto.cs",
+              "RelativeToolTip": "MasJWT\\DTOs\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:35:39.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\DTOs\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "MasJWT\\DTOs\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\DTOs\\CreateUserDto.cs",
+              "RelativeToolTip": "MasJWT\\DTOs\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:35:21.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "MasJWT\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "MasJWT\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:34:58.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\Program.cs",
+              "RelativeDocumentMoniker": "MasJWT\\Program.cs",
+              "ToolTip": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\Program.cs",
+              "RelativeToolTip": "MasJWT\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:32:44.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MasJWT\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\maxgm\\source\\repos\\MasJWT\\MasJWT\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MasJWT\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wCAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:31:30.855Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

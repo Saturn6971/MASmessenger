@@ -1,0 +1,6 @@
+@MasJWT_HostAddress = http://localhost:5233
+
+GET {{MasJWT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
