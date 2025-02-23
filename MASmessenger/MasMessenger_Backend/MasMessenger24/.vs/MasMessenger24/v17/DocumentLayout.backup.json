@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maxgm\\source\\repos\\MasMessenger24\\",
+  "WorkspaceRootPath": "C:\\Users\\maxgm\\Desktop\\4aWI\\SWP\\MASmessengerGithub\\MASmessenger\\MasMessenger_Backend\\MasMessenger24\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA971D55-FD7E-46CE-A4A6-91244CD63B0F}|MasMessenger24\\MasMessenger24.csproj|c:\\users\\maxgm\\source\\repos\\masmessenger24\\masmessenger24\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA971D55-FD7E-46CE-A4A6-91244CD63B0F}|MasMessenger24\\MasMessenger24.csproj|solutionrelative:masmessenger24\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxgm\\Desktop\\4aWI\\SWP\\MASmessengerGithub\\MASmessenger\\MasMessenger_Backend\\MasMessenger24\\MasMessenger24\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MasMessenger24\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA971D55-FD7E-46CE-A4A6-91244CD63B0F}|MasMessenger24\\MasMessenger24.csproj|c:\\users\\maxgm\\source\\repos\\masmessenger24\\masmessenger24\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA971D55-FD7E-46CE-A4A6-91244CD63B0F}|MasMessenger24\\MasMessenger24.csproj|solutionrelative:masmessenger24\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxgm\\Desktop\\4aWI\\SWP\\MASmessengerGithub\\MASmessenger\\MasMessenger_Backend\\MasMessenger24\\MasMessenger24\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MasMessenger24\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA971D55-FD7E-46CE-A4A6-91244CD63B0F}|MasMessenger24\\MasMessenger24.csproj|c:\\users\\maxgm\\source\\repos\\masmessenger24\\masmessenger24\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA971D55-FD7E-46CE-A4A6-91244CD63B0F}|MasMessenger24\\MasMessenger24.csproj|solutionrelative:masmessenger24\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxgm\\Desktop\\4aWI\\SWP\\MASmessengerGithub\\MASmessenger\\MasMessenger_Backend\\MasMessenger24\\MasMessenger24\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MasMessenger24\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA971D55-FD7E-46CE-A4A6-91244CD63B0F}|MasMessenger24\\MasMessenger24.csproj|c:\\users\\maxgm\\source\\repos\\masmessenger24\\masmessenger24\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA971D55-FD7E-46CE-A4A6-91244CD63B0F}|MasMessenger24\\MasMessenger24.csproj|solutionrelative:masmessenger24\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\maxgm\\Desktop\\4aWI\\SWP\\MASmessengerGithub\\MASmessenger\\MasMessenger_Backend\\MasMessenger24\\MasMessenger24\\UserLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MasMessenger24\\UserLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +26,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\maxgm\\Desktop\\4aWI\\SWP\\MASmessengerGithub\\MASmessenger\\MasMessenger_Backend\\MasMessenger24\\MasMessenger24\\Program.cs",
+              "RelativeDocumentMoniker": "MasMessenger24\\Program.cs",
+              "ToolTip": "C:\\Users\\maxgm\\Desktop\\4aWI\\SWP\\MASmessengerGithub\\MASmessenger\\MasMessenger_Backend\\MasMessenger24\\MasMessenger24\\Program.cs",
+              "RelativeToolTip": "MasMessenger24\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T19:34:53.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserLogin.cs",
-              "DocumentMoniker": "C:\\Users\\maxgm\\source\\repos\\MasMessenger24\\MasMessenger24\\UserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\maxgm\\Desktop\\4aWI\\SWP\\MASmessengerGithub\\MASmessenger\\MasMessenger_Backend\\MasMessenger24\\MasMessenger24\\UserLogin.cs",
               "RelativeDocumentMoniker": "MasMessenger24\\UserLogin.cs",
-              "ToolTip": "C:\\Users\\maxgm\\source\\repos\\MasMessenger24\\MasMessenger24\\UserLogin.cs",
+              "ToolTip": "C:\\Users\\maxgm\\Desktop\\4aWI\\SWP\\MASmessengerGithub\\MASmessenger\\MasMessenger_Backend\\MasMessenger24\\MasMessenger24\\UserLogin.cs",
               "RelativeToolTip": "MasMessenger24\\UserLogin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -42,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\maxgm\\source\\repos\\MasMessenger24\\MasMessenger24\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\maxgm\\Desktop\\4aWI\\SWP\\MASmessengerGithub\\MASmessenger\\MasMessenger_Backend\\MasMessenger24\\MasMessenger24\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "MasMessenger24\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\maxgm\\source\\repos\\MasMessenger24\\MasMessenger24\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\maxgm\\Desktop\\4aWI\\SWP\\MASmessengerGithub\\MASmessenger\\MasMessenger_Backend\\MasMessenger24\\MasMessenger24\\Controllers\\UserController.cs",
               "RelativeToolTip": "MasMessenger24\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAAANIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBYAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T10:45:35.672Z",
               "EditorCaption": ""
@@ -57,25 +70,14 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\maxgm\\source\\repos\\MasMessenger24\\MasMessenger24\\User.cs",
+              "DocumentMoniker": "C:\\Users\\maxgm\\Desktop\\4aWI\\SWP\\MASmessengerGithub\\MASmessenger\\MasMessenger_Backend\\MasMessenger24\\MasMessenger24\\User.cs",
               "RelativeDocumentMoniker": "MasMessenger24\\User.cs",
-              "ToolTip": "C:\\Users\\maxgm\\source\\repos\\MasMessenger24\\MasMessenger24\\User.cs",
+              "ToolTip": "C:\\Users\\maxgm\\Desktop\\4aWI\\SWP\\MASmessengerGithub\\MASmessenger\\MasMessenger_Backend\\MasMessenger24\\MasMessenger24\\User.cs",
               "RelativeToolTip": "MasMessenger24\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T11:04:51.101Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\maxgm\\source\\repos\\MasMessenger24\\MasMessenger24\\Classes\\User.cs",
-              "RelativeDocumentMoniker": "MasMessenger24\\Classes\\User.cs",
-              "ToolTip": "C:\\Users\\maxgm\\source\\repos\\MasMessenger24\\MasMessenger24\\Classes\\User.cs",
-              "RelativeToolTip": "MasMessenger24\\Classes\\User.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAUwFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T10:41:15.871Z"
+              "WhenOpened": "2024-11-20T11:04:51.101Z",
+              "EditorCaption": ""
             }
           ]
         }
