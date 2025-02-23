@@ -100,30 +100,6 @@
         <v-col class="text-center white--text">© 2025 Masmessenger. All Rights Reserved.</v-col>
       </v-footer>
     </v-container>
-    <v-col cols="12">
-            <v-card class="pa-4">
-              <v-card-title>
-                Current Users
-              </v-card-title>
-              <v-container>
-                <v-row>
-                  <v-col v-for="(user, index) in users" :key="user.Oid" cols="12" md="6" lg="4">
-                    <v-card :class="{ card: true, expanded: detailsVisible.has(index) }" elevation="16">
-                      <v-card-title>
-                        Name: {{ user.firstName }}
-                      </v-card-title>
-                      <v-card-subtitle>
-                        Surname: {{ user.lastName }}
-                      </v-card-subtitle>
-                      <v-card-subtitle>
-                        Email: {{ user.email }}
-                      </v-card-subtitle>
-                    </v-card>
-                  </v-col>
-                </v-row>
-              </v-container>
-            </v-card>
-          </v-col>
   </v-app>
 </template>
 
